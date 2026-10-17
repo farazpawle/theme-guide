@@ -1,0 +1,9 @@
+# The merchant guide, served by GitHub Pages' built-in Jekyll.
+# The theme's name lives only in this file (three lines below); pages write
+# {{ site.theme_name }}. Renaming the theme means changing these three.
+theme_name: Seloriq
+title: Seloriq theme guide
+description: How to set up and use the Seloriq Shopify theme.
+# The support contact form's public link, once it exists.
+support_form_url: "#"
+reply_time: two business days
