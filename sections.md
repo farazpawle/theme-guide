@@ -229,9 +229,9 @@ This section is for the home page only. It is not offered on other pages.
 | **Tagline pill background** | The background color of the small pill that holds the tagline above the heading. |
 | **Tagline pill background strength** | How strongly the pill color shows, from faint to solid. Range 0 to 100%, default 8%. |
 | **Primary button background** | The fill color of the first button. |
-| **Primary button text** | The text color of the first button. |
+| **Primary button label color** | The text color of the first button. |
 | **Secondary button background strength** | How strong the fill behind the secondary button is. It uses the accent color. Range 0 to 100%, default 6%. |
-| **Secondary button text** | The text color of the second button. |
+| **Secondary button label color** | The text color of the second button. |
 | **Secondary button border** | The border color of the second button. |
 | **Secondary button border strength** | How strong the border around the second button is. Range 0 to 100%, default 50%. |
 | **Progress bar track strength** | How faint the unfilled part of the bar is. It uses the accent color. Range 0 to 100%, default 25%. |
@@ -525,7 +525,7 @@ This section is for the home page only. It is not offered on other pages.
 | --- | --- |
 | **Subheading** | A small line above the heading. |
 | **Heading** | The section heading. |
-| **Text** | A short paragraph under the heading. |
+| **Text** | A short paragraph under the heading. Bulleted and numbered lists, links, bold text and small headings are styled the same as the text on your pages and blog posts. |
 | **Show link to the whole collection** | Adds a link beside the heading that goes to the whole collection. On by default. |
 {: .settings}
 
@@ -950,7 +950,7 @@ This section is for the home page only. It is not offered on other pages.
 | **Card background** | The background color of every card. |
 | **Card text** | The text color on every card. |
 | **Button background** | The fill color of the card buttons. |
-| **Button text** | The text color on the card buttons. |
+| **Button label color** | The text color on the card buttons. |
 {: .settings}
 
 #### Featured card colors
@@ -960,7 +960,7 @@ This section is for the home page only. It is not offered on other pages.
 | **Featured card background** | The background color of the featured card. |
 | **Featured card text** | The text color on the featured card. |
 | **Featured button background** | The fill color of the button on the featured card. |
-| **Featured button text** | The text color of the button on the featured card. |
+| **Featured button label color** | The text color of the button on the featured card. |
 {: .settings}
 
 #### Card text style
@@ -976,9 +976,9 @@ This section is for the home page only. It is not offered on other pages.
 | **Description size** | Makes the description smaller or larger. 1× is the normal size, which stays responsive. Range 0.6 to 2×, default 1×. |
 | **Description color** | The color of the description. Leave empty to follow the card colors above. |
 | **Number badge size** | Makes the number badge smaller or larger. 1× is the normal size, which stays responsive. Range 0.6 to 2×, default 1×. |
-| **Number badge color** | The color of the number badge. Leave empty for white, or on a featured card for that card's button text color. |
+| **Number badge color** | The color of the number badge. Leave empty for white, or on a featured card for that card's button label color. |
 | **Link text size** | Makes the link text smaller or larger. 1× is the normal size, which stays responsive. Range 0.6 to 2×, default 1×. |
-| **Link text color** | The color of the link text. Covers both link styles. Leave empty to follow the card text color, or on the button style that card's button text color. |
+| **Link text color** | The color of the link text. Covers both link styles. Leave empty to follow the card text color, or on the button style that card's button label color. |
 {: .settings}
 
 #### Colors
@@ -2446,7 +2446,7 @@ One way to reach you: a phone number, an email address, an address or opening ho
 | **Label** | The small title, such as Phone or Opening hours. |
 | **Details** | Each new line shows on its own line. |
 | **Link** | Optional. Use tel: for a phone number or mailto: for an email address. |
-| **Small badge** | Optional, for example "Open now". |
+| **Small badge** | Optional, for example "Open now". Shown as a small pill with a green dot; the words take your text color so they stay easy to read in every color scheme, light and dark. |
 {: .settings}
 
 ### Tips and limits

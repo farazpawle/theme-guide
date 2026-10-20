@@ -176,6 +176,8 @@ This header has no blocks. Its links come from the menus you choose.
 
 > *A good fit for a large menu.* With the menu on its own row there is room for many items, and an item with links below it opens a drop-down or columns (see [Menus](#menus)).
 
+> *A long store name shrinks, then wraps.* It gets smaller to fit, then moves onto a second line. It is never cut off with dots.
+
 ## Floating capsule
 
 A rounded bar that floats above the page. The menu button opens a full-screen menu on every screen size.
@@ -236,6 +238,8 @@ This header has no blocks. Its links come from the menus you choose.
 > *No drop-downs.* The menu opens full screen and sub-items fold open under their parent, so the mega menu setting does not apply to this style.
 
 > *Search on computers.* The search icon shows on tablets and phones only. Make sure the search page is easy to reach from your menu.
+
+> *A long store name shrinks, then wraps.* In the bar and at the top of the opened menu it gets smaller to fit, then moves onto a second line. It is never cut off with dots.
 
 ## Nebula float
 
@@ -354,6 +358,8 @@ This header has no blocks. Its links come from the menus you choose.
 > *No drop-downs.* Everything is in the drawer, with sub-items folding open under their parent, so the mega menu setting does not apply to this style.
 
 > *Contrast the drawer.* A **Drawer color scheme** that differs from the bar's makes the drawer stand out as a separate panel.
+
+> *A long store name shrinks, then wraps.* In the bar and at the top of the drawer it gets smaller to fit, then moves onto a second line. It is never cut off with dots.
 
 ## Announcement bar
 

@@ -446,7 +446,7 @@ The full list of settings, in the editor's order, is in [Product cards](theme-se
 | **Image** | **Image shape**, **Custom shape from an image** and **Crop images to fill**. |
 | **Hover** | **Hover style**: **Zoom the picture**, **Show the second picture** or **No hover effect**. |
 | **Surface** | **Color scheme**, **Border**, **Corner rounding** and **Elevation** for a framed card. |
-| **Sold out** | **Sold out products**, **Inquiry button text** and **Inquiry button link**. |
+| **Sold out** | **Sold out products**, **Inquiry button label** and **Inquiry button link**. |
 {: .settings}
 
 ### Blocks

@@ -173,7 +173,7 @@ Each scheme has six colors, in three groups as the editor shows them.
 | Color | Used for |
 | --- | --- |
 | **Button** | The fill of main buttons. |
-| **Button text** | The words on main buttons. |
+| **Button label color** | The words on main buttons. |
 {: .settings}
 
 You only choose these colors. Card fills, borders, dimmed text and shadows are worked out from them, so they follow any change you make.
@@ -183,7 +183,7 @@ You only choose these colors. Card fills, borders, dimmed text and shadows are w
 - Use the same scheme on neighboring sections to make them read as one band, and a different one to set a section apart.
 - Every highlight in the theme (badges, bars, active dots, selected options) uses the scheme's **Accent**. There is no separate accent setting on sections, so set your brand color once.
 
-> *Check contrast.* Pick a **Foreground** that reads clearly on the **Background** and button text that reads on the **Button**. The theme keeps the dark mode versions readable for you, but your light colors are your own.
+> *Check contrast.* Pick a **Foreground** that reads clearly on the **Background** and a **Button label color** that reads on the **Button**. The theme keeps the dark mode versions readable for you, but your light colors are your own.
 
 <div class="pair">
   <figure class="shot shot--desktop">
@@ -352,7 +352,7 @@ The home page's **Featured products**, **Related products** and the suggestions 
 | Setting | What it changes |
 | --- | --- |
 | **Sold out products** | Options: **Show sold out** (the card shows a Sold out label) or **Show an inquiry button** (the card shows a button in place of the buy control). |
-| **Inquiry button text** | The words on the button. Leave empty to use "Inquire now". |
+| **Inquiry button label** | The words on the button. Leave empty to use "Inquire now". |
 | **Inquiry button link** | Where the button goes, for example your contact page. With no link, the inquiry button is not shown, and the card falls back to the Sold out label. |
 {: .settings}
 
@@ -371,7 +371,7 @@ The home page's **Featured products**, **Related products** and the suggestions 
 
 | Setting | What it changes |
 | --- | --- |
-| **Show an inquiry button on the product page** | On a sold out product, an inquiry button takes the place of the buy button. It uses **Inquiry button text** and **Inquiry button link** from Product cards, and does not appear until a link is set. |
+| **Show an inquiry button on the product page** | On a sold out product, an inquiry button takes the place of the buy button. It uses **Inquiry button label** and **Inquiry button link** from Product cards, and does not appear until a link is set. |
 {: .settings}
 
 ## Search
