@@ -15,6 +15,13 @@ updated: 2026-10-20
 4. Select *Edit theme* to open the theme editor and set it up.
 5. When you are happy with it, select *Publish*.
 
+<div class="pair">
+  <figure class="shot shot--desktop">
+    <img src="{{ '/assets/images/settings/admin-theme-library-desktop-light.webp' | relative_url }}" alt="The theme library in Online Store > Themes, with Seloriq listed under Draft themes and its Publish and Edit theme buttons" width="890" height="142" loading="lazy">
+    <figcaption>{{ site.theme_name }} in your theme library, not yet published</figcaption>
+  </figure>
+</div>
+
 ## Choose a preset
 
 A preset is a starting look: colors, fonts and a home page laid out for one
@@ -33,6 +40,13 @@ in each section.
 
 ## Find your way around the editor
 
+<div class="pair">
+  <figure class="shot shot--desktop">
+    <img src="{{ '/assets/images/settings/editor-tour-desktop-light.webp' | relative_url }}" alt="The theme editor with the home page open: the sections list with Add section on the left, the page selector at the top, the phone icon at the top right and the shop preview on the right" width="1440" height="900" loading="lazy">
+    <figcaption>The theme editor with the home page open</figcaption>
+  </figure>
+</div>
+
 - *Sections* are the building blocks of a page. On the left of the
   editor, select *Add section* to add one, and drag sections to reorder them.
 - *Blocks* sit inside a section (a slide, a question, a card). Select
@@ -42,8 +56,8 @@ in each section.
   [Theme settings](theme-settings.md).
 - Use the page selector at the top of the editor to move between the home
   page, a product page, a collection page and the rest.
-- Use the desktop and mobile icons at the top to check your shop at both
-  sizes.
+- Select the phone icon at the top right to see your shop on a phone.
+  Select it again to go back to the computer view.
 
 ## Motion
 
