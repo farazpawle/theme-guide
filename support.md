@@ -1,10 +1,9 @@
 ---
 title: Getting support
+updated: 2026-10-19
 ---
 
 # Getting support
-
-[Back to the guide](index.md)
 
 ## How to reach us
 
@@ -41,4 +40,5 @@ answers are there.
 If you or a developer edit the code, always work on a duplicate of the
 theme: in *Online Store > Themes*, open the theme's *...* menu and select
 *Duplicate*. Code changes are made at your own risk and are not covered by
-support.
+support. For changes the settings cannot make, consider hiring a
+[Shopify Partner](https://www.shopify.com/partners/directory).

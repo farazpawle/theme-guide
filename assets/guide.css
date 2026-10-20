@@ -1,0 +1,192 @@
+/* The merchant guide, look 1 · Handbook (owner's pick 2026-10-18,
+   designs/guide-v2/). Colours are the Seloriq preset's schemes 1 and 2; the
+   dark ones come from the theme's own generator (tests/scheme-contrast.cjs),
+   and muted text and panels use the theme's 66% and 6% mixes.
+   Breakpoints: phones up to 767px, tablets 768–1100px, computers 1101px up. */
+
+html{--surface:#fbfaf8;--band:#efebe4;--ink:#1a1917;--accent:#33505e;--action:#1a1917;--on-action:#fbfaf8;color-scheme:light}
+html[data-mode=dark]{--surface:#211f1d;--band:#35332e;--ink:#fbfaf8;--accent:#7aa6bd;--action:#fbfaf8;--on-action:#211f1d;color-scheme:dark}
+html{--muted:color-mix(in srgb,var(--ink) 66%,var(--surface));--panel:color-mix(in srgb,var(--ink) 6%,var(--surface));--line:color-mix(in srgb,var(--ink) 14%,var(--surface));--serif:"Playfair Display",Georgia,serif;--sans:"Work Sans",system-ui,sans-serif;--r:6px;--top:64px}
+
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-padding-top:calc(var(--top) + 16px)}
+body{margin:0;background:var(--surface);color:var(--ink);font:16px/1.65 var(--sans)}
+img{max-width:100%;height:auto;display:block}
+a{color:var(--accent)}
+h1,h2,h3,h4,h5{font-family:var(--serif);font-weight:400;line-height:1.2;margin:1.6em 0 .5em;overflow-wrap:anywhere;color:var(--ink)}
+h1{font-size:44px;margin-top:0}
+h2{font-size:28px}
+h3{font-size:22px}
+h4{font:600 14px var(--sans);text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
+h5{font:600 13px var(--sans);letter-spacing:.03em;color:var(--muted);margin:1.2em 0 .4em}
+p,li{overflow-wrap:anywhere}
+/* break-word, not anywhere: anywhere lets a table squeeze a column below its longest word. */
+td,th{overflow-wrap:break-word}
+code{font-size:.9em;background:var(--panel);padding:.1em .35em;border-radius:4px}
+hr{border:0;border-top:1px solid var(--line);margin:2em 0}
+svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;flex:none}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+button{font:inherit;color:inherit}
+[hidden]{display:none!important}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.skip{position:absolute;left:8px;top:-60px;z-index:50;padding:10px 14px;background:var(--action);color:var(--on-action);border-radius:var(--r)}
+.skip:focus{top:8px}
+
+/* ---------- controls ---------- */
+.ib{display:inline-grid;place-items:center;width:44px;height:44px;border:0;background:none;border-radius:var(--r);cursor:pointer;color:var(--ink)}
+.ib:hover{background:var(--panel)}
+.btn{display:inline-flex;align-items:center;gap:.5em;min-height:44px;padding:0 1.1em;border-radius:var(--r);background:var(--action);color:var(--on-action);text-decoration:none;font-weight:500;white-space:nowrap}
+.btn:hover{opacity:.88}
+.mode-t .i-sun,html[data-mode=dark] .mode-t .i-moon{display:none}
+html[data-mode=dark] .mode-t .i-sun{display:block}
+.seg{display:inline-flex;flex-wrap:wrap;gap:3px;padding:3px;border:1px solid var(--line);border-radius:var(--r);margin-bottom:16px}
+.seg button{min-height:38px;padding:0 14px;border:0;border-radius:4px;background:none;cursor:pointer}
+.seg button[aria-pressed=true]{background:var(--action);color:var(--on-action)}
+@media (pointer:coarse){.seg button{min-height:44px}}
+
+/* ---------- top bar ---------- */
+.top{position:sticky;top:0;z-index:10;display:flex;align-items:center;gap:12px;height:var(--top);padding:0 16px;background:var(--surface);border-bottom:1px solid var(--line)}
+.brand{display:flex;align-items:center;gap:8px;min-height:44px;margin-right:auto;text-decoration:none;color:var(--ink);font:600 17px var(--sans);white-space:nowrap}
+.brand em{font:italic 400 18px var(--serif);color:var(--muted)}
+.mark{display:grid;place-items:center;width:30px;height:30px;border-radius:50%;background:var(--accent);color:var(--surface);font:16px var(--serif)}
+.search--top{flex:1;max-width:460px}
+.ver{font-size:13px;color:var(--muted)}
+.menu-btn{display:none}
+
+/* ---------- search ---------- */
+.search{position:relative;display:flex;align-items:center;gap:8px;min-height:44px;padding:0 12px;border:1px solid var(--line);border-radius:var(--r);background:var(--surface);color:var(--muted)}
+.search:focus-within{border-color:var(--accent)}
+.search input{flex:1;min-width:0;height:42px;border:0;background:none;font:inherit;color:var(--ink)}
+.search input:focus{outline:none}
+.search input::-webkit-search-cancel-button{cursor:pointer}
+kbd{font:12px var(--sans);border:1px solid var(--line);border-radius:4px;padding:1px 6px;color:var(--muted)}
+.results{position:absolute;left:-1px;right:-1px;top:calc(100% + 6px);z-index:20;max-height:65vh;overflow:auto;padding:6px;background:var(--surface);border:1px solid var(--line);border-radius:var(--r);box-shadow:0 12px 32px rgb(0 0 0 / .16)}
+/* Direct children only: the "ask support" link inside the no-results sentence stays inline. */
+.results>a{display:flex;flex-direction:column;justify-content:center;min-height:44px;padding:8px 10px;border-radius:4px;text-decoration:none;color:var(--ink)}
+.results>a span{font-size:13px;line-height:1.4;color:var(--muted)}
+.results>a:hover,.results>a:focus{background:var(--panel);outline:none}
+.results mark{background:none;color:var(--accent);font-weight:600}
+.results p{margin:6px 10px;font-size:14px}
+.results p button{padding:0;border:0;background:none;color:var(--accent);text-decoration:underline;cursor:pointer}
+.search--page{display:none!important}
+
+/* ---------- page grid ---------- */
+.grid{display:grid;grid-template-columns:260px minmax(0,1fr) 210px;max-width:1440px;margin:0 auto}
+.grid.no-toc{grid-template-columns:260px minmax(0,1fr)}
+.side{position:sticky;top:var(--top);height:calc(100vh - var(--top));overflow:auto;padding:20px 12px 40px 16px;border-right:1px solid var(--line)}
+main{min-width:0;padding:36px 48px 60px}
+main:focus{outline:none}
+.doc{max-width:760px}
+
+/* ---------- page list ---------- */
+.navg summary{list-style:none;display:flex;align-items:center;justify-content:space-between;min-height:40px;padding:0 8px;border-radius:4px;cursor:pointer;font:600 13px var(--sans);text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
+.navg summary::-webkit-details-marker{display:none}
+.navg summary::after{content:"+";font-size:16px}
+.navg[open] summary::after{content:"–"}
+.navg ul{list-style:none;margin:0 0 10px;padding:0}
+.navg a{display:flex;align-items:center;min-height:36px;padding:4px 10px;border-radius:4px;text-decoration:none;color:var(--ink);font-size:15px;line-height:1.3}
+.navg a:hover{background:var(--panel)}
+.navg a[aria-current]{background:var(--panel);color:var(--accent);font-weight:600;box-shadow:inset 3px 0 var(--accent)}
+@media (pointer:coarse){.navg a,.navg summary{min-height:44px}}
+
+/* ---------- on this page ---------- */
+.toc{position:sticky;top:var(--top);align-self:start;max-height:calc(100vh - var(--top));overflow:auto;padding:36px 16px 24px 8px;font-size:14px}
+.toc b{display:block;margin-bottom:8px;font:600 12px var(--sans);text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
+.toc a{display:flex;align-items:center;min-height:36px;padding:4px 0 4px 12px;border-left:2px solid var(--line);text-decoration:none;color:var(--muted);line-height:1.3}
+.toc a.on{border-color:var(--accent);color:var(--ink)}
+
+/* ---------- content ---------- */
+.lede,.doc>h1+p{font-size:19px;color:var(--muted)}
+table{width:100%;border-collapse:collapse;margin:0 0 1.4em;font-size:15px}
+th,td{padding:10px 12px;text-align:left;vertical-align:top;border-bottom:1px solid var(--line)}
+thead th{font:600 13px var(--sans);text-transform:uppercase;letter-spacing:.05em;color:var(--muted)}
+.settings td:first-child{width:38%;font-weight:600}
+blockquote{margin:0 0 14px;padding:12px 16px;border-left:3px solid var(--accent);border-radius:0 var(--r) var(--r) 0;background:var(--panel)}
+blockquote p{margin:0}
+.crumbs ol{display:flex;flex-wrap:wrap;gap:4px 8px;margin:0 0 10px;padding:0;list-style:none;font-size:13px;color:var(--muted)}
+.crumbs li+li::before{content:"›";margin-right:8px}
+.crumbs a{color:inherit}
+.pager{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:48px}
+.pager a{display:flex;flex-direction:column;gap:2px;padding:12px 16px;border:1px solid var(--line);border-radius:var(--r);text-decoration:none;color:var(--ink);font-weight:600}
+.pager a:hover{background:var(--panel)}
+.pager span{font-size:13px;font-weight:400;color:var(--muted)}
+.pager-next{grid-column:2;text-align:right}
+@media (max-width:500px){.pager{grid-template-columns:1fr}.pager-next{grid-column:1}}
+.pager+.updated{margin-top:18px}
+.zoom-btn{display:block;width:100%;padding:0;border:0;background:none;cursor:zoom-in}
+/* No width:100% here: a picture never shows wider than its own width (the width attribute), so small screenshots stay sharp and sit left. */
+.zoom-btn img{display:block;height:auto}
+.zoom{max-width:none;max-height:none;width:100vw;height:100vh;margin:0;padding:16px;border:0;background:transparent;place-items:center}
+.zoom[open]{display:grid}
+.zoom img{max-width:100%;max-height:calc(100vh - 32px);width:auto;height:auto;border-radius:8px;background:var(--surface)}
+.zoom .ib{position:fixed;top:12px;right:12px;background:var(--surface)}
+dialog.zoom::backdrop{background:rgb(0 0 0 / .8)}
+dl{margin:0 0 14px}
+dt{font-weight:600;margin-top:18px;padding-top:14px;border-top:1px solid var(--line)}
+dt:first-child{margin-top:0;border-top:0;padding-top:0}
+dd{margin:4px 0 0;color:var(--muted)}
+blockquote p+p{margin-top:.5em}
+.facts{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 28px;padding:0;list-style:none}
+/* 15px, not 99px: a chip that wraps keeps square-ish corners instead of oval ends. */
+.facts li{padding:4px 12px;border-radius:15px;background:var(--panel);font-size:13px;line-height:1.4}
+.hero{margin:0 0 40px;padding:44px 40px;border-radius:12px;background:var(--band)}
+.hero h1{max-width:16ch}
+.hero p{max-width:56ch;color:var(--muted)}
+.hero .search{max-width:560px;min-height:52px}
+.updated{margin-top:48px;padding-top:14px;border-top:1px solid var(--line);font-size:13px;color:var(--muted)}
+
+/* ---------- looks: screenshot pairs ---------- */
+.looks{margin:0 0 12px}
+.pair{display:flex;align-items:flex-start;gap:18px}
+/* One gap between neighbouring pictures, and between a picture and a callout, table or list under it. */
+.pair+.pair,.pair+.looks,.looks+.pair,.pair+blockquote,.pair+table,.pair+dl{margin-top:18px}
+.shot{position:relative;margin:0}
+.shot img,.shot video,.shot .missing{border:1px solid var(--line);border-radius:10px;background:var(--panel)}
+.shot--desktop{flex:1;min-width:0}
+.shot video{display:block;width:100%;height:auto;aspect-ratio:1200/750}
+.shot--phone{flex:0 0 30%}
+.shot--phone img,.shot--phone .missing{border-radius:22px}
+.shot figcaption{margin-top:6px;font-size:13px;color:var(--muted)}
+.missing{display:grid;place-items:center;aspect-ratio:16/10;padding:12px;text-align:center;font-size:14px;color:var(--muted)}
+.shot--phone .missing{aspect-ratio:375/812}
+
+/* ---------- phone drawer ---------- */
+dialog{border:0;padding:0;background:var(--surface);color:var(--ink)}
+dialog::backdrop{background:rgb(0 0 0 / .45)}
+.drawer{width:min(88vw,340px);height:100%;max-height:none;margin:0;padding:0 12px 24px;overflow:auto}
+.drawer[open]{animation:slide .28s cubic-bezier(.2,.7,.2,1)}
+@keyframes slide{from{transform:translateX(-100%)}}
+.drawer-head{position:sticky;top:0;display:flex;align-items:center;justify-content:space-between;padding:10px 0 10px 8px;background:var(--surface)}
+@media (prefers-reduced-motion:reduce){.drawer[open]{animation:none}}
+
+/* ---------- tablets ---------- */
+@media (max-width:1100px){
+  .grid,.grid.no-toc{grid-template-columns:240px minmax(0,1fr)}
+  .toc{display:none}
+  main{padding:32px 32px 56px}
+  .ver{display:none}
+}
+
+/* ---------- phones ---------- */
+@media (max-width:767px){
+  .grid,.grid.no-toc{grid-template-columns:minmax(0,1fr)}
+  .side,.search--top{display:none}
+  .menu-btn{display:inline-grid;margin-left:-8px}
+  .top{gap:6px;padding:0 12px}
+  .top .btn{padding:0 12px}
+  .top .btn span{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+  main{padding:20px 16px 48px}
+  .search--page{display:flex!important;margin-bottom:20px}
+  h1{font-size:32px}
+  h2{font-size:24px}
+  .hero{padding:28px 18px;border-radius:8px}
+  .pair{flex-direction:column;align-items:stretch}
+  .shot--phone{align-self:center;width:min(62%,375px)}
+  /* Two-column settings tables stack; wider tables scroll on their own. */
+  .settings thead{display:none}
+  .settings,.settings tbody,.settings tr,.settings td{display:block;width:auto}
+  .settings tr{padding:8px 0;border-bottom:1px solid var(--line)}
+  .settings td{padding:2px 0;border:0}
+  .settings td:first-child{width:auto}
+  table:not(.settings){display:block;overflow-x:auto}
+}

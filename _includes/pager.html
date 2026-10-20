@@ -1,0 +1,29 @@
+{%- comment -%}
+  Breadcrumbs (part="crumbs") or Previous / Next links (part="pager"), both
+  read from the sidebar order in _data/nav.yml. Nothing on the guide's home.
+{%- endcomment -%}
+{%- assign found = false -%}
+{%- assign prev = nil -%}
+{%- assign next = nil -%}
+{%- assign group = nil -%}
+{%- for g in site.data.nav -%}
+  {%- for p in g.pages -%}
+    {%- if found and next == nil -%}{%- assign next = p -%}{%- endif -%}
+    {%- if p.url == page.url -%}
+      {%- assign found = true -%}
+      {%- assign group = g.group -%}
+    {%- elsif found == false -%}
+      {%- assign prev = p -%}
+    {%- endif -%}
+  {%- endfor -%}
+{%- endfor -%}
+{%- if found and page.url != "/" -%}
+  {%- if include.part == "crumbs" %}
+<nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="{{ '/' | relative_url }}">Guide home</a></li><li>{{ group }}</li><li aria-current="page">{{ page.title }}</li></ol></nav>
+  {%- else %}
+<nav class="pager" aria-label="Previous and next page">
+  {%- if prev %}<a class="pager-prev" href="{{ prev.url | relative_url }}"><span>Previous</span>{{ prev.title }}</a>{% endif %}
+  {%- if next %}<a class="pager-next" href="{{ next.url | relative_url }}"><span>Next</span>{{ next.title }}</a>{% endif %}
+</nav>
+  {%- endif -%}
+{%- endif -%}

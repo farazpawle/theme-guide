@@ -1,10 +1,9 @@
 ---
 title: Release notes
+updated: 2026-10-19
 ---
 
 # Release notes
-
-[Back to the guide](index.md)
 
 ## 1.0.0
 
@@ -30,7 +29,7 @@ size.
   badges, Logo list, Image gallery, Blog posts, FAQ, Contact, Email signup,
   Custom section and Custom Liquid.
 - Product page with variant pickers and color swatches, media gallery with
-  video and 3D models, quantity rules, unit prices, instalment messaging,
+  video and 3D models, quantity rules, unit prices, installment messaging,
   pickup availability, stock notice, complementary and related products, and
   share links.
 - Product cards with quick view.
@@ -39,5 +38,5 @@ size.
   notes and a checkout button that stays in reach.
 - Blog, article with comments, contact, standard page, page not found, gift
   card and password pages.
-- Motion that follows each visitor's reduced motion setting, and a theme
-  setting to turn scroll reveals off.
+- Motion that follows each visitor's reduced motion setting, with an Always
+  animate choice on each moving section.

@@ -1,10 +1,9 @@
 ---
 title: Frequently asked questions
+updated: 2026-10-19
 ---
 
 # Frequently asked questions
-
-[Back to the guide](index.md)
 
 ## A section looks still on my computer. Is it broken?
 
@@ -51,9 +50,11 @@ selector** is on in Theme settings, under **Currency format**.
 
 ## Why don't star ratings show on my products?
 
-Install *Shopify Product Reviews*, then in Theme settings, under **Product
-page**, set **Reviews from** to **Shopify product reviews**, and add the
-**Rating** block to your product page.
+Install a reviews app that saves its ratings to Shopify's standard product
+rating fields, then in Theme settings, under **Product page**, set
+**Reviews from** to **Shopify product reviews**, and add the **Rating**
+block to your product page. See
+[Show star ratings from a reviews app](how-to.md#show-star-ratings-from-a-reviews-app).
 
 ## My pictures are cropped. How do I keep their shape?
 
@@ -66,6 +67,33 @@ setting with **Adapt to picture**, **As uploaded** or **Automatic**.
 Updates from the Shopify Theme Store keep your settings and content. Edits
 you made to the theme's code are not carried over, so keep a note of them
 and always edit a duplicate of the theme.
+
+## How do I add a size chart?
+
+Make a page with your chart, then add a **Collapsible panel** block to the
+product page and pick that page. See
+[Add a size chart or shipping info](how-to.md#add-a-size-chart-or-shipping-info).
+
+## What size should my pictures be?
+
+Most sections look sharp with pictures 1600 to 3000 pixels wide. See
+[Picture sizes](how-to.md#picture-sizes) for each section.
+
+## How do I change the picture shown when my shop is shared?
+
+In your admin, open *Online Store > Preferences* and add a picture under
+*Social sharing image and SEO*. See
+[Search engines and social sharing](how-to.md#search-engines-and-social-sharing).
+
+## Where do email signups go?
+
+People who sign up are added to your customers in your admin, ready for
+Shopify Email or another email app.
+
+## Can product cards show star ratings or swatches?
+
+No. Ratings and swatches show on the product page, and color swatches
+also show in filters.
 
 ## Does the theme work with apps?
 

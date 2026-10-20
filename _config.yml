@@ -7,3 +7,24 @@ description: How to set up and use the Seloriq Shopify theme.
 # The support contact form's public link, once it exists.
 support_form_url: "https://form.jotform.com/262893114174459"
 reply_time: two business days
+# The theme version the guide describes; shown in the top bar and page foot.
+version: "1.0"
+
+# Published at https://farazpawle.github.io/theme-guide/
+url: https://farazpawle.github.io
+baseurl: /theme-guide
+
+# Every page uses the Handbook layout (_layouts/default.html).
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+# Links written as page.md become page.html (on by default on GitHub Pages).
+# jekyll-sitemap writes sitemap.xml for search engines (supported by GitHub Pages).
+plugins:
+  - jekyll-relative-links
+  - jekyll-sitemap
+relative_links:
+  enabled: true

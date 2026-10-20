@@ -1,0 +1,38 @@
+# The sidebar, in order. Each page appears once; add a page here when it is
+# added to the guide. `url` is the page's address without the site's base path.
+- group: Start here
+  pages:
+    - title: Guide home
+      url: /
+    - title: Getting started
+      url: /getting-started.html
+    - title: Theme settings
+      url: /theme-settings.html
+- group: Building your pages
+  pages:
+    - title: Headers and the announcement bar
+      url: /headers.html
+    - title: Footers
+      url: /footers.html
+    - title: Home page sections
+      url: /sections.html
+    - title: Product page
+      url: /product-page.html
+    - title: Collection, search and cart pages
+      url: /collection-search-cart.html
+    - title: Content pages
+      url: /content-pages.html
+- group: Help
+  pages:
+    - title: How-to guides
+      url: /how-to.html
+    - title: Troubleshooting
+      url: /troubleshooting.html
+    - title: Frequently asked questions
+      url: /faq.html
+    - title: Glossary
+      url: /glossary.html
+    - title: Getting support
+      url: /support.html
+    - title: Release notes
+      url: /release-notes.html

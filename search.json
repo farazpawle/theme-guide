@@ -1,0 +1,23 @@
+---
+layout: null
+---
+{%- comment -%}
+  The search index: every page's title, address and text. Page text is read
+  before Liquid runs, so the site tags pages use are swapped for their values here
+  and every Liquid tag (includes, comments) is cut out so its code is not indexed.
+{%- endcomment -%}
+{%- assign open = '{' | append: '{ ' -%}
+{%- assign close = ' }' | append: '}' -%}
+{%- assign name_tag = open | append: 'site.theme_name' | append: close -%}
+{%- assign reply_tag = open | append: 'site.reply_time' | append: close -%}
+{%- assign tag_open = '{' | append: '%' -%}
+{%- assign tag_close = '%' | append: '}' -%}
+{%- assign docs =site.pages | where_exp: "p", "p.title" | where_exp: "p", "p.search != false" -%}
+[
+{%- for p in docs -%}
+{%- assign parts = p.content | split: tag_open -%}
+{%- capture plain -%}{%- for part in parts -%}{%- if forloop.first -%}{{ part }}{%- else -%}{{ part | append: ' ' | split: tag_close | last }}{%- endif -%}{%- endfor -%}{%- endcapture -%}
+{%- assign text = plain | replace: name_tag, site.theme_name | replace: reply_tag, site.reply_time | markdownify | strip_html | normalize_whitespace -%}
+{"t":{{ p.title | jsonify }},"u":{{ p.url | relative_url | jsonify }},"c":{{ text | jsonify }}}{% unless forloop.last %},{% endunless %}
+{%- endfor -%}
+]

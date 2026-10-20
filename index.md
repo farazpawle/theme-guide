@@ -1,12 +1,19 @@
 ---
 title: Theme guide
+updated: 2026-10-19
 ---
+
+<div class="hero" markdown="1">
 
 # {{ site.theme_name }} theme guide
 
 {{ site.theme_name }} is a Shopify theme built around scroll motion and 3D.
 It has three presets, light and dark modes, five header styles, three footer
 styles and a set of home page sections you can mix freely.
+
+{% include search.html id="search-home" %}
+
+</div>
 
 This guide walks through every part of the theme. Names in bold, such as
 **Color scheme**, are written exactly as they appear in the theme editor.
@@ -30,6 +37,9 @@ This guide walks through every part of the theme. Names in bold, such as
 
 ## Help
 
+- [How-to guides](how-to.md): step-by-step recipes for common jobs
+- [Troubleshooting](troubleshooting.md)
 - [Frequently asked questions](faq.md)
+- [Glossary](glossary.md)
 - [Getting support](support.md)
 - [Release notes](release-notes.md)

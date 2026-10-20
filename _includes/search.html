@@ -1,0 +1,11 @@
+{%- comment -%}
+  The guide's search box. Suggestions appear as the reader types, from
+  search.json. Params: id (unique on the page), class (extra classes).
+{%- endcomment -%}
+<div class="search {{ include.class }}" role="search">
+  <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+  <label class="sr" for="{{ include.id }}">Search the guide</label>
+  <input id="{{ include.id }}" type="search" placeholder="Search the guide" autocomplete="off" aria-controls="{{ include.id }}-results" data-search>
+  <kbd aria-hidden="true">/</kbd>
+  <div class="results" id="{{ include.id }}-results" aria-live="polite" hidden></div>
+</div>

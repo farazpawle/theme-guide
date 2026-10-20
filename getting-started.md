@@ -1,10 +1,9 @@
 ---
 title: Getting started
+updated: 2026-10-20
 ---
 
 # Getting started
-
-[Back to the guide](index.md)
 
 ## Install the theme
 
@@ -13,7 +12,7 @@ title: Getting started
    theme library. You can try it for free before buying.
 3. Choose the preset you want (see below). It is added to your library as an
    unpublished theme, so your live store does not change.
-4. Select *Customize* to open the theme editor and set it up.
+4. Select *Edit theme* to open the theme editor and set it up.
 5. When you are happy with it, select *Publish*.
 
 ## Choose a preset
@@ -27,6 +26,8 @@ kind of shop. You can change everything afterwards.
 | **Oakwood** | Home goods, 11 or more products | Custom section, Collection tiles, Featured products, Expanding panels, Story rows, FAQ, Blog posts, Email signup |
 | **Petal** | Beauty, 2 to 10 products | Scroll story, Trust badges, Featured products, Product, Testimonials, FAQ, Blog posts, Email signup |
 
+{% include looks.html folder="settings" file="presets" name="Preset home page" looks="Seloriq,Oakwood,Petal" about="Clothing: a scrolling hero and featured products.|Home goods: warm wood tones and collection tiles.|Beauty: a soft scroll story and trust badges." %}
+
 Pictures from the demo stores are not copied into your shop. Add your own
 in each section.
 
@@ -36,7 +37,7 @@ in each section.
   editor, select *Add section* to add one, and drag sections to reorder them.
 - *Blocks* sit inside a section (a slide, a question, a card). Select
   *Add block* under a section to add one.
-- *Theme settings* (the paintbrush icon) hold everything shared across the
+- *Theme settings* (the gear icon) hold everything shared across the
   whole shop: colors, fonts, the logo, product cards and more. See
   [Theme settings](theme-settings.md).
 - Use the page selector at the top of the editor to move between the home
@@ -57,12 +58,10 @@ If a section looks still on your own computer, your device may have reduced
 motion turned on. Choose **Always animate** while you check it, then switch
 back.
 
-To turn the reveal effect off across the whole shop, clear **Reveal content
-as it scrolls into view** in Theme settings, under **Animations**.
-
 ## Before you edit code
 
 Always duplicate the theme first: in *Online Store > Themes*, open the
 theme's *...* menu and select *Duplicate*. Edit the copy, and publish it
 only once it works. Changes to the theme's code are not covered by support
-(see [Getting support](support.md)).
+(see [Getting support](support.md)). For help with code, consider hiring a
+[Shopify Partner](https://www.shopify.com/partners/directory).

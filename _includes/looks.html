@@ -1,0 +1,62 @@
+{%- comment -%}
+  A component's looks: one button per look, and for each look a computer and a
+  phone screenshot side by side. Pictures live in
+  assets/images/<folder>/<file>-<look>-<desktop|phone>-light.webp (task 5.3).
+  A look that moves also has a clip, <file>-<look>-desktop-light.mp4; when that
+  file is published the computer picture becomes a clip that starts when
+  pressed, with the still as its cover. The cover is set from data-poster by
+  assets/guide.js when the clip nears the screen, because a poster
+  attribute cannot be lazy-loaded.
+  Params:
+    folder  the picture folder, e.g. "sections"
+    file    the file name start, e.g. "featured-products"
+    name    the component's name, used in the picture descriptions
+    looks   look names separated by commas, e.g. "Shelf,Arc". A name may carry
+            its file part after a tilde, e.g. "Split — words beside the box~split"
+    about   optional, what each look shows, separated by "|" in the same order
+            as looks; added to each picture's description
+    plain   optional, "true" for a component with one look only: the file names
+            have no look part (<file>-desktop-light.webp) and there is no switcher
+  Example: {% include looks.html folder="sections" file="featured-products" name="Featured products" looks="Shelf,Arc" about="Products standing on shelves.|One curved row." %}
+{%- endcomment -%}
+{%- assign looks = include.looks | split: ',' -%}
+{%- assign abouts = include.about | split: '|' -%}
+<div class="looks" data-looks>
+  {%- if looks.size > 1 %}
+  <div class="seg" role="group" aria-label="Look">
+    {%- for l in looks %}
+    {%- assign parts = l | split: '~' %}
+    <button type="button" data-look="{% if parts.size > 1 %}{{ parts[1] | strip }}{% else %}{{ parts[0] | strip | slugify }}{% endif %}" aria-pressed="{% if forloop.first %}true{% else %}false{% endif %}">{{ parts[0] | strip }}</button>
+    {%- endfor %}
+  </div>
+  {%- endif %}
+  {%- for l in looks %}
+  {%- assign parts = l | split: '~' %}
+  {%- assign look = parts[0] | strip -%}
+  {%- if parts.size > 1 %}{% assign slug = parts[1] | strip %}{% else %}{% assign slug = look | slugify %}{% endif -%}
+  {%- if include.plain == "true" %}{% assign stem = include.file %}{% else %}{% assign stem = include.file | append: '-' | append: slug %}{% endif -%}
+  {%- assign base = '/assets/images/' | append: include.folder | append: '/' | append: stem | append: '-' -%}
+  {%- assign still = base | append: 'desktop-light.webp' -%}
+  {%- assign clip = base | append: 'desktop-light.mp4' -%}
+  {%- assign has_clip = site.static_files | where: 'path', clip | first -%}
+  {%- assign about = abouts[forloop.index0] | strip -%}
+  {%- if include.plain == "true" %}{% assign label = include.name %}{% else %}{% assign label = include.name | append: ', ' | append: look | append: ' look' %}{% endif %}
+  <div class="pair" data-pane="{{ slug }}"{% unless forloop.first %} hidden{% endunless %}>
+    <figure class="shot shot--desktop">
+      {%- capture desc %}{{ label }}, on a computer{% if about != "" %}: {{ about }}{% endif %}{% endcapture %}
+      {%- if has_clip %}
+      <video controls muted loop playsinline preload="none" data-poster="{{ still | relative_url }}" aria-label="{{ desc | strip }} (short clip, press play)" width="1200" height="750">
+        <source src="{{ clip | relative_url }}" type="video/mp4">
+      </video>
+      {%- else %}
+      <img src="{{ still | relative_url }}" alt="{{ desc | strip }}" width="1440" height="900" loading="lazy" decoding="async">
+      {%- endif %}
+      <figcaption>{% if include.plain == "true" %}On a computer{% else %}{{ look }} on a computer{% endif %}{% if has_clip %} (press play to see it move){% endif %}</figcaption>
+    </figure>
+    <figure class="shot shot--phone">
+      <img src="{{ base | append: 'phone-light.webp' | relative_url }}" alt="{{ label }}, on a phone{% if about != "" %}: {{ about }}{% endif %}" width="375" height="812" loading="lazy" decoding="async">
+      <figcaption>{% if include.plain == "true" %}On a phone{% else %}{{ look }} on a phone{% endif %}</figcaption>
+    </figure>
+  </div>
+  {%- endfor %}
+</div>

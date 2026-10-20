@@ -1,0 +1,13 @@
+{%- comment -%} The list of every guide page, from _data/nav.yml, with the current page marked. {%- endcomment -%}
+<nav aria-label="Guide pages">
+  {%- for g in site.data.nav %}
+  <details class="navg" open>
+    <summary>{{ g.group }}</summary>
+    <ul>
+      {%- for p in g.pages %}
+      <li><a href="{{ p.url | relative_url }}"{% if p.url == page.url %} aria-current="page"{% endif %}>{{ p.title }}</a></li>
+      {%- endfor %}
+    </ul>
+  </details>
+  {%- endfor %}
+</nav>
