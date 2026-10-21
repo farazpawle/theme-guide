@@ -1,6 +1,6 @@
 ---
 title: Collection, search and cart pages
-updated: 2026-10-20
+updated: 2026-10-21
 ---
 
 # Collection, search and cart pages
@@ -59,7 +59,7 @@ One collection's products, with its name, picture and description, filters and s
 
 - **Lookbook**: a cover picture that lays back into the page as it scrolls away, a giant title, and picture-first cards with a round bag button on the picture. The pictures settle into their frames as each row arrives. *Filter* and *Sort* float in a pill at the bottom of the screen while the products are on screen.
 - **Split**: on computers the picture, title and description hold still on the left while the products scroll on the right. On phones and tablets they stack. A strip with *Filter*, the count and *Sort* stays in view.
-- **Mosaic**: the title, picture and description are one tile inside the product grid, with products starting beside it. When the product type filter is set up, product types appear as tabs, so one tap filters.
+- **Mosaic**: the title, picture and description are one tile inside the product grid, with products starting beside it. When the product type filter is set up, product types appear as tabs, so one tap filters. On phones and tablets the tabs stay on one line and slide sideways, with a fade at the edge that has more, so many long product types never fill the screen.
 - **Index**: a numbered catalog list. Each row shows a number, a small picture, the name, the type, the price and a button. On computers a larger picture follows the mouse along the rows.
 - **Dealt cards**: a centered title, *Filter* and *Sort* as a centered pair, and a grid of square pictures with full-width buttons. Each card lands with a small tilt, like a card dealt onto a table.
 

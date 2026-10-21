@@ -1,6 +1,6 @@
 ---
 title: How-to guides
-updated: 2026-10-20
+updated: 2026-10-21
 ---
 
 # How-to guides
@@ -79,7 +79,7 @@ come from your products, not from the theme.
   </figure>
 </div>
 
-> *Values without a color show as pills.* A value with no color or picture is shown as a text pill. Choose **No swatch** to show every value as a pill.
+> *Values without a color show as pills.* A value with no color or picture is shown as a text pill, so give every color entry its color. Choose **No swatch** to show every value as a pill.
 
 > *A dropdown has no swatches.* With **Picker style** set to **Dropdown**, colors are listed by name.
 

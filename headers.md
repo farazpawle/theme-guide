@@ -1,6 +1,6 @@
 ---
 title: Headers and the announcement bar
-updated: 2026-10-20
+updated: 2026-10-21
 ---
 
 # Headers and the announcement bar
@@ -163,7 +163,7 @@ A thin row of small links above the store name, for things like order tracking a
 
 | Setting | What it changes |
 | --- | --- |
-| **Letter spacing** | Spaces out the letters of your store name, from 0 to 12px. A logo picture is not affected. |
+| **Letter spacing** | Spaces out the letters of your store name, from 0 to 12px. On phones and tablets the spacing is scaled down to suit the smaller name. A logo picture is not affected. |
 {: .settings}
 
 ### Blocks
