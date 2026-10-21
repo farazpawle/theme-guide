@@ -292,7 +292,7 @@ The shopper's bag: every item, quantities, the totals and the way to checkout. C
 
 {% include looks.html folder="collection" file="cart" name="Cart page" looks="Receipt,Editorial,Compact table" about="One centered receipt with ruled rows and a running tally, with a checkout bar along the bottom edge.|Each item as a large picture beside big type, then one calm totals panel.|Short dense rows, with the totals panel kept at the side on computers." %}
 
-- **Receipt**: one centered receipt with ruled rows and the total at its foot. A checkout bar sits on the bottom edge of the screen while the page's own *Checkout* button is still below the screen, and steps away once that button is fully in view.
+- **Receipt**: one centered receipt with ruled rows and the total at its foot. A checkout bar sits on the bottom edge of the screen while the page's own *Checkout* button is still well below the screen, and steps away once that button is in view or about to be, and whenever it would cover the order note.
 - **Editorial**: each item is a large picture beside big type, on alternating sides, then one calm totals panel. *Skip to total* in the heading and a small *Checkout* pill in the corner keep checkout close on a long bag.
 - **Compact table**: short dense rows. On computers the totals panel stays at the side, and a total and *Checkout* strip sits under the heading.
 
