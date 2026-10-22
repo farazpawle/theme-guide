@@ -1,6 +1,6 @@
 ---
 title: Footers
-updated: 2026-10-20
+updated: 2026-10-21
 ---
 
 # Footers
@@ -644,7 +644,7 @@ The parts of a footer that come from elsewhere in your store.
 
 - Social media icons, payment icons and Follow on Shop appear by themselves
 - Switches are in each footer's settings
-- No built-in email signup box
+- Email signup is off until you switch it on
 {: .facts}
 
 | Extra | Comes from | Curtain | Big link | Showcase |
@@ -652,6 +652,7 @@ The parts of a footer that come from elsewhere in your store.
 | Social media icons | Theme settings, **Social media** | Switch: **Show social media icons** | Always when a link is filled in | Always when a link is filled in |
 | Payment icons | Your Shopify payment settings | Switch: **Show payment icons** | Always when there are any | Switch: **Show payment icons** |
 | Follow on Shop | Your Shop setup | Bottom bar | Row above the bottom bar | Row above the bottom bar |
+| Email signup | Your customer list | Switch: **Show email signup** | Switch: **Show email signup** | Switch: **Show email signup** |
 | "Powered by Shopify" | Shopify | Switch: **Show "Powered by Shopify" link** | Switch: **Show "Powered by Shopify" link** | Switch: **Show "Powered by Shopify" link** |
 {: .settings}
 
@@ -676,7 +677,30 @@ Shopify's own button that lets a shopper follow your store in the Shop app. It a
 
 ### Email signup
 
-The footers have no email signup box of their own. To collect email addresses, add the **Email signup** section to your home page: see [Home page sections](sections.md#email-signup). It is a home page section only, so it cannot be placed in the footer area.
+An email box in the footer. Visitors type their address, press the button and see a thank-you line. Every address joins your customer list with the tag *newsletter*, subscribed to email marketing (the email marketing tick is set), so you can reach them from Shopify Email or another email app. It is off until you switch it on.
+
+| Setting | What it changes |
+| --- | --- |
+| **Show email signup** | Adds the email box to this footer. Off by default. |
+| **Heading** | The line above the box. Leave empty to draw no heading. |
+| **Text** | A short line under the heading, such as what subscribers get. Leave empty to draw none. |
+{: .settings}
+
+You find these in each footer's settings, under **Email signup**. The look is fixed for each footer, so there is nothing else to pick:
+
+- In Curtain, the look is *On the rule*: a full-width row on the line above the bottom bar. The box unrolls out of a round button as the row arrives.
+- In Big link, the look is *Outline line*: the heading is drawn as an outline that fills with color as it arrives, with a rounded box beside it.
+- In Showcase, the look is *Brand card*: it sits under the short description in the card. The button is the brand's square badge: it turns into an arrow once the address looks complete, and into a tick after a successful send.
+
+{% include looks.html folder="footers" file="signup-curtain" name="Curtain email signup" looks="On the rule" plain="true" about="The Curtain footer with the email box on the line above the bottom bar." %}
+
+{% include looks.html folder="footers" file="signup-big-link" name="Big link email signup" looks="Outline line" plain="true" about="The Big link footer with an outlined heading and the rounded email box beside it." %}
+
+{% include looks.html folder="footers" file="signup-showcase" name="Showcase email signup" looks="Brand card" plain="true" about="The Showcase footer with the email box in the brand card, its button a square badge." %}
+
+After a send the page reloads and the footer shows the thank-you line. A repeat signup with an address already on your list shows the same thank-you line: Shopify does not say whether an address was already there, and it is on your list either way. A wrong address shows Shopify's own message instead. If you also use the **Email signup** section on your home page, each box shows only its own answer: see [Home page sections](sections.md#email-signup).
+
+> *Switched off, nothing shows.* With **Show email signup** off, the footer draws no box and no empty gap.
 
 ### "Powered by Shopify"
 

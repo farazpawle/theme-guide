@@ -1,6 +1,6 @@
 ---
 title: Headers and the announcement bar
-updated: 2026-10-21
+updated: 2026-10-22
 ---
 
 # Headers and the announcement bar
@@ -51,7 +51,7 @@ Settings you type into one header are not carried over to the next, so write dow
 
 > *Every style has the same basics.* Each one has a **Color scheme**, a **Main menu** and a **Customer account menu**, and each shows the light and dark mode switch (when it is on) and the account icon (when your store has customer accounts).
 
-> *Phones fold the menu.* On phones and tablets every style puts the menu behind a menu button. On a phone the bar shows your store name, the account icon and the cart; search is the first row of the opened menu.
+> *Phones fold the menu.* On a phone every style puts the menu behind a button. Four styles then show a bar with your store name, the account icon and the cart, and search is the first row of the opened menu. **Centered stack** has no bar on a phone: your store name sits alone at the top and the menu, search, account and cart are in a bar at the foot of the screen. On a tablet, **Nebula float** keeps its *Browse* button, which opens its picture panel.
 
 ## Aurora glow
 
@@ -112,7 +112,7 @@ This header has no blocks. Its links come from the menu you choose.
 
 ## Centered stack
 
-Your store name centered on its own line, the menu on a row below it, and an optional thin row of small links above.
+Your store name centered on its own line at the top, and a rounded bar at the foot of the screen that holds the menu, search, account and cart. An optional thin row of small links sits above the name.
 {: .lede}
 
 - Add section › Header › Centered stack
@@ -122,7 +122,22 @@ Your store name centered on its own line, the menu on a row below it, and an opt
 
 ### Looks
 
-{% include looks.html folder="headers" file="centered-stack" name="Centered stack header" looks="Standard" plain="true" about="A thin links strip on top, the store name centered, icons on the right and the menu on its own row below." %}
+{% include looks.html folder="headers" file="centered-stack" name="Centered stack header" looks="Standard" plain="true" about="A thin links strip on top and the store name centered, with the menu, search, account and cart in a rounded bar floating at the foot of the screen." %}
+
+#### The foot bar and its sheets
+
+On a phone, or when the menu is too long for the bar, the *Menu* button opens a sheet that rises from the foot bar with your menu, the light and dark switch and your account link. Search opens the same way, as a sheet, on every screen size.
+
+<div class="pair">
+  <figure class="shot shot--desktop">
+    <img src="{{ '/assets/images/headers/centered-stack-search-desktop-light.webp' | relative_url }}" alt="The Centered stack header on a computer with the search sheet open above the foot bar, showing a search box and a Search button" width="1440" height="900" loading="lazy">
+    <figcaption>The search sheet rising from the foot bar on a computer</figcaption>
+  </figure>
+  <figure class="shot shot--phone">
+    <img src="{{ '/assets/images/headers/centered-stack-sheet-phone-light.webp' | relative_url }}" alt="The Centered stack header on a phone with the menu sheet open above the foot bar, listing the menu items, the Appearance row and the Account link" width="375" height="812" loading="lazy">
+    <figcaption>The menu sheet on a phone</figcaption>
+  </figure>
+</div>
 
 ### Where to find it
 
@@ -136,14 +151,14 @@ Keep one header in the header area. To change style, remove this header and add 
 
 | Setting | What it changes |
 | --- | --- |
-| **Color scheme** | The colors of the bar, the announcement strip and the links strip. |
-| **Main menu** | The menu on its own row under the store name. On tablets and phones it folds into the menu button. |
+| **Color scheme** | The colors of the name line, the foot bar, the announcement strip and the links strip. |
+| **Main menu** | Shown in the foot bar on computers; drop-downs rise from it. On tablets and phones, or when the menu is too long to fit, the bar shows a *Menu* button that opens a sheet rising from the bottom, with every level folding open. |
 | **Customer account menu** | The links shown under the account icon. |
 {: .settings}
 
 #### Links strip
 
-A thin row of small links above the store name, for things like order tracking and help. Shown on computers only. On tablets and phones these links move to the bottom of the menu.
+A thin row of small links above the store name, for things like order tracking and help. Shown on computers only. On tablets and phones these links move to the bottom of the menu sheet.
 
 | Setting | What it changes |
 | --- | --- |
@@ -156,7 +171,7 @@ A thin row of small links above the store name, for things like order tracking a
 
 | Setting | What it changes |
 | --- | --- |
-| **Show search** | Shows the search icon in the bar. |
+| **Show search** | Shows the search icon in the foot bar. Search opens as a sheet rising from the bottom, on every screen size. |
 {: .settings}
 
 #### Store name
@@ -174,9 +189,13 @@ This header has no blocks. Its links come from the menus you choose.
 
 > *Leave a strip menu empty to hide it.* A **Links on the left** or **Links on the right** menu that is the same as your **Main menu** is not repeated.
 
-> *A good fit for a large menu.* With the menu on its own row there is room for many items, and an item with links below it opens a drop-down or columns (see [Menus](#menus)).
+> *A long menu folds itself.* When the items would not fit in the foot bar, it shows the *Menu* button instead, even on a wide screen. An item with links below it opens a drop-down or columns (see [Menus](#menus)).
+
+> *The foot bar stays out of the way.* It leaves the bottom corners free for chat widgets and lifts above other bars fixed to the bottom of the screen, such as the product page's buy bar or the cart's checkout bar.
 
 > *A long store name shrinks, then wraps.* It gets smaller to fit, then moves onto a second line. It is never cut off with dots.
+
+> *Keep the header on screen.* With this on, the store name line stays at the top; the foot bar is always on screen.
 
 ## Floating capsule
 
@@ -243,7 +262,7 @@ This header has no blocks. Its links come from the menus you choose.
 
 ## Nebula float
 
-Controls that float straight on the page with no bar behind them: the store name on the left, the menu centered and the icons on the right. It suits a home page that opens on a full-screen picture or a dark scene.
+Controls that float straight on the page with no bar behind them: the store name on the left, a *Browse* button and the icons on the right. *Browse* opens a panel of picture tiles that walks your menu one level at a time. It suits a home page that opens on a full-screen picture or a dark scene.
 {: .lede}
 
 - Add section › Header › Nebula float
@@ -253,7 +272,7 @@ Controls that float straight on the page with no bar behind them: the store name
 
 ### Looks
 
-{% include looks.html folder="headers" file="nebula-float" name="Nebula float header" looks="Standard" plain="true" about="No bar: the store name, a centered menu and the icons float over a full-screen picture, with a soft shading behind them." %}
+{% include looks.html folder="headers" file="nebula-float" name="Nebula float header" looks="Standard" plain="true" about="No bar: the store name, a Browse button and the icons float over a full-screen picture, with a soft shading behind them." %}
 
 ### Where to find it
 
@@ -268,7 +287,7 @@ Keep one header in the header area. To change style, remove this header and add 
 | Setting | What it changes |
 | --- | --- |
 | **Color scheme** | The colors of the bar, the announcement and the menu panels. A dark scheme is what the light is designed for. |
-| **Main menu** | Shown centered on the bar. On tablets and phones it folds into the menu button. |
+| **Main menu** | Opens from the *Browse* button as picture tiles, one level at a time. A tile shows the linked collection's, product's or blog post's picture; any other link shows the light. On phones it folds into the menu button. |
 | **Customer account menu** | The links shown under the account icon. |
 {: .settings}
 
@@ -284,21 +303,38 @@ Search is always on for this style. On computers and tablets it is the magnifier
 | **Light strength** | How strong the glow behind the controls is, from 0 to 100%. |
 {: .settings}
 
+#### The Browse panel
+
+Press *Browse* and a panel opens under the bar. The first row of picture tiles is your top-level menu. Pressing a tile that has links below it slides to the next row, with a *Back* button and an *All* link (such as *All Shop*) to the item itself; the third level is a plain list of links, because a Shopify menu goes no deeper. *Escape* steps back one level, then closes the panel. On phones *Browse* is replaced by the menu button, which opens a sheet of folding rows instead.
+
+<div class="pair">
+  <figure class="shot shot--desktop">
+    <img src="{{ '/assets/images/headers/nebula-float-browse-desktop-light.webp' | relative_url }}" alt="The Nebula float header with the Browse panel open: a row of picture tiles, one for each menu item or collection" width="1440" height="900" loading="lazy">
+    <figcaption>The Browse panel open on a computer</figcaption>
+  </figure>
+  <figure class="shot shot--phone">
+    <img src="{{ '/assets/images/headers/nebula-float-browse-phone-light.webp' | relative_url }}" alt="The Nebula float header's menu on a phone: a sheet of folding rows, with search as the first row" width="375" height="812" loading="lazy">
+    <figcaption>On a phone the menu is a sheet of folding rows</figcaption>
+  </figure>
+</div>
+
 ### Blocks
 
 This header has no blocks. Its links come from the menu you choose.
 
 ### Tips and limits
 
+> *Pictures come from your store.* Link menu items to collections or products that have a picture, and the tiles fill themselves. Links to pages or web addresses show the soft light instead.
+
 > *Open on a picture.* Put a full-screen picture or a dark scene first on the page, such as a **Slideshow** or **Hero scroll**, so the floating controls have something to float over.
 
-> *A wide menu folds early.* If your menu would wrap onto a second row, the bar switches to the menu button instead.
+> *No mega menu.* The mega menu setting does not apply here: *Browse* always shows one level at a time.
 
 > *A long store name shrinks, then wraps.* On phones and tablets it gets smaller to fit, then moves onto a second line. It is never cut off with dots.
 
 ## Sidecar
 
-A bar whose menu slides in from the left as a drawer, on every screen size. It suits large menus.
+On a computer, your menu stays open as a column docked at the left of the page, with the page beside it. On tablets and phones it is a bar whose menu slides in from the left as a drawer. It suits large menus.
 {: .lede}
 
 - Add section › Header › Sidecar
@@ -308,7 +344,22 @@ A bar whose menu slides in from the left as a drawer, on every screen size. It s
 
 ### Looks
 
-{% include looks.html folder="headers" file="sidecar" name="Sidecar header" looks="Standard" plain="true" about="Store name on the left, a Menu button that opens a drawer, then the mode switch, search, account and cart on the right." %}
+{% include looks.html folder="headers" file="sidecar" name="Sidecar header" looks="Standard" plain="true" about="On a computer, a dark column docked at the left with the store name, the icons, a search field and the menu, and the page beside it. On a phone, a bar with a Menu button, the store name, account and cart." %}
+
+#### The docked column and the phone drawer
+
+From 1101px wide there is no bar: the column holds your store name, the mode switch, account and cart icons, a search field and your menu, and it never closes. An item with links below it folds open in the column. Everything else on the page sits beside it. Below 1101px the column becomes the drawer: the *Menu* button in the bar slides it in from the left.
+
+<div class="pair">
+  <figure class="shot shot--desktop">
+    <img src="{{ '/assets/images/headers/sidecar-product-desktop-light.webp' | relative_url }}" alt="The Sidecar header on a computer with a product page beside the docked column, and the Shop item folded open in the column to show its links" width="1440" height="900" loading="lazy">
+    <figcaption>The docked column on a product page, with Shop folded open</figcaption>
+  </figure>
+  <figure class="shot shot--phone">
+    <img src="{{ '/assets/images/headers/sidecar-drawer-phone-light.webp' | relative_url }}" alt="The Sidecar header on a phone with the drawer open, showing a search box, the menu items, the Appearance row and the Account link" width="375" height="812" loading="lazy">
+    <figcaption>The same menu as a drawer on a phone</figcaption>
+  </figure>
+</div>
 
 ### Where to find it
 
@@ -322,9 +373,9 @@ Keep one header in the header area. To change style, remove this header and add 
 
 | Setting | What it changes |
 | --- | --- |
-| **Color scheme** | Colors the bar and the announcement strip above it. |
-| **Main menu** | The menu inside the drawer. |
-| **Drawer footer links** | A short list along the bottom of the drawer, such as delivery or contact. The account link is added for you. |
+| **Color scheme** | Colors the bar on phones and tablets, and the announcement strip above the page. |
+| **Main menu** | The menu in the column on computers and in the drawer on tablets and phones. |
+| **Drawer footer links** | A short list along the bottom of the column and the drawer, such as delivery or contact. The account link is added for you. |
 | **Customer account menu** | The links shown under the account icon. |
 {: .settings}
 
@@ -332,21 +383,21 @@ Keep one header in the header area. To change style, remove this header and add 
 
 | Setting | What it changes |
 | --- | --- |
-| **Show search** | Shows the search icon in the bar. |
+| **Show search** | Shows the search field in the column on computers, and the search icon on tablets and phones. |
 {: .settings}
 
 #### Bar
 
 | Setting | What it changes |
 | --- | --- |
-| **Bar height** | How tall the bar is, from 64 to 120px. Computers only (screens wider than 1100px); narrower screens use a fixed compact bar. |
+| **Bar height** | How tall the bar is, from 64 to 120px. Tablets only (501 to 1100px): phones use a fixed compact bar, and computers have no bar because the menu is a column. |
 {: .settings}
 
 #### Navigation drawer
 
 | Setting | What it changes |
 | --- | --- |
-| **Drawer color scheme** | The colors of the panel that slides in from the left. A scheme that contrasts with the bar reads best. |
+| **Drawer color scheme** | The colors of the menu column on computers and of the panel that slides in from the left on tablets and phones. A scheme that contrasts with the page reads best. |
 {: .settings}
 
 ### Blocks
@@ -355,11 +406,19 @@ This header has no blocks. Its links come from the menus you choose.
 
 ### Tips and limits
 
-> *No drop-downs.* Everything is in the drawer, with sub-items folding open under their parent, so the mega menu setting does not apply to this style.
+> *No drop-downs.* Everything is in the column or drawer, with sub-items folding open under their parent, so the mega menu setting does not apply to this style.
 
-> *Contrast the drawer.* A **Drawer color scheme** that differs from the bar's makes the drawer stand out as a separate panel.
+> *Contrast the column.* A **Drawer color scheme** that differs from the page's makes the column stand out as a separate panel.
 
-> *A long store name shrinks, then wraps.* In the bar and at the top of the drawer it gets smaller to fit, then moves onto a second line. It is never cut off with dots.
+> *The column takes 300px.* Computers lose that much page width, and the page, its fixed bars and its sheets sit in what is left. Full-screen layers such as quick view cover the column on purpose.
+
+> *Keep the header on screen.* The column is always on screen on a computer. On tablets and phones the setting keeps the bar at the top.
+
+> *Older browsers keep the bar.* A browser too old to dock the column shows the bar and drawer at every width, like a phone.
+
+> *Left to right only.* The column is always on the left, so it is not suited to stores written right to left.
+
+> *A long store name shrinks, then wraps.* In the column, the bar and the drawer it gets smaller to fit, then moves onto a second line. It is never cut off with dots.
 
 ## Announcement bar
 
@@ -481,7 +540,7 @@ The switch lets a shopper choose Light, Dark or their own device's setting. It i
 2. Select **Colors**, then find *Light and dark mode*.
 3. Use **Show the mode switch** to turn it on or off. **Default mode** sets what a visitor sees the first time.
 
-On computers it is an icon in the header bar. On phones and tablets it is a row called *Appearance* inside the menu. Each press goes to Light, then Dark, then back to the shopper's device setting. The choice is remembered on that shopper's device. How the dark colors are made is explained in [Theme settings](theme-settings.md#how-light-and-dark-mode-works).
+On computers it is an icon in the header bar (in the menu column, for **Sidecar**). On phones and tablets it is a row called *Appearance* inside the menu. Each press goes to Light, then Dark, then back to the shopper's device setting. The choice is remembered on that shopper's device. How the dark colors are made is explained in [Theme settings](theme-settings.md#how-light-and-dark-mode-works).
 
 {% include looks.html folder="headers" file="mode-switch" name="Light and dark mode switch" looks="Standard" plain="true" about="the sun icon in the header bar on a computer, and the Appearance row in the open menu on a phone." %}
 
@@ -533,13 +592,13 @@ A menu can go three levels deep. How each header shows it:
 | Header | Menu on a computer | One level below | Two levels below |
 | --- | --- | --- | --- |
 | Aurora glow | In a pill on the right | A drop-down list | Columns with the mega menu on, an indented list with it off |
-| Centered stack | A row under the store name | A drop-down list | Columns with the mega menu on, an indented list with it off |
+| Centered stack | In the bar at the foot of the screen | A drop-down list rising from the bar | Columns with the mega menu on, an indented list with it off |
 | Floating capsule | A full-screen menu | Fold open in place | Fold open in place |
-| Nebula float | Centered on the bar | A drop-down card | Columns with the mega menu on, an indented list with it off |
-| Sidecar | A drawer from the left | Fold open in place | Fold open in place |
+| Nebula float | A *Browse* button that opens a panel | A row of picture tiles | A plain list in the next step of the panel |
+| Sidecar | A column docked at the left; a drawer from the left on tablets and phones | Fold open in place | Fold open in place |
 {: .settings}
 
-Turn the mega menu on or off with **Enable the horizontal mega menu** under **Header** in Theme settings: with it on, an item with two levels below it opens as columns instead of a single list. It applies to **Aurora glow**, **Centered stack** and **Nebula float**.
+Turn the mega menu on or off with **Enable the horizontal mega menu** under **Header** in Theme settings: with it on, an item with two levels below it opens as columns instead of a single list. It applies to **Aurora glow** and **Centered stack**; **Nebula float** walks its menu one level at a time, and **Floating capsule** and **Sidecar** fold sub-items open in their menu or column instead. Keyboard users open a drop-down with Enter or Space.
 
 <div class="pair">
   <figure class="shot shot--desktop">
@@ -555,7 +614,7 @@ Turn the mega menu on or off with **Enable the horizontal mega menu** under **He
   </figure>
 </div>
 
-On phones and tablets every style folds the menu behind the menu button, and all three levels stay reachable. On a touch screen wider than 1100px, such as a tablet held sideways, the first tap on an item with a drop-down opens it, and a second tap follows the link.
+On phones and tablets the menu folds behind a button, and all three levels stay reachable. **Nebula float** keeps its *Browse* button on tablets, and **Centered stack** opens its menu as a sheet rising from the foot bar. On a touch screen wider than 1100px, such as a tablet held sideways, the first tap on an item with a drop-down opens it, and a second tap follows the link.
 
 ### Tips and limits
 

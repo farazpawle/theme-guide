@@ -1,6 +1,6 @@
 ---
 title: Product page
-updated: 2026-10-20
+updated: 2026-10-21
 ---
 
 # Product page
@@ -35,7 +35,7 @@ The section that draws the whole product page: the pictures on one side and a co
 {: .lede}
 
 - Product page: *Products > Default product*
-- Home page: Add section › Product, or Product spotlight
+- Home page: Add section › Product, or Featured product
 - 3 looks, 4 layouts
 - 16 blocks and app blocks, up to 24 in all
 {: .facts}
@@ -76,7 +76,7 @@ The four layouts change how the **Product page** look is arranged. Pick one with
 
 1. In your Shopify admin, open *Online Store > Themes*, then select *Edit theme* next to {{ site.theme_name }}.
 2. At the top of the editor, open the page selector and choose *Products > Default product*. The Product section is already on the page.
-3. To show one product on another page, open the *Home page*, select *Add section*, then **Product** or **Product spotlight**, and pick the **Product**.
+3. To show one product on another page, open the *Home page*, select *Add section*, then **Product** or **Featured product**, and pick the **Product**.
 4. Change the settings, then select *Save*.
 
 ### Settings
@@ -181,7 +181,7 @@ Star ratings and the review count. It shows nothing at all until you name a revi
 
 ### Tips and limits
 
-> *Stock level needs inventory tracking.* In a store that does not track inventory the line says "In stock, ready to send" and nothing more, because a quantity would be a guess. Turn tracking on for a product in its *Inventory* section in your admin.
+> *Stock level needs inventory tracking.* In a store that does not track inventory the line says "In stock" and nothing more, because a quantity would be a guess. Turn tracking on for a product in its *Inventory* section in your admin.
 
 > *Overselling is respected.* A product set to keep selling when it runs out still says it is available.
 

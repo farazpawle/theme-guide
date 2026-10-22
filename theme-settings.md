@@ -1,6 +1,6 @@
 ---
 title: Theme settings
-updated: 2026-10-20
+updated: 2026-10-22
 ---
 
 # Theme settings
@@ -250,7 +250,7 @@ The footer styles are covered in [Footers](footers.md).
 | Setting | What it changes |
 | --- | --- |
 | **Keep the header on screen** | The bar stays at the top of the screen as the page scrolls. The announcement bar scrolls away with the page. |
-| **Enable the horizontal mega menu** | A menu item with two levels below it opens as columns instead of a single list. Used by **Aurora glow**, **Centered stack** and **Nebula float**. |
+| **Enable the horizontal mega menu** | A menu item with two levels below it opens as columns instead of a single list. Used by **Aurora glow** and **Centered stack**; **Nebula float** walks its menu one level at a time instead. |
 {: .settings}
 
 The header's style is chosen by the header section itself: see [Headers](headers.md).
@@ -351,7 +351,7 @@ The home page's **Featured products**, **Related products** and the suggestions 
 
 | Setting | What it changes |
 | --- | --- |
-| **Sold out products** | Options: **Show sold out** (the card shows a Sold out label) or **Show an inquiry button** (the card shows a button in place of the buy control). |
+| **Sold out products** | Options: **Show sold out** (the card shows a Sold out label) or **Show an inquiry button** (the card keeps its Sold out label and shows a button in place of the buy control). |
 | **Inquiry button label** | The words on the button. Leave empty to use "Inquire now". |
 | **Inquiry button link** | Where the button goes, for example your contact page. With no link, the inquiry button is not shown, and the card falls back to the Sold out label. |
 {: .settings}

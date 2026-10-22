@@ -1,6 +1,6 @@
 ---
 title: Home page sections
-updated: 2026-10-20
+updated: 2026-10-21
 ---
 
 # Home page sections
@@ -2476,7 +2476,18 @@ Build your own layout from pieces: headings, text, buttons, pictures, feature gr
 
 {% include looks.html folder="sections" file="custom-section" name="Custom section" looks="One column,Picture beside the words,Words over the picture" about="The pieces stacked in one centered column.|A picture on one side with the pieces beside it.|The pieces laid over a darkened picture." %}
 
-The three looks are the three **Layout** options. You can also start from a ready-made arrangement: in the *Add section* list, choose **Banner**, **Picture and text**, **Three columns**, **Two columns** or **Call to action** instead of **Custom section**.
+The three looks are the three **Layout** options. You can also start from a ready-made arrangement: in the *Add section* list, choose **Rich text**, **Banner**, **Picture and text**, **Three columns**, **Two columns** or **Call to action** instead of **Custom section**. **Rich text** is a heading and a text block in a narrow, centered column, ready for longer writing. Its starting words tell you what to type; replace them with your own.
+
+<div class="pair">
+  <figure class="shot shot--desktop">
+    <img src="{{ '/assets/images/sections/custom-section-rich-text-desktop-light.webp' | relative_url }}" alt="A Rich text section as added: the heading Add a heading and one line of starting text, centered in a narrow column" width="1440" height="900" loading="lazy">
+    <figcaption>Rich text on a computer</figcaption>
+  </figure>
+  <figure class="shot shot--phone">
+    <img src="{{ '/assets/images/sections/custom-section-rich-text-phone-light.webp' | relative_url }}" alt="The same Rich text section on a phone" width="375" height="812" loading="lazy">
+    <figcaption>On a phone</figcaption>
+  </figure>
+</div>
 
 ### Where to find it
 
