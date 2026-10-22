@@ -1,6 +1,6 @@
 ---
 title: Home page sections
-updated: 2026-10-21
+updated: 2026-10-22
 ---
 
 # Home page sections
@@ -2238,7 +2238,7 @@ This section has no blocks. Everything is a setting.
 
 > **The drawings are for big screens.** The floating envelopes and paper planes show only on computers, with **Centered band** or **Card panel** and centered content.
 
-> **The thank-you replaces the box.** After someone subscribes, the page shows a thank-you message where the box was, or an error message if the address was not accepted. Neither is animated, so people can read it at once.
+> **The thank-you replaces the box.** After someone subscribes, the page shows a thank-you message where the box was, or an error message if the address was not accepted. An address that is not complete (no ending like ".com") is stopped before it is sent, with a note asking for a full email address. Neither is animated, so people can read it at once.
 
 > **Side-by-side layouts fold on small screens.** **Split — words beside the box** and **Image beside content** stack their parts on screens up to 1100 px wide.
 

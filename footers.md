@@ -1,6 +1,6 @@
 ---
 title: Footers
-updated: 2026-10-21
+updated: 2026-10-22
 ---
 
 # Footers
@@ -698,7 +698,7 @@ You find these in each footer's settings, under **Email signup**. The look is fi
 
 {% include looks.html folder="footers" file="signup-showcase" name="Showcase email signup" looks="Brand card" plain="true" about="The Showcase footer with the email box in the brand card, its button a square badge." %}
 
-After a send the page reloads and the footer shows the thank-you line. A repeat signup with an address already on your list shows the same thank-you line: Shopify does not say whether an address was already there, and it is on your list either way. A wrong address shows Shopify's own message instead. If you also use the **Email signup** section on your home page, each box shows only its own answer: see [Home page sections](sections.md#email-signup).
+After a send the page reloads and the footer shows the thank-you line. A repeat signup with an address already on your list shows the same thank-you line: Shopify does not say whether an address was already there, and it is on your list either way. An address that is not complete, such as one with nothing after the @ or no ending like ".com", is stopped before it is sent, with a note asking for a full email address. A wrong address that Shopify turns down shows Shopify's own message instead. If you also use the **Email signup** section on your home page, each box shows only its own answer: see [Home page sections](sections.md#email-signup).
 
 > *Switched off, nothing shows.* With **Show email signup** off, the footer draws no box and no empty gap.
 
