@@ -375,7 +375,7 @@ Keep one header in the header area. To change style, remove this header and add 
 | --- | --- |
 | **Color scheme** | Colors the bar on phones and tablets, and the announcement strip above the page. |
 | **Main menu** | The menu in the column on computers and in the drawer on tablets and phones. |
-| **Drawer footer links** | A short list along the bottom of the column and the drawer, such as delivery or contact. The account link is added for you. |
+| **Drawer footer links** | A short list along the bottom of the column and the drawer, such as delivery or contact. The account link is added for you. Your **Main menu** is not repeated here, so pick a different menu. |
 | **Customer account menu** | The links shown under the account icon. |
 {: .settings}
 
