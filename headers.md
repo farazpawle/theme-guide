@@ -55,7 +55,7 @@ Settings you type into one header are not carried over to the next, so write dow
 
 ## Aurora glow
 
-A bar with a soft glow of light behind it, your store name on the left and your menu in a rounded pill on the right. It suits a dark color scheme.
+A bar with a soft glow of light behind it, your store name on the left and your menu in a rounded pill on the right. Pointing at a menu item grows the bar down into a full-width sheet with pictures. It suits a dark color scheme.
 {: .lede}
 
 - Add section › Header › Aurora glow
@@ -80,9 +80,16 @@ Keep one header in the header area. To change style, remove this header and add 
 | Setting | What it changes |
 | --- | --- |
 | **Color scheme** | The colors of the bar and the announcement strip. A dark scheme is what the glow is designed for. |
-| **Main menu** | The menu shown in the pill. Menus are built in your admin: see [Menus](#menus). |
+| **Main menu** | The menu shown in the pill. An item with links below it opens a full-width sheet: its links listed on the left, and the one the shopper points at shows its own links and its picture on the right. Menus are built in your admin: see [Menus](#menus). |
 | **Customer account menu** | The links shown under the account icon. |
 {: .settings}
+
+<div class="pair">
+  <figure class="shot shot--desktop">
+    <img src="{{ '/assets/images/headers/drop-down-desktop-light.webp' | relative_url }}" alt="The Shop item of the Aurora glow header open as a full-width sheet: numbered links on the left, and the chosen one's links and picture on the right" width="1440" height="900" loading="lazy">
+    <figcaption>The menu sheet open under the Shop item</figcaption>
+  </figure>
+</div>
 
 #### Actions
 
@@ -105,6 +112,10 @@ This header has no blocks. Its links come from the menu you choose.
 ### Tips and limits
 
 > *A long menu folds itself.* When your menu and store name no longer fit on one line, the bar switches to the menu button by itself, even on a wide screen.
+
+> *Pictures come from what each link points to.* A link to a collection or a product shows its featured image, a link to a blog post shows the post's image, and any other link shows a soft glow with its name instead. On tablets the menu button opens the same links as tabs, with small pictures.
+
+> *The mega menu setting does not apply.* Every item already opens the full-width sheet, with all three levels.
 
 > *A long store name shrinks, then wraps.* It is never cut off with dots.
 
@@ -199,7 +210,7 @@ This header has no blocks. Its links come from the menus you choose.
 
 ## Floating capsule
 
-A rounded bar that floats above the page. The menu button opens a full-screen menu on every screen size.
+A rounded bar that floats above the page. The menu button opens a full-screen menu on every screen size, with each level of your menu side by side in columns and a large picture of the item in focus.
 {: .lede}
 
 - Add section › Header › Floating capsule
@@ -210,6 +221,21 @@ A rounded bar that floats above the page. The menu button opens a full-screen me
 ### Looks
 
 {% include looks.html folder="headers" file="floating-capsule" name="Floating capsule header" looks="Standard" plain="true" about="A rounded bar floating over the page with the menu button on the left, the store name centered and the icons on the right." %}
+
+#### The full-screen menu
+
+On a computer the menu shows each level as a column: your top items, then the links under the one you pick, then the links under those, and a large picture of the item in focus. Resting the pointer on an item picks it; clicking it then opens its page. On tablets and phones the top items sit in a side rail, and the picked item's picture and links show beside it, with the third level listed under each link.
+
+<div class="pair">
+  <figure class="shot shot--desktop">
+    <img src="{{ '/assets/images/headers/floating-capsule-menu-desktop-light.webp' | relative_url }}" alt="The Floating capsule menu open on a computer: top items in the first column with Shop picked, its collections in the second column with the first one picked, and a large picture of that collection on the right" width="1440" height="900" loading="lazy">
+    <figcaption>The menu's columns on a computer</figcaption>
+  </figure>
+  <figure class="shot shot--phone">
+    <img src="{{ '/assets/images/headers/floating-capsule-menu-phone-light.webp' | relative_url }}" alt="The Floating capsule menu open on a phone: top items in a rail on the left, and the picked item's banner and links on the right" width="375" height="812" loading="lazy">
+    <figcaption>The menu on a phone</figcaption>
+  </figure>
+</div>
 
 ### Where to find it
 
@@ -223,8 +249,9 @@ Keep one header in the header area. To change style, remove this header and add 
 
 | Setting | What it changes |
 | --- | --- |
-| **Color scheme** | The capsule's colors. The menu panel inverts it, so the capsule reads as floating on top of the menu. |
-| **Main menu** | Shown as a full-screen menu. Items with links below them fold open in place. |
+| **Color scheme** | The colors of the capsule, the full-screen menu and the search card. |
+| **Main menu** | Shown as a full-screen menu, one column per level. On tablets and phones the top items sit in a side rail. |
+| **Show main menu pictures** | Shows the picture of the linked collection, product or blog post in the main menu. A link without one shows its parent's picture, or a tile with its first letter. Turn it off for a menu of words only. |
 | **Footer links** | A short list along the bottom of the menu, for things like sign in, order tracking and help. Items below the first level are not shown. Leave empty to hide it. |
 | **Customer account menu** | The links shown under the account icon. |
 {: .settings}
@@ -254,7 +281,11 @@ This header has no blocks. Its links come from the menus you choose.
 
 > *No announcement bar here.* If you use the announcement bar, pick another style.
 
-> *No drop-downs.* The menu opens full screen and sub-items fold open under their parent, so the mega menu setting does not apply to this style.
+> *No drop-downs.* The menu opens full screen with its levels side by side, so the mega menu setting does not apply to this style.
+
+> *Pictures come from what each link points to.* Link a menu item to a collection or product with a picture and the menu shows it. Pages, blogs and web addresses have none, so they show their parent's picture or a letter tile.
+
+> *Every item is a link.* The first click, tap or Enter on an item with links below it shows those links; a second one opens its page. Each list also starts with an *All* link to the item's own page.
 
 > *Search on computers.* The search icon shows on tablets and phones only. Make sure the search page is easy to reach from your menu.
 
@@ -591,25 +622,25 @@ A menu can go three levels deep. How each header shows it:
 
 | Header | Menu on a computer | One level below | Two levels below |
 | --- | --- | --- | --- |
-| Aurora glow | In a pill on the right | A drop-down list | Columns with the mega menu on, an indented list with it off |
+| Aurora glow | In a pill on the right | A full-width sheet: links listed on the left | The chosen link's own links and picture on the right |
 | Centered stack | In the bar at the foot of the screen | A drop-down list rising from the bar | Columns with the mega menu on, an indented list with it off |
 | Floating capsule | A full-screen menu | Fold open in place | Fold open in place |
 | Nebula float | A *Browse* button that opens a panel | A row of picture tiles | A plain list in the next step of the panel |
 | Sidecar | A column docked at the left; a drawer from the left on tablets and phones | Fold open in place | Fold open in place |
 {: .settings}
 
-Turn the mega menu on or off with **Enable the horizontal mega menu** under **Header** in Theme settings: with it on, an item with two levels below it opens as columns instead of a single list. It applies to **Aurora glow** and **Centered stack**; **Nebula float** walks its menu one level at a time, and **Floating capsule** and **Sidecar** fold sub-items open in their menu or column instead. Keyboard users open a drop-down with Enter or Space.
+Turn the mega menu on or off with **Enable the horizontal mega menu** under **Header** in Theme settings: with it on, an item with two levels below it opens as columns instead of a single list. It applies to **Centered stack**; **Aurora glow** opens every item as a full-width sheet with pictures, **Nebula float** walks its menu one level at a time, and **Floating capsule** and **Sidecar** fold sub-items open in their menu or column instead. Keyboard users open a drop-down with Enter or Space; in **Aurora glow** the arrow keys also move along the menu and through the sheet's links.
 
 <div class="pair">
   <figure class="shot shot--desktop">
-    <img src="{{ '/assets/images/headers/drop-down-desktop-light.webp' | relative_url }}" alt="The Shop item of the Aurora glow header open as a drop-down list of four collections" width="1440" height="900" loading="lazy">
-    <figcaption>A drop-down list open under the Shop item</figcaption>
+    <img src="{{ '/assets/images/headers/drop-down-desktop-light.webp' | relative_url }}" alt="The Shop item of the Aurora glow header open as a full-width sheet: numbered links on the left, and the chosen one's links and picture on the right" width="1440" height="900" loading="lazy">
+    <figcaption>Aurora glow's menu sheet open under the Shop item</figcaption>
   </figure>
 </div>
 
 <div class="pair">
   <figure class="shot shot--desktop">
-    <img src="{{ '/assets/images/headers/mega-menu-desktop-light.webp' | relative_url }}" alt="The Shop item of the Aurora glow header open as a mega menu: four collections are the column headings and their sub-items are listed under them" width="1440" height="900" loading="lazy">
+    <img src="{{ '/assets/images/headers/mega-menu-desktop-light.webp' | relative_url }}" alt="The Shop item of the Centered stack header open as a mega menu: the links below Shop are the column headings and their sub-items are listed under them" width="1440" height="900" loading="lazy">
     <figcaption>A mega menu open under the Shop item, with two levels below it</figcaption>
   </figure>
 </div>
