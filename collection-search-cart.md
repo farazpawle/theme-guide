@@ -1,6 +1,6 @@
 ---
 title: Collection, search and cart pages
-updated: 2026-10-21
+updated: 2026-10-23
 ---
 
 # Collection, search and cart pages
@@ -425,7 +425,7 @@ The card shown for every product, on the home page, collection and search pages 
 
 <div class="pair" style="margin-top:18px">
   <figure class="shot shot--desktop">
-    <img src="{{ '/assets/images/collection/product-card-sold-out-inquiry-desktop-light.webp' | relative_url }}" alt="The same collection page where the sold out dress shows an Inquire now button" width="1440" height="900" loading="lazy">
+    <img src="{{ '/assets/images/collection/product-card-sold-out-inquiry-desktop-light.webp' | relative_url }}" alt="The same collection page where the sold out dress keeps its Sold out label and shows an Inquire now button" width="1440" height="900" loading="lazy">
     <figcaption>Sold out products: Show an inquiry button</figcaption>
   </figure>
 </div>
