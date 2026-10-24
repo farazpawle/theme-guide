@@ -1,6 +1,6 @@
 ---
 title: Theme settings
-updated: 2026-10-23
+updated: 2026-10-24
 ---
 
 # Theme settings
@@ -268,7 +268,7 @@ The header's style is chosen by the header section itself: see [Headers](headers
 
 The product card appears wherever products are listed. Set it once here and every card matches.
 
-The home page's **Featured products**, **Related products** and the suggestions in an empty cart use every setting below. The collection and search pages use their own card layout and follow **Image shape**, **Custom shape from an image**, **Crop images to fill**, **Hover style**, the sale badge and **Sold out products**.
+The home page's **Featured products**, **Related products** and the suggestions in an empty cart use every setting below. The collection and search pages use their own card layout and follow **Alignment**, **Image shape**, **Custom shape from an image**, **Crop images to fill**, **Hover style**, the sale badge and **Sold out products**. They ignore **Style** and **Color scheme**, and the editor says so under each of those settings.
 
 <div class="pair">
   <figure class="shot shot--desktop">
@@ -316,8 +316,8 @@ The home page's **Featured products**, **Related products** and the suggestions 
 
 | Setting | What it changes |
 | --- | --- |
-| **Style** | Options: **Standard** (the picture, name and price sit straight on the band) or **Card** (the product sits on a framed card in its own color scheme). |
-| **Alignment** | Left, center or right alignment of the name and price. |
+| **Style** | Options: **Standard** (the picture, name and price sit straight on the band) or **Card** (the product sits on a framed card in its own color scheme). Applies to the home page and Related products; collection and search pages use their own card look. |
+| **Alignment** | Left, center or right alignment of the name and price. The Index look of the collection and search pages lists products in rows and keeps its own layout. |
 | **Product name lines** | How many lines a long name may take. Options: **Automatic**, **1 line**, **2 lines**, **3 lines**. Collection and search pages always show the full product name. |
 {: .settings}
 
@@ -341,7 +341,7 @@ The home page's **Featured products**, **Related products** and the suggestions 
 
 | Setting | What it changes |
 | --- | --- |
-| **Color scheme** | The colors of a card. Used when **Style** is **Card**. |
+| **Color scheme** | The colors of a card. Used when **Style** is **Card**, on the home page and in Related products. |
 | **Border** | Outline thickness, from 0 to 8px. Used when **Style** is **Card**. |
 | **Corner rounding** | Roundness of the card and its picture, from 0 to 40px. |
 | **Elevation** | A shadow under the card, from 0 to 100%. Used when **Style** is **Card**. Zero means no shadow. |

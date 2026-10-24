@@ -1,6 +1,6 @@
 ---
 title: Product page
-updated: 2026-10-21
+updated: 2026-10-24
 ---
 
 # Product page
@@ -48,7 +48,7 @@ The **Look** setting appears once you pick a **Product**. On the product page it
 
 - **Product page**: the pictures sit beside the details. This is the look every product page uses.
 - **3D ring**: the pictures turn on a ring that a shopper drags or steps through with arrows. It needs three or more pictures, videos or 3D models. With fewer, it shows one large one.
-- **Banner with a buy card**: a large picture with the details on a card laid over it, for a spotlight on the home page.
+- **Banner with a buy card**: a large picture with the details on a card laid over it, for a spotlight on the home page. If you show the breadcrumb on it, the breadcrumb sits on a small card of the page color so it stays readable over the band.
 
 ### Layouts
 
@@ -58,7 +58,7 @@ The four layouts change how the **Product page** look is arranged. Pick one with
 
 - **Classic**: one large picture with thumbnails, the details beside it, and the description, panels and share links in a full-width band underneath. It suits any product.
 - **Filmstrip**: every picture at once. On computers the pictures fill the left half of the window and hold still while the details are read, then roll on one by one. On phones and tablets they become a swipe row. It suits four or more pictures.
-- **Long read**: one centered column, like a story. The lead picture opens the page wide, then the buy card, then the details with the other pictures between them. A buy bar stays at the foot of the screen whenever the page's own Add to bag button is out of view. It suits one to three pictures.
+- **Long read**: one centered column, like a story. The lead picture opens the page wide, then the buy card, then the details with the other pictures between them. A buy bar stays at the foot of the screen whenever the page's own Add to bag button is out of view. On the buy card, the accent-colored words and borders (the chosen option, Buy it now) and the stock line are drawn a little deeper than elsewhere so they stay easy to read on the card, in light and dark mode. It suits one to three pictures.
 - **Spec sheet**: the page as a ledger. The pictures are numbered plates on the left and every block is a ruled row on the right. It suits products sold on their sizes and materials.
 
 <div class="pair">
@@ -88,7 +88,7 @@ The four layouts change how the **Product page** look is arranged. Pick one with
 | **Product** | Leave empty on product pages to show that page's product. Pick a product to show it anywhere else, such as the home page. |
 | **Look** | Shown once a **Product** is picked. Options: **Product page**, **3D ring**, **Banner with a buy card**. |
 | **Layout** | Shown on the product page, or when **Look** is **Product page**. Options: **Classic**, **Filmstrip**, **Long read**, **Spec sheet**. |
-| **Show the trail at the top** | A row of links, such as Home, Products and the product's name, so shoppers can step back. Shown only when no **Product** is picked. |
+| **Show the trail at the top** | A row of links, such as Home, Products and the product's name, so shoppers can step back. Shown when no **Product** is picked, and when the **Look** is **Banner with a buy card**. It draws only on the product's own page, not on the home page. |
 {: .settings}
 
 #### Pictures
@@ -201,7 +201,7 @@ The blocks a shopper uses to pick an option and add it to their bag.
 
 <div class="pair">
   <figure class="shot shot--desktop">
-    <img src="{{ '/assets/images/product/variant-picker-pills-desktop-light.webp' | relative_url }}" alt="The variant picker as pills for sizes S, M, L and XL, with XL crossed out because it is unavailable" width="680" height="96" loading="lazy">
+    <img src="{{ '/assets/images/product/variant-picker-pills-desktop-light.webp' | relative_url }}" alt="The variant picker as pills for sizes S, M, L and XL, with XL crossed out because it is unavailable" width="637" height="80" loading="lazy">
     <figcaption>Pills, with an unavailable option crossed out</figcaption>
   </figure>
 </div>
@@ -222,7 +222,7 @@ The blocks a shopper uses to pick an option and add it to their bag.
 
 ### Variant picker
 
-One group for each option the product has, such as size or color, shown as pills or a dropdown. A product can have up to three options (a Shopify limit). A value that cannot be had with the choices already made is crossed out and dimmed, and stays selectable: choosing it takes the shopper to the nearest option that does exist. The price, pictures, SKU, stock level and pickup line all follow the choice.
+One group for each option the product has, such as size or color, shown as pills or a dropdown. A product can have up to three options (a Shopify limit). A value that cannot be had with the choices already made is crossed out and dimmed, and stays selectable: choosing it takes the shopper to the nearest option that does exist. The price, pictures, SKU, stock level and pickup line all follow the choice. The chosen pill is outlined and lettered in the accent color; in dark mode its letters are drawn a touch lighter so they stay easy to read.
 
 | Setting | What it changes |
 | --- | --- |
@@ -243,7 +243,7 @@ Values without a color or image show as pills. Choose **No swatch** to turn swat
 
 ### Quantity
 
-The number box with plus and minus buttons. Your minimums, maximums and volume prices are set on the product itself and show here as plain text ("Minimum 2", "In multiples of 6", "10 or more: $9 each"), so a shopper sees them before the number jumps. This block has no settings.
+The number box with plus and minus buttons. Your minimums, maximums and volume prices are set on the product itself and show here as plain text ("Minimum 2", "In multiples of 6", "10 or more: $9 each"), so a shopper sees them before the number jumps. On a sold out option the number box and both buttons are switched off, since nothing can be bought. This block has no settings.
 
 ### Buy buttons
 
@@ -448,6 +448,8 @@ A preview panel that opens over the page when a shopper selects a product card, 
 
 The panel shows the product's pictures (and any videos and 3D models, played only when a shopper presses them), its type, name and price, the first forty words of its description, and a "View product" link to the full page. It has no option picker and no Add to bag button, because it could not add a chosen option; shoppers go to the product page to buy.
 
+The panel is built the first time a shopper opens it, not with the page, so a home page with many products stays light. If it cannot load, the card simply goes to the product page. From the keyboard, focus starts on the Close button and the page behind stays still while the panel is open.
+
 ### Where to find it
 
 1. In your Shopify admin, open *Online Store > Themes*, then select *Edit theme* next to {{ site.theme_name }}.
@@ -504,11 +506,11 @@ A gift card is a product like any other, but its buyer can send it to someone el
 2. In the theme editor, open *Products > Default product* and select the **Buy buttons** block.
 3. Make sure **Ask who a gift card is for** is on (it is on by default).
 
-Other products never show the fields.
+Other products never show the fields, and neither does a sold out gift card, since nothing can be sent.
 
 ### What the buyer sees
 
-Under the options, a tick box reads "Send this as a gift". Until it is ticked, nothing is sent, so a shopper buying a card for themselves never sends an empty message. Ticking it opens four fields:
+Under the options, a tick box reads "Send this as a gift". Until it is ticked, nothing is sent, so a shopper buying a card for themselves never sends an empty message. Ticking it opens four fields (a screen reader hears that the tick box has opened or closed them):
 
 | Field | What it does |
 | --- | --- |
@@ -565,7 +567,7 @@ When a shopper picks an option that has its own picture, the gallery turns to it
 
 ### Videos
 
-Videos you add to the product (uploaded to Shopify, or from YouTube or Vimeo) appear as thumbnails marked with a play symbol. Nothing loads until the shopper presses the play button on the picture, so a video costs the page no speed. Controls include play, pause and mute.
+Videos you add to the product (uploaded to Shopify, or from YouTube or Vimeo) appear as thumbnails marked with a play symbol. Nothing loads until the shopper presses the play button on the picture, so a video costs the page no speed. Controls include play, pause and mute. A shopper who presses play with the keyboard lands on the video itself, ready for the next key.
 
 ### 3D models and "View in your space"
 

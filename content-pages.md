@@ -1,6 +1,6 @@
 ---
 title: Content pages
-updated: 2026-10-22
+updated: 2026-10-24
 ---
 
 # Content pages
@@ -105,6 +105,10 @@ This section has no blocks. The words come from the page you write in *Online St
 ### Tips and limits
 
 > *Section drum needs headings.* The turning list is built from the page's *Heading 2* headings. With fewer than two, the list is left out and the page is a single column. On tablets and phones it becomes a one-line strip under the header.
+
+> *Section drum works from the keyboard.* Pressing Tab onto a heading in the list turns the list to that heading and shows it in full.
+
+> *Heading levels look different.* In any text you write (pages, blog posts, product descriptions), each heading level has its own look: *Heading 4* is a bold line a little larger than the text, *Heading 5* a slightly smaller bold line, and *Heading 6* a small spaced-out label in a softer color. Use them in order, and pick the level for the job rather than the size.
 
 > *Written opening lifts the first paragraph.* That paragraph is shown beside the heading, so it is not shown twice. If the first thing on the page is a picture, a video or an embedded frame, nothing is lifted. Links in it keep working.
 

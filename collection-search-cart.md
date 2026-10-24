@@ -1,6 +1,6 @@
 ---
 title: Collection, search and cart pages
-updated: 2026-10-23
+updated: 2026-10-24
 ---
 
 # Collection, search and cart pages
@@ -341,14 +341,17 @@ A note box on the cart page lets shoppers add delivery instructions or anything 
 
 ### What shoppers can do
 
-- Change quantities and remove items. A product with a minimum, maximum or volume pricing shows those rules as words.
-- See each item's discounts and subscriptions, the bag's own discounts next to the total, and a line saying whether tax and delivery are included or worked out at checkout.
+- Change quantities and remove items. A product with a minimum, maximum or volume pricing shows those rules as words. Typing a quantity and then pressing the minus, plus or bin buttons keeps what was typed (the order note too), and the page comes back at the same place with the same button selected.
+- Be told when they ask for more than you have. For a product that tracks stock and does not sell past zero, the quantity box stops at what is in stock, the plus button dims with the line "All N available are in your bag", and a larger typed number is refused with "Only N available" instead of being saved. Products that do not track stock, or that you let sell past zero, have no limit.
+- See each item's discounts and subscriptions (a subscription line shows the price without the plan struck through and how much the plan saves), the bag's own discounts next to the total, and a line saying whether tax and delivery are included or worked out at checkout.
 - Reach checkout from the bar, pill or button of the look you chose. Express checkout buttons (Shop Pay, Apple Pay and others) appear when your shop offers them.
 - Find suggested products when the bag is empty, from the collection you pick in Theme settings.
 
 ### Tips and limits
 
-> *The page works without scripts.* Quantities, remove and checkout all work with scripts blocked. Scripts only add the bar, the pill, the pinned panel and the movement.
+> *The page works without scripts.* Quantities, remove and checkout all work with scripts blocked, and the browser still refuses a number above the stock. Scripts add the bar, the pill, the pinned panel, the movement, the "Only N available" wording and keeping typed edits when a plus, minus or bin button is pressed. Without scripts those three buttons are links, so press *Update bag* before using them or a typed number is lost.
+
+> *Enter in a quantity box updates the bag.* It never sends the shopper to checkout, in any look.
 
 > *Discount codes are entered at checkout.* The cart page shows discounts that already apply, but does not take a code.
 
@@ -434,6 +437,8 @@ The card shown for every product, on the home page, collection and search pages 
 
 Standard puts the picture, name and price straight on the page. Card puts the product on a framed card in its own color scheme.
 
+A sold out product's button is drawn flat, in soft gray lettering with a faint border and no accent color, so it reads as unavailable next to the live buttons while staying legible.
+
 ### Where to find it
 
 Open *Theme settings* (the gear icon) in the editor, then select **Product cards**. See [Where to find Theme settings](theme-settings.md#where-to-find-them).
@@ -457,7 +462,7 @@ This group has no blocks.
 
 ### Tips and limits
 
-> *Collection and search cards differ.* The collection and search pages use their own card layout. They follow **Image shape**, **Custom shape from an image**, **Crop images to fill**, **Hover style**, the sale badge and **Sold out products**; the rest apply on the home page, Related products and the empty cart.
+> *Collection and search cards differ.* The collection and search pages use their own card layout. They follow **Alignment** (the Index look keeps its own rows), **Image shape**, **Custom shape from an image**, **Crop images to fill**, **Hover style**, the sale badge and **Sold out products**; **Style** and **Color scheme** apply on the home page, Related products and the empty cart only, and the editor says so under each.
 
 > *The sale badge is set elsewhere.* The badge on reduced products is under Sale badge in [Search](theme-settings.md#sale-badge) in Theme settings.
 

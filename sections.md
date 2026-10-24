@@ -1,6 +1,6 @@
 ---
 title: Home page sections
-updated: 2026-10-23
+updated: 2026-10-24
 ---
 
 # Home page sections
@@ -110,7 +110,7 @@ This section is for the home page only. It is not offered on other pages.
 | Setting | What it changes |
 | --- | --- |
 | **Color scheme** | The colors behind the slides. **Curtain** keeps white text over the picture and uses the scheme for the page behind it. **Split** uses it for the text side and **Gallery** for the whole section. |
-| **Darken pictures** | Lays a dark layer over the pictures so the text stays readable on bright ones. 0 removes it. Range 0 to 90%, default 55%. Shows only when **Look** is **Curtain**. |
+| **Darken pictures** | Lays a dark layer over the pictures so the text stays readable on bright ones. It stops at 50%, so the words always stay easy to read. Range 50 to 90%, default 55%. Shows only when **Look** is **Curtain**. |
 | **Animation** | Whether slides change with movement. Visitors who reduce motion on their device see slides change without movement, and slides never change by themselves for them. **Always animate** shows the movement to everyone. Options: **Off for visitors who reduce motion** (default), **Always animate**. |
 {: .settings}
 
@@ -234,7 +234,7 @@ This section is for the home page only. It is not offered on other pages.
 | **Secondary button label color** | The text color of the second button. |
 | **Secondary button border** | The border color of the second button. |
 | **Secondary button border strength** | How strong the border around the second button is. Range 0 to 100%, default 50%. |
-| **Progress bar track strength** | How faint the unfilled part of the bar is. It uses the accent color. Range 0 to 100%, default 25%. |
+| **Progress bar track strength** | How faint the unfilled part of the bar is. It uses the accent color, and sits on a small dark ring so it shows over any picture. It cannot go below 60%, so the bar always stays easy to see. Range 60 to 100%, default 75%. |
 | **Transparent background** | Lets the page background show through this section. When it is off, the section follows **Make all sections transparent** in Theme settings. Off by default. |
 {: .settings}
 
@@ -884,7 +884,7 @@ One picture card.
 
 > **Use tall pictures.** A card picture of 1600 × 2000 px fills the card well. Use **Horizontal position** and **Vertical position** to choose what stays in view.
 
-> **Keep the heading readable.** The cards pass behind the heading as they slide. Pick pictures and a **Heading color** that keep the heading easy to read as they pass.
+> **Keep the heading readable.** The cards pass behind the heading as they slide. The heading carries a soft glow in the opposite color so it stays readable over pale pictures; if you pick your own **Heading color**, the glow is switched off, so choose pictures that keep it easy to read. The words on each card always sit on a dark layer, however long the title is. The row stops with the last card against the right edge.
 
 > **Reduced motion shows a list.** Visitors who reduce motion on their device see the cards one under another instead of sliding sideways.
 
@@ -1058,6 +1058,8 @@ One card. Pick a product to fill it automatically, or type your own words and pi
 > **Fill a card from a product.** Pick a **Product** and leave **Use the product's own details** on to show its photo, name, price and description, with a link straight to the product page.
 
 > **Feature one card.** **Feature this card** switches a card to the featured colors and an accent badge. It is usually the last card.
+
+> **Long words wrap.** A long title, label or button wording wraps inside the card instead of running past its edge, and the card's grey text keeps its contrast on every card color.
 
 > **A link needs words and an address.** The link or button under a card shows only when it has both **Link text** and a **Link**.
 
@@ -1316,7 +1318,7 @@ One panel in the row.
 | Setting | What it changes |
 | --- | --- |
 | **Badge** | The small pill above the heading. Leave empty to number the panel automatically — 01, 02, 03. |
-| **Heading** | The panel's title. Press Enter to break it across lines. |
+| **Heading** | The panel's title. Press Enter to break it across lines. On a computer the heading always sits above the picture: a long one wraps inside the open panel and shrinks until it fits, never below about a third of its size, and the picture sits just below the tallest heading in the section. |
 | **Description** | Sits along the bottom of the panel and fades in when the panel opens. Press Enter to break across lines. Leave empty to hide. |
 | **Button label** | The words on the button inside the open panel. The button shows only when the panel has a link. |
 | **Link** | Where the button goes. Leave empty for a panel that only reads. |
@@ -1326,7 +1328,7 @@ One panel in the row.
 
 | Setting | What it changes |
 | --- | --- |
-| **Size** | Makes the heading smaller or larger. 1× is the designed size, which already scales with the screen. Range 0.6 to 5×, default 1×. |
+| **Size** | Makes the heading smaller or larger. 1× is the designed size, which already scales with the screen. On a computer a very large heading is shrunk to the room above the picture, so the top of the range stops growing once the heading fills that room. Range 0.6 to 5×, default 1×. |
 | **Weight** | How bold the heading is. Leave on **Theme default** to keep the weight the chosen font comes with. Options: **Theme default** (default), **Light (300)**, **Normal (400)**, **Medium (500)**, **Semi-bold (600)**, **Bold (700)**. |
 | **Letter spacing** | The space between the letters of the heading. Range -1 to 6 px, default 0 px. |
 | **Alignment** | How the heading lines up in the panel. Options: **Left** (default), **Center**, **Right**. |
@@ -1367,7 +1369,7 @@ One panel in the row.
 
 > **Always dark, on purpose.** The panels keep their dark look in light and dark mode. **Color scheme** only changes the band above them.
 
-> **Phones and tablets stack the panels.** The row of panels is for computers. On tablets and phones the panels sit one under another.
+> **Phones and tablets stack the panels.** The row of panels is for computers. On tablets and phones the panels sit one under another, and a long word in a title shrinks to fit instead of breaking in the middle.
 
 > **Tall pictures work best.** Use a picture around 900 × 1400 px, taller than it is wide.
 
@@ -1827,6 +1829,8 @@ One promise: an icon, a heading and a line of text.
 
 > **Promise only what you deliver.** Say what qualifies and how fast things arrive, in words a shopper can check. Do not claim a promise you cannot keep.
 
+> **Badges stay centered.** When the last row has fewer badges than the rows above it, it is centered rather than pushed to the left.
+
 > **Automatic icons.** With **Icon** on **Automatic: a different one in each place**, every badge in the row gets a different icon, so a new section never shows a row of the same icon.
 
 > **Your own artwork.** Use **Icon image** to replace the icon with a picture. Only **Icon code (.svg)** can still draw itself when **Animation** draws the icons.
@@ -1998,6 +2002,8 @@ Shows only when the section's **Layout** is not **Comparison table**.
 
 > **Up to three plans.** The section takes three plans at most.
 
+> **A long badge wraps.** A long **Badge** wording wraps onto a second line on a narrow phone instead of being cut off.
+
 > **The button decides where it goes.** A plan button goes to its **Button link**, such as a product page. The section does not take payment itself.
 
 ## FAQ
@@ -2138,6 +2144,8 @@ One question with its answer.
 
 > **One answer at a time.** With **Open one answer at a time** on, opening an answer closes the previous one, so the page never grows endlessly long.
 
+> **Card colors reach the caption and the filter buttons.** With **All questions in one card**, the caption and the selected filter button take their colors from **Card color scheme**, so they stay readable on the card.
+
 ## Email signup
 
 A newsletter signup. People who sign up are added to your customers, ready for Shopify Email or another email app.
@@ -2236,6 +2244,8 @@ This section has no blocks. Everything is a setting.
 ### Tips and limits
 
 > **Signups become customers.** Each email address is added to your customers, ready for Shopify Email or another email app.
+
+> **A long button label grows the button.** In **Bordered rule** and the other layouts, a long **Button label** wraps inside the button so it never runs past the screen.
 
 > **The drawings are for big screens.** The floating envelopes and paper planes show only on computers, with **Centered band** or **Card panel** and centered content.
 
@@ -2458,7 +2468,7 @@ One way to reach you: a phone number, an email address, an address or opening ho
 
 > **WhatsApp needs a number.** The WhatsApp button appears only when **Show a WhatsApp button** is on and **WhatsApp number** is filled in, with the country code.
 
-> **The panel moves above the form on small screens.** On smaller screens the panel sits above the form, because most people would rather tap a number than type into a form.
+> **The panel moves above the form on small screens.** On smaller screens the panel sits above the form, because most people would rather tap a number than type into a form. Visitors who use the keyboard reach the panel first, in the same order as they see it.
 
 > **A failed send keeps what was typed.** If Shopify cannot send the message, the form comes back with the visitor's words refilled and an error message.
 
