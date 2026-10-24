@@ -1,6 +1,6 @@
 ---
 title: Footers
-updated: 2026-10-22
+updated: 2026-10-23
 ---
 
 # Footers
@@ -296,7 +296,7 @@ One board on the footer: the column's heading named once at its top, and every l
 | **Size** (heading) | The heading's text size, from 11 to 32px. |
 | **Weight** (heading) | Options: **Normal (400)**, **Medium (500)**, **Semi-bold (600)** or **Bold (700)**. |
 | **Style** (heading) | Options: **Theme default**, **Normal** or **Italic**. |
-| **Capitalization** | Options: **As typed**, **UPPERCASE** or **Capitalize each word**. |
+| **Capitalization** | Options: **As typed**, **All capitals** or **Capitalize each word**. |
 | **Heading alignment** | Options: **Follow the column**, **Left**, **Center** or **Right**. |
 | **Space below heading** | On phones, where the heading sits above the links, from 0 to 48px. |
 | **Link source** | Options: **A navigation menu** or **Custom links below**. |

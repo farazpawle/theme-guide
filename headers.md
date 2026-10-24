@@ -1,6 +1,6 @@
 ---
 title: Headers and the announcement bar
-updated: 2026-10-22
+updated: 2026-10-23
 ---
 
 # Headers and the announcement bar
@@ -330,7 +330,7 @@ Search is always on for this style. On computers and tablets it is the magnifier
 
 | Setting | What it changes |
 | --- | --- |
-| **Bar background** | Options: **None — float on the page** (no strip and no line, just the controls on the page's own color at every scroll position, with a soft shading behind them to keep the menu readable) or **Fill with the scheme color**. None suits a shop whose first section is a full-screen picture or a dark scene. |
+| **Bar background** | Options: **None: float on the page** (no strip and no line, just the controls on the page's own color at every scroll position, with a soft shading behind them to keep the menu readable) or **Fill with the scheme color**. None suits a shop whose first section is a full-screen picture or a dark scene. |
 | **Light strength** | How strong the glow behind the controls is, from 0 to 100%. |
 {: .settings}
 

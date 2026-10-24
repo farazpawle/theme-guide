@@ -1,6 +1,6 @@
 ---
 title: Home page sections
-updated: 2026-10-22
+updated: 2026-10-23
 ---
 
 # Home page sections
@@ -308,8 +308,8 @@ One full-screen slide.
 | **Heading letter spacing** | The space between the letters of the heading. 0 keeps the design's own spacing. Range -2 to 6 px, default 0 px. |
 | **Heading color** | The color of the heading. Leave empty to use the section text color. |
 | **Heading shadow strength** | How strong the shadow behind the heading is. 0 turns the shadow off. Range 0 to 100%, default 40%. |
-| **Heading shadow offset X** | How far the shadow is pushed sideways. Negative values push it left. Range -20 to 20 px, default 0 px. Shows only when **Heading shadow strength** is above 0. |
-| **Heading shadow offset Y** | How far the shadow is pushed down. Negative values push it up. Range -20 to 20 px, default 2 px. Shows only when **Heading shadow strength** is above 0. |
+| **Heading shadow horizontal offset** | How far the shadow is pushed sideways. Negative values push it left. Range -20 to 20 px, default 0 px. Shows only when **Heading shadow strength** is above 0. |
+| **Heading shadow vertical offset** | How far the shadow is pushed down. Negative values push it up. Range -20 to 20 px, default 2 px. Shows only when **Heading shadow strength** is above 0. |
 | **Heading shadow blur** | How soft the edge of the shadow is. Range 0 to 60 px, default 24 px. Shows only when **Heading shadow strength** is above 0. |
 | **Heading shadow color** | The color of the heading shadow. Leave empty for black. Shows only when **Heading shadow strength** is above 0. |
 {: .settings}
@@ -391,7 +391,7 @@ This section is for the home page only. It is not offered on other pages.
 | **Image** | The picture used when there is no video. It gets the same camera move. 3000 × 1700 px is recommended. |
 | **Footage width** | How wide the footage is. Putting it down one side narrows it to a column and leaves the other side free for the text. Computers only; phones and tablets always run full width. Options: **Full width** (default), **Down the left side**, **Down the right side**. |
 | **Footage column width** | How wide the footage column is. It keeps the full height of the screen, so a narrow column crops a wide shot more. Use **Part to keep in view** to choose what stays. Range 30 to 90%, default 55%. Shows only when **Footage width** is not **Full width**. |
-| **Footage fit** | How the footage fills the screen. **Fill the screen — crop the edges** crops it to cover. **Show the whole frame — bars at the sides** keeps all of it and fills the gaps with the background color. **Stretch to fit — no bars, no crop, distorts** fills the screen but squashes the picture. Default: **Fill the screen — crop the edges**. |
+| **Footage fit** | How the footage fills the screen. **Fill the screen: crop the edges** crops it to cover. **Show the whole frame: bars at the sides** keeps all of it and fills the gaps with the background color. **Stretch to fit: no bars, no crop** fills the screen but squashes the picture. Default: **Fill the screen: crop the edges**. |
 | **Remove black bars in the video** | For a clip that has black bars baked into the picture, which no crop setting can reach. It reads the footage and zooms just past the bars, on top of **Zoom**. Leave it off if your footage has no bars. Off by default. |
 | **Zoom** | Scales the footage on top of the camera move. Turn it up to push side bars off the screen; it crops instead of distorting. Below 100% the footage no longer reaches the edges, so the background color shows around it. Range 50 to 200%, default 100%. |
 | **Part to keep in view** | Filling the screen always cuts something off. This picks what survives. Options: **Center** (default), **Top**, **Bottom**, **Left**, **Right**, **Top left**, **Top right**, **Bottom left**, **Bottom right**. |
@@ -401,7 +401,7 @@ This section is for the home page only. It is not offered on other pages.
 
 | Setting | What it changes |
 | --- | --- |
-| **Footage fit (portrait)** | The same choice for portrait screens. **Fill the screen — crop the edges** crops it to cover, **Show the whole frame — bars above and below** keeps all of it, and **Stretch to fit — no bars, no crop, distorts** squashes it to fill. Default: **Fill the screen — crop the edges**. |
+| **Footage fit (portrait)** | The same choice for portrait screens. **Fill the screen: crop the edges** crops it to cover, **Show the whole frame: bars above and below** keeps all of it, and **Stretch to fit: no bars, no crop** squashes it to fill. Default: **Fill the screen: crop the edges**. |
 | **Zoom (portrait)** | Scales the footage on portrait screens. Below 100% it stops reaching the edges and the background color shows around it. Range 50 to 200%, default 100%. |
 {: .settings}
 
@@ -409,7 +409,7 @@ This section is for the home page only. It is not offered on other pages.
 
 | Setting | What it changes |
 | --- | --- |
-| **Camera move** | How the shot drifts and how the light changes across the scroll. Options: **Aerial — wide drift, cooling out** (default), **Entrance — push in, opens up**, **Golden hour — slow pan, warm**. |
+| **Camera move** | How the shot drifts and how the light changes across the scroll. Options: **Aerial: wide drift, cool tones** (default), **Entrance: push in, opens up**, **Golden hour: slow pan, warm tones**. |
 | **Scene length** | How much scrolling the scene takes, in screens. Longer is slower, but pushes the rest of the page further down. Range 200 to 800 vh, default 680 vh. |
 | **Show progress bar** | A progress bar along the bottom. Its dots jump to each caption. On by default. |
 | **Scroll hint** | A small prompt that fades out as soon as the shopper starts scrolling. Leave empty to hide it. |
@@ -441,7 +441,7 @@ One caption that fades in and out at a point in the scroll.
 | **Heading** | The caption's main line. |
 | **Text** | A line or two under the heading. |
 | **Position on screen** | Which corner of the screen the caption appears in. Options: **Bottom left** (default), **Bottom right**, **Top left**, **Top right**. |
-| **Caption entrance** | The move it makes as it fades in, and the reverse as it fades out. Scroll drives it — nothing runs on its own. Options: **Rise up** (default), **Drop down**, **Slide in from the left**, **Slide in from the right**, **Zoom in**, **Blur in**, **Fade only — no movement**. |
+| **Caption entrance** | The move it makes as it fades in, and the reverse as it fades out. Scroll drives it — nothing runs on its own. Options: **Rise up** (default), **Drop down**, **Slide in from the left**, **Slide in from the right**, **Zoom in**, **Blur in**, **Fade only: no movement**. |
 {: .settings}
 
 ##### Heading style
@@ -468,8 +468,9 @@ One caption that fades in and out at a point in the scroll.
 
 | Setting | What it changes |
 | --- | --- |
-| **Fades in at** | How far through the scene this caption starts appearing. Below 0 means it is already on screen at the top. Range -20 to 100%, default -12%. |
-| **Fades out by** | How far through the scene the caption has finished fading out. It stays fully visible halfway between the two points. Range 0 to 100%, default 26%. |
+| **When it appears** | **Spread evenly** gives every caption an equal share of the scroll, however many you add, so the first one is on screen when the scene starts and the last one when it ends. **Set by hand** lets you choose when this one appears; captions set by hand keep their own timing. Options: **Spread evenly** (default), **Set by hand**. |
+| **Fades in at** | How far through the scene this caption starts appearing. Below 0 means it is already on screen at the top. Range -20 to 100%, default -12%. Shows only when **When it appears** is **Set by hand**. |
+| **Fades out by** | How far through the scene the caption has finished fading out. It stays fully visible halfway between the two points. Range 0 to 100%, default 26%. Shows only when **When it appears** is **Set by hand**. |
 {: .settings}
 
 ### Tips and limits
@@ -774,7 +775,7 @@ This section is for the home page only. It is not offered on other pages.
 
 | Setting | What it changes |
 | --- | --- |
-| **Heading** | The intro heading. It wraps across lines on its own because the intro column is narrow. Put a word in italics to set it in the contrasting body font. |
+| **Heading** | The intro heading. It wraps across lines on its own because the intro column is narrow. Put a word in italics to show it in the body font. |
 | **Subheading** | A line of text under the heading. |
 | **Scroll hint** | A small prompt at the bottom left while the cards are pinned. Leave empty to hide it. |
 {: .settings}
@@ -1123,7 +1124,7 @@ This section is for the home page only. It is not offered on other pages.
 
 | Setting | What it changes |
 | --- | --- |
-| **Row entrance** | How each row arrives as it scrolls into view. **Split - each half from its own side** brings the picture in from its own side and the words from the other, so alternating rows mirror each other. The others move the whole row at once. Default: **Split - each half from its own side**. |
+| **Row entrance** | How each row arrives as it scrolls into view. **Split: each half from its own side** brings the picture in from its own side and the words from the other, so alternating rows mirror each other. The others move the whole row at once. Default: **Split: each half from its own side**. |
 | **Delay between picture and words** | Whichever half sits on the left arrives first. Zero brings both in together. Each row is timed on its own. Range 0 to 400 ms, default 100 ms. Shows only when **Row entrance** is not **None**. |
 | **Duration** | How long each row takes to arrive. Range 0.2 to 2 s, default 0.6 s. Shows only when **Row entrance** is not **None**. |
 | **Movement curve** | The feel of the arrival, from smooth to springy. Options: **Smooth** (default), **Fast, then settle**, **Gentle**, **Overshoot**, **Even**. Shows only when **Row entrance** is not **None**. |
@@ -1135,7 +1136,7 @@ This section is for the home page only. It is not offered on other pages.
 | Setting | What it changes |
 | --- | --- |
 | **Ripple the pictures** | Moves the pictures like cloth in a breeze. Off by default. |
-| **Fastened along** | The edge the cloth hangs from. It stays still there and swings most at the opposite edge. Nothing lets the whole sheet float, which reads more like liquid than cloth. Options: **Top edge** (default), **Bottom edge**, **Left edge**, **Right edge**, **Nothing - it floats free**. Shows only when **Ripple the pictures** is on. |
+| **Fastened along** | The edge the cloth hangs from. It stays still there and swings most at the opposite edge. Nothing lets the whole sheet float, which reads more like liquid than cloth. Options: **Top edge** (default), **Bottom edge**, **Left edge**, **Right edge**, **Nothing: it floats free**. Shows only when **Ripple the pictures** is on. |
 | **Wave strength** | How deep the folds are, and how much light and shadow they catch. Range 0 to 100%, default 45%. Shows only when **Ripple the pictures** is on. |
 | **Fold size** | Higher means fewer, broader folds. Lower means tighter crinkles. Range 1 to 10, default 5. Shows only when **Ripple the pictures** is on. |
 | **Speed** | How fast the cloth moves. 1× is the normal speed. Range 0.2 to 2×, default 1×. Shows only when **Ripple the pictures** is on. |
@@ -1225,7 +1226,7 @@ One row: a picture, a caption, a heading, a text and an optional button.
 
 | Setting | What it changes |
 | --- | --- |
-| **Row entrance** | Overrides the section's **Row entrance** for this row only. The timing stays shared. Options: **Same as the section** (default), **None**, **Split - each half from its own side**, **Fade only — no movement**, **Rise up**, **Drop down**, **Slide in from the left**, **Slide in from the right**, **Zoom in**, **Zoom out**. |
+| **Row entrance** | Overrides the section's **Row entrance** for this row only. The timing stays shared. Options: **Same as the section** (default), **None**, **Split: each half from its own side**, **Fade only: no movement**, **Rise up**, **Drop down**, **Slide in from the left**, **Slide in from the right**, **Zoom in**, **Zoom out**. |
 {: .settings}
 
 ##### Fabric ripple
@@ -1817,18 +1818,18 @@ One promise: an icon, a heading and a line of text.
 
 | Setting | What it changes |
 | --- | --- |
-| **Icon** | Automatic gives each badge in the row a different icon, so they do not all match on a new theme. Pick one to override it. Options: **Automatic — a different one in each place** (default), **Delivery van**, **Shield**, **Return arrow**, **Padlock**, **Headset**, **Award rosette**, **Clock**, **Gift box**, **Check in a circle**, **No icon**. |
+| **Icon** | Automatic gives each badge in the row a different icon, so they do not all match on a new theme. Pick one to override it. Options: **Automatic: a different one in each place** (default), **Delivery van**, **Shield**, **Return arrow**, **Padlock**, **Headset**, **Award rosette**, **Clock**, **Gift box**, **Check in a circle**, **No icon**. |
 | **Icon image** | Your own artwork, used instead of the icon above. It cannot draw itself when the animation is set to draw. |
-| **SVG code** | Paste inline SVG. It replaces both the image and the icon above, and it is the only way to use your own artwork that still draws itself. |
+| **Icon code (.svg)** | Paste the code from an .svg file. It replaces the image and the icon above, and it is the only choice that can still draw itself. |
 {: .settings}
 
 ### Tips and limits
 
 > **Promise only what you deliver.** Say what qualifies and how fast things arrive, in words a shopper can check. Do not claim a promise you cannot keep.
 
-> **Automatic icons.** With **Icon** on **Automatic — a different one in each place**, every badge in the row gets a different icon, so a new section never shows a row of the same icon.
+> **Automatic icons.** With **Icon** on **Automatic: a different one in each place**, every badge in the row gets a different icon, so a new section never shows a row of the same icon.
 
-> **Your own artwork.** Use **Icon image** to replace the icon with a picture. Only **SVG code** can still draw itself when **Animation** draws the icons.
+> **Your own artwork.** Use **Icon image** to replace the icon with a picture. Only **Icon code (.svg)** can still draw itself when **Animation** draws the icons.
 
 ## Pricing
 
@@ -2150,9 +2151,9 @@ A newsletter signup. People who sign up are added to your customers, ready for S
 
 ### Looks
 
-{% include looks.html folder="sections" file="email-signup" name="Email signup" looks="Centered band,Split — words beside the box~split,Inline strip,Image beside content,Card panel,Bordered rule" about="A centered band with a caption, the heading, an email box and button, and faint envelopes and paper planes drifting behind.|The caption, heading and words on the left with the email box and button on the right.|A slim strip with the heading on the left and the email box and button on the right.|A picture on the left with the caption, heading, email box and button beside it.|A card in the middle of the page holding the heading, email box and button, with faint drawings around it.|A thin line across the top with the heading on the left and the email box and button on the right." %}
+{% include looks.html folder="sections" file="email-signup" name="Email signup" looks="Centered band,Split: words beside the box~split,Inline strip,Image beside content,Card panel,Bordered rule" about="A centered band with a caption, the heading, an email box and button, and faint envelopes and paper planes drifting behind.|The caption, heading and words on the left with the email box and button on the right.|A slim strip with the heading on the left and the email box and button on the right.|A picture on the left with the caption, heading, email box and button beside it.|A card in the middle of the page holding the heading, email box and button, with faint drawings around it.|A thin line across the top with the heading on the left and the email box and button on the right." %}
 
-The six looks are the six **Layout** options. **Split — words beside the box** is shown here as Split.
+The six looks are the six **Layout** options. **Split: words beside the box** is shown here as Split.
 
 ### Where to find it
 
@@ -2168,9 +2169,9 @@ This section is for the home page only. It is not offered on other pages.
 
 | Setting | What it changes |
 | --- | --- |
-| **Layout** | How the signup is arranged: **Centered band**, **Split — words beside the box**, **Inline strip**, **Image beside content**, **Card panel** or **Bordered rule**. **Image beside content** shows the picture above the words on a phone and tablet. Default: **Centered band**. |
+| **Layout** | How the signup is arranged: **Centered band**, **Split: words beside the box**, **Inline strip**, **Image beside content**, **Card panel** or **Bordered rule**. **Image beside content** shows the picture above the words on a phone and tablet. Default: **Centered band**. |
 | **Image** | The picture for the **Image beside content** layout. The other layouts do not use it. |
-| **Content alignment** | Moves the whole section — heading, words, the email box and the line under it. Automatic keeps each layout's own alignment. Options: **Automatic — follows the layout** (default), **Left**, **Center**, **Right**. |
+| **Content alignment** | Moves the whole section — heading, words, the email box and the line under it. Automatic keeps each layout's own alignment. Options: **Automatic: follows the layout** (default), **Left**, **Center**, **Right**. |
 | **Email box height** | How tall the email box is. Range 44 to 64 px, default 54 px. |
 | **Full-width button** | Stacks the button under the email box. Always on below 500px. Off by default. |
 | **Full width** | Whether the colored band spans the whole screen. Off stops it at the page width. On by default. |
@@ -2240,7 +2241,7 @@ This section has no blocks. Everything is a setting.
 
 > **The thank-you replaces the box.** After someone subscribes, the page shows a thank-you message where the box was, or an error message if the address was not accepted. An address that is not complete (no ending like ".com") is stopped before it is sent, with a note asking for a full email address. Neither is animated, so people can read it at once.
 
-> **Side-by-side layouts fold on small screens.** **Split — words beside the box** and **Image beside content** stack their parts on screens up to 1100 px wide.
+> **Side-by-side layouts fold on small screens.** **Split: words beside the box** and **Image beside content** stack their parts on screens up to 1100 px wide.
 
 ## Blog posts
 
@@ -2284,8 +2285,8 @@ Shows the blog's latest posts. Card border, rounding, elevation, color scheme an
 | Setting | What it changes |
 | --- | --- |
 | **Heading** | The section heading. |
-| **Show View all button** | Adds a button that goes to the whole blog. On by default. |
-| **Button label** | The words on the View all button. Leave empty to use "View all". Shows only when **Show View all button** is on. |
+| **Show "View all" button** | Adds a button that goes to the whole blog. On by default. |
+| **Button label** | The words on the View all button. Leave empty to use "View all". Shows only when **Show "View all" button** is on. |
 {: .settings}
 
 #### Style
@@ -2476,7 +2477,7 @@ Build your own layout from pieces: headings, text, buttons, pictures, feature gr
 
 {% include looks.html folder="sections" file="custom-section" name="Custom section" looks="One column,Picture beside the words,Words over the picture" about="The pieces stacked in one centered column.|A picture on one side with the pieces beside it.|The pieces laid over a darkened picture." %}
 
-The three looks are the three **Layout** options. You can also start from a ready-made arrangement: in the *Add section* list, choose **Rich text**, **Banner**, **Picture and text**, **Three columns**, **Two columns** or **Call to action** instead of **Custom section**. **Rich text** is a heading and a text block in a narrow, centered column, ready for longer writing. Its starting words tell you what to type; replace them with your own.
+The three looks are the three **Layout** options. You can also start from a ready-made arrangement: in the *Add section* list, choose **Rich text**, **Banner**, **Picture and text**, **Three columns**, **Two columns** or **Heading and button** instead of **Custom section**. **Rich text** is a heading and a text block in a narrow, centered column, ready for longer writing. Its starting words tell you what to type; replace them with your own.
 
 <div class="pair">
   <figure class="shot shot--desktop">

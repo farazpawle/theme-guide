@@ -1,6 +1,6 @@
 ---
 title: Theme settings
-updated: 2026-10-22
+updated: 2026-10-23
 ---
 
 # Theme settings
@@ -164,7 +164,7 @@ Each scheme has six colors, in three groups as the editor shows them.
 
 | Color | Used for |
 | --- | --- |
-| **Foreground** | Text and lines. |
+| **Foreground** | Text, lines and the keyboard focus ring on buttons and selected options. |
 | **Accent** | Links, icons, focus rings and active states such as badges, selected options and active dots. |
 {: .settings}
 
@@ -499,7 +499,7 @@ Three sections have their own motion setting on top of this:
 | --- | --- |
 | **Scroll animation** (in **Email signup**) | Options: **Words and floating drawings**, **Words only**, **None**. The heading's words rise one by one and the email box slides in. The drawings are faint envelopes and paper planes on computers. Set separately from **Motion**, which covers the visitor's device setting. |
 | **Animation** (in **Trust badges**) | Options: **None**, **Fade up**, **Fade up, draw the icons, type the headings**. Visitors who ask for reduced motion see the finished band straight away. |
-| **Caption entrance** (on the **Scroll story** **Caption** block) | The move a caption makes as it fades in, and the reverse as it fades out. Options: **Rise up**, **Drop down**, **Slide in from the left**, **Slide in from the right**, **Zoom in**, **Blur in**, **Fade only — no movement**. Scroll drives it; nothing runs on its own. |
+| **Caption entrance** (on the **Scroll story** **Caption** block) | The move a caption makes as it fades in, and the reverse as it fades out. Options: **Rise up**, **Drop down**, **Slide in from the left**, **Slide in from the right**, **Zoom in**, **Blur in**, **Fade only: no movement**. Scroll drives it; nothing runs on its own. |
 {: .settings}
 
 > *If a section looks still on your own screen.* Check whether your own device has reduce motion switched on before assuming something is broken. Choose **Always animate** on that section to see the movement while you edit, then put it back so visitors who asked for less are respected.

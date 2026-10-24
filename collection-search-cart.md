@@ -227,7 +227,7 @@ Open the editor as in [Opening a page template in the editor](#opening-a-page-te
 
 | Setting | What it changes |
 | --- | --- |
-| **Suggest products from** | A collection whose products are shown under the "nothing found" message, so a shopper who found nothing still has somewhere to go. |
+| **Suggest products from** | A collection whose products are shown under the "nothing found" message, so a shopper who found nothing still has somewhere to go. The first eight products of the collection are shown. |
 {: .settings}
 
 ### Blocks
@@ -238,7 +238,9 @@ This section has no blocks.
 
 > *What the search looks through is a theme setting.* **Search across** (Products only or Everything) and the drop-down that suggests results while a shopper types are set in [Theme settings](theme-settings.md#search-behavior), not on this page.
 
-> *Popular searches.* The terms you list in **Popular searches** also appear on this page when nothing was found.
+> *Popular searches.* The terms you list in **Popular searches** also appear on this page, under a "Popular searches" heading, when nothing was found.
+
+> *Pages without text.* A page whose content is empty shows a page icon where other pages show the start of their text.
 
 > *Collections are never listed as results.* Search results show products, pages and blog posts. The suggestions drop-down can show collections.
 
@@ -264,7 +266,7 @@ Filters (price, availability, product type, vendor, color, size and more) are ch
 2. Select *Filters*.
 3. Add, reorder or remove filters. The page shows whichever you set up; a filter with nothing to choose from is left out.
 
-Shoppers open the filters with the *Filter* button. On phones they rise in a sheet from the bottom. The price filter has *From* and *To* boxes, and your **Price bands** add quick choices beside them. The choices a shopper has made show as removable pills with a *Clear all* link.
+Shoppers open the filters with the *Filter* button. On phones they rise in a sheet from the bottom. The price filter has *From* and *To* boxes, and your **Price bands** add quick choices beside them; the band that matches the chosen range is marked as chosen. The choices a shopper has made show as removable pills with a *Clear all* link.
 
 {% include looks.html folder="collection" file="filter-sheet" name="Filter sheet" looks="Standard" plain="true" about="the filter sheet open with the Availability and Price filters and In stock chosen." %}
 
