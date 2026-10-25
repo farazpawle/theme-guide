@@ -1,6 +1,6 @@
 ---
 title: Headers and the announcement bar
-updated: 2026-10-23
+updated: 2026-10-25
 ---
 
 # Headers and the announcement bar
