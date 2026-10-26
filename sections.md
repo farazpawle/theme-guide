@@ -1,6 +1,6 @@
 ---
 title: Home page sections
-updated: 2026-10-24
+updated: 2026-10-26
 ---
 
 # Home page sections
@@ -1373,7 +1373,7 @@ One panel in the row.
 
 > **Tall pictures work best.** Use a picture around 900 × 1400 px, taller than it is wide.
 
-> **Auto-advance.** Set **Move to the next panel every** to 0 to turn it off. It pauses while the pointer or keyboard focus is inside the panels, and visitors who reduce motion never get auto-advance.
+> **Auto-advance.** Set **Move to the next panel every** to 0 to turn it off. It pauses while the pointer or keyboard focus is inside the panels, and visitors who reduce motion never get auto-advance. For those visitors the stop button under the dots is hidden too, unless **Scroll animation** is set to Always animate.
 
 ## Video
 

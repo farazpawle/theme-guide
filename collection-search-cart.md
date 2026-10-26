@@ -1,6 +1,6 @@
 ---
 title: Collection, search and cart pages
-updated: 2026-10-24
+updated: 2026-10-26
 ---
 
 # Collection, search and cart pages
@@ -273,6 +273,8 @@ Shoppers open the filters with the *Filter* button. On phones they rise in a she
 ### Sorting
 
 With **Let shoppers sort** on, shoppers can order products by the choices your shop offers, such as best selling, price, name and date. The default order of a collection is set on the collection itself in your Shopify admin.
+
+On phones up to 500 pixels wide the *Sort by* label is hidden, and the box shows the chosen order by name, such as *Alphabetically, A-Z*.
 
 ### Tips and limits
 
