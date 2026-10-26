@@ -411,7 +411,7 @@ This section is for the home page only. It is not offered on other pages.
 | --- | --- |
 | **Camera move** | How the shot drifts and how the light changes across the scroll. Options: **Aerial: wide drift, cool tones** (default), **Entrance: push in, opens up**, **Golden hour: slow pan, warm tones**. |
 | **Scene length** | How much scrolling the scene takes, in screens. Longer is slower, but pushes the rest of the page further down. Range 200 to 800 vh, default 680 vh. |
-| **Show progress bar** | A progress bar along the bottom. Its dots jump to each caption. On by default. |
+| **Show progress bar** | A progress bar along the bottom. Its dots jump to each caption. The dots never sit closer than 24 px: if you set captions so close that their dots would touch, the dots are drawn a little apart, while each caption still appears when you set it and its dot still jumps to it. On by default. |
 | **Scroll hint** | A small prompt that fades out as soon as the shopper starts scrolling. Leave empty to hide it. |
 | **Scroll animation** | Visitors who reduce motion on their device see the scene without the camera drift, the dust and the easing; the pinned scroll itself always runs. **Always animate** shows all of it to everyone. Options: **Off for visitors who reduce motion** (default), **Always animate**. |
 {: .settings}
