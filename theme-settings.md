@@ -1,6 +1,6 @@
 ---
 title: Theme settings
-updated: 2026-10-24
+updated: 2026-10-28
 ---
 
 # Theme settings
@@ -259,7 +259,7 @@ The header's style is chosen by the header section itself: see [Headers](headers
 
 | Setting | What it changes |
 | --- | --- |
-| **Page margin** | The least space kept at the left and right of the page, from 10 to 100px. |
+| **Page margin** | The least space kept at the left and right of the page, from 10 to 100px. On phones and tablets a wide margin shrinks with the screen (at most 8% of its width) so the store name keeps room; computers keep the exact margin. |
 | **Page width** | The widest the content gets on large screens, from 1000 to 1600px. |
 | **Space between sections** | A gap between one section and the next in the main part of a page, from 0 to 100px. Zero leaves them touching, so they separate by their own backgrounds. |
 {: .settings}
