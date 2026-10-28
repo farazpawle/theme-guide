@@ -81,12 +81,12 @@ Keep one footer in the footer area. To change style, remove this footer and add 
 
 | Setting | What it changes |
 | --- | --- |
-| **Scroll animation** | Options: **Off for visitors who reduce motion** or **Always animate**. Visitors who turned on reduce motion on their device normally see a still footer. Choose **Always animate** to show the movement to everyone. |
+| **Scroll animation** | Options: **Off for visitors who reduce motion** or **Always animate**. Visitors who turned on reduce motion on their device normally see a still footer. They see no uncovering page, drifting dots or rising rows either. Choose **Always animate** to show the movement to everyone. |
 | **Lift the page to uncover the footer** | The footer waits behind the page and is uncovered as the visitor reaches the bottom. It turns itself off when the footer is taller than the screen, and for visitors who ask for less animation. |
 | **Show the drifting dot field** | A slow field of pale dots behind the footer. Dots near the cursor brighten and part around it. It pauses when the footer is off screen. |
 {: .settings}
 
-#### Small headings
+#### Small heading style
 
 | Setting | What it changes |
 | --- | --- |
@@ -286,12 +286,12 @@ One board on the footer: the column's heading named once at its top, and every l
 | **Column width** | Options: **A third of the row**, **Two fifths of the row**, **Half the row, beside the next board** (the start), **Two thirds of the row, on its own line**, **Full row**, and **Full row** with the links in two, three or four columns. On computers; phones always show the full width. |
 | **Full width on tablet** | Off, a narrower column, or one with link columns, keeps that on a tablet. On, it fills the row with one list. Shown for the widths it changes. |
 | **Space above and below** | Extra space above and below this column, from 0 to 80px. |
-| **Alignment** | Options: **Left**, **Center** or **Right**. Moves the links along their rows, and the heading too unless **Heading alignment** is set. On a phone with **Collapse on mobile** on, it moves the heading inside its tap-to-open row. |
+| **Alignment** | Options: **Left**, **Center** or **Right**. Moves the links along their rows, and the heading too unless **Heading alignment** is set. On a phone with **Collapse on phones** on, it moves the heading inside its tap-to-open row. |
 | **Background** | Puts the column on a box of this color, with white or near-black text, whichever reads better. Leave empty for none. |
 | **Border color** | The color of the column's top edge and the lines between links, and of the border. |
 | **Border thickness** | A border around the column, from 0 to 10px. |
 | **Corner rounding** | Rounds the box, **Card** links and the link lit under the pointer, from 0 to 40px. |
-| **Collapse on mobile** | On a phone, a column with more than four links folds under its heading; tap the heading to open it. Shorter columns stay open. |
+| **Collapse on phones** | On a phone, a column with more than four links folds under its heading; tap the heading to open it. Shorter columns stay open. |
 | **Wording** | The column's heading. Leave empty to use the name of the menu chosen below. |
 | **Size** (heading) | The heading's text size, from 11 to 32px. |
 | **Weight** (heading) | Options: **Normal (400)**, **Medium (500)**, **Semi-bold (600)** or **Bold (700)**. If your font has no such weight, the nearest one is used. |
@@ -363,8 +363,8 @@ On a computer the picture is the front of the card, on the left. The back, on th
 | --- | --- |
 | **Picture** | The front of the postcard: left of the card on a computer, on top on a tablet or phone. Its edges are cropped to fit, so set a focal point. Leave empty to show a placeholder drawing. 1600 x 1200px recommended. |
 | **Maximum width** | The widest the card gets, from 900 to 1600px. |
-| **Desktop padding** | Space inside the card on computers, from 24 to 96px. |
-| **Mobile padding** | Space inside the card on phones, from 16 to 40px. |
+| **Padding on computers** | Space inside the card on computers, from 24 to 96px. |
+| **Padding on phones** | Space inside the card on phones, from 16 to 40px. |
 {: .settings}
 
 #### Footer card style
@@ -402,7 +402,7 @@ On a computer the picture is the front of the card, on the left. The back, on th
 | **Space above and below the brand** | From 0 to 80px. |
 {: .settings}
 
-#### Brand name typography
+#### Brand name style
 
 | Setting | What it changes |
 | --- | --- |
@@ -411,7 +411,7 @@ On a computer the picture is the front of the card, on the left. The back, on th
 | **Gradient color** | The brand name fades from this color to the footer's accent color. Leave empty for plain body text. |
 {: .settings}
 
-#### Short description typography
+#### Short description style
 
 | Setting | What it changes |
 | --- | --- |
@@ -450,20 +450,16 @@ On a computer the picture is the front of the card, on the left. The back, on th
 
 | Setting | What it changes |
 | --- | --- |
-| **Show store policy links** | Links to your store policies. Only policies you have actually written appear. |
+| **Show store policy links** | Links to your store policies, each named by its title in Settings > Policies. Only policies you have actually written appear. |
 {: .settings}
 
 #### Footer page links
 
-Choose the page each of these fixed links points at. A link with no page chosen stays hidden.
+Choose the page the Contact us link opens. Leave it empty to hide the link.
 
 | Setting | What it changes |
 | --- | --- |
-| **Privacy policy** | The page behind the Privacy policy link. |
-| **Terms and conditions** | The page behind the Terms and conditions link. |
-| **Shipping and delivery** | The page behind the Shipping and delivery link. |
-| **Returns and refunds** | The page behind the Returns and refunds link. |
-| **Contact us** | The page behind the Contact us link. |
+| **Contact us** | The page the Contact us link opens. |
 {: .settings}
 
 ### Blocks
@@ -485,9 +481,9 @@ Add up to six blocks in any mix of the two kinds.
 
 | Setting | What it changes |
 | --- | --- |
-| **Show on tablet and computer** | Turns the column on or off for tablets and computers. |
-| **Show on mobile** | Turns the column on or off for phones. |
-| **Collapse on mobile** | On a phone the heading becomes a tap-to-open row, so a long footer stays short. |
+| **Show on tablets and computers** | Turns the column on or off for tablets and computers. |
+| **Show on phones** | Turns the column on or off for phones. |
+| **Collapse on phones** | On a phone the heading becomes a tap-to-open row, so a long footer stays short. |
 {: .settings}
 
 ##### Content
@@ -512,7 +508,7 @@ Add up to six blocks in any mix of the two kinds.
 | **Space below heading** | From 0 to 48px. |
 {: .settings}
 
-##### Link typography
+##### Link style
 
 | Setting | What it changes |
 | --- | --- |
@@ -531,26 +527,26 @@ Only used when **Custom links below** is chosen above.
 | **Label 1** to **Label 8** | The words shown for each typed link. |
 {: .settings}
 
-#### Image
+#### Picture
 
 A picture among the link groups, such as a badge or a photo.
 
 | Setting | What it changes |
 | --- | --- |
-| **Image** | The picture. |
-| **Image link** | Optional. Opens this link when the image is selected. |
-| **Image description** | Describes the image for visitors using a screen reader. Leave empty to use the image's own description. |
+| **Picture** | The picture. |
+| **Picture link** | Optional. Opens this link when the image is selected. |
+| **Picture description** | Describes the image for visitors using a screen reader. Leave empty to use the image's own description. |
 | **Cover a full row** | Off, the image takes the same width as one link column. On, it fills the whole row. |
 {: .settings}
 
-##### Image size and placement
+##### Picture size and placement
 
 | Setting | What it changes |
 | --- | --- |
-| **Limit image height** | Leave off to let the height follow the image. |
-| **Maximum image height** | From 40 to 360px. Only used when the height limit is on. |
-| **Image fit** | Options: **Show the complete image** or **Fill the chosen size (crops)**. Filling needs the height limit above, since there is nothing to crop to without it. |
-| **Corner rounding** | From 0 to 40px. |
+| **Limit picture height** | Leave off to let the height follow the image. |
+| **Maximum picture height** | From 40 to 360px. Only used when the height limit is on. |
+| **Picture fit** | Options: **Show the complete picture** or **Fill the chosen size (crops)**. Filling needs the height limit above, since there is nothing to crop to without it. |
+| **Picture corner rounding** | From 0 to 40px. |
 | **Space above and below** | From 0 to 80px. |
 {: .settings}
 
@@ -558,11 +554,11 @@ A picture among the link groups, such as a badge or a photo.
 
 > *Hide the strip by emptying it.* The statement strip shows only when it has wording, so clear **Small message** and **Heading** to hide it.
 
-> *Add a description to every picture.* **Image description** is what a screen reader reads out for a badge or photo.
+> *Add a description to every picture.* **Picture description** is what a screen reader reads out for a badge or photo.
 
 > *Link groups flow.* Each link column is kept whole and the columns flow down newspaper-style columns on the message side in the order you set, so a long menu beside two short ones never leaves gaps. Drag the blocks to change the order. A column's **Column width** narrows it inside its place, or lifts it out of the flow across the message side with its links side by side.
 
-> *Phones fold the columns.* With **Collapse on mobile** on, each column's heading becomes a tap-to-open row on a phone.
+> *Phones fold the columns.* With **Collapse on phones** on, each column's heading becomes a tap-to-open row on a phone.
 
 ## Country and language pickers
 

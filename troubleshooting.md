@@ -1,6 +1,6 @@
 ---
 title: Troubleshooting
-updated: 2026-10-20
+updated: 2026-10-28
 ---
 
 # Troubleshooting
@@ -43,7 +43,7 @@ scene. On a short screen it shows the plain layout instead. See
 
 Sections that fill the screen crop the edges, more so on phones. Keep the
 subject in the middle, or set a focal point on the picture in *Content >
-Files*. For product cards, set **Image shape** to **Automatic** in Theme
+Files*. For product cards, set **Picture shape** to **Automatic** in Theme
 settings, under **Product cards**. In a section, look for a shape or height
 setting with **Adapt to picture**, **As uploaded** or **Automatic**. See
 [Picture sizes](how-to.md#picture-sizes).

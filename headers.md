@@ -271,7 +271,7 @@ This header has no announcement bar. A full-width strip above a floating bar wor
 
 | Setting | What it changes |
 | --- | --- |
-| **Corner radius** | How round the capsule is, from 0 to 40px. The highest value gives a full pill at every screen size. |
+| **Corner rounding** | How round the capsule is, from 0 to 40px. The highest value gives a full pill at every screen size. |
 | **Elevation** | How far the capsule floats above the page, from 0 to 100. Zero removes the shadow. |
 {: .settings}
 
@@ -635,7 +635,7 @@ A menu can go three levels deep. How each header shows it:
 | Sidecar | A column docked at the left; a drawer from the left on tablets and phones | Fold open in place | Fold open in place |
 {: .settings}
 
-Turn the mega menu on or off with **Enable the horizontal mega menu** under **Header** in Theme settings: with it on, an item with two levels below it opens as columns instead of a single list. It applies to **Centered stack**; **Aurora glow** opens every item as a full-width sheet with pictures, **Nebula float** walks its menu one level at a time, and **Floating capsule** and **Sidecar** fold sub-items open in their menu or column instead. Keyboard users open a drop-down with Enter or Space; in **Aurora glow** the arrow keys also move along the menu and through the sheet's links.
+Turn the mega menu on or off with **Show the horizontal mega menu** under **Header** in Theme settings: with it on, an item with two levels below it opens as columns instead of a single list. It applies to **Centered stack**; **Aurora glow** opens every item as a full-width sheet with pictures, **Nebula float** walks its menu one level at a time, and **Floating capsule** and **Sidecar** fold sub-items open in their menu or column instead. Keyboard users open a drop-down with Enter or Space; in **Aurora glow** the arrow keys also move along the menu and through the sheet's links.
 
 <div class="pair">
   <figure class="shot shot--desktop">

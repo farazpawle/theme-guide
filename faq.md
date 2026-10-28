@@ -1,6 +1,6 @@
 ---
 title: Frequently asked questions
-updated: 2026-10-19
+updated: 2026-10-28
 ---
 
 # Frequently asked questions
@@ -58,7 +58,7 @@ block to your product page. See
 
 ## My pictures are cropped. How do I keep their shape?
 
-Product cards: in Theme settings, under **Product cards**, set **Image
+Product cards: in Theme settings, under **Product cards**, set **Picture
 shape** to **Automatic**. In a section, look for a picture shape or height
 setting with **Adapt to picture**, **As uploaded** or **Automatic**.
 

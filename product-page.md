@@ -152,7 +152,7 @@ One line of text above or below the other blocks: your own words, or each produc
 | **Text source** | Where the words come from. Options: **Your own words**, **Vendor**, **Product type**. Vendor and product type come from each product. |
 | **Text** | Your words. Shown when **Text source** is **Your own words**. |
 | **Link it** | Makes the vendor or product type a link to everything else by that maker, or of that kind. Leave off in a store with only one. Shown when **Text source** is **Vendor** or **Product type**. |
-| **Type style** | Options: **Normal text**, **Subheading**, **Uppercase**. |
+| **Text style** | Options: **Normal text**, **Subheading**, **Uppercase**. |
 {: .settings}
 
 ### SKU
@@ -161,7 +161,7 @@ The chosen option's SKU, in a small label. It changes when the shopper picks ano
 
 | Setting | What it changes |
 | --- | --- |
-| **Type style** | Options: **Normal text**, **Subheading**, **Uppercase**. |
+| **Text style** | Options: **Normal text**, **Subheading**, **Uppercase**. |
 {: .settings}
 
 ### Stock level
@@ -172,7 +172,7 @@ A line that says whether the chosen option is in stock, running low or sold out.
 | --- | --- |
 | **Low stock below** | How few must be left before the line says stock is low, from 0 to 100. It only counts where you track inventory. |
 | **Say how many are left** | Off shows only that stock is low. On gives the number, such as "Only 3 left", which is more convincing but tells competitors what you hold. |
-| **Type style** | Options: **Normal text**, **Subheading**, **Uppercase**. |
+| **Text style** | Options: **Normal text**, **Subheading**, **Uppercase**. |
 {: .settings}
 
 ### Rating
@@ -351,7 +351,7 @@ The block has three groups of settings, headed **First**, **Second** and **Third
 | --- | --- |
 | **Text** | The promise. Basic formatting such as bold or italic is allowed. |
 | **Icon** | Options: **No icon**, **Delivery van**, **Stopwatch**, **Return arrow**, **Exchange**, **Shield**, **Padlock**, **Award**, **Tick in a circle**, **Headset**, **Leaf**, **Gift**, **Payment card**, **Parcel**, **Clock**, **Globe**, **Ruler**, **Washing**. |
-| **Image instead** | Replaces the icon, for a badge or a mark the icon set cannot draw, such as a payment badge. |
+| **Picture instead** | Replaces the icon, for a badge or a mark the icon set cannot draw, such as a payment badge. |
 {: .settings}
 
 ### Custom Liquid

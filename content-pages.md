@@ -371,7 +371,7 @@ Write the message in *Online Store > Preferences*, under *Password protection*. 
 | Setting | What it changes |
 | --- | --- |
 | **Color scheme** | The colors of the page. |
-| **Animation** | The sign swings in and sways as the pointer passes. Options: **Off for visitors who reduce motion**, **Always animate**. |
+| **Animation** | The sign swings in and sways as the pointer passes. Visitors who reduce motion see it still; **Always animate** shows the movement to everyone, including you if reduce motion is on for your own device. Options: **Off for visitors who reduce motion**, **Always animate**. |
 {: .settings}
 
 ### Blocks

@@ -109,9 +109,9 @@ This section is for the home page only. It is not offered on other pages.
 
 | Setting | What it changes |
 | --- | --- |
-| **Color scheme** | The colors behind the slides. **Curtain** keeps white text over the picture and uses the scheme for the page behind it. **Split** uses it for the text side and **Gallery** for the whole section. |
+| **Color scheme** | The colors behind the slides. **Curtain** keeps white text over the picture, so this setting is hidden for it. **Split** uses it for the text side and **Gallery** for the whole section. |
 | **Darken pictures** | Lays a dark layer over the pictures so the text stays readable on bright ones. It stops at 50%, so the words always stay easy to read. Range 50 to 90%, default 55%. Shows only when **Look** is **Curtain**. |
-| **Animation** | Whether slides change with movement. Visitors who reduce motion on their device see slides change without movement, and slides never change by themselves for them. **Always animate** shows the movement to everyone. Options: **Off for visitors who reduce motion** (default), **Always animate**. |
+| **Animation** | Whether slides change with movement. Visitors who reduce motion on their device see slides change without movement, and slides never change by themselves for them. **Always animate** shows the movement to everyone, including you if reduce motion is on for your own device. Options: **Off for visitors who reduce motion** (default), **Always animate**. |
 {: .settings}
 
 ### Blocks
@@ -223,7 +223,7 @@ This section is for the home page only. It is not offered on other pages.
 
 | Setting | What it changes |
 | --- | --- |
-| **Image overlay darkness** | Darkens the slide pictures so the text stays readable. Range 0 to 90%, default 45%. |
+| **Picture overlay darkness** | Darkens the slide pictures so the text stays readable. Range 0 to 90%, default 45%. |
 | **Section background** | The color behind the slide pictures. It only shows where a picture does not reach. |
 | **Text color** | The base color for every text group. Each group can override it in its own settings. |
 | **Tagline pill background** | The background color of the small pill that holds the tagline above the heading. |
@@ -281,12 +281,12 @@ One full-screen slide.
 | **Secondary button link** | Where the second button goes. |
 {: .settings}
 
-##### Image
+##### Picture
 
 | Setting | What it changes |
 | --- | --- |
-| **Background image** | The slide picture. 3000 × 1600 px is recommended. Leave empty to show a placeholder. |
-| **Image focal point** | Which part of the picture stays in view when the slide crops it. Options: **Center** (default), **Top**, **Bottom**, **Left**, **Right**. |
+| **Background picture** | The slide picture. 3000 × 1600 px is recommended. Leave empty to show a placeholder. |
+| **Picture focal point** | Which part of the picture stays in view when the slide crops it. Options: **Center** (default), **Top**, **Bottom**, **Left**, **Right**. |
 {: .settings}
 
 ##### Tagline style
@@ -388,12 +388,12 @@ This section is for the home page only. It is not offered on other pages.
 | --- | --- |
 | **Video** | The footage. It plays frame by frame as the shopper scrolls, so keep it short and small: 5 to 10 seconds, no sound. Leave empty to use a picture instead. |
 | **Video (portrait screens)** | A portrait or square cut of the same clip for phones and portrait tablets. Without one, a wide clip loses most of its width on a phone. Keep it the same length as the main video. |
-| **Image** | The picture used when there is no video. It gets the same camera move. 3000 × 1700 px is recommended. |
+| **Picture** | The picture used when there is no video. It gets the same camera move. 3000 × 1700 px is recommended. |
 | **Footage width** | How wide the footage is. Putting it down one side narrows it to a column and leaves the other side free for the text. Computers only; phones and tablets always run full width. Options: **Full width** (default), **Down the left side**, **Down the right side**. |
 | **Footage column width** | How wide the footage column is. It keeps the full height of the screen, so a narrow column crops a wide shot more. Use **Part to keep in view** to choose what stays. Range 30 to 90%, default 55%. Shows only when **Footage width** is not **Full width**. |
-| **Footage fit** | How the footage fills the screen. **Fill the screen: crop the edges** crops it to cover. **Show the whole frame: bars at the sides** keeps all of it and fills the gaps with the background color. **Stretch to fit: no bars, no crop** fills the screen but squashes the picture. Default: **Fill the screen: crop the edges**. |
+| **Footage fit** | How the footage fills the screen. **Fill the screen: crop the edges** crops it to cover. **Show the whole frame: bars at the sides** keeps all of it and fills the gaps with the background color. **Stretch to fit: no bars, no crop** fills the screen with nothing cropped but squashes the picture, which shows most on anything with a familiar shape. With either fill option, a small or square clip is enlarged to the screen. Default: **Fill the screen: crop the edges**. |
 | **Remove black bars in the video** | For a clip that has black bars baked into the picture, which no crop setting can reach. It reads the footage and zooms just past the bars, on top of **Zoom**. Leave it off if your footage has no bars. Off by default. |
-| **Zoom** | Scales the footage on top of the camera move. Turn it up to push side bars off the screen; it crops instead of distorting. Below 100% the footage no longer reaches the edges, so the background color shows around it. Range 50 to 200%, default 100%. |
+| **Zoom** | Scales the footage on top of the camera move. Turn it up to push side bars off the screen; it crops instead of distorting. Below 100% the footage no longer reaches the edges, so the background color shows around it. Set **Background color** to match the footage's own background and the gap disappears. Range 50 to 200%, default 100%. |
 | **Part to keep in view** | Filling the screen always cuts something off. This picks what survives. Options: **Center** (default), **Top**, **Bottom**, **Left**, **Right**, **Top left**, **Top right**, **Bottom left**, **Bottom right**. |
 {: .settings}
 
@@ -413,7 +413,7 @@ This section is for the home page only. It is not offered on other pages.
 | **Scene length** | How much scrolling the scene takes, in screens. Longer is slower, but pushes the rest of the page further down. Range 200 to 800 vh, default 680 vh. |
 | **Show progress bar** | A progress bar along the bottom. Its dots jump to each caption. The dots never sit closer than 24 px: if you set captions so close that their dots would touch, the dots are drawn a little apart, while each caption still appears when you set it and its dot still jumps to it. On by default. |
 | **Scroll hint** | A small prompt that fades out as soon as the shopper starts scrolling. Leave empty to hide it. |
-| **Scroll animation** | Visitors who reduce motion on their device see the scene without the camera drift, the dust and the easing; the pinned scroll itself always runs. **Always animate** shows all of it to everyone. Options: **Off for visitors who reduce motion** (default), **Always animate**. |
+| **Scroll animation** | Visitors who reduce motion on their device see the scene without the camera drift, the dust, the looping scroll hint or the easing (how a move speeds up and slows down); the pinned scroll itself always runs. **Always animate** shows all of it to everyone, including you if reduce motion is on for your own device. Options: **Off for visitors who reduce motion** (default), **Always animate**. |
 {: .settings}
 
 #### Colors
@@ -479,7 +479,7 @@ One caption that fades in and out at a point in the scroll.
 
 > **Add a portrait cut for phones.** Without **Video (portrait screens)**, a wide clip loses most of its width on a phone.
 
-> **No video? Use a picture.** The **Image** gets the same camera move, so the section works without any footage.
+> **No video? Use a picture.** The **Picture** gets the same camera move, so the section works without any footage.
 
 > **Reduced motion.** Visitors who reduce motion still get the pinned scroll and the captions, only without the camera drift, dust and easing.
 
@@ -560,8 +560,8 @@ How a product card looks — its alignment, color scheme, surface, picture shape
 
 | Setting | What it changes |
 | --- | --- |
-| **Top** | The space above the section. Range 0 to 200 px, default 96 px. |
-| **Bottom** | The space below the section. Range 0 to 200 px, default 96 px. |
+| **Top padding** | The space above the section. Range 0 to 200 px, default 96 px. |
+| **Bottom padding** | The space below the section. Range 0 to 200 px, default 96 px. |
 {: .settings}
 
 ### Blocks
@@ -612,9 +612,9 @@ On the collections page this lists every collection in your store. Anywhere else
 | Setting | What it changes |
 | --- | --- |
 | **Look** | **Stack** fans out each collection's picture with two of its products. **Lookbook** gives each collection a large spread with its description. **Mosaic** keeps every picture's own shape. Default: **Stack**. |
-| **Columns on desktop** | How many tiles sit side by side on a computer. Range 2 to 5, default 4. Shows only when **Look** is not **Lookbook**. |
-| **Columns on mobile** | How many tiles sit side by side on a phone. Options: **1**, **2** (default). Shows only when **Look** is not **Lookbook**. |
-| **Image ratio** | The shape of each tile's picture. Options: **Square** (default), **Portrait**, **Landscape**. Shows only when **Look** is **Stack**. |
+| **Columns on computers** | How many tiles sit side by side on a computer. Range 2 to 5, default 4. Shows only when **Look** is not **Lookbook**. |
+| **Columns on phones** | How many tiles sit side by side on a phone. Options: **1**, **2** (default). Shows only when **Look** is not **Lookbook**. |
+| **Picture ratio** | The shape of each tile's picture. Options: **Square** (default), **Portrait**, **Landscape**. Shows only when **Look** is **Stack**. |
 | **Scroll animation** | Whether the movement plays for visitors whose device is set to reduce motion. They normally see the finished layout without movement; **Always animate** plays it for everyone, including you if reduce motion is on for your own device. Options: **Off for visitors who reduce motion** (default), **Always animate**. |
 {: .settings}
 
@@ -696,7 +696,7 @@ This section is for the home page only. It is not offered on other pages.
 | Setting | What it changes |
 | --- | --- |
 | **Show row numbers** | Numbers each row: 01, 02, 03 and so on. On by default. |
-| **Show product counts** | Shows how many products each collection holds. On by default. |
+| **Show product count** | Shows how many products each collection holds. On by default. |
 | **Picture corner rounding** | How round the corners of the pictures are. Range 0 to 40 px, default 18 px. |
 {: .settings}
 
@@ -802,7 +802,7 @@ This section is for the home page only. It is not offered on other pages.
 
 | Setting | What it changes |
 | --- | --- |
-| **Scroll animation** | Visitors who reduce motion on their device see a plain stacked list of cards instead of the sideways movement. **Always animate** shows the movement to everyone. Options: **Off for visitors who reduce motion** (default), **Always animate**. |
+| **Scroll animation** | Visitors who reduce motion on their device see a plain stacked list of cards instead of the sideways movement. **Always animate** shows the movement to everyone, including you if reduce motion is on for your own device. Options: **Off for visitors who reduce motion** (default), **Always animate**. |
 {: .settings}
 
 #### Layout
@@ -851,7 +851,7 @@ One picture card.
 | **Heading color** | The color of the card heading. Leave empty to use the card's default light text. |
 {: .settings}
 
-##### Description styling
+##### Description style
 
 | Setting | What it changes |
 | --- | --- |
@@ -860,20 +860,20 @@ One picture card.
 | **Description color** | The color of the description. Leave empty to use the card's default light text. |
 {: .settings}
 
-##### Tagline styling
+##### Tagline style
 
 | Setting | What it changes |
 | --- | --- |
 | **Tagline color** | The color of the tagline. Leave empty to use the card's default light text. |
 {: .settings}
 
-##### Image
+##### Picture
 
 | Setting | What it changes |
 | --- | --- |
-| **Card image** | Fills the whole card. 1600 × 2000 px recommended. Leave empty to show a placeholder. |
-| **Image fit** | Fill crops the image to cover the card. Show the complete image may leave gaps. Options: **Fill the chosen size (crops)** (default), **Show the complete image**. |
-| **Image zoom** | How far the picture is zoomed in. 100% shows it at the normal size. Range 100 to 160%, default 100%. |
+| **Card picture** | Fills the whole card. 1600 × 2000 px recommended. Leave empty to show a placeholder. |
+| **Picture fit** | Fill crops the image to cover the card. Show the complete image may leave gaps. Options: **Fill the chosen size (crops)** (default), **Show the complete picture**. |
+| **Picture zoom** | How far the picture is zoomed in. 100% shows it at the normal size. Range 100 to 160%, default 100%. |
 | **Horizontal position** | Which part of the picture stays in view when it is cropped sideways. 0% shows the left, 100% the right. Range 0 to 100%, default 50%. |
 | **Vertical position** | Which part of the picture stays in view when it is cropped top and bottom. 0% shows the top, 100% the bottom. Range 0 to 100%, default 50%. |
 {: .settings}
@@ -939,8 +939,8 @@ This section is for the home page only. It is not offered on other pages.
 | Setting | What it changes |
 | --- | --- |
 | **Card width** | How far the cards stretch across the screen. The heading above them follows the same width. Only changes anything on a screen wide enough to reach it. Options: **Page width**, **Wide** (default), **Extra wide**, **Full width**. |
-| **Card image height** | Applies at 1100px and below, where the cards are a plain list. On desktop the card fills the screen under the heading instead. Range 240 to 640 px, default 480 px. |
-| **Gap below the heading** | Space between the pinned heading and the card parked under it. Each card after the first parks a little lower, which is what fans the stack out. Desktop only. Range 0 to 80 px, default 24 px. |
+| **Card picture height** | Applies at 1100px and below, where the cards are a plain list. On desktop the card fills the screen under the heading instead. Range 240 to 640 px, default 480 px. |
+| **Space below heading** | Space between the pinned heading and the card parked under it. Each card after the first parks a little lower, which is what fans the stack out. Desktop only. Range 0 to 80 px, default 24 px. |
 | **Show progress dashes** | A short dash per card down the left of the screen, marking the one in front. Desktop only, and only while the cards are stacking. On by default. |
 {: .settings}
 
@@ -988,7 +988,7 @@ This section is for the home page only. It is not offered on other pages.
 | --- | --- |
 | **Color scheme** | The band behind the cards, and the intro text on it. |
 | **Transparent background** | Lets the page background show through this section. When it is off, the section follows **Make all sections transparent** in Theme settings. Off by default. |
-| **Scroll animation** | Visitors who reduce motion on their device see the cards without the entrance reveals, the picture drift and the fading of covered cards. The stacking itself always runs, because it follows their own scrolling. **Always animate** shows all of it to everyone. Options: **Off for visitors who reduce motion** (default), **Always animate**. |
+| **Scroll animation** | Visitors who reduce motion on their device see the cards without the entrance reveals, the picture drift and the fading of covered cards. The stacking itself always runs, because it follows their own scrolling. **Always animate** shows all of it to everyone, including you if reduce motion is on for your own device. Options: **Off for visitors who reduce motion** (default), **Always animate**. |
 {: .settings}
 
 #### Padding
@@ -1042,18 +1042,18 @@ One card. Pick a product to fill it automatically, or type your own words and pi
 | **Feature this card** | Switches the card to the featured colors and accent badge. Usually the last card. Off by default. |
 {: .settings}
 
-##### Image
+##### Picture
 
 | Setting | What it changes |
 | --- | --- |
-| **Card image** | The card picture. 1600 × 1000 px is recommended. A card built from a product shows the product's own photo instead. |
-| **Image horizontal position** | Which part of the picture stays in view when it is cropped sideways. 0% shows the left, 100% the right. Range 0 to 100%, default 50%. |
-| **Image vertical position** | Which part of the picture stays in view when it is cropped top and bottom. 0% shows the top, 100% the bottom. Range 0 to 100%, default 50%. |
+| **Card picture** | The card picture. 1600 × 1000 px is recommended. A card built from a product shows the product's own photo instead. |
+| **Picture horizontal position** | Which part of the picture stays in view when it is cropped sideways. 0% shows the left, 100% the right. Range 0 to 100%, default 50%. |
+| **Picture vertical position** | Which part of the picture stays in view when it is cropped top and bottom. 0% shows the top, 100% the bottom. Range 0 to 100%, default 50%. |
 {: .settings}
 
 ### Tips and limits
 
-> **Phones and tablets get a list.** On screens up to 1100 px wide the cards are a plain list, one after another, and **Card image height** sets how tall each picture is.
+> **Phones and tablets get a list.** On screens up to 1100 px wide the cards are a plain list, one after another, and **Card picture height** sets how tall each picture is.
 
 > **Fill a card from a product.** Pick a **Product** and leave **Use the product's own details** on to show its photo, name, price and description, with a link straight to the product page.
 
@@ -1098,13 +1098,13 @@ This section is for the home page only. It is not offered on other pages.
 | **Picture position** | Alternating swaps sides row by row. Below 1101px every row stacks with the picture on top. Options: **Alternate, starting on the left** (default), **Alternate, starting on the right**, **Always on the left**, **Always on the right**. Shows only when **Layout** is not **Numbered chapters**. |
 | **Picture height** | How tall the pictures are. **Automatic** keeps the shape of the picture you uploaded. Options: **Automatic** (default), **Small**, **Medium**, **Large**. Shows only when **Layout** is not **Picture holds while the words scroll**. |
 | **Picture width** | How much of the row the picture takes. The words fill what is left. Options: **Small**, **Medium** (default), **Large**. Shows only when **Layout** is not **Numbered chapters**. |
-| **Picture corners** | Rounds the picture, its border and its shadow together. Theme default follows Theme settings. Options: **Theme default**, **Square**, **Slightly rounded**, **Rounded** (default), **Extra rounded**. |
+| **Picture corner rounding** | Rounds the picture, its border and its shadow together. Theme default follows Theme settings. Options: **Theme default**, **Square**, **Slightly rounded**, **Rounded** (default), **Extra rounded**. |
 | **Words sit** | Where the words line up against the picture beside them. Options: **Top**, **Middle** (default), **Bottom**. Shows only when **Layout** is **Picture beside the words**. |
 | **Text alignment** | How the words line up on computers and tablets: left, center or right. Options: **Left** (default), **Center**, **Right**. |
-| **Text alignment on a phone** | How the words line up on phones. Options: **Left** (default), **Center**, **Right**. |
+| **Text alignment on phones** | How the words line up on phones. Options: **Left** (default), **Center**, **Right**. |
 {: .settings}
 
-#### Typography
+#### Text and button style
 
 | Setting | What it changes |
 | --- | --- |
@@ -1168,8 +1168,8 @@ Shows only when **Layout** is not **Numbered chapters**.
 
 | Setting | What it changes |
 | --- | --- |
-| **Space above** | The space above the section. Range 0 to 100 px, default 36 px. |
-| **Space below** | The space below the section. Range 0 to 100 px, default 36 px. |
+| **Top padding** | The space above the section. Range 0 to 100 px, default 36 px. |
+| **Bottom padding** | The space below the section. Range 0 to 100 px, default 36 px. |
 {: .settings}
 
 ### Blocks
@@ -1184,7 +1184,7 @@ One row: a picture, a caption, a heading, a text and an optional button.
 
 | Setting | What it changes |
 | --- | --- |
-| **Image** | The row's picture. |
+| **Picture** | The row's picture. |
 | **Caption** | A small label above the heading, such as a chapter name. |
 | **Heading** | The row's heading. |
 | **Text** | The row's words. |
@@ -1247,6 +1247,8 @@ One row: a picture, a caption, a heading, a text and an optional button.
 > **A button needs both parts.** A row button shows only when it has a **Button label** and a **Button link**.
 
 > **Override one row.** Each **Row** block can change its own **Row entrance** or turn the ripple off, while the timing and strength stay shared across the section.
+
+> **Ripples need a capable device.** The cloth is drawn by the visitor's own device, and only where it can be drawn; other visitors see the plain picture. The cloth's own outline becomes the picture's shape, so a rippling picture has no border, corner rounding or shadow, and rows that do not ripple keep theirs.
 
 ## Expanding panels
 
@@ -1346,13 +1348,13 @@ One panel in the row.
 | **Color** | The color of the description. Leave empty to keep the designed color. |
 {: .settings}
 
-##### Image
+##### Picture
 
 | Setting | What it changes |
 | --- | --- |
-| **Image** | The panel's picture. |
-| **Image horizontal position** | Which part of the picture stays in view when it is cropped sideways. 0% shows the left, 100% the right. Range 0 to 100%, default 50%. |
-| **Image vertical position** | Which part of the picture stays in view when it is cropped top and bottom. 0% shows the top, 100% the bottom. Range 0 to 100%, default 100%. |
+| **Picture** | The panel's picture. |
+| **Picture horizontal position** | Which part of the picture stays in view when it is cropped sideways. 0% shows the left, 100% the right. Range 0 to 100%, default 50%. |
+| **Picture vertical position** | Which part of the picture stays in view when it is cropped top and bottom. 0% shows the top, 100% the bottom. Range 0 to 100%, default 100%. |
 {: .settings}
 
 ##### Background
@@ -1361,8 +1363,8 @@ One panel in the row.
 | --- | --- |
 | **Background color** | The color of the background. Leave empty to keep the designed backdrop. |
 | **Background gradient** | A gradient behind the panel. It sits on top of the background color. |
-| **Background image** | A picture that fills the whole panel. It sits on top of the color and the gradient. |
-| **Background image darkness** | Darkens the background image so the heading stays readable. Ignored when no background image is set. Range 0 to 100%, default 40%. |
+| **Background picture** | A picture that fills the whole panel. It sits on top of the color and the gradient. |
+| **Background picture darkness** | Darkens the background image so the heading stays readable. Ignored when no background image is set. Range 0 to 100%, default 40%. |
 {: .settings}
 
 ### Tips and limits
@@ -1821,7 +1823,7 @@ One promise: an icon, a heading and a line of text.
 | Setting | What it changes |
 | --- | --- |
 | **Icon** | Automatic gives each badge in the row a different icon, so they do not all match on a new theme. Pick one to override it. Options: **Automatic: a different one in each place** (default), **Delivery van**, **Shield**, **Return arrow**, **Padlock**, **Headset**, **Award rosette**, **Clock**, **Gift box**, **Check in a circle**, **No icon**. |
-| **Icon image** | Your own artwork, used instead of the icon above. It cannot draw itself when the animation is set to draw. |
+| **Icon picture** | Your own artwork, used instead of the icon above. It cannot draw itself when the animation is set to draw. |
 | **Icon code (.svg)** | Paste the code from an .svg file. It replaces the image and the icon above, and it is the only choice that can still draw itself. |
 {: .settings}
 
@@ -1833,7 +1835,7 @@ One promise: an icon, a heading and a line of text.
 
 > **Automatic icons.** With **Icon** on **Automatic: a different one in each place**, every badge in the row gets a different icon, so a new section never shows a row of the same icon.
 
-> **Your own artwork.** Use **Icon image** to replace the icon with a picture. Only **Icon code (.svg)** can still draw itself when **Animation** draws the icons.
+> **Your own artwork.** Use **Icon picture** to replace the icon with a picture. Only **Icon code (.svg)** can still draw itself when **Animation** draws the icons.
 
 ## Pricing
 
@@ -2060,13 +2062,13 @@ This section is for the home page only. It is not offered on other pages.
 | **Label for the first button** | The label of the topic button that shows every question. Shows only when **Group questions into topics** is on. |
 {: .settings}
 
-#### Image
+#### Picture
 
 | Setting | What it changes |
 | --- | --- |
-| **Image** | Shown beside the questions on a computer, and above them on smaller screens. |
-| **Image shape** | The shape of the picture. Options: **Automatic** (default), **Landscape**, **Portrait**. |
-| **Image position** | Which side the picture sits on, on a computer. Phones and tablets show it above the questions. Options: **Down the left side**, **Down the right side** (default). |
+| **Picture** | Shown beside the questions on a computer, and above them on smaller screens. |
+| **Picture shape** | The shape of the picture. Options: **Automatic** (default), **Landscape**, **Portrait**. |
+| **Picture position** | Which side the picture sits on, on a computer. Phones and tablets show it above the questions. Options: **Down the left side**, **Down the right side** (default). |
 {: .settings}
 
 #### Colors
@@ -2078,7 +2080,7 @@ This section is for the home page only. It is not offered on other pages.
 | **Card color scheme** | Used by the two card row styles. Shows only when **Row style** is not **Plain rows**. |
 {: .settings}
 
-#### Typography
+#### Text style
 
 | Setting | What it changes |
 | --- | --- |
@@ -2177,8 +2179,8 @@ This section is for the home page only. It is not offered on other pages.
 
 | Setting | What it changes |
 | --- | --- |
-| **Layout** | How the signup is arranged: **Centered band**, **Split: words beside the box**, **Inline strip**, **Image beside content**, **Card panel** or **Bordered rule**. **Image beside content** shows the picture above the words on a phone and tablet. Default: **Centered band**. |
-| **Image** | The picture for the **Image beside content** layout. The other layouts do not use it. |
+| **Layout** | How the signup is arranged: **Centered band**, **Split: words beside the box**, **Inline strip**, **Picture beside content**, **Card panel** or **Bordered rule**. **Picture beside content** shows the picture above the words on a phone and tablet. Default: **Centered band**. |
+| **Picture** | The picture for the **Picture beside content** layout. The other layouts do not use it. |
 | **Content alignment** | Moves the whole section — heading, words, the email box and the line under it. Automatic keeps each layout's own alignment. Options: **Automatic: follows the layout** (default), **Left**, **Center**, **Right**. |
 | **Email box height** | How tall the email box is. Range 44 to 64 px, default 54 px. |
 | **Full-width button** | Stacks the button under the email box. Always on below 500px. Off by default. |
@@ -2191,7 +2193,7 @@ This section is for the home page only. It is not offered on other pages.
 | --- | --- |
 | **Caption** | A short line above the heading. Leave empty to hide it. |
 | **Heading** | Leave empty to hide it. |
-| **Text below the heading** | A paragraph under the heading. |
+| **Subheading** | A paragraph under the heading. |
 | **Email box placeholder** | Leave empty to use the theme's own wording. |
 | **Button label** | The words on the signup button. Leave empty to use the theme's own Subscribe wording. |
 | **Reassurance line** | Shown under the email box. Leave empty to hide it. Not shown on the Inline strip layout. |
@@ -2251,7 +2253,7 @@ This section has no blocks. Everything is a setting.
 
 > **The thank-you replaces the box.** After someone subscribes, the page shows a thank-you message where the box was, or an error message if the address was not accepted. An address that is not complete (no ending like ".com") is stopped before it is sent, with a note asking for a full email address. Neither is animated, so people can read it at once.
 
-> **Side-by-side layouts fold on small screens.** **Split: words beside the box** and **Image beside content** stack their parts on screens up to 1100 px wide.
+> **Side-by-side layouts fold on small screens.** **Split: words beside the box** and **Picture beside content** stack their parts on screens up to 1100 px wide.
 
 ## Blog posts
 
@@ -2368,7 +2370,7 @@ This section is for the home page and for pages, such as your Contact page. It i
 | --- | --- |
 | **Caption** | A short line above the heading. |
 | **Heading** | The section heading. Leave empty to hide it; the section still carries a hidden heading for screen readers. |
-| **Text below the heading** | A paragraph under the heading. |
+| **Subheading** | A paragraph under the heading. |
 | **Content alignment** | Moves the heading, the inquiry types, the field labels, the button and the panel together. Options: **Left** (default), **Center**, **Right**. Shows only when **Look** is **Split**. |
 {: .settings}
 
@@ -2382,7 +2384,7 @@ This section is for the home page and for pages, such as your Contact page. It i
 | **Choices** | The options in that dropdown, separated by commas. Shows only when **Ask how they prefer to be contacted** is on. |
 | **Hint inside the message box** | The faint hint shown in the empty message box. |
 | **Button label** | The words on the send button. |
-| **Full width button** | Stretches the send button across the form. Off by default. |
+| **Full-width button** | Stretches the send button across the form. Off by default. |
 | **Reassurance under the button** | A short line under the button that says what happens to the person's details. Leave empty to hide it. |
 | **Extra line on the thank-you message** | A sentence added to the thank-you message shown after a message is sent. |
 {: .settings}
@@ -2411,7 +2413,7 @@ This section is for the home page and for pages, such as your Contact page. It i
 
 | Setting | What it changes |
 | --- | --- |
-| **Map image** | A picture of where you are. Leave empty to hide the map. |
+| **Map picture** | A picture of where you are. Leave empty to hide the map. |
 | **Opens when the map is tapped** | The link opened when the map is tapped. Paste your maps link. |
 | **Label over the map** | The words shown over the map. They show only when the map has a link. |
 {: .settings}
@@ -2428,8 +2430,8 @@ This section is for the home page and for pages, such as your Contact page. It i
 
 | Setting | What it changes |
 | --- | --- |
-| **Padding top** | The space above the section. Range 0 to 100 px, default 52 px. |
-| **Padding bottom** | The space below the section. Range 0 to 100 px, default 52 px. |
+| **Top padding** | The space above the section. Range 0 to 100 px, default 52 px. |
+| **Bottom padding** | The space below the section. Range 0 to 100 px, default 52 px. |
 {: .settings}
 
 ### Blocks
@@ -2531,7 +2533,7 @@ Shows only when **Layout** is not **One column**.
 | **Picture** | The picture for the layouts that use one. It is used by **Picture beside the words** and **Words over the picture**. |
 | **Video** | Plays muted on a loop, with a pause button. Shown instead of the picture when both are set. |
 | **Darken the picture** | Keeps the words readable. Below 55%, a pale photograph can make them hard to read. Range 20 to 90%, default 55%. Shows only when **Layout** is **Words over the picture**. |
-| **Corner rounding** | How round the corners are. 0 gives square corners. Range 0 to 40 px, default 12 px. Shows only when **Layout** is **Picture beside the words**. |
+| **Picture corner rounding** | How round the corners are. 0 gives square corners. Range 0 to 40 px, default 12 px. Shows only when **Layout** is **Picture beside the words**. |
 {: .settings}
 
 #### Colors
@@ -2630,7 +2632,7 @@ A picture.
 | **Picture** | The picture. |
 | **Shape** | The shape the picture is cropped to. **As uploaded** keeps its own shape. Options: **As uploaded** (default), **Square**, **Portrait**, **Landscape**, **Wide**. |
 | **Width** | How wide the picture is within the section. Options: **Small**, **Medium** (default), **Full width**. |
-| **Corner rounding** | How round the corners are. 0 gives square corners. Range 0 to 40 px, default 12 px. |
+| **Picture corner rounding** | How round the corners are. 0 gives square corners. Range 0 to 40 px, default 12 px. |
 {: .settings}
 
 #### Feature grid block
@@ -2639,7 +2641,7 @@ A grid of features. Add **Feature** blocks inside it, each with an icon, a headi
 
 | Setting | What it changes |
 | --- | --- |
-| **Columns on a computer** | How many features sit side by side on a computer. Tablets show two and phones one. Each column needs about 220 px, so a narrow section shows fewer. Range 2 to 4, default 3. |
+| **Columns on computers** | How many features sit side by side on a computer. Tablets show two and phones one. Each column needs about 220 px, so a narrow section shows fewer. Range 2 to 4, default 3. |
 | **Style** | Whether each feature sits in its own card or on the plain background. Options: **Plain**, **Cards** (default). |
 {: .settings}
 
@@ -2696,7 +2698,7 @@ A frame groups pieces side by side or one under another, which is how you build 
 
 | Setting | What it changes |
 | --- | --- |
-| **Width on a computer** | Frames sit side by side until a row is full. On tablets a frame is at least half, and on phones every frame is full width. Options: **A quarter**, **A third**, **Half** (default), **Two thirds**, **Three quarters**, **Full width**. |
+| **Width on computers** | Frames sit side by side until a row is full. On tablets a frame is at least half, and on phones every frame is full width. Options: **A quarter**, **A third**, **Half** (default), **Two thirds**, **Three quarters**, **Full width**. |
 | **Pieces inside** | Whether the pieces inside the frame stack one under another or sit side by side. Options: **One under another** (default), **Side by side**. |
 | **Vertical position** | Where the pieces sit when the frame is taller than they are. Options: **Top** (default), **Middle**, **Bottom**. |
 | **Style** | Whether the frame is plain or a card. Options: **Plain** (default), **Cards**. |
@@ -2714,7 +2716,7 @@ A box for code from an app or a developer. It runs as written.
 
 ### Tips and limits
 
-> **Frames build columns.** Set each **Frame** to a share of the row with **Width on a computer** and frames sit side by side until a row is full. On tablets a frame is at least half the width, and on phones every frame is full width.
+> **Frames build columns.** Set each **Frame** to a share of the row with **Width on computers** and frames sit side by side until a row is full. On tablets a frame is at least half the width, and on phones every frame is full width.
 
 > **App blocks stand on their own row.** A block from an installed app takes a full row of its own. It cannot go inside a frame, and a block wider than the row is cut off rather than scrolling the page.
 

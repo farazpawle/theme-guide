@@ -75,11 +75,11 @@ A picture behind the whole page.
 
 | Setting | What it changes |
 | --- | --- |
-| **Background image** | The picture. It stays in place while the page scrolls and fills the screen, using the focal point you set on the picture. It shows behind transparent sections. Text keeps the page color scheme, so pick a picture the text reads clearly on. |
+| **Background picture** | The picture. It stays in place while the page scrolls and fills the screen, using the focal point you set on the picture. It shows behind transparent sections. Text keeps the page color scheme, so pick a picture the text reads clearly on. |
 | **Make all sections transparent** | Lets the page background show through every section that does not set its own. |
 {: .settings}
 
-> *Transparent sections need a picture.* With **Make all sections transparent** on but no **Background image**, sections simply show the page color. A section's own **Transparent background** setting makes just that one section transparent; it cannot turn off this theme-wide switch.
+> *Transparent sections need a picture.* With **Make all sections transparent** on but no **Background picture**, sections simply show the page color. A section's own **Transparent background** setting makes just that one section transparent; it cannot turn off this theme-wide switch.
 
 ## Blog cards
 
@@ -89,7 +89,7 @@ How blog posts look in the **Blog posts** section, on the blog page and wherever
 | --- | --- |
 | **Alignment** | Left, center or right alignment of the words on each card. |
 | **Color scheme** | The colors of a framed card. Only used when the card has a surface (see **Style**). |
-| **Image padding** | Space between the card's edge and its picture, from 0 to 20px. Only used when the card has a surface. |
+| **Picture padding** | Space between the card's edge and its picture, from 0 to 20px. Only used when the card has a surface. |
 | **Style** | Options: **Standard** (picture and words straight on the page) or **Card** (a framed card in the color scheme you pick). |
 {: .settings}
 
@@ -133,12 +133,12 @@ A scheme is stored in the list at the top of this group. Select a scheme there t
 | Setting | What it changes |
 | --- | --- |
 | **Page color scheme** | The colors of the page itself, and of every section that does not choose a scheme of its own. |
-| **Input corner radius** | Rounds the corners of every typing box: search, the email signup and the contact form. From 0 to 10px. |
+| **Input corner rounding** | Rounds the corners of every typing box: search, the email signup and the contact form. From 0 to 10px. |
 {: .settings}
 
 ### Light and dark mode
 
-Every section that uses a color scheme follows this, and so does every page that uses none. The two full-screen scroll sections, **Hero scroll** and **Scroll story**, keep their own dark stage on purpose.
+Every section that uses a color scheme follows this, and so does every page that uses none. The two full-screen scroll sections, **Hero scroll** and **Scroll story**, keep their own dark stage on purpose. Dark colors are worked out from the light ones, so there is nothing else to fill in.
 
 | Setting | What it changes |
 | --- | --- |
@@ -250,7 +250,7 @@ The footer styles are covered in [Footers](footers.md).
 | Setting | What it changes |
 | --- | --- |
 | **Keep the header on screen** | The bar stays at the top of the screen as the page scrolls. The announcement bar scrolls away with the page. |
-| **Enable the horizontal mega menu** | A menu item with two levels below it opens as columns instead of a single list. Used by **Centered stack**; **Aurora glow** opens every item as a full-width sheet with pictures, and **Nebula float** walks its menu one level at a time instead. |
+| **Show the horizontal mega menu** | A menu item with two levels below it opens as columns instead of a single list. Used by **Centered stack**; **Aurora glow** opens every item as a full-width sheet with pictures, and **Nebula float** walks its menu one level at a time instead. |
 {: .settings}
 
 The header's style is chosen by the header section itself: see [Headers](headers.md).
@@ -268,7 +268,7 @@ The header's style is chosen by the header section itself: see [Headers](headers
 
 The product card appears wherever products are listed. Set it once here and every card matches.
 
-The home page's **Featured products**, **Related products** and the suggestions in an empty cart use every setting below. The collection and search pages use their own card layout and follow **Alignment**, **Image shape**, **Custom shape from an image**, **Crop images to fill**, **Hover style**, the sale badge and **Sold out products**. They ignore **Style** and **Color scheme**, and the editor says so under each of those settings.
+The home page's **Featured products**, **Related products** and the suggestions in an empty cart use every setting below. The collection and search pages use their own card layout and follow **Alignment**, **Picture shape**, **Custom shape from a picture**, **Crop pictures to fill**, **Hover style**, the sale badge and **Sold out products**. They ignore **Style** and **Color scheme**, and the editor says so under each of those settings.
 
 <div class="pair">
   <figure class="shot shot--desktop">
@@ -287,28 +287,28 @@ The home page's **Featured products**, **Related products** and the suggestions 
 <div class="pair" style="margin-top:18px">
   <figure class="shot shot--desktop">
     <img src="{{ '/assets/images/settings/product-card-shape-square-desktop-light.webp' | relative_url }}" alt="Four product cards with square pictures" width="1440" height="562" loading="lazy">
-    <figcaption>Image shape: Square</figcaption>
+    <figcaption>Picture shape: Square</figcaption>
   </figure>
 </div>
 
 <div class="pair" style="margin-top:18px">
   <figure class="shot shot--desktop">
     <img src="{{ '/assets/images/settings/product-card-shape-portrait-desktop-light.webp' | relative_url }}" alt="Four product cards with tall portrait pictures" width="1440" height="723" loading="lazy">
-    <figcaption>Image shape: Portrait</figcaption>
+    <figcaption>Picture shape: Portrait</figcaption>
   </figure>
 </div>
 
 <div class="pair" style="margin-top:18px">
   <figure class="shot shot--desktop">
     <img src="{{ '/assets/images/settings/product-card-shape-landscape-desktop-light.webp' | relative_url }}" alt="Four product cards with landscape pictures" width="1440" height="481" loading="lazy">
-    <figcaption>Image shape: Landscape</figcaption>
+    <figcaption>Picture shape: Landscape</figcaption>
   </figure>
 </div>
 
 <div class="pair" style="margin-top:18px">
   <figure class="shot shot--desktop">
     <img src="{{ '/assets/images/settings/product-card-shape-wide-desktop-light.webp' | relative_url }}" alt="Four product cards with wide, shallow pictures" width="1440" height="421" loading="lazy">
-    <figcaption>Image shape: Wide</figcaption>
+    <figcaption>Picture shape: Wide</figcaption>
   </figure>
 </div>
 
@@ -321,13 +321,13 @@ The home page's **Featured products**, **Related products** and the suggestions 
 | **Product name lines** | How many lines a long name may take. Options: **Automatic**, **1 line**, **2 lines**, **3 lines**. Collection and search pages always show the full product name. |
 {: .settings}
 
-### Image
+### Picture
 
 | Setting | What it changes |
 | --- | --- |
-| **Image shape** | Crops every card picture to the same shape. Options: **Automatic** (the section decides), **Square**, **Portrait**, **Landscape**, **Wide**. |
-| **Custom shape from an image** | Optional. Upload an image and its proportions become the shape of every card, overriding **Image shape**. |
-| **Crop images to fill** | On, pictures fill the whole shape. Off, the whole picture fits inside the shape with space around it when its shape differs. |
+| **Picture shape** | Crops every card picture to the same shape. Options: **Automatic** (the section decides), **Square**, **Portrait**, **Landscape**, **Wide**. |
+| **Custom shape from a picture** | Optional. Upload an image and its proportions become the shape of every card, overriding **Picture shape**. |
+| **Crop pictures to fill** | On, pictures fill the whole shape. Off, the whole picture fits inside the shape with space around it when its shape differs. |
 {: .settings}
 
 ### Hover
@@ -341,10 +341,10 @@ The home page's **Featured products**, **Related products** and the suggestions 
 
 | Setting | What it changes |
 | --- | --- |
-| **Color scheme** | The colors of a card. Used when **Style** is **Card**, on the home page and in Related products. |
-| **Border** | Outline thickness, from 0 to 8px. Used when **Style** is **Card**. |
+| **Color scheme** | The colors of a card. Works only when **Style** is **Card**, on the home page and in Related products. |
+| **Border** | Outline thickness, from 0 to 8px. Works only when **Style** is **Card**. |
 | **Corner rounding** | Roundness of the card and its picture, from 0 to 40px. |
-| **Elevation** | A shadow under the card, from 0 to 100%. Used when **Style** is **Card**. Zero means no shadow. |
+| **Elevation** | A shadow under the card, from 0 to 100%. Works only when **Style** is **Card**. Zero means no shadow. |
 {: .settings}
 
 ### Sold out
@@ -431,7 +431,7 @@ The links show as icons in the footer, in whichever footer style you use.
 
 ## Typography
 
-### Body text
+### Body text style
 
 | Setting | What it changes |
 | --- | --- |
@@ -439,12 +439,12 @@ The links show as icons in the footer, in whichever footer style you use.
 | **Body size** | Scales body text from 100 to 130%. 100% is the theme's own size. |
 {: .settings}
 
-### Headings
+### Heading style
 
 | Setting | What it changes |
 | --- | --- |
 | **Heading font** | The font for headings. |
-| **Heading size** | Scales headings from 100 to 150%. 100% is the theme's own size. |
+| **Heading scale** | Scales headings from 100 to 150%. 100% is the theme's own size. |
 {: .settings}
 
 Fonts come from Shopify's font library, so they load fast and need no license of your own.

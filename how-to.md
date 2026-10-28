@@ -1,6 +1,6 @@
 ---
 title: How-to guides
-updated: 2026-10-21
+updated: 2026-10-28
 ---
 
 # How-to guides
@@ -219,7 +219,7 @@ screens. Bigger files are fine: Shopify makes smaller copies for phones.
 | **Blog posts** and blog cards | Shown cropped by the card | 1400 px wide |
 | Blog post cover | 16:9 | 2400 px wide |
 | Product pictures | Keeps each picture's own shape | 1600 px wide; use one shape for all of a product's pictures |
-| Product cards | Follows **Image shape** in Theme settings | 1200 px wide |
+| Product cards | Follows **Picture shape** in Theme settings | 1200 px wide |
 | **Logo list** logos | Any shape | 600 px wide, transparent background |
 | **Testimonials** photo | Small circle | 160 × 160 |
 | Shop logo | Any shape | 600 px wide |
@@ -228,7 +228,7 @@ screens. Bigger files are fine: Shopify makes smaller copies for phones.
 
 > *Keep the subject in the middle.* Sections that fill the screen crop the edges, more so on phones. Set a focal point on the picture in *Content > Files* to choose what stays in view.
 
-> *Want the picture's own shape?* Many sections have a shape or height setting with **Automatic**, **As uploaded** or **Adapt to picture**. For product cards, set **Image shape** to **Automatic**.
+> *Want the picture's own shape?* Many sections have a shape or height setting with **Automatic**, **As uploaded** or **Adapt to picture**. For product cards, set **Picture shape** to **Automatic**.
 
 ## Search engines and social sharing
 

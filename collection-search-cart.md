@@ -76,7 +76,7 @@ Open the editor as in [Opening a page template in the editor](#opening-a-page-te
 | **Look** | How the page is laid out. Options: **Lookbook**, **Split**, **Mosaic**, **Index**, **Dealt cards**. |
 | **Products per page** | How many products show before the page links, from 8 to 48. |
 | **Picture shape** | Shapes the product pictures. Options: **Rectangle**, **Arch**, **Blob**, **Chevron**, **Diamond**, **Parallelogram**, **Circle**. Not shown for **Index**, which keeps plain pictures. |
-| **Show the vendor** | Shows the maker's name on each product. |
+| **Show vendor** | Shows the maker's name on each product. |
 | **Scroll animation** | Options: **Off for visitors who reduce motion**, **Always animate**. See [Motion](getting-started.md#motion). |
 {: .settings}
 
@@ -86,7 +86,7 @@ Open the editor as in [Opening a page template in the editor](#opening-a-page-te
 | --- | --- |
 | **Show the heading** | Turned off, the collection's name is hidden from view but still read out by screen readers and search engines. |
 | **Heading** | Replaces the collection's own name, on this page only. Shown when **Show the heading** is on. |
-| **Show the collection image** | Shows the collection's own image with its heading. A collection with no image shows nothing in its place. |
+| **Show collection picture** | Shows the collection's own image with its heading. A collection with no image shows nothing in its place. |
 {: .settings}
 
 #### Filtering and sorting
@@ -143,9 +143,9 @@ On this page the section lists every collection in your shop, so the **Collectio
 | Setting | What it changes |
 | --- | --- |
 | **Look** | Options: **Stack** (fans out each collection's picture with two of its products), **Lookbook** (a large spread with its description), **Mosaic** (keeps every picture's own shape). |
-| **Columns on desktop** | How many tiles sit side by side on a computer, from 2 to 5. Not shown for **Lookbook**. |
-| **Columns on mobile** | Options: **1**, **2**. Not shown for **Lookbook**. |
-| **Image ratio** | The shape of each picture. Options: **Square**, **Portrait**, **Landscape**. Only for **Stack**. |
+| **Columns on computers** | How many tiles sit side by side on a computer, from 2 to 5. Not shown for **Lookbook**. |
+| **Columns on phones** | Options: **1**, **2**. Not shown for **Lookbook**. |
+| **Picture ratio** | The shape of each picture. Options: **Square**, **Portrait**, **Landscape**. Only for **Stack**. |
 | **Scroll animation** | Options: **Off for visitors who reduce motion**, **Always animate**. |
 {: .settings}
 
@@ -211,7 +211,7 @@ Open the editor as in [Opening a page template in the editor](#opening-a-page-te
 | **Look** | How the page is laid out. Options: **Lookbook**, **Split**, **Mosaic**, **Index**, **Dealt cards**. |
 | **Results per page** | How many results show before the page links, from 8 to 48. |
 | **Picture shape** | Shapes the product pictures. Options: **Rectangle**, **Arch**, **Blob**, **Chevron**, **Diamond**, **Parallelogram**, **Circle**. Not shown for **Index**. |
-| **Show the vendor** | Shows the maker's name on each product. |
+| **Show vendor** | Shows the maker's name on each product. |
 | **Scroll animation** | Options: **Off for visitors who reduce motion**, **Always animate**. |
 {: .settings}
 
@@ -389,28 +389,28 @@ The card shown for every product, on the home page, collection and search pages 
 <div class="pair">
   <figure class="shot shot--desktop">
     <img src="{{ '/assets/images/settings/product-card-shape-square-desktop-light.webp' | relative_url }}" alt="Four product cards with square pictures" width="1440" height="562" loading="lazy">
-    <figcaption>Image shape: Square</figcaption>
+    <figcaption>Picture shape: Square</figcaption>
   </figure>
 </div>
 
 <div class="pair" style="margin-top:18px">
   <figure class="shot shot--desktop">
     <img src="{{ '/assets/images/settings/product-card-shape-portrait-desktop-light.webp' | relative_url }}" alt="Four product cards with portrait pictures" width="1440" height="723" loading="lazy">
-    <figcaption>Image shape: Portrait</figcaption>
+    <figcaption>Picture shape: Portrait</figcaption>
   </figure>
 </div>
 
 <div class="pair" style="margin-top:18px">
   <figure class="shot shot--desktop">
     <img src="{{ '/assets/images/settings/product-card-shape-landscape-desktop-light.webp' | relative_url }}" alt="Four product cards with landscape pictures" width="1440" height="481" loading="lazy">
-    <figcaption>Image shape: Landscape</figcaption>
+    <figcaption>Picture shape: Landscape</figcaption>
   </figure>
 </div>
 
 <div class="pair" style="margin-top:18px">
   <figure class="shot shot--desktop">
     <img src="{{ '/assets/images/settings/product-card-shape-wide-desktop-light.webp' | relative_url }}" alt="Four product cards with wide pictures" width="1440" height="421" loading="lazy">
-    <figcaption>Image shape: Wide</figcaption>
+    <figcaption>Picture shape: Wide</figcaption>
   </figure>
 </div>
 <div class="pair">
@@ -452,7 +452,7 @@ The full list of settings, in the editor's order, is in [Product cards](theme-se
 | Group | What it changes |
 | --- | --- |
 | **Layout** | **Style** (**Standard** or **Card**), **Alignment** and **Product name lines**. |
-| **Image** | **Image shape**, **Custom shape from an image** and **Crop images to fill**. |
+| **Picture** | **Picture shape**, **Custom shape from a picture** and **Crop pictures to fill**. |
 | **Hover** | **Hover style**: **Zoom the picture**, **Show the second picture** or **No hover effect**. |
 | **Surface** | **Color scheme**, **Border**, **Corner rounding** and **Elevation** for a framed card. |
 | **Sold out** | **Sold out products**, **Inquiry button label** and **Inquiry button link**. |
@@ -464,7 +464,7 @@ This group has no blocks.
 
 ### Tips and limits
 
-> *Collection and search cards differ.* The collection and search pages use their own card layout. They follow **Alignment** (the Index look keeps its own rows), **Image shape**, **Custom shape from an image**, **Crop images to fill**, **Hover style**, the sale badge and **Sold out products**; **Style** and **Color scheme** apply on the home page, Related products and the empty cart only, and the editor says so under each.
+> *Collection and search cards differ.* The collection and search pages use their own card layout. They follow **Alignment** (the Index look keeps its own rows), **Picture shape**, **Custom shape from a picture**, **Crop pictures to fill**, **Hover style**, the sale badge and **Sold out products**; **Style** and **Color scheme** apply on the home page, Related products and the empty cart only, and the editor says so under each.
 
 > *The sale badge is set elsewhere.* The badge on reduced products is under Sale badge in [Search](theme-settings.md#sale-badge) in Theme settings.
 
