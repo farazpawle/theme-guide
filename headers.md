@@ -1,6 +1,6 @@
 ---
 title: Headers and the announcement bar
-updated: 2026-10-25
+updated: 2026-10-28
 ---
 
 # Headers and the announcement bar
@@ -202,6 +202,8 @@ This header has no blocks. Its links come from the menus you choose.
 
 > *A long menu folds itself.* When the items would not fit in the foot bar, it shows the *Menu* button instead, even on a wide screen. An item with links below it opens a drop-down or columns (see [Menus](#menus)).
 
+> *The account icon stays in the foot bar.* The row of links above the name holds only your menu links. On phones the menu also has an account link.
+
 > *The foot bar stays out of the way.* It leaves the bottom corners free for chat widgets and lifts above other bars fixed to the bottom of the screen, such as the product page's buy bar or the cart's checkout bar.
 
 > *A long store name shrinks, then wraps.* It gets smaller to fit, then moves onto a second line. It is never cut off with dots.
@@ -288,6 +290,8 @@ This header has no blocks. Its links come from the menus you choose.
 > *Every item is a link.* The first click, tap or Enter on an item with links below it shows those links; a second one opens its page. Each list also starts with an *All* link to the item's own page.
 
 > *Search on computers.* The search icon shows on tablets and phones only. Make sure the search page is easy to reach from your menu.
+
+> *Search opens ready to type.* On a tablet or phone, the cursor is already in the search field when the search opens, so a shopper can type straight away.
 
 > *A long store name shrinks, then wraps.* In the bar and at the top of the opened menu it gets smaller to fit, then moves onto a second line. It is never cut off with dots.
 
@@ -448,6 +452,8 @@ This header has no blocks. Its links come from the menus you choose.
 > *Older browsers keep the bar.* A browser too old to dock the column shows the bar and drawer at every width, like a phone.
 
 > *Left to right only.* The column is always on the left, so it is not suited to stores written right to left.
+
+> *Search in the column.* On a computer the search field sits in the column, with "Search" as its placeholder. Its suggestions show smaller pictures and titles of up to three lines.
 
 > *A long store name shrinks, then wraps.* In the column, the bar and the drawer it gets smaller to fit, then moves onto a second line. It is never cut off with dots.
 

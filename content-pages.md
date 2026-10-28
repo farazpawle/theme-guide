@@ -1,6 +1,6 @@
 ---
 title: Content pages
-updated: 2026-10-24
+updated: 2026-10-28
 ---
 
 # Content pages
@@ -255,6 +255,8 @@ This section has no blocks. The post's words and picture come from *Online Store
 ### Tips and limits
 
 > *Cover needs a picture.* **Cover** only does its shrinking move when the post has a picture. Add a featured picture to the post in your admin.
+
+> *Cover keeps the picture's shape.* The frame follows the picture's own proportions up to a maximum height, so a tall or square picture is not cut into a wide strip.
 
 > *Comments appear when they are turned on.* Turn them on for the blog in *Online Store > Blog posts > Manage blogs*. Shoppers who comment see a message that their comment was posted, or sent for approval when you moderate comments.
 
