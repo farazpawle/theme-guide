@@ -1,6 +1,6 @@
 ---
 title: Home page sections
-updated: 2026-10-26
+updated: 2026-10-28
 ---
 
 # Home page sections
@@ -294,7 +294,7 @@ One full-screen slide.
 | Setting | What it changes |
 | --- | --- |
 | **Tagline size** | Makes the tagline smaller or larger. 1× is the normal size, which stays responsive. Range 0.6 to 2×, default 1×. |
-| **Tagline weight** | How bold the tagline is. **Theme default** keeps the weight the chosen font comes with. Options: **Theme default** (default), **Light (300)**, **Normal (400)**, **Medium (500)**, **Semi-bold (600)**, **Bold (700)**. |
+| **Tagline weight** | How bold the tagline is. **Theme default** keeps the weight the chosen font comes with. Options: **Theme default** (default), **Light (300)**, **Normal (400)**, **Medium (500)**, **Semi-bold (600)**, **Bold (700)**. If your font has no such weight, the nearest one is used. |
 | **Tagline letter spacing** | The space between the letters of the tagline. 0 keeps the design's own spacing. Range -2 to 6 px, default 0 px. |
 | **Tagline color** | The color of the tagline. Leave empty to use the section text color. |
 {: .settings}
@@ -304,7 +304,7 @@ One full-screen slide.
 | Setting | What it changes |
 | --- | --- |
 | **Heading size adjustment** | Makes the heading smaller or larger. 1× is the normal size, which stays responsive. Range 0.6 to 2×, default 1×. |
-| **Heading weight** | How bold the heading is. **Theme default** keeps the weight the chosen font comes with. Options: **Theme default** (default), **Light (300)**, **Normal (400)**, **Medium (500)**, **Semi-bold (600)**, **Bold (700)**. |
+| **Heading weight** | How bold the heading is. **Theme default** keeps the weight the chosen font comes with. Options: **Theme default** (default), **Light (300)**, **Normal (400)**, **Medium (500)**, **Semi-bold (600)**, **Bold (700)**. If your font has no such weight, the nearest one is used. |
 | **Heading letter spacing** | The space between the letters of the heading. 0 keeps the design's own spacing. Range -2 to 6 px, default 0 px. |
 | **Heading color** | The color of the heading. Leave empty to use the section text color. |
 | **Heading shadow strength** | How strong the shadow behind the heading is. 0 turns the shadow off. Range 0 to 100%, default 40%. |
@@ -319,7 +319,7 @@ One full-screen slide.
 | Setting | What it changes |
 | --- | --- |
 | **Subheading size** | Makes the subheading smaller or larger. 1× is the normal size, which stays responsive. Range 0.6 to 2×, default 1×. |
-| **Subheading weight** | How bold the subheading is. **Theme default** keeps the weight the chosen font comes with. Options: **Theme default** (default), **Light (300)**, **Normal (400)**, **Medium (500)**, **Semi-bold (600)**, **Bold (700)**. |
+| **Subheading weight** | How bold the subheading is. **Theme default** keeps the weight the chosen font comes with. Options: **Theme default** (default), **Light (300)**, **Normal (400)**, **Medium (500)**, **Semi-bold (600)**, **Bold (700)**. If your font has no such weight, the nearest one is used. |
 | **Subheading letter spacing** | The space between the letters of the subheading. 0 keeps the design's own spacing. Range -2 to 6 px, default 0 px. |
 | **Subheading color** | The color of the subheading. Leave empty to use the section text color. |
 {: .settings}
@@ -329,7 +329,7 @@ One full-screen slide.
 | Setting | What it changes |
 | --- | --- |
 | **Button size** | Makes the button smaller or larger. 1× is the normal size, which stays responsive. Range 0.6 to 2×, default 1×. |
-| **Button weight** | How bold the button is. **Theme default** keeps the weight the chosen font comes with. Options: **Theme default** (default), **Light (300)**, **Normal (400)**, **Medium (500)**, **Semi-bold (600)**, **Bold (700)**. |
+| **Button weight** | How bold the button is. **Theme default** keeps the weight the chosen font comes with. Options: **Theme default** (default), **Light (300)**, **Normal (400)**, **Medium (500)**, **Semi-bold (600)**, **Bold (700)**. If your font has no such weight, the nearest one is used. |
 | **Button letter spacing** | The space between the letters of the button. 0 keeps the design's own spacing. Range -2 to 6 px, default 0 px. |
 {: .settings}
 
@@ -449,7 +449,7 @@ One caption that fades in and out at a point in the scroll.
 | Setting | What it changes |
 | --- | --- |
 | **Heading size** | How large the heading is. Options: **Small**, **Medium** (default), **Large**. |
-| **Heading weight** | How bold the heading is. **Theme default** keeps the weight the chosen font comes with. Options: **Theme default** (default), **Light (300)**, **Normal (400)**, **Medium (500)**, **Semi-bold (600)**, **Bold (700)**. |
+| **Heading weight** | How bold the heading is. **Theme default** keeps the weight the chosen font comes with. Options: **Theme default** (default), **Light (300)**, **Normal (400)**, **Medium (500)**, **Semi-bold (600)**, **Bold (700)**. If your font has no such weight, the nearest one is used. |
 | **Heading letter spacing** | The space between the letters of the heading. 0 keeps the design's own spacing. Range -4 to 8 px, default 0 px. |
 | **Heading color** | The color of the heading. Leave empty to follow the section's text color. |
 {: .settings}
@@ -459,7 +459,7 @@ One caption that fades in and out at a point in the scroll.
 | Setting | What it changes |
 | --- | --- |
 | **Text size** | How large the text is. Options: **Small**, **Medium** (default), **Large**. |
-| **Text weight** | How bold the text is. **Theme default** keeps the weight the chosen font comes with. Options: **Theme default** (default), **Light (300)**, **Normal (400)**, **Medium (500)**, **Semi-bold (600)**, **Bold (700)**. |
+| **Text weight** | How bold the text is. **Theme default** keeps the weight the chosen font comes with. Options: **Theme default** (default), **Light (300)**, **Normal (400)**, **Medium (500)**, **Semi-bold (600)**, **Bold (700)**. If your font has no such weight, the nearest one is used. |
 | **Text letter spacing** | The space between the letters of the text. 0 keeps the design's own spacing. Range -4 to 8 px, default 0 px. |
 | **Text color** | The color of the text. Leave empty to follow the section's text color. |
 {: .settings}
@@ -785,7 +785,7 @@ This section is for the home page only. It is not offered on other pages.
 | Setting | What it changes |
 | --- | --- |
 | **Heading size** | How large the heading is. Options: **Small**, **Medium** (default), **Large**. |
-| **Heading weight** | How bold the heading is. **Theme default** keeps the weight the chosen font comes with. Options: **Theme default** (default), **Light (300)**, **Normal (400)**, **Medium (500)**, **Semi-bold (600)**, **Bold (700)**. |
+| **Heading weight** | How bold the heading is. **Theme default** keeps the weight the chosen font comes with. Options: **Theme default** (default), **Light (300)**, **Normal (400)**, **Medium (500)**, **Semi-bold (600)**, **Bold (700)**. If your font has no such weight, the nearest one is used. |
 | **Heading color** | The color of the heading. It also colors the small scroll hint, so pick a color that stands out clearly from the background. Leave empty to follow the color scheme. |
 {: .settings}
 
@@ -794,7 +794,7 @@ This section is for the home page only. It is not offered on other pages.
 | Setting | What it changes |
 | --- | --- |
 | **Subheading size** | How large the subheading is. Options: **Small**, **Medium** (default), **Large**. |
-| **Subheading weight** | How bold the subheading is. **Theme default** keeps the weight the chosen font comes with. Options: **Theme default** (default), **Light (300)**, **Normal (400)**, **Medium (500)**, **Semi-bold (600)**, **Bold (700)**. |
+| **Subheading weight** | How bold the subheading is. **Theme default** keeps the weight the chosen font comes with. Options: **Theme default** (default), **Light (300)**, **Normal (400)**, **Medium (500)**, **Semi-bold (600)**, **Bold (700)**. If your font has no such weight, the nearest one is used. |
 | **Subheading color** | The color of the subheading. Leave empty to follow the color scheme. |
 {: .settings}
 
@@ -847,7 +847,7 @@ One picture card.
 | Setting | What it changes |
 | --- | --- |
 | **Heading size** | How large the heading is. Options: **Small**, **Medium** (default), **Large**. |
-| **Heading weight** | How bold the heading is. **Theme default** keeps the weight the chosen font comes with. Options: **Theme default** (default), **Light (300)**, **Normal (400)**, **Medium (500)**, **Semi-bold (600)**, **Bold (700)**. |
+| **Heading weight** | How bold the heading is. **Theme default** keeps the weight the chosen font comes with. Options: **Theme default** (default), **Light (300)**, **Normal (400)**, **Medium (500)**, **Semi-bold (600)**, **Bold (700)**. If your font has no such weight, the nearest one is used. |
 | **Heading color** | The color of the card heading. Leave empty to use the card's default light text. |
 {: .settings}
 
@@ -856,7 +856,7 @@ One picture card.
 | Setting | What it changes |
 | --- | --- |
 | **Description size** | How large the description is. Options: **Small**, **Medium** (default), **Large**. |
-| **Description weight** | How bold the description is. **Theme default** keeps the weight the chosen font comes with. Options: **Theme default** (default), **Light (300)**, **Normal (400)**, **Medium (500)**, **Semi-bold (600)**, **Bold (700)**. |
+| **Description weight** | How bold the description is. **Theme default** keeps the weight the chosen font comes with. Options: **Theme default** (default), **Light (300)**, **Normal (400)**, **Medium (500)**, **Semi-bold (600)**, **Bold (700)**. If your font has no such weight, the nearest one is used. |
 | **Description color** | The color of the description. Leave empty to use the card's default light text. |
 {: .settings}
 
@@ -928,7 +928,7 @@ This section is for the home page only. It is not offered on other pages.
 | Setting | What it changes |
 | --- | --- |
 | **Heading size** | How large the heading is. Options: **Small**, **Medium** (default), **Large**. |
-| **Heading weight** | How bold the heading is. **Theme default** keeps the weight the chosen font comes with. Options: **Theme default** (default), **Light (300)**, **Normal (400)**, **Medium (500)**, **Semi-bold (600)**, **Bold (700)**. |
+| **Heading weight** | How bold the heading is. **Theme default** keeps the weight the chosen font comes with. Options: **Theme default** (default), **Light (300)**, **Normal (400)**, **Medium (500)**, **Semi-bold (600)**, **Bold (700)**. If your font has no such weight, the nearest one is used. |
 | **Heading letter spacing** | The space between the letters of the heading. 0 keeps the design's own spacing. Range -4 to 8 px, default 0 px. |
 | **Intro alignment** | Whether the intro lines up on the left, in the center or on the right. Options: **Left** (default), **Center**, **Right**. |
 | **Heading color** | The color of the heading. Leave empty to follow the color scheme. |
@@ -1196,7 +1196,7 @@ One row: a picture, a caption, a heading, a text and an optional button.
 
 | Setting | What it changes |
 | --- | --- |
-| **Font weight** | How bold the caption is. Options: **Theme default** (default), **Light (300)**, **Normal (400)**, **Medium (500)**, **Semi-bold (600)**, **Bold (700)**. |
+| **Font weight** | How bold the caption is. Options: **Theme default** (default), **Light (300)**, **Normal (400)**, **Medium (500)**, **Semi-bold (600)**, **Bold (700)**. If your font has no such weight, the nearest one is used. |
 | **Font size** | Makes the caption smaller or larger. 1× is the normal size, which stays responsive. Range 0.6 to 2×, default 1×. |
 | **Letter spacing** | The space between the letters of the caption. Any value other than 0 replaces the spacing built into the caption style. Range -2 to 6 px, default 0 px. |
 | **Alignment** | How the caption lines up. **Theme default** follows the section's **Text alignment**. Options: **Theme default** (default), **Left**, **Center**, **Right**. |
@@ -1207,7 +1207,7 @@ One row: a picture, a caption, a heading, a text and an optional button.
 
 | Setting | What it changes |
 | --- | --- |
-| **Font weight** | How bold the heading is. Options: **Theme default** (default), **Light (300)**, **Normal (400)**, **Medium (500)**, **Semi-bold (600)**, **Bold (700)**. |
+| **Font weight** | How bold the heading is. Options: **Theme default** (default), **Light (300)**, **Normal (400)**, **Medium (500)**, **Semi-bold (600)**, **Bold (700)**. If your font has no such weight, the nearest one is used. |
 | **Letter spacing** | The space between the letters of the heading. Range -2 to 6 px, default 0 px. |
 | **Alignment** | How the heading lines up. **Theme default** follows the section's **Text alignment**. Options: **Theme default** (default), **Left**, **Center**, **Right**. |
 | **Text color** | The color of the heading. Leave empty to follow the color scheme. |
@@ -1217,7 +1217,7 @@ One row: a picture, a caption, a heading, a text and an optional button.
 
 | Setting | What it changes |
 | --- | --- |
-| **Font weight** | How bold the row text is. Options: **Theme default** (default), **Light (300)**, **Normal (400)**, **Medium (500)**, **Semi-bold (600)**, **Bold (700)**. |
+| **Font weight** | How bold the row text is. Options: **Theme default** (default), **Light (300)**, **Normal (400)**, **Medium (500)**, **Semi-bold (600)**, **Bold (700)**. If your font has no such weight, the nearest one is used. |
 | **Font size** | Makes the row text smaller or larger. 1× is the normal size, which stays responsive. Range 0.6 to 2×, default 1×. |
 | **Letter spacing** | The space between the letters of the row text. Range -2 to 6 px, default 0 px. |
 | **Alignment** | How the row text lines up. **Theme default** follows the section's **Text alignment**. Options: **Theme default** (default), **Left**, **Center**, **Right**. |
@@ -1329,7 +1329,7 @@ One panel in the row.
 | Setting | What it changes |
 | --- | --- |
 | **Size** | Makes the heading smaller or larger. 1× is the designed size, which already scales with the screen. On a computer a very large heading is shrunk to the room above the picture, so the top of the range stops growing once the heading fills that room. Range 0.6 to 5×, default 1×. |
-| **Weight** | How bold the heading is. Leave on **Theme default** to keep the weight the chosen font comes with. Options: **Theme default** (default), **Light (300)**, **Normal (400)**, **Medium (500)**, **Semi-bold (600)**, **Bold (700)**. |
+| **Weight** | How bold the heading is. Leave on **Theme default** to keep the weight the chosen font comes with. Options: **Theme default** (default), **Light (300)**, **Normal (400)**, **Medium (500)**, **Semi-bold (600)**, **Bold (700)**. If your font has no such weight, the nearest one is used. |
 | **Letter spacing** | The space between the letters of the heading. Range -1 to 6 px, default 0 px. |
 | **Alignment** | How the heading lines up in the panel. Options: **Left** (default), **Center**, **Right**. |
 | **Color** | The color of the heading. Leave empty to keep the designed color. |
@@ -1340,7 +1340,7 @@ One panel in the row.
 | Setting | What it changes |
 | --- | --- |
 | **Size** | Makes the description smaller or larger. 1× is the designed size, which already scales with the screen. Range 0.6 to 5×, default 1×. |
-| **Weight** | How bold the description is. Leave on **Theme default** to keep the weight the chosen font comes with. Options: **Theme default** (default), **Light (300)**, **Normal (400)**, **Medium (500)**, **Semi-bold (600)**, **Bold (700)**. |
+| **Weight** | How bold the description is. Leave on **Theme default** to keep the weight the chosen font comes with. Options: **Theme default** (default), **Light (300)**, **Normal (400)**, **Medium (500)**, **Semi-bold (600)**, **Bold (700)**. If your font has no such weight, the nearest one is used. |
 | **Letter spacing** | The space between the letters of the description. Range -1 to 6 px, default 0 px. |
 | **Alignment** | How the description lines up in the panel. Options: **Left** (default), **Center**, **Right**. |
 | **Color** | The color of the description. Leave empty to keep the designed color. |
@@ -2082,7 +2082,7 @@ This section is for the home page only. It is not offered on other pages.
 
 | Setting | What it changes |
 | --- | --- |
-| **Heading weight** | How bold the heading is. **Theme default** keeps the weight the chosen font comes with. Options: **Theme default** (default), **Light (300)**, **Normal (400)**, **Medium (500)**, **Semi-bold (600)**, **Bold (700)**. |
+| **Heading weight** | How bold the heading is. **Theme default** keeps the weight the chosen font comes with. Options: **Theme default** (default), **Light (300)**, **Normal (400)**, **Medium (500)**, **Semi-bold (600)**, **Bold (700)**. If your font has no such weight, the nearest one is used. |
 | **Heading letter spacing** | The space between the letters of the heading. 0 keeps the design's own spacing. Range -2 to 8 px, default 0 px. |
 | **Heading color** | The color of the heading. |
 | **Caption size** | Makes the caption smaller or larger. 1× is the normal size, which stays responsive. Range 0.6 to 2×, default 1×. |
@@ -2202,7 +2202,7 @@ This section is for the home page only. It is not offered on other pages.
 | Setting | What it changes |
 | --- | --- |
 | **Heading size** | Makes the heading smaller or larger. 1× is the normal size, which stays responsive. Range 0.8 to 2×, default 1×. |
-| **Heading weight** | How bold the heading is. **Theme default** keeps the weight the chosen font comes with. Options: **Theme default** (default), **Light (300)**, **Normal (400)**, **Medium (500)**, **Semi-bold (600)**, **Bold (700)**. |
+| **Heading weight** | How bold the heading is. **Theme default** keeps the weight the chosen font comes with. Options: **Theme default** (default), **Light (300)**, **Normal (400)**, **Medium (500)**, **Semi-bold (600)**, **Bold (700)**. If your font has no such weight, the nearest one is used. |
 | **Heading letter spacing** | The space between the letters of the heading. 0 keeps the design's own spacing. Range -2 to 8 px, default 0 px. |
 | **Heading color** | The color of the heading. |
 | **Caption size** | Makes the caption smaller or larger. 1× is the normal size, which stays responsive. Range 0.6 to 2×, default 1×. |
@@ -2572,7 +2572,7 @@ A heading, with an optional small caption above it.
 | --- | --- |
 | **Text color** | The color of the text. Leave empty to follow the color scheme. |
 | **Font** | Which of the theme's two fonts to use: the heading font or the body font. Both are chosen in Theme settings, under **Typography**. Options: **Heading font** (default), **Body font**. |
-| **Weight** | How bold the heading is. **Theme default** keeps the weight the chosen font comes with. Options: **Theme default** (default), **Regular**, **Medium**, **Bold**. |
+| **Weight** | How bold the heading is. **Theme default** keeps the weight the chosen font comes with. Options: **Theme default** (default), **Regular**, **Medium**, **Bold**. If your font has no such weight, the nearest one is used. |
 | **Italic** | Sets the text in italics. Off by default. |
 | **All capitals** | Sets the text in capital letters. Off by default. |
 {: .settings}
@@ -2595,7 +2595,7 @@ A paragraph of text.
 | --- | --- |
 | **Text color** | The color of the text. Leave empty to follow the color scheme. |
 | **Font** | Which of the theme's two fonts to use: the heading font or the body font. Both are chosen in Theme settings, under **Typography**. Options: **Heading font**, **Body font** (default). |
-| **Weight** | How bold the text is. **Theme default** keeps the weight the chosen font comes with. Options: **Theme default** (default), **Regular**, **Medium**, **Bold**. |
+| **Weight** | How bold the text is. **Theme default** keeps the weight the chosen font comes with. Options: **Theme default** (default), **Regular**, **Medium**, **Bold**. If your font has no such weight, the nearest one is used. |
 | **Italic** | Sets the text in italics. Off by default. |
 | **All capitals** | Sets the text in capital letters. Off by default. |
 {: .settings}
@@ -2662,7 +2662,7 @@ One feature inside a **Feature grid**.
 | --- | --- |
 | **Heading color** | The color of the heading. Leave empty to follow the color scheme. |
 | **Font** | Which of the theme's two fonts to use: the heading font or the body font. Both are chosen in Theme settings, under **Typography**. Options: **Heading font** (default), **Body font**. |
-| **Weight** | How bold the text is. **Theme default** keeps the weight the chosen font comes with. Options: **Theme default** (default), **Regular**, **Medium**, **Bold**. |
+| **Weight** | How bold the text is. **Theme default** keeps the weight the chosen font comes with. Options: **Theme default** (default), **Regular**, **Medium**, **Bold**. If your font has no such weight, the nearest one is used. |
 | **Italic** | Sets the text in italics. Off by default. |
 | **All capitals** | Sets the text in capital letters. Off by default. |
 | **Text color** | The color of the text. Leave empty to follow the color scheme. |

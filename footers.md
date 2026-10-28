@@ -91,7 +91,7 @@ Keep one footer in the footer area. To change style, remove this footer and add 
 | Setting | What it changes |
 | --- | --- |
 | **Size** | A multiplier for the small column headings, from 0.6 to 2. 1 is the designed size. |
-| **Weight** | Options: **Default (bold)**, **Light**, **Regular**, **Medium**, **Semi bold** or **Bold**. |
+| **Weight** | Options: **Default (bold)**, **Light**, **Regular**, **Medium**, **Semi bold** or **Bold**. If your font has no such weight, the nearest one is used. |
 | **Letter spacing** | Space between the letters of the headings, from 0 to 6px. |
 {: .settings}
 
@@ -294,7 +294,7 @@ One board on the footer: the column's heading named once at its top, and every l
 | **Collapse on mobile** | On a phone, a column with more than four links folds under its heading; tap the heading to open it. Shorter columns stay open. |
 | **Wording** | The column's heading. Leave empty to use the name of the menu chosen below. |
 | **Size** (heading) | The heading's text size, from 11 to 32px. |
-| **Weight** (heading) | Options: **Normal (400)**, **Medium (500)**, **Semi-bold (600)** or **Bold (700)**. |
+| **Weight** (heading) | Options: **Normal (400)**, **Medium (500)**, **Semi-bold (600)** or **Bold (700)**. If your font has no such weight, the nearest one is used. |
 | **Style** (heading) | Options: **Theme default**, **Normal** or **Italic**. |
 | **Capitalization** | Options: **As typed**, **All capitals** or **Capitalize each word**. |
 | **Heading alignment** | Options: **Follow the column**, **Left**, **Center** or **Right**. |
@@ -305,7 +305,7 @@ One board on the footer: the column's heading named once at its top, and every l
 | **Spacing preset** | Options: **Clean, no lines**, **Compact, tight spacing**, **Wide, airy spacing**, **Divided, a line between links**, **Underlined, a line per link** (the start), **Uppercase, tracked capitals** or **Card, a tile per link**. |
 | **Bullet** | Options: **None**, **Dot**, **Square**, **Dash**, **Arrow**, **Chevron** or **Check**. A mark before each link; the arrow at the end stays. |
 | **Size** (links) | Scales the links, from 11 to 24. 14 is the board's own size. |
-| **Weight** (links) | Options: **Normal (400)**, **Medium (500)**, **Semi-bold (600)** or **Bold (700)**. Most store fonts come in normal and bold only, so medium looks like normal and semi-bold like bold. |
+| **Weight** (links) | Options: **Normal (400)**, **Medium (500)**, **Semi-bold (600)** or **Bold (700)**. If your font has no such weight, the nearest one is used. |
 | **Style** (links) | Options: **Normal** or **Italic**. |
 {: .settings}
 
@@ -407,7 +407,7 @@ On a computer the picture is the front of the card, on the left. The back, on th
 | Setting | What it changes |
 | --- | --- |
 | **Size** | From 12 to 40px. |
-| **Weight** | Options: **Normal (400)**, **Medium (500)**, **Semi-bold (600)** or **Bold (700)**. |
+| **Weight** | Options: **Normal (400)**, **Medium (500)**, **Semi-bold (600)** or **Bold (700)**. If your font has no such weight, the nearest one is used. |
 | **Gradient color** | The brand name fades from this color to the footer's accent color. Leave empty for plain body text. |
 {: .settings}
 
@@ -416,7 +416,7 @@ On a computer the picture is the front of the card, on the left. The back, on th
 | Setting | What it changes |
 | --- | --- |
 | **Size** | From 11 to 28px. |
-| **Weight** | Options: **Normal (400)**, **Medium (500)**, **Semi-bold (600)** or **Bold (700)**. |
+| **Weight** | Options: **Normal (400)**, **Medium (500)**, **Semi-bold (600)** or **Bold (700)**. If your font has no such weight, the nearest one is used. |
 | **Color** | Leave empty to follow the body text color. |
 {: .settings}
 
@@ -507,7 +507,7 @@ Add up to six blocks in any mix of the two kinds.
 | Setting | What it changes |
 | --- | --- |
 | **Size** | From 11 to 32px. |
-| **Weight** | Options: **Normal (400)**, **Medium (500)**, **Semi-bold (600)** or **Bold (700)**. |
+| **Weight** | Options: **Normal (400)**, **Medium (500)**, **Semi-bold (600)** or **Bold (700)**. If your font has no such weight, the nearest one is used. |
 | **Color** | Leave empty to follow the footer's own heading color. |
 | **Space below heading** | From 0 to 48px. |
 {: .settings}
@@ -517,7 +517,7 @@ Add up to six blocks in any mix of the two kinds.
 | Setting | What it changes |
 | --- | --- |
 | **Size** | From 11 to 24px. |
-| **Weight** | Options: **Normal (400)**, **Medium (500)**, **Semi-bold (600)** or **Bold (700)**. |
+| **Weight** | Options: **Normal (400)**, **Medium (500)**, **Semi-bold (600)** or **Bold (700)**. If your font has no such weight, the nearest one is used. |
 | **Color** | Leave empty to follow the footer's own link color. |
 {: .settings}
 

@@ -1,6 +1,6 @@
 ---
 title: Product page
-updated: 2026-10-26
+updated: 2026-10-28
 ---
 
 # Product page
@@ -58,7 +58,7 @@ The four layouts change how the **Product page** look is arranged. Pick one with
 
 - **Classic**: one large picture with thumbnails, the details beside it, and the description, panels and share links in a full-width band underneath. It suits any product.
 - **Filmstrip**: every picture at once. On computers the pictures fill the left half of the window and hold still while the details are read, then roll on one by one. On phones and tablets they become a swipe row. It suits four or more pictures.
-- **Long read**: one centered column, like a story. The lead picture opens the page wide, then the buy card, then the details with the other pictures between them. Each of those other pictures keeps its own shape, so a square, portrait or wide picture shows whole, with nothing cut off and no bands at the sides. A buy bar stays at the foot of the screen whenever the page's own Add to bag button is out of view. On the buy card, the accent-colored words and borders (the chosen option, Buy it now) and the stock line are drawn a little deeper than elsewhere so they stay easy to read on the card, in light and dark mode. It suits one to three pictures.
+- **Long read**: one centered column, like a story. The lead picture opens the page wide (with **Enlarging a picture** on **Full screen** it fills its frame and may be trimmed at the edges; tapping it shows the whole picture), then the buy card, then the details with the other pictures between them. Each of those other pictures keeps its own shape, so a square, portrait or wide picture shows whole, with nothing cut off and no bands at the sides. A buy bar stays at the foot of the screen whenever the page's own Add to bag button is out of view. On the buy card, the accent-colored words and borders (the chosen option, Buy it now) and the stock line are drawn a little deeper than elsewhere so they stay easy to read on the card, in light and dark mode. It suits one to three pictures.
 - **Spec sheet**: the page as a ledger. The pictures are numbered plates on the left and every block is a ruled row on the right. It suits products sold on their sizes and materials.
 
 <div class="pair">
@@ -561,7 +561,7 @@ When a shopper picks an option that has its own picture, the gallery turns to it
 
 **Enlarging a picture**, in the Product section's **Pictures** group, chooses the behavior:
 
-- **Full screen**: selecting a picture opens a large view. Close returns to the page.
+- **Full screen**: selecting a picture opens a large view with the whole picture fitted to the window, whatever its shape, so nothing needs scrolling. Close returns to the page.
 - **Magnify**: the picture enlarges under the pointer. It does nothing on a phone or tablet, where there is no pointer to follow.
 - **Off**: pictures stay as they are.
 
