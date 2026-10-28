@@ -1,6 +1,6 @@
 ---
 title: Footers
-updated: 2026-10-23
+updated: 2026-10-28
 ---
 
 # Footers
@@ -286,7 +286,7 @@ One board on the footer: the column's heading named once at its top, and every l
 | **Column width** | Options: **A third of the row**, **Two fifths of the row**, **Half the row, beside the next board** (the start), **Two thirds of the row, on its own line**, **Full row**, and **Full row** with the links in two, three or four columns. On computers; phones always show the full width. |
 | **Full width on tablet** | Off, a narrower column, or one with link columns, keeps that on a tablet. On, it fills the row with one list. Shown for the widths it changes. |
 | **Space above and below** | Extra space above and below this column, from 0 to 80px. |
-| **Alignment** | Options: **Left**, **Center** or **Right**. Moves the links along their rows, and the heading too unless **Heading alignment** is set. |
+| **Alignment** | Options: **Left**, **Center** or **Right**. Moves the links along their rows, and the heading too unless **Heading alignment** is set. On a phone with **Collapse on mobile** on, it moves the heading inside its tap-to-open row. |
 | **Background** | Puts the column on a box of this color, with white or near-black text, whichever reads better. Leave empty for none. |
 | **Border color** | The color of the column's top edge and the lines between links, and of the border. |
 | **Border thickness** | A border around the column, from 0 to 10px. |
