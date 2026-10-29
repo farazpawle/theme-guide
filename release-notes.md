@@ -1,6 +1,6 @@
 ---
 title: Release notes
-updated: 2026-10-19
+updated: 2026-10-29
 ---
 
 # Release notes
