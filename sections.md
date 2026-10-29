@@ -172,7 +172,7 @@ Full-screen slides that change as the shopper scrolls, each with a tagline, head
 
 ### Looks
 
-{% include looks.html folder="sections" file="hero-scroll" name="Hero scroll" looks="Runway,Chips,Drum" about="The brand logo strip lies on a surface that tilts away from the viewer.|Each brand logo sits on its own raised tile in the strip.|The brand logo strip wraps around a turning barrel." %}
+{% include looks.html folder="sections" file="hero-scroll" name="Hero scroll" looks="Tilted shelf~runway,Raised tiles~chips,Turning drum~drum" about="The brand logo strip lies on a surface that tilts away from the viewer.|Each brand logo sits on its own raised tile in the strip.|The brand logo strip wraps around a turning barrel." %}
 
 The three looks here are the three **Strip style** options, which change how the brand strip along the bottom is drawn. The strip only shows when **Show brand strip** is on and the section has **Brand logo** blocks.
 
@@ -207,14 +207,8 @@ This section is for the home page only. It is not offered on other pages.
 | Setting | What it changes |
 | --- | --- |
 | **Show brand strip** | A moving row of brand logos across the bottom of the hero. Add a brand logo block for each one. On by default. |
-| **Strip style** | Runway lays the row on a surface tilting away. Chips gives each logo a raised tile. Drum wraps the row around a turning barrel. Options: **Runway, a surface tilting away** (default), **Chips, a raised tile each**, **Drum, wrapped around a barrel**. Shows only when **Show brand strip** is on. |
+| **Strip style** | Tilted shelf lays the row on a surface tilting away. Raised tiles gives each logo its own tile. Turning drum wraps the row around a barrel that turns. Options: **Tilted shelf** (default), **Raised tiles**, **Turning drum**. Shows only when **Show brand strip** is on. |
 | **Logo movement** | Spotlight sends a beam down the row so each logo lights up in turn. Flip turns each logo over. Options: **Spotlight** (default), **Drift**, **Wave**, **Flip**, **None**. Shows only when **Show brand strip** is on. |
-| **Strip height** | Trimmed automatically on tablets and phones so it never swallows the slide. Range 56 to 140 px, default 92 px. Shows only when **Show brand strip** is on. |
-| **Space above the strip** | The break between the picture and the logos. Range 0 to 40 px, default 6 px. Shows only when **Show brand strip** is on. |
-| **Space below the strip** | Lifts the strip off the bottom edge of the hero. 0 keeps it flush. Range 0 to 40 px, default 0 px. Shows only when **Show brand strip** is on. |
-| **Time for one full loop** | Higher is slower. Hovering the strip pauses it. Range 10 to 70 s, default 34 s. Shows only when **Show brand strip** is on. |
-| **Movement size** | How far each logo travels. 0 holds them still. Range 0 to 26 px, default 10 px. Shows only when **Show brand strip** is on and **Logo movement** is neither **None** nor **Flip**. |
-| **Logo brightness** | How bright the logos are at rest. They go to full brightness on hover, and as the spotlight passes. Range 30 to 100%, default 62%. Shows only when **Show brand strip** is on. |
 | **Strip background** | The color of the strip behind the logos. Leave empty to match the section background. Shows only when **Show brand strip** is on. |
 | **Strip text color** | The color of the strip text. Colors the pause button and the sample logos shown until a logo picture is chosen. Leave empty for white. Shows only when **Show brand strip** is on. |
 {: .settings}
@@ -227,23 +221,11 @@ This section is for the home page only. It is not offered on other pages.
 | **Section background** | The color behind the slide pictures. It only shows where a picture does not reach. |
 | **Text color** | The base color for every text group. Each group can override it in its own settings. |
 | **Tagline pill background** | The background color of the small pill that holds the tagline above the heading. |
-| **Tagline pill background strength** | How strongly the pill color shows, from faint to solid. Range 0 to 100%, default 8%. |
 | **Primary button background** | The fill color of the first button. |
 | **Primary button label color** | The text color of the first button. |
-| **Secondary button background strength** | How strong the fill behind the secondary button is. It uses the accent color. Range 0 to 100%, default 6%. |
 | **Secondary button label color** | The text color of the second button. |
 | **Secondary button border** | The border color of the second button. |
-| **Secondary button border strength** | How strong the border around the second button is. Range 0 to 100%, default 50%. |
-| **Progress bar track strength** | How faint the unfilled part of the bar is. It uses the accent color, and sits on a small dark ring so it shows over any picture. It cannot go below 60%, so the bar always stays easy to see. Range 60 to 100%, default 75%. |
 | **Transparent background** | Lets the page background show through this section. When it is off, the section follows **Make all sections transparent** in Theme settings. Off by default. |
-{: .settings}
-
-#### Slide counter
-
-| Setting | What it changes |
-| --- | --- |
-| **Slide counter size** | Makes the slide counter smaller or larger. 1× is the normal size, which stays responsive. Range 0.6 to 2×, default 1×. |
-| **Slide counter color** | The color of the slide counter. Leave empty to use the section text color. |
 {: .settings}
 
 ### Blocks
@@ -286,51 +268,16 @@ One full-screen slide.
 | Setting | What it changes |
 | --- | --- |
 | **Background picture** | The slide picture. 3000 × 1600 px is recommended. Leave empty to show a placeholder. |
-| **Picture focal point** | Which part of the picture stays in view when the slide crops it. Options: **Center** (default), **Top**, **Bottom**, **Left**, **Right**. |
-{: .settings}
-
-##### Tagline style
-
-| Setting | What it changes |
-| --- | --- |
-| **Tagline size** | Makes the tagline smaller or larger. 1× is the normal size, which stays responsive. Range 0.6 to 2×, default 1×. |
-| **Tagline weight** | How bold the tagline is. **Theme default** keeps the weight the chosen font comes with. Options: **Theme default** (default), **Light (300)**, **Normal (400)**, **Medium (500)**, **Semi-bold (600)**, **Bold (700)**. If your font has no such weight, the nearest one is used. |
-| **Tagline letter spacing** | The space between the letters of the tagline. 0 keeps the design's own spacing. Range -2 to 6 px, default 0 px. |
-| **Tagline color** | The color of the tagline. Leave empty to use the section text color. |
+| **Part to keep in view** | Which part of the picture stays in view when the slide crops it. Options: **Center** (default), **Top**, **Bottom**, **Left**, **Right**. |
 {: .settings}
 
 ##### Heading style
 
 | Setting | What it changes |
 | --- | --- |
-| **Heading size adjustment** | Makes the heading smaller or larger. 1× is the normal size, which stays responsive. Range 0.6 to 2×, default 1×. |
 | **Heading weight** | How bold the heading is. **Theme default** keeps the weight the chosen font comes with. Options: **Theme default** (default), **Light (300)**, **Normal (400)**, **Medium (500)**, **Semi-bold (600)**, **Bold (700)**. If your font has no such weight, the nearest one is used. |
-| **Heading letter spacing** | The space between the letters of the heading. 0 keeps the design's own spacing. Range -2 to 6 px, default 0 px. |
 | **Heading color** | The color of the heading. Leave empty to use the section text color. |
 | **Heading shadow strength** | How strong the shadow behind the heading is. 0 turns the shadow off. Range 0 to 100%, default 40%. |
-| **Heading shadow horizontal offset** | How far the shadow is pushed sideways. Negative values push it left. Range -20 to 20 px, default 0 px. Shows only when **Heading shadow strength** is above 0. |
-| **Heading shadow vertical offset** | How far the shadow is pushed down. Negative values push it up. Range -20 to 20 px, default 2 px. Shows only when **Heading shadow strength** is above 0. |
-| **Heading shadow blur** | How soft the edge of the shadow is. Range 0 to 60 px, default 24 px. Shows only when **Heading shadow strength** is above 0. |
-| **Heading shadow color** | The color of the heading shadow. Leave empty for black. Shows only when **Heading shadow strength** is above 0. |
-{: .settings}
-
-##### Subheading style
-
-| Setting | What it changes |
-| --- | --- |
-| **Subheading size** | Makes the subheading smaller or larger. 1× is the normal size, which stays responsive. Range 0.6 to 2×, default 1×. |
-| **Subheading weight** | How bold the subheading is. **Theme default** keeps the weight the chosen font comes with. Options: **Theme default** (default), **Light (300)**, **Normal (400)**, **Medium (500)**, **Semi-bold (600)**, **Bold (700)**. If your font has no such weight, the nearest one is used. |
-| **Subheading letter spacing** | The space between the letters of the subheading. 0 keeps the design's own spacing. Range -2 to 6 px, default 0 px. |
-| **Subheading color** | The color of the subheading. Leave empty to use the section text color. |
-{: .settings}
-
-##### Button label style
-
-| Setting | What it changes |
-| --- | --- |
-| **Button size** | Makes the button smaller or larger. 1× is the normal size, which stays responsive. Range 0.6 to 2×, default 1×. |
-| **Button weight** | How bold the button is. **Theme default** keeps the weight the chosen font comes with. Options: **Theme default** (default), **Light (300)**, **Normal (400)**, **Medium (500)**, **Semi-bold (600)**, **Bold (700)**. If your font has no such weight, the nearest one is used. |
-| **Button letter spacing** | The space between the letters of the button. 0 keeps the design's own spacing. Range -2 to 6 px, default 0 px. |
 {: .settings}
 
 #### Brand logo block
@@ -623,7 +570,7 @@ On the collections page this lists every collection in your store. Anywhere else
 | Setting | What it changes |
 | --- | --- |
 | **Heading** | Leave empty for no heading. On the collections page it defaults to "Collections". |
-| **Collections** | The collections to show as tiles. Not used on the collections list page, which always lists every collection. |
+| **Collections** | The collections to show as tiles. Leave empty to show the store's own collections, as many as the columns on computers, skipping empty ones. Not used on the collections list page, which always lists every collection. |
 | **Collections per page** | How many collections show on each page of the collections list page. Collections list page only. Range 8 to 48, default 24. |
 | **Show product count** | Shows how many products each collection holds. On by default. |
 {: .settings}
@@ -1099,7 +1046,7 @@ This section is for the home page only. It is not offered on other pages.
 | **Picture height** | How tall the pictures are. **Automatic** keeps the shape of the picture you uploaded. Options: **Automatic** (default), **Small**, **Medium**, **Large**. Shows only when **Layout** is not **Picture holds while the words scroll**. |
 | **Picture width** | How much of the row the picture takes. The words fill what is left. Options: **Small**, **Medium** (default), **Large**. Shows only when **Layout** is not **Numbered chapters**. |
 | **Picture corner rounding** | Rounds the picture, its border and its shadow together. Theme default follows Theme settings. Options: **Theme default**, **Square**, **Slightly rounded**, **Rounded** (default), **Extra rounded**. |
-| **Words sit** | Where the words line up against the picture beside them. Options: **Top**, **Middle** (default), **Bottom**. Shows only when **Layout** is **Picture beside the words**. |
+| **Text position** | Where the words line up against the picture beside them. Options: **Top**, **Middle** (default), **Bottom**. Shows only when **Layout** is **Picture beside the words**. |
 | **Text alignment** | How the words line up on computers and tablets: left, center or right. Options: **Left** (default), **Center**, **Right**. |
 | **Text alignment on phones** | How the words line up on phones. Options: **Left** (default), **Center**, **Right**. |
 {: .settings}
@@ -1129,7 +1076,7 @@ This section is for the home page only. It is not offered on other pages.
 | **Row entrance** | How each row arrives as it scrolls into view. **Split: each half from its own side** brings the picture in from its own side and the words from the other, so alternating rows mirror each other. The others move the whole row at once. Default: **Split: each half from its own side**. |
 | **Delay between picture and words** | Whichever half sits on the left arrives first. Zero brings both in together. Each row is timed on its own. Range 0 to 400 ms, default 100 ms. Shows only when **Row entrance** is not **None**. |
 | **Duration** | How long each row takes to arrive. Range 0.2 to 2 s, default 0.6 s. Shows only when **Row entrance** is not **None**. |
-| **Movement curve** | The feel of the arrival, from smooth to springy. Options: **Smooth** (default), **Fast, then settle**, **Gentle**, **Overshoot**, **Even**. Shows only when **Row entrance** is not **None**. |
+| **Movement feel** | The feel of the arrival, from smooth to springy. Options: **Smooth** (default), **Fast, then settle**, **Gentle**, **Bounce past the mark**, **Constant speed**. Shows only when **Row entrance** is not **None**. |
 | **Motion** | Whether the movement plays for visitors whose device is set to reduce motion. They normally see the finished layout without movement; **Always animate** plays it for everyone, including you if reduce motion is on for your own device. Options: **Off for visitors who reduce motion** (default), **Always animate**. |
 {: .settings}
 
@@ -1138,9 +1085,9 @@ This section is for the home page only. It is not offered on other pages.
 | Setting | What it changes |
 | --- | --- |
 | **Ripple the pictures** | Moves the pictures like cloth in a breeze. Off by default. |
-| **Fastened along** | The edge the cloth hangs from. It stays still there and swings most at the opposite edge. Nothing lets the whole sheet float, which reads more like liquid than cloth. Options: **Top edge** (default), **Bottom edge**, **Left edge**, **Right edge**, **Nothing: it floats free**. Shows only when **Ripple the pictures** is on. |
+| **Pinned along** | The edge the cloth hangs from. It stays still there and swings most at the opposite edge. Nothing lets the whole sheet float, which reads more like liquid than cloth. Options: **Top edge** (default), **Bottom edge**, **Left edge**, **Right edge**, **Nothing, it floats free**. Shows only when **Ripple the pictures** is on. |
 | **Wave strength** | How deep the folds are, and how much light and shadow they catch. Range 0 to 100%, default 45%. Shows only when **Ripple the pictures** is on. |
-| **Fold size** | Higher means fewer, broader folds. Lower means tighter crinkles. Range 1 to 10, default 5. Shows only when **Ripple the pictures** is on. |
+| **Fold size** | How big the folds in the fabric are. Higher means fewer, broader folds. Lower means tighter crinkles. Range 1 to 10, default 5. Shows only when **Ripple the pictures** is on. |
 | **Speed** | How fast the cloth moves. 1× is the normal speed. Range 0.2 to 2×, default 1×. Shows only when **Ripple the pictures** is on. |
 | **Cursor ripple** | How hard the cursor pushes the cloth. Zero leaves only the breeze. Range 0 to 100%, default 60%. Shows only when **Ripple the pictures** is on. |
 {: .settings}
@@ -1240,7 +1187,7 @@ One row: a picture, a caption, a heading, a text and an optional button.
 
 ### Tips and limits
 
-> **Some settings depend on the layout.** **Picture position** is hidden in **Numbered chapters**, where the picture always sits beside its words, and **Words sit** shows only in **Picture beside the words**. The button style controls are hidden in **Numbered chapters**, which draws the button as an underlined link.
+> **Some settings depend on the layout.** **Picture position** is hidden in **Numbered chapters**, where the picture always sits beside its words, and **Text position** shows only in **Picture beside the words**. The button style controls are hidden in **Numbered chapters**, which draws the button as an underlined link.
 
 > **Rows stack on smaller screens.** Side-by-side rows stack below 1101 px wide, with the picture on top and the words under it.
 
@@ -1954,10 +1901,10 @@ One plan: a name, its prices, a list of features and a button.
 | --- | --- |
 | **Monthly price** | Type it exactly as it should read, including the currency. Leave empty for a plan with no price, such as one that asks people to get in touch. |
 | **Monthly period** | The words after the monthly price, such as "/ month". |
-| **Monthly note** | A small line under the monthly price, such as "Billed monthly". Shows only when the section's **Layout** is not **Comparison table**. |
+| **Monthly note** | A small line under the monthly price, such as "Billed monthly". Until you change it, the line says "Say how this plan is billed". Shows only when the section's **Layout** is not **Comparison table**. |
 | **Yearly price** | Shown when the billing toggle is on yearly. Leave empty to keep the monthly price, period and note. |
 | **Yearly period** | The words after the yearly price, such as "/ month" or "/ year". |
-| **Yearly note** | A small line under the yearly price, such as "Billed yearly". Shows only when the section's **Layout** is not **Comparison table**. |
+| **Yearly note** | A small line under the yearly price, such as "Billed yearly". Until you change it, the line says "Say how yearly billing works". Shows only when the section's **Layout** is not **Comparison table**. |
 | **Text instead of a price** | Shown only when the monthly price is empty. |
 {: .settings}
 
@@ -2286,7 +2233,7 @@ Shows the blog's latest posts. Card border, rounding, elevation, color scheme an
 
 | Setting | What it changes |
 | --- | --- |
-| **Blog** | The blog whose latest posts are shown. |
+| **Blog** | The blog whose latest posts are shown. Leave empty to show the posts of the store's News blog. If the store has no News blog, nothing shows. |
 | **Number of posts** | How many posts to show, newest first. Range 2 to 12, default 3. |
 | **Look** | **Fan**: the posts arrive as a stacked deck and are dealt out into a grid. **Thread**: a line draws down through the posts and each one swings out from it. Phones get a swipeable row or a single column. Default: **Fan**. |
 | **Columns on computers** | How many columns sit side by side on a computer. Tablets and phones show fewer. Range 2 to 4, default 3. Shows only when **Look** is **Fan**. |
@@ -2699,7 +2646,7 @@ A frame groups pieces side by side or one under another, which is how you build 
 | Setting | What it changes |
 | --- | --- |
 | **Width on computers** | Frames sit side by side until a row is full. On tablets a frame is at least half, and on phones every frame is full width. Options: **A quarter**, **A third**, **Half** (default), **Two thirds**, **Three quarters**, **Full width**. |
-| **Pieces inside** | Whether the pieces inside the frame stack one under another or sit side by side. Options: **One under another** (default), **Side by side**. |
+| **Arrange items** | Whether the pieces inside the frame stack one under another or sit side by side. Options: **One under another** (default), **Side by side**. |
 | **Vertical position** | Where the pieces sit when the frame is taller than they are. Options: **Top** (default), **Middle**, **Bottom**. |
 | **Style** | Whether the frame is plain or a card. Options: **Plain** (default), **Cards**. |
 | **Inner spacing** | The space between the edge of the card and what is inside it. Range 0 to 64 px, default 28 px. Shows only when **Style** is **Cards**. |

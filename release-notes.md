@@ -40,3 +40,11 @@ size.
   card and password pages.
 - Motion that follows each visitor's reduced motion setting, with an Always
   animate choice on each moving section.
+
+### Changed
+- Hero scroll: the slide and section controls that duplicated another control or sat at their built-in value are gone. Their look is unchanged.
+- Curtain footer columns: a Link source choice (A navigation menu or Custom links below) decides which links show. Columns that already hold typed links keep them.
+- Plainer labels in Hero scroll, Story rows, the footers and the product page, for example Link to other products, Pinned along, Message strip and Text position.
+
+### Removed
+- Hero scroll settings for tagline, heading and subheading size, weight and spacing, heading shadow offset, blur and color, button size, weight and spacing, the brand strip height, spacing, speed, movement size and brightness, the pill, secondary button and progress bar strengths, and the slide counter size and color.

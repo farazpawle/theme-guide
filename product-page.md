@@ -1,6 +1,6 @@
 ---
 title: Product page
-updated: 2026-10-28
+updated: 2026-10-29
 ---
 
 # Product page
@@ -151,7 +151,7 @@ One line of text above or below the other blocks: your own words, or each produc
 | --- | --- |
 | **Text source** | Where the words come from. Options: **Your own words**, **Vendor**, **Product type**. Vendor and product type come from each product. |
 | **Text** | Your words. Shown when **Text source** is **Your own words**. |
-| **Link it** | Makes the vendor or product type a link to everything else by that maker, or of that kind. Leave off in a store with only one. Shown when **Text source** is **Vendor** or **Product type**. |
+| **Link to other products** | Makes the vendor or product type a link to other products with the same vendor or product type. Leave off in a store with only one. Shown when **Text source** is **Vendor** or **Product type**. |
 | **Text style** | Options: **Normal text**, **Subheading**, **Uppercase**. |
 {: .settings}
 
