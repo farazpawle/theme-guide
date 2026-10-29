@@ -1,6 +1,6 @@
 ---
 title: Home page sections
-updated: 2026-10-28
+updated: 2026-10-29
 ---
 
 # Home page sections
@@ -651,7 +651,7 @@ This section has no blocks. You choose the collections in the settings above.
 
 > **Choose collections that have a picture.** A tile with no picture shows the first letter of the collection's name instead.
 
-> **Nothing picked, nothing shown.** On the home page, if you pick no collections, your live store shows nothing at all, not even the heading. The editor shows sample tiles so you can see the look.
+> **Nothing picked, the store's own collections show.** If you pick no collections, the tiles show your first collections (as many as the **Columns on computers** setting allows), skipping the hidden home collection and any collection with no products. A store with no such collection shows nothing, not even the heading. The editor shows sample tiles when there is nothing to show.
 
 > **Stack shows products too.** **Stack** draws up to two of each collection's products behind its picture, so empty collections show the picture alone.
 
@@ -2329,7 +2329,7 @@ This section has no blocks. It fills itself from the blog you choose.
 
 > **Phones get a row or a column.** On phones, **Fan** becomes a row you swipe and **Thread** a single column.
 
-> **No posts, no section.** A blog with no posts shows nothing on your live store. In the editor you see sample cards so you can judge the look.
+> **No blog picked, the News blog shows.** With **Blog** left empty, the section shows the latest posts of the blog at `/blogs/news`, the address Shopify gives a store's first blog by default. A blog with no posts, or no blog at that address, shows nothing on your live store. In the editor you see sample cards so you can judge the look.
 
 ## Contact
 

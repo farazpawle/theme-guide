@@ -1,6 +1,6 @@
 ---
 title: Footers
-updated: 2026-10-28
+updated: 2026-10-29
 ---
 
 # Footers
@@ -367,6 +367,8 @@ On a computer the picture is the front of the card, on the left. The back, on th
 | **Padding on phones** | Space inside the card on phones, from 16 to 40px. |
 {: .settings}
 
+On tablets the space moves in a straight line from the phone value at 501px to the computer value at 1100px.
+
 #### Footer card style
 
 | Setting | What it changes |
@@ -438,6 +440,8 @@ On a computer the picture is the front of the card, on the left. The back, on th
 | **Show "Powered by Shopify" link** | Shopify's own link, shown exactly as Shopify writes it. |
 | **Show the back to top button** | A small arrow that scrolls the page back to the top. |
 {: .settings}
+
+The bottom bar fits its width: the copyright, the payment icons and the policy links sit side by side when there is room, and each moves onto a line of its own when there is not.
 
 #### Payment icons
 
