@@ -1,6 +1,6 @@
 ---
 title: Theme settings
-updated: 2026-10-28
+updated: 2026-11-02
 ---
 
 # Theme settings
@@ -43,9 +43,9 @@ A section's own settings come first: when a section has its own **Color scheme**
 | [Footer](#footer) | The footer logo |
 | [Header](#header) | Sticky header and the mega menu |
 | [Layout](#layout) | Page width, side margin and space between sections |
-| [Product cards](#product-cards) | The card used wherever products are listed |
+| [Product cards](#product-cards) | The card used wherever products are listed, and the sale badge |
 | [Product page](#product-page) | Reviews and the sold out inquiry button |
-| [Search](#search) | Search as you type, popular searches and the sale badge |
+| [Search](#search) | Search as you type, popular searches and search behavior |
 | [Social media](#social-media) | Links shown in the footer |
 | [Typography](#typography) | Heading and body fonts and sizes |
 
@@ -99,7 +99,7 @@ How blog posts look in the **Blog posts** section, on the blog page and wherever
 | --- | --- |
 | **Border** | The card's outline thickness, from 0 to 8px. Its color comes from the color scheme. |
 | **Corner rounding** | How round the card's corners are, from 0 to 40px. |
-| **Elevation** | The card's shadow, from 0 to 100%. One slider sets how far it falls, how soft it is and how dark. Zero means no shadow. |
+| **Shadow** | The card's shadow, from 0 to 100%. One slider sets how far it falls, how soft it is and how dark. Zero means no shadow. |
 {: .settings}
 
 > *The Blog page decides too.* The **Ring** and **Stack** looks of the blog page always draw framed cards. The **Wave** look follows **Style**.
@@ -223,7 +223,7 @@ The look of panels and framed pictures across the theme.
 | --- | --- |
 | **Border** | Outline thickness, from 0 to 8px. The color comes from the color scheme. |
 | **Corner rounding** | Roundness of panels and picture frames, from 0 to 40px. It shapes the pictures in **Video**, **Slideshow**, **Image gallery** and **Logo list** as well as panels in the cart, contact form, email signup, FAQ and product page. |
-| **Elevation** | A shadow under panels, from 0 to 100%. One slider sets how far it falls, how soft it is and how dark. Zero means no shadow. |
+| **Shadow** | A shadow under panels, from 0 to 100%. One slider sets how far it falls, how soft it is and how dark. Zero means no shadow. |
 {: .settings}
 
 ## Currency format
@@ -344,7 +344,18 @@ The home page's **Featured products**, **Related products** and the suggestions 
 | **Color scheme** | The colors of a card. Works only when **Style** is **Card**, on the home page and in Related products. |
 | **Border** | Outline thickness, from 0 to 8px. Works only when **Style** is **Card**. |
 | **Corner rounding** | Roundness of the card and its picture, from 0 to 40px. |
-| **Elevation** | A shadow under the card, from 0 to 100%. Works only when **Style** is **Card**. Zero means no shadow. |
+| **Shadow** | A shadow under the card, from 0 to 100%. Works only when **Style** is **Card**. Zero means no shadow. |
+{: .settings}
+
+### Sale badge
+
+A badge on product cards that are reduced from their compare-at price. It shows on product cards everywhere, including search.
+
+| Setting | What it changes |
+| --- | --- |
+| **Show a sale badge** | Turns the badge on or off. A sold out product never shows it. |
+| **Badge style** | Options: **Sale label** (the word Sale) or **Percentage off** (for example 20% off). A product whose variants have different prices always shows the label, because one number would not be true for all of them. |
+| **Minimum discount** | Hides the badge below this percentage. Zero shows it on every reduced product. The percentage is rounded down, so a badge never overstates a saving. |
 {: .settings}
 
 ### Sold out
@@ -355,8 +366,6 @@ The home page's **Featured products**, **Related products** and the suggestions 
 | **Inquiry button label** | The words on the button. Leave empty to use "Inquire now". |
 | **Inquiry button link** | Where the button goes, for example your contact page. With no link, the inquiry button is not shown, and the card falls back to the Sold out label. |
 {: .settings}
-
-> *The sale badge has its own settings.* The badge on reduced products is set in [Search](#sale-badge), under Sale badge.
 
 ## Product page
 
@@ -375,17 +384,6 @@ The home page's **Featured products**, **Related products** and the suggestions 
 {: .settings}
 
 ## Search
-
-### Sale badge
-
-A badge on product cards that are reduced from their compare-at price. It is set here, but it shows on product cards everywhere, not only in search.
-
-| Setting | What it changes |
-| --- | --- |
-| **Badge style** | Options: **Sale label** (the word Sale) or **Percentage off** (for example 20% off). A product whose variants have different prices always shows the label, because one number would not be true for all of them. |
-| **Minimum discount** | Hides the badge below this percentage. Zero shows it on every reduced product. The percentage is rounded down, so a badge never overstates a saving. |
-| **Show a sale badge** | Turns the badge on or off. A sold out product never shows it. |
-{: .settings}
 
 ### Search as you type
 

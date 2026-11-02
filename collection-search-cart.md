@@ -1,6 +1,6 @@
 ---
 title: Collection, search and cart pages
-updated: 2026-10-29
+updated: 2026-11-02
 ---
 
 # Collection, search and cart pages
@@ -454,7 +454,7 @@ The full list of settings, in the editor's order, is in [Product cards](theme-se
 | **Layout** | **Style** (**Standard** or **Card**), **Alignment** and **Product name lines**. |
 | **Picture** | **Picture shape**, **Custom shape from a picture** and **Crop pictures to fill**. |
 | **Hover** | **Hover style**: **Zoom the picture**, **Show the second picture** or **No hover effect**. |
-| **Surface** | **Color scheme**, **Border**, **Corner rounding** and **Elevation** for a framed card. |
+| **Surface** | **Color scheme**, **Border**, **Corner rounding** and **Shadow** for a framed card. |
 | **Sold out** | **Sold out products**, **Inquiry button label** and **Inquiry button link**. |
 {: .settings}
 
@@ -466,6 +466,6 @@ This group has no blocks.
 
 > *Collection and search cards differ.* The collection and search pages use their own card layout. They follow **Alignment** (the Index look keeps its own rows), **Picture shape**, **Custom shape from a picture**, **Crop pictures to fill**, **Hover style**, the sale badge and **Sold out products**; **Style** and **Color scheme** apply on the home page, Related products and the empty cart only, and the editor says so under each.
 
-> *The sale badge is set elsewhere.* The badge on reduced products is under Sale badge in [Search](theme-settings.md#sale-badge) in Theme settings.
+> *The sale badge is set elsewhere.* The badge on reduced products is under Sale badge in [Product cards](theme-settings.md#sale-badge) in Theme settings.
 
 > *Hover does nothing on touch.* Phones and tablets have no hover, so they ignore **Hover style**.

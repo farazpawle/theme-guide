@@ -1,6 +1,6 @@
 ---
 title: Headers and the announcement bar
-updated: 2026-10-28
+updated: 2026-11-02
 ---
 
 # Headers and the announcement bar
@@ -264,7 +264,7 @@ This header has no announcement bar. A full-width strip above a floating bar wor
 
 | Setting | What it changes |
 | --- | --- |
-| **Show search** | Shows search on tablets and phones. The wide bar keeps only the menu, the store name and two icons, so visitors on a computer reach search from the search page. |
+| **Show search** | Adds a search icon to the bar, which opens a search card in the middle of the page. On phones, search is the first row of the menu instead. |
 {: .settings}
 
 #### Capsule
@@ -272,7 +272,7 @@ This header has no announcement bar. A full-width strip above a floating bar wor
 | Setting | What it changes |
 | --- | --- |
 | **Corner rounding** | How round the capsule is, from 0 to 40px. The highest value gives a full pill at every screen size. |
-| **Elevation** | How far the capsule floats above the page, from 0 to 100. Zero removes the shadow. |
+| **Shadow** | How far the capsule floats above the page, from 0 to 100. Zero removes the shadow. |
 {: .settings}
 
 ### Blocks

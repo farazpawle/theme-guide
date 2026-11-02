@@ -1,6 +1,6 @@
 ---
 title: Product page
-updated: 2026-10-29
+updated: 2026-11-02
 ---
 
 # Product page
@@ -345,12 +345,12 @@ Up to three short promises, each with an icon, such as delivery, returns and a g
 | **Direction** | Options: **Horizontal**, **Vertical**. On a phone the row always becomes a stack, because three columns on a small screen leave four words a line. |
 {: .settings}
 
-The block has three groups of settings, headed **First**, **Second** and **Third**. Each has the same three settings. A promise with no words is left out, so filling in one gives one.
+The block has three groups of settings, headed **Left or top item**, **Middle item** and **Right or bottom item**. Each has the same three settings. A promise with no words is left out, so filling in one gives one.
 
 | Setting | What it changes |
 | --- | --- |
 | **Text** | The promise. Basic formatting such as bold or italic is allowed. |
-| **Icon** | Options: **No icon**, **Delivery van**, **Stopwatch**, **Return arrow**, **Exchange**, **Shield**, **Padlock**, **Award**, **Tick in a circle**, **Headset**, **Leaf**, **Gift**, **Payment card**, **Parcel**, **Clock**, **Globe**, **Ruler**, **Washing**. |
+| **Icon** | Options: **No icon**, **Delivery van**, **Stopwatch**, **Return arrow**, **Exchange**, **Shield**, **Padlock**, **Award**, **Check in a circle**, **Headset**, **Leaf**, **Gift**, **Payment card**, **Parcel**, **Clock**, **Globe**, **Ruler**, **Washing**. |
 | **Picture instead** | Replaces the icon, for a badge or a mark the icon set cannot draw, such as a payment badge. |
 {: .settings}
 

@@ -1,6 +1,6 @@
 ---
 title: Home page sections
-updated: 2026-10-29
+updated: 2026-11-02
 ---
 
 # Home page sections
@@ -221,6 +221,7 @@ This section is for the home page only. It is not offered on other pages.
 | **Section background** | The color behind the slide pictures. It only shows where a picture does not reach. |
 | **Text color** | The base color for every text group. Each group can override it in its own settings. |
 | **Tagline pill background** | The background color of the small pill that holds the tagline above the heading. |
+| **Tagline pill text color** | The color of the tagline's words. Leave empty to use the section's text color. |
 | **Primary button background** | The fill color of the first button. |
 | **Primary button label color** | The text color of the first button. |
 | **Secondary button label color** | The text color of the second button. |
@@ -786,7 +787,7 @@ One picture card.
 | **Heading** | The card's name. |
 | **Description** | One sentence about it. |
 | **Link** | Where the card's arrow goes. |
-| **Link accessibility label** | Describes where the arrow goes for screen readers. Defaults to the card heading. |
+| **Link accessibility label** | Describes where the arrow goes for screen readers. Defaults to the card heading, or "View details" when the heading is empty. |
 {: .settings}
 
 ##### Heading style
@@ -1097,7 +1098,7 @@ This section is for the home page only. It is not offered on other pages.
 | Setting | What it changes |
 | --- | --- |
 | **Border** | The thickness of the border. 0 means no border. Its color comes from the color scheme. Range 0 to 8 px, default 0 px. |
-| **Elevation** | How strongly a shadow lifts it off the page. 0 means no shadow. Range 0 to 100%, default 0%. |
+| **Shadow** | How strongly a shadow lifts it off the page. 0 means no shadow. Range 0 to 100%, default 0%. |
 {: .settings}
 
 #### Button border and shadow
@@ -1108,7 +1109,7 @@ Shows only when **Layout** is not **Numbered chapters**.
 | --- | --- |
 | **Border** | The thickness of the border. 0 means no border. Its color comes from the color scheme. Range 0 to 8 px, default 0 px. |
 | **Corner rounding** | How round the corners are. 0 gives square corners. Range 0 to 40 px, default 0 px. |
-| **Elevation** | How strongly a shadow lifts it off the page. 0 means no shadow. Range 0 to 100%, default 0%. |
+| **Shadow** | How strongly a shadow lifts it off the page. 0 means no shadow. Range 0 to 100%, default 0%. |
 {: .settings}
 
 #### Padding
@@ -1650,7 +1651,7 @@ Shows only when **Look** is **Crossing rows**.
 | --- | --- |
 | **Border** | The thickness of the border around each card. 0 means no border. Its color comes from the color scheme. Range 0 to 8 px, default 1 px. |
 | **Corner rounding** | How round the corners are. 0 gives square corners. Range 0 to 40 px, default 16 px. |
-| **Elevation** | How strongly a shadow lifts it off the page. 0 means no shadow. Range 0 to 100%, default 60%. |
+| **Shadow** | How strongly a shadow lifts it off the page. 0 means no shadow. Range 0 to 100%, default 60%. |
 {: .settings}
 
 #### Spacing
@@ -1678,7 +1679,7 @@ One customer quote.
 | **Role or location** | A short line after the name, such as a city or a job. |
 | **Photo** | Shown in a circle. Without one, the first letter of the name is shown. |
 | **Star rating** | The stars shown with the quote. Use the rating this customer actually gave. Options: **No rating** (default), **1 star**, **2 stars**, **3 stars**, **4 stars**, **5 stars**. |
-| **Product bought** | The product this customer bought. A link to it shows under the quote. |
+| **Product bought** | The product this customer bought. A link to it shows under the quote. In **Crossing rows**, its arrow shows on computers only, so long product names keep whole words on phones and tablets. |
 {: .settings}
 
 ### Tips and limits
@@ -1839,7 +1840,7 @@ Shows a monthly and yearly switch. Each plan carries its own two prices, so noth
 | **Monthly label** | The label on the monthly side of the switch. |
 | **Yearly label** | The label on the yearly side of the switch. |
 | **Saving badge** | A small badge beside the switch, such as the saving a yearly plan gives. Leave empty to hide it. |
-| **Start on** | Which side of the switch is chosen when the page loads. Options: **Monthly label** (default), **Yearly label**. |
+| **Start on** | Which side of the switch is chosen when the page loads. Options: **Monthly** (default), **Yearly**. |
 {: .settings}
 
 #### Plans
@@ -1848,7 +1849,7 @@ Shows only when **Layout** is not **Comparison table**.
 
 | Setting | What it changes |
 | --- | --- |
-| **Plans per row** | Desktop only. Below 1100 pixels the plans stack, and below 660 they take the full width. Range 2 to 4, default 3. Shows only when **Layout** is **Tier cards** or **3D deck**. |
+| **Plans per row** | Desktop only. Below 1100 pixels the plans stack, and below 660 they take the full width. 2 or 3, default 3 (a saved 4 shows as 3). Shows only when **Layout** is **Tier cards** or **3D deck**. |
 | **Space between plans** | The gap between plan cards. Range 8 to 48 px, default 26 px. Shows only when **Layout** is **Tier cards** or **3D deck**. |
 | **Highlighted plan tint** | How much of the accent washes into the highlighted plan. Zero leaves it the same color as the others. Range 0 to 20%, default 8%. |
 {: .settings}
@@ -2229,7 +2230,7 @@ This section is for the home page only. It is not offered on other pages.
 
 #### At the top
 
-Shows the blog's latest posts. Card border, rounding, elevation, color scheme and alignment are set for every blog card in Theme settings, under Blog cards.
+Shows the blog's latest posts. Card border, rounding, shadow, color scheme and alignment are set for every blog card in Theme settings, under Blog cards.
 
 | Setting | What it changes |
 | --- | --- |

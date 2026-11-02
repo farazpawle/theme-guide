@@ -1,6 +1,6 @@
 ---
 title: Footers
-updated: 2026-10-29
+updated: 2026-11-02
 ---
 
 # Footers
@@ -253,8 +253,8 @@ Sits under the columns, beside the email signup. It is part of the footer frame,
 | --- | --- |
 | **Show the information panel** | Turns the panel on or off. |
 | **Heading** | The panel's heading. Leave empty to use the word Information. |
-| **Label** | The small label above the detail, such as Phone. |
-| **Text** | The detail itself. Line breaks are kept, so an address can sit on two lines. |
+| **Label** | The small label above the detail, such as Phone. With no **Text**, the label shows on its own as a plain line. |
+| **Text** | The detail itself. Line breaks are kept, so an address can sit on two lines. With no **Label**, the text shows on its own. |
 | **Links to** | Optional. A web address, or tel: and mailto: to dial or open an email. |
 {: .settings}
 
@@ -289,6 +289,7 @@ One column on the footer: the column's heading named once at its top, and every 
 | **Space above and below** | Extra space above and below this column, from 0 to 80px. |
 | **Alignment** | Options: **Left**, **Center** or **Right**. Moves the links along their rows, and the heading too unless **Heading alignment** is set. On a phone with **Collapse on phones** on, it moves the heading inside its tap-to-open row. |
 | **Background** | Puts the column on a box of this color, with white or near-black text, whichever reads better. Leave empty for none. |
+| **Text color** | Colors the heading, links, arrows and the bar that lights on hover. Leave empty to let the background pick white or near-black. |
 | **Border color** | The color of the column's top edge and the lines between links, and of the border. |
 | **Border thickness** | A border around the column, from 0 to 10px. |
 | **Corner rounding** | Rounds the box, **Card** links and the link lit under the pointer, from 0 to 40px. |

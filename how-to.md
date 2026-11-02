@@ -1,6 +1,6 @@
 ---
 title: How-to guides
-updated: 2026-10-28
+updated: 2026-11-02
 ---
 
 # How-to guides
@@ -163,8 +163,8 @@ Both badges are automatic. You only need to price and stock your products.
 
 1. In your Shopify admin, open a product and set a *Compare-at* price
    higher than its *Price*. Save.
-2. In the theme editor, open Theme settings, then **Search**, and find
-   **Sale badge**. It is set there, but it shows on product cards
+2. In the theme editor, open Theme settings, then **Product cards**, and find
+   **Sale badge**. It shows on product cards
    everywhere. Make sure **Show a sale badge** is on.
 3. Choose **Badge style**: **Sale label** or **Percentage off**.
 4. Optional: set **Minimum discount** to hide the badge on small

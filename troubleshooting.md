@@ -1,6 +1,6 @@
 ---
 title: Troubleshooting
-updated: 2026-10-28
+updated: 2026-11-02
 ---
 
 # Troubleshooting
@@ -102,7 +102,7 @@ with a color for each entry. Check also that the **Variant picker** has
 - The product needs a *Compare-at* price higher than its price.
 - A sold out product never shows it.
 - Check **Show a sale badge** and **Minimum discount** in Theme settings,
-  under **Search**.
+  under **Product cards**.
 
 ### The inquiry button does not show on a sold out product
 
