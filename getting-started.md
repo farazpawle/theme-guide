@@ -1,6 +1,6 @@
 ---
 title: Getting started
-updated: 2026-10-20
+updated: 2026-11-03
 ---
 
 # Getting started
@@ -31,9 +31,9 @@ kind of shop. You can change everything afterwards.
 | --- | --- | --- |
 | **{{ site.theme_name }}** | Clothing, 11 or more products | Hero scroll, Featured products, Collection index, Story rows, Stacking cards, Testimonials, Email signup |
 | **Oakwood** | Home goods, 11 or more products | Custom section, Collection tiles, Featured products, Expanding panels, Story rows, FAQ, Blog posts, Email signup |
-| **Petal** | Beauty, 2 to 10 products | Scroll story, Trust badges, Featured products, Product, Testimonials, FAQ, Blog posts, Email signup |
+| **Mauve** | Beauty, 2 to 10 products | Scroll story, Trust badges, Featured products, Product, Testimonials, FAQ, Blog posts, Email signup |
 
-{% include looks.html folder="settings" file="presets" name="Preset home page" looks="Seloriq,Oakwood,Petal" about="Clothing: a scrolling hero and featured products.|Home goods: warm wood tones and collection tiles.|Beauty: a soft scroll story and trust badges." %}
+{% include looks.html folder="settings" file="presets" name="Preset home page" looks="Seloriq,Oakwood,Mauve" about="Clothing: a scrolling hero and featured products.|Home goods: warm wood tones and collection tiles.|Beauty: a soft scroll story and trust badges." %}
 
 Pictures from the demo stores are not copied into your shop. Add your own
 in each section.

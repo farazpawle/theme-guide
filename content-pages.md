@@ -1,6 +1,6 @@
 ---
 title: Content pages
-updated: 2026-10-28
+updated: 2026-11-04
 ---
 
 # Content pages
@@ -94,7 +94,7 @@ Open the editor as in [Opening a page template in the editor](#opening-a-page-te
 
 | Setting | What it changes |
 | --- | --- |
-| **Top padding** | Space above the section, from 0 to 100px. |
+| **Top padding** | Space above the section, from 0 to 100px. Hidden in **Folding band**, where the heading sits at the foot of its own band. |
 | **Bottom padding** | Space below the section, from 0 to 100px. |
 {: .settings}
 
@@ -104,11 +104,13 @@ This section has no blocks. The words come from the page you write in *Online St
 
 ### Tips and limits
 
-> *Section drum needs headings.* The turning list is built from the page's *Heading 2* headings. With fewer than two, the list is left out and the page is a single column. On tablets and phones it becomes a one-line strip under the header.
+> *Section drum needs headings.* The turning list is built from the page's *Heading 2* headings. With fewer than two, the list is left out and the page is a single column. On tablets and phones it becomes a strip under the header. A long heading wraps onto up to four lines in the list, and the strip grows to fit it; a heading longer than that is cut, and shows in full when the shopper hovers over it.
 
 > *Section drum works from the keyboard.* Pressing Tab onto a heading in the list turns the list to that heading and shows it in full.
 
 > *Heading levels look different.* In any text you write (pages, blog posts, product descriptions), each heading level has its own look: *Heading 4* is a bold line a little larger than the text, *Heading 5* a slightly smaller bold line, and *Heading 6* a small spaced-out label in a softer color. Use them in order, and pick the level for the job rather than the size.
+
+> *Small pictures keep their own size.* A picture you add to the text of a page, blog post or product description is never stretched wider than it is. A small picture, or one you made narrower in the editor, keeps its own size, and a large one shrinks to fit the column, with its proportions kept on every screen.
 
 > *Written opening lifts the first paragraph.* That paragraph is shown beside the heading, so it is not shown twice. If the first thing on the page is a picture, a video or an embedded frame, nothing is lifted. Links in it keep working.
 
@@ -130,8 +132,8 @@ The list of posts in a blog. Choose from three looks.
 
 {% include looks.html folder="pages" file="blog" name="Blog" looks="Ring,Stack,Wave" about="Posts turning on a 3D ring as the page scrolls.|Each post a large panel that the next one slides over.|A grid of posts that rises into place row by row." %}
 
-- **Ring**: the posts turn on a 3D ring as the page scrolls. On phones the ring becomes a swipeable row.
-- **Stack**: each post is a large panel that the next one slides over. On phones the panels become a list.
+- **Ring**: the posts turn on a 3D ring as the page scrolls. Each post shows its summary, shortened to three lines, and a long title shows whole. On phones the ring becomes a swipeable row.
+- **Stack**: each post is a large panel that the next one slides over. A panel grows with its words, so a long title or summary is never cut. On phones the panels become a list.
 - **Wave**: a grid that rises into place row by row.
 
 ### Where to find it
@@ -187,7 +189,9 @@ This section has no blocks. The posts come from the blog you write in *Online St
 
 > *Few posts still look full.* With fewer than five posts, **Ring** repeats the cards so the ring has no gap.
 
-> *Only the front card is reached by keyboard in Ring.* The previous and next buttons move to another post.
+> *The pinned Ring and Stack turn themselves off when a post is too tall.* If the tallest post does not fit the screen, for example a very long title on a short window, the page shows the plain row (**Ring**) or list (**Stack**) instead, so nothing is cut.
+
+> *Only the front card is reached by keyboard in the pinned Ring.* Pressing Tab reaches only the post at the front. The *Previous post* and *Next post* buttons step through every post by keyboard, one at a time, and the front card changes with them. When the ring is not pinned, every post link is reached by Tab as usual.
 
 > *Turn comments on in your admin.* **Show comment count** shows nothing until comments are turned on for the blog, in *Online Store > Blog posts > Manage blogs*.
 

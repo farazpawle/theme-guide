@@ -1,6 +1,6 @@
 ---
 title: Collection, search and cart pages
-updated: 2026-11-02
+updated: 2026-11-03
 ---
 
 # Collection, search and cart pages
@@ -41,7 +41,7 @@ These pages are not added from *Add section*. Each template already holds its ma
   </figure>
 </div>
 
-> *Presets start on different looks.* The {{ site.theme_name }} preset opens Collection and Search in **Split** and Cart in **Receipt**. Oakwood starts on **Index** and **Compact table**. Petal starts on **Lookbook** and **Editorial**. You can change any of them.
+> *Presets start on different looks.* The {{ site.theme_name }} preset opens Collection and Search in **Split** and Cart in **Receipt**. Oakwood starts on **Index** and **Compact table**. Mauve starts on **Lookbook** and **Editorial**. You can change any of them.
 
 ## Collection page
 
@@ -112,6 +112,8 @@ This section has no blocks. The products, name, picture and description come fro
 > *Mosaic's tabs need a filter.* Its product type tabs come from the product type filter in Search & Discovery. With that filter not set up, the tabs are left out and the page still works.
 
 > *Long names are never cut off.* Product names show in full on collection pages.
+
+> *The page buttons stack on a phone.* On a screen 500 px wide or narrower, *Previous page*, the page numbers and *Next page* sit one under the other, in that order, and each is a full-size target. From 501 px wide they share one row. The Search page works the same way.
 
 ## Collections list page
 
@@ -282,6 +284,8 @@ On phones up to 500 pixels wide the *Sort by* label is hidden, and the box shows
 
 > *Both pages share their controls.* **Let shoppers sort** and **Price bands** are separate settings on each page, so set them on both.
 
+> *Sort comes before Filter.* In **Mosaic**, *Sort by* sits left of the *Filter* button, and a keyboard reaches them in that order.
+
 ## Cart page
 
 The shopper's bag: every item, quantities, the totals and the way to checkout. Choose from three looks.
@@ -298,7 +302,7 @@ The shopper's bag: every item, quantities, the totals and the way to checkout. C
 
 - **Receipt**: one centered receipt with ruled rows and the total at its foot. A checkout bar sits on the bottom edge of the screen while the page's own *Checkout* button is still well below the screen, and steps away once that button is in view or about to be, and whenever it would cover the order note.
 - **Editorial**: each item is a large picture beside big type, on alternating sides, then one calm totals panel. *Skip to total* in the heading and a small *Checkout* pill in the corner keep checkout close on a long bag.
-- **Compact table**: short dense rows. On computers the totals panel stays at the side, and a total and *Checkout* strip sits under the heading.
+- **Compact table**: short dense rows. On computers the totals panel stays at the side, and a total and *Checkout* strip sits under the heading. Below 1101 px wide the *Remove* (bin) button sits at the end of the line that holds the quantity and the total, and is the last stop for a keyboard on each item.
 
 ### Where to find it
 

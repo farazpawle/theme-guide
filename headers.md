@@ -1,6 +1,6 @@
 ---
 title: Headers and the announcement bar
-updated: 2026-11-02
+updated: 2026-11-03
 ---
 
 # Headers and the announcement bar
@@ -367,6 +367,8 @@ This header has no blocks. Its links come from the menu you choose.
 
 > *A long store name shrinks, then wraps.* On phones and tablets it gets smaller to fit, then moves onto a second line. It is never cut off with dots.
 
+> *Long menu words wrap.* A menu word with no spaces, such as a very long product-line name, breaks inside its row in the phone menu instead of running past the edge or over the arrow.
+
 ## Sidecar
 
 On a computer, your menu stays open as a column docked at the left of the page, with the page beside it. On tablets and phones it is a bar whose menu slides in from the left as a drawer. It suits large menus.
@@ -453,7 +455,11 @@ This header has no blocks. Its links come from the menus you choose.
 
 > *Left to right only.* The column is always on the left, so it is not suited to stores written right to left.
 
-> *Search in the column.* On a computer the search field sits in the column, with "Search" as its placeholder. Its suggestions show smaller pictures and titles of up to three lines.
+> *Search in the column.* On a computer the search field sits in the column, with "Search" as its placeholder. Its suggestions show smaller pictures. Long product titles and the maker's name wrap in full, as in every header.
+
+> *The keyboard follows the screen.* On a phone or tablet, Tab reaches the *Menu* button first, then the store name, then the icons, the same left-to-right order as the bar.
+
+> *Long menu words wrap.* A menu word with no spaces breaks inside its row in the column and the drawer instead of running past the edge or over the arrow.
 
 > *A long store name shrinks, then wraps.* In the column, the bar and the drawer it gets smaller to fit, then moves onto a second line. It is never cut off with dots.
 

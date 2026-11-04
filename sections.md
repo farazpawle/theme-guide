@@ -1,6 +1,6 @@
 ---
 title: Home page sections
-updated: 2026-11-02
+updated: 2026-11-04
 ---
 
 # Home page sections
@@ -220,7 +220,7 @@ This section is for the home page only. It is not offered on other pages.
 | **Picture overlay darkness** | Darkens the slide pictures so the text stays readable. Range 0 to 90%, default 45%. |
 | **Section background** | The color behind the slide pictures. It only shows where a picture does not reach. |
 | **Text color** | The base color for every text group. Each group can override it in its own settings. |
-| **Tagline pill background** | The background color of the small pill that holds the tagline above the heading. |
+| **Tagline pill background** | The color washed over the small pill that holds the tagline above the heading. The pill always sits on a backing that is the opposite of the tagline's words: dark behind light words, light behind dark words. So the tagline stays readable on any picture. |
 | **Tagline pill text color** | The color of the tagline's words. Leave empty to use the section's text color. |
 | **Primary button background** | The fill color of the first button. |
 | **Primary button label color** | The text color of the first button. |
@@ -248,7 +248,7 @@ One full-screen slide.
 
 | Setting | What it changes |
 | --- | --- |
-| **Tagline** | A small label above the heading. |
+| **Tagline** | A small label above the heading. A new slide starts with the sample words "Short label". |
 | **Heading** | The slide's main line. |
 | **Heading size** | How large the heading is. Options: **Medium**, **Large** (default), **Extra large**. |
 | **Subheading** | One short sentence under the heading. |
@@ -295,6 +295,10 @@ One logo in the moving strip along the bottom. It shows only when **Show brand s
 ### Tips and limits
 
 > **Always dark.** Hero scroll keeps its own dark colors in both light and dark mode. Change them under **Colors** in the section.
+
+> **The tagline stays readable.** The tagline pill has a backing behind it that is the opposite of its words: dark behind light words, light behind dark words. The words read on a pale, dark or busy picture. The backing uses **Section background** when that color is already on the right side, and a fixed dark or light color otherwise.
+
+> **Replace the sample tagline.** A new slide starts with the tagline "Short label". Overwrite it with your own words before you publish.
 
 > **Slides first, logos after.** Keep your **Slide** blocks above your **Brand logo** blocks in the list so the first slide loads quickly.
 
@@ -520,6 +524,8 @@ This section has no blocks. It fills itself from the collection you choose.
 
 > **Arrows need two products.** In **Arc**, the arrows and the counter appear only when the collection has two or more products.
 
+> **Only the picture fades in Arc.** The cards beside the front card fade their pictures, but the product name, type and price stay at full strength so they remain readable. A card you reach with the keyboard shows its picture whole.
+
 > **Cards look the same everywhere.** How a product card looks is set once in Theme settings, under **Product cards**, so every product in your shop matches.
 
 > **The preview panel needs the script.** With **Open a preview panel on click** on, a click opens the product over the page. Where the panel cannot open, the click goes straight to the product page.
@@ -694,6 +700,8 @@ One collection in the list.
 > **Scroll distance moves the page down.** A higher **Scroll distance per collection** is slower, but pushes the rest of the page further down.
 
 > **Rows fill themselves in.** Leave **Name** and **Picture** empty and each row uses the collection's own name and picture.
+
+> **Long names are shown in full.** A long collection name wraps onto more lines instead of being cut off, and the list makes room for it. On a short computer screen the names step down a little in size so a very long one still fits the window.
 
 ## Horizontal scroll cards
 
@@ -1003,6 +1011,8 @@ One card. Pick a product to fill it automatically, or type your own words and pi
 
 > **Phones and tablets get a list.** On screens up to 1100 px wide the cards are a plain list, one after another, and **Card picture height** sets how tall each picture is.
 
+> **A short screen gets a list too.** On a computer the cards stack only when the longest card, with its words and link, fits the screen. When a description is too long for a short screen, the section shows the plain list instead, so the link under a card is never hidden. Shorter descriptions, or a smaller **Card picture height**, keep the stack.
+
 > **Fill a card from a product.** Pick a **Product** and leave **Use the product's own details** on to show its photo, name, price and description, with a link straight to the product page.
 
 > **Feature one card.** **Feature this card** switches a card to the featured colors and an accent badge. It is usually the last card.
@@ -1058,7 +1068,7 @@ This section is for the home page only. It is not offered on other pages.
 | --- | --- |
 | **Heading size** | How large the heading is. Options: **Small**, **Medium** (default), **Large**, **Extra large**, **Huge**. |
 | **Text style** | Whether the row text uses the normal body style or the larger subheading style. Options: **Normal text** (default), **Subheading**. |
-| **Button style** | Whether the row buttons look like primary or secondary buttons. Options: **Primary**, **Secondary** (default). |
+| **Button style** | Whether the row buttons look like primary or secondary buttons. Options: **Primary**, **Secondary** (default). Hidden in **Numbered chapters**. |
 {: .settings}
 
 #### Colors
@@ -1192,7 +1202,7 @@ One row: a picture, a caption, a heading, a text and an optional button.
 
 > **Rows stack on smaller screens.** Side-by-side rows stack below 1101 px wide, with the picture on top and the words under it.
 
-> **A button needs both parts.** A row button shows only when it has a **Button label** and a **Button link**.
+> **A button needs both parts.** A row button shows only when it has a **Button label** and a **Button link**. A long label, even one very long word, wraps inside the button instead of running past the edge of a phone.
 
 > **Override one row.** Each **Row** block can change its own **Row entrance** or turn the ripple off, while the timing and strength stay shared across the section.
 
@@ -1267,7 +1277,7 @@ One panel in the row.
 
 | Setting | What it changes |
 | --- | --- |
-| **Badge** | The small pill above the heading. Leave empty to number the panel automatically — 01, 02, 03. |
+| **Badge** | The small pill above the heading. Leave empty to number the panel automatically — 01, 02, 03. A long badge wraps onto a second line instead of being cut off. |
 | **Heading** | The panel's title. Press Enter to break it across lines. On a computer the heading always sits above the picture: a long one wraps inside the open panel and shrinks until it fits, never below about a third of its size, and the picture sits just below the tallest heading in the section. |
 | **Description** | Sits along the bottom of the panel and fades in when the panel opens. Press Enter to break across lines. Leave empty to hide. |
 | **Button label** | The words on the button inside the open panel. The button shows only when the panel has a link. |
@@ -1494,7 +1504,7 @@ One picture in the gallery.
 
 ### Tips and limits
 
-> **Pictures open larger.** With **Open pictures larger when pressed** on, pressing a picture shows it full screen with arrows to move through the gallery. Escape closes it. A picture that has a link opens the link instead.
+> **Pictures open larger.** With **Open pictures larger when pressed** on, pressing a picture shows it full screen with arrows to move through the gallery. Escape closes it. A picture that has a link opens the link instead. On a phone, 500 px wide or less, the two arrows sit in a row under the picture as large buttons, so a shopper can step through without swiping; swiping works too.
 
 > **Mixed shapes.** In **Reel**, choose **Adapt to picture** under **Picture shape** to keep each picture's own shape.
 
@@ -1892,7 +1902,7 @@ One plan: a name, its prices, a list of features and a button.
 | --- | --- |
 | **Name** | The plan's name. |
 | **One-line description** | Who the plan is for. Leave empty to hide it. |
-| **Highlight this plan** | Lifts it out of the row, tints it, and deals it last in the deck layout. Highlight one plan, not several. Off by default. |
+| **Highlight this plan** | Tints it and gives it the badge. On a computer it is also lifted out of the row, and it is dealt last in the deck layout. On a phone or tablet it stays in its own place in the list. Highlight one plan, not several. Off by default. |
 | **Badge** | A small pill on the card, such as Most popular. Leave empty to hide it. Shows only when the section's **Layout** is neither **Plan rows** nor **Comparison table**. |
 {: .settings}
 
@@ -1946,9 +1956,13 @@ Shows only when the section's **Layout** is not **Comparison table**.
 
 > **Highlight one plan.** **Highlight this plan** lifts a plan out of the row and tints it. Highlight one plan, not several.
 
+> **Plans keep their order on smaller screens.** Below 1101 px wide the highlighted plan stays where you put it in the list, so what a shopper reads and what a keyboard user tabs through match. With three plans on a tablet they sit two and one.
+
 > **Some settings hide per layout.** **Tilt toward the pointer** is hidden in **Comparison table**, which has no cards to tilt. **Plans per row** and **Space between plans** show only in **Tier cards** and **3D deck**, and **Scroll length** only in **3D deck**.
 
 > **The 3D deck needs room.** It holds the screen only when the screen is tall enough to show the whole scene; on a short screen it shows the plain layout instead, and the editor preview does too.
+
+> **The 3D deck follows the keyboard.** When a shopper presses Tab onto the billing toggle, a plan or its button, the deck shows settled at once, so the control with focus is never faded out. When focus leaves, the deck follows the scroll again, both ways.
 
 > **Up to three plans.** The section takes three plans at most.
 
@@ -2065,7 +2079,7 @@ One question with its answer.
 
 | Setting | What it changes |
 | --- | --- |
-| **Question** | Leave empty to use the title of the page below. |
+| **Question** | Leave empty to use the title of the page below. A row with no question and no page below is not shown. |
 | **Answer** | The answer text. |
 | **Answer from a page** | Shown after the answer above, so a question can use either or both. |
 {: .settings}
@@ -2139,12 +2153,12 @@ This section is for the home page only. It is not offered on other pages.
 
 | Setting | What it changes |
 | --- | --- |
-| **Caption** | A short line above the heading. Leave empty to hide it. |
+| **Caption** | A short line above the heading. Leave empty to hide it. Hidden when **Layout** is **Inline strip**. |
 | **Heading** | Leave empty to hide it. |
-| **Subheading** | A paragraph under the heading. |
+| **Subheading** | A paragraph under the heading. Hidden when **Layout** is **Inline strip**. |
 | **Email box placeholder** | Leave empty to use the theme's own wording. |
 | **Button label** | The words on the signup button. Leave empty to use the theme's own Subscribe wording. |
-| **Reassurance line** | Shown under the email box. Leave empty to hide it. Not shown on the Inline strip layout. |
+| **Reassurance line** | Shown under the email box. Leave empty to hide it. Hidden when **Layout** is **Inline strip**. |
 {: .settings}
 
 #### Text style
@@ -2155,12 +2169,12 @@ This section is for the home page only. It is not offered on other pages.
 | **Heading weight** | How bold the heading is. **Theme default** keeps the weight the chosen font comes with. Options: **Theme default** (default), **Light (300)**, **Normal (400)**, **Medium (500)**, **Semi-bold (600)**, **Bold (700)**. If your font has no such weight, the nearest one is used. |
 | **Heading letter spacing** | The space between the letters of the heading. 0 keeps the design's own spacing. Range -2 to 8 px, default 0 px. |
 | **Heading color** | The color of the heading. |
-| **Caption size** | Makes the caption smaller or larger. 1× is the normal size, which stays responsive. Range 0.6 to 2×, default 1×. |
-| **Caption color** | The color of the caption. |
-| **Text size** | Makes the text smaller or larger. 1× is the normal size, which stays responsive. Range 0.6 to 2×, default 1×. |
-| **Text color** | The color of the text. |
-| **Reassurance line size** | Makes the reassurance line smaller or larger. 1× is the normal size, which stays responsive. Range 0.6 to 2×, default 1×. |
-| **Reassurance line color** | The color of the reassurance line. |
+| **Caption size** | Makes the caption smaller or larger. 1× is the normal size, which stays responsive. Range 0.6 to 2×, default 1×. Hidden when **Layout** is **Inline strip**. |
+| **Caption color** | The color of the caption. Hidden when **Layout** is **Inline strip**. |
+| **Text size** | Makes the text smaller or larger. 1× is the normal size, which stays responsive. Range 0.6 to 2×, default 1×. Hidden when **Layout** is **Inline strip**. |
+| **Text color** | The color of the text. Hidden when **Layout** is **Inline strip**. |
+| **Reassurance line size** | Makes the reassurance line smaller or larger. 1× is the normal size, which stays responsive. Range 0.6 to 2×, default 1×. Hidden when **Layout** is **Inline strip**. |
+| **Reassurance line color** | The color of the reassurance line. Hidden when **Layout** is **Inline strip**. |
 {: .settings}
 
 #### Colors
@@ -2512,7 +2526,7 @@ A heading, with an optional small caption above it.
 | Setting | What it changes |
 | --- | --- |
 | **Caption** | A small line above the heading. |
-| **Heading** | The heading text. |
+| **Heading** | The heading text. Leave empty and no heading is shown. |
 | **Size** | How large the heading is. Options: **Small**, **Medium**, **Large** (default), **Extra large**. |
 {: .settings}
 

@@ -1,6 +1,6 @@
 ---
 title: Footers
-updated: 2026-11-02
+updated: 2026-11-04
 ---
 
 # Footers
@@ -182,7 +182,7 @@ A column of links under a small heading. Add up to four. A new column starts on 
 
 > *Long store names fit.* The large store name shrinks to fit rather than being cut off.
 
-> *Phones fold the columns.* On a phone each column's heading becomes a tap-to-open row, so a long footer stays short.
+> *Phones fold the columns.* On a phone each column's heading becomes a tap-to-open row, so a long footer stays short. On tablets and computers the heading is a plain heading, and a column with no heading shows just its links.
 
 ## Big link
 
@@ -564,7 +564,7 @@ A picture among the link groups, such as a badge or a photo.
 
 > *Link groups flow.* Each link column is kept whole and the columns flow down newspaper-style columns on the message side in the order you set, so a long menu beside two short ones never leaves gaps. Drag the blocks to change the order. A column's **Column width** narrows it inside its place, or lifts it out of the flow across the message side with its links side by side.
 
-> *Phones fold the columns.* With **Collapse on phones** on, each column's heading becomes a tap-to-open row on a phone.
+> *Phones fold the columns.* With **Collapse on phones** on, each column's heading becomes a tap-to-open row on a phone. On tablets and computers, and with **Collapse on phones** off, the heading is a plain heading.
 
 ## Country and language pickers
 

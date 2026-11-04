@@ -1,6 +1,6 @@
 ---
 title: Product page
-updated: 2026-11-02
+updated: 2026-11-04
 ---
 
 # Product page
@@ -109,6 +109,8 @@ To add, remove or reorder a block, open the section in the left bar of the edito
 > *Start with the default.* A new product page already holds a sensible stack of blocks: the maker, name, price, rating, SKU, options, stock level, quantity, buy buttons, pickup, goes well with, description, panels and share links. Change it a block at a time.
 
 > *Pick the layout from the pictures.* **Filmstrip** shows every picture, so it needs four or more to look full. **Long read** works with one to three. **Classic** works with any number.
+
+> *The keyboard follows the screen.* On phones and tablets in **Filmstrip**, Tab goes through the pictures, then the thumbnails, then the trail, then the details, as they sit on the screen. In the **Banner with a buy card** look the trail comes first, then the picture and the buy card, and the thumbnails last.
 
 > *One product name only.* The **Product name** block is the page's heading. Add it once; a second one gives the page two main headings, which is poor for screen readers and search engines.
 
@@ -323,7 +325,7 @@ A heading that opens to your own text, to a page such as your delivery or return
 | Setting | What it changes |
 | --- | --- |
 | **Always open** | Draws the panel as a bordered card that cannot be collapsed, for the details every shopper wants such as specifications or delivery. Leave off and it is a row that opens on a click. |
-| **Label on the right** | A short word beside the heading, such as Included or Policy. Shown when **Always open** is on. |
+| **Label on the right** | A short word beside the heading, such as Included or Policy. A long label wraps onto more lines inside the panel. Shown when **Always open** is on. |
 | **Icon** | A small icon beside the heading. Options: **No icon**, **Document**, **Delivery van**, **Return arrow**, **Exchange**, **Ruler**, **Washing**, **Leaf**, **Parcel**, **Payment card**, **Padlock**, **Shield**, **Award**, **Information**, **Question mark**, **Chat bubble**, **Clock**, **Globe**, **Map pin**, **Price tag**, **Gift**. |
 {: .settings}
 
@@ -567,7 +569,7 @@ When a shopper picks an option that has its own picture, the gallery turns to it
 
 ### Videos
 
-Videos you add to the product (uploaded to Shopify, or from YouTube or Vimeo) appear as thumbnails marked with a play symbol. Nothing loads until the shopper presses the play button on the picture, so a video costs the page no speed. Controls include play, pause and mute. A shopper who presses play with the keyboard lands on the video itself, ready for the next key.
+Videos you add to the product (uploaded to Shopify, or from YouTube or Vimeo) appear as thumbnails marked with a play symbol. Nothing loads until the shopper presses the play button on the picture, so a video costs the page no speed. Controls include play, pause and mute. A shopper who presses play with the keyboard lands on the video itself, ready for the next key. In **Filmstrip**, tabbing to a video's play button brings that picture into view, and the counter and thumbnails move with it.
 
 ### 3D models and "View in your space"
 

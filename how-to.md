@@ -1,6 +1,6 @@
 ---
 title: How-to guides
-updated: 2026-11-02
+updated: 2026-11-03
 ---
 
 # How-to guides
@@ -27,7 +27,7 @@ remove its sections and add your own.
 5. Select *Save*. Nothing reaches your live shop until you save, and
    nothing reaches it at all until the theme is published.
 
-{% include looks.html folder="settings" file="presets" name="Preset home page" looks="Seloriq,Oakwood,Petal" about="Clothing: a scrolling hero and featured products.|Home goods: warm wood tones and collection tiles.|Beauty: a soft scroll story and trust badges." %}
+{% include looks.html folder="settings" file="presets" name="Preset home page" looks="Seloriq,Oakwood,Mauve" about="Clothing: a scrolling hero and featured products.|Home goods: warm wood tones and collection tiles.|Beauty: a soft scroll story and trust badges." %}
 
 > *Put a full-screen opener first.* **Hero scroll**, **Scroll story** and **Slideshow** are made to open the page. **Hero scroll** shows its brand logo strip and gives the page its main heading only when it is the first section.
 
