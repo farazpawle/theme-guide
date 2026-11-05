@@ -112,6 +112,8 @@ This section has no blocks. The words come from the page you write in *Online St
 
 > *Small pictures keep their own size.* A picture you add to the text of a page, blog post or product description is never stretched wider than it is. A small picture, or one you made narrower in the editor, keeps its own size, and a large one shrinks to fit the column, with its proportions kept on every screen.
 
+> *Written opening keeps words whole.* A word that fits the line stays in one piece instead of breaking inside the word.
+
 > *Written opening lifts the first paragraph.* That paragraph is shown beside the heading, so it is not shown twice. If the first thing on the page is a picture, a video or an embedded frame, nothing is lifted. Links in it keep working.
 
 > *The contact page is compact.* To make a contact page, add a page in *Online Store > Pages* and choose the *contact* template for it. It uses the **Section drum** look with no space below, so it reads as a heading above the form. See [Contact](sections.md#contact).
@@ -261,6 +263,8 @@ This section has no blocks. The post's words and picture come from *Online Store
 > *Cover needs a picture.* **Cover** only does its shrinking move when the post has a picture. Add a featured picture to the post in your admin.
 
 > *Cover keeps the picture's shape.* The frame follows the picture's own proportions up to a maximum height, so a tall or square picture is not cut into a wide strip.
+
+> *Cover leaves room for a long title.* While the picture is pinned, it shrinks to leave room for the title, so the title always shows whole. If the title is very long, the pin turns off and the page scrolls normally.
 
 > *Comments appear when they are turned on.* Turn them on for the blog in *Online Store > Blog posts > Manage blogs*. Shoppers who comment see a message that their comment was posted, or sent for approval when you moderate comments.
 

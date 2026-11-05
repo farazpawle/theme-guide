@@ -1,6 +1,6 @@
 ---
 title: Release notes
-updated: 2026-10-29
+updated: 2026-11-05
 ---
 
 # Release notes
@@ -8,14 +8,14 @@ updated: 2026-10-29
 ## 1.0.0
 
 {{ site.theme_name }} is a scroll-led theme with motion and 3D on every
-page, three starting looks ({{ site.theme_name }}, Oakwood and Petal), light
+page, three starting looks ({{ site.theme_name }}, Oakwood and Mauve), light
 and dark color modes, and a full set of store pages built for any catalog
 size.
 
 ### Added
 
 - Three presets: {{ site.theme_name }} for clothing, Oakwood for home goods
-  and Petal for beauty.
+  and Mauve for beauty.
 - Light, dark and automatic color modes, with color schemes that stay
   readable in both, and an optional switch that lets shoppers choose.
 - Five header styles: Aurora glow, Centered stack, Floating capsule, Nebula
@@ -40,11 +40,3 @@ size.
   card and password pages.
 - Motion that follows each visitor's reduced motion setting, with an Always
   animate choice on each moving section.
-
-### Changed
-- Hero scroll: the slide and section controls that duplicated another control or sat at their built-in value are gone. Their look is unchanged.
-- Curtain footer columns: a Link source choice (A navigation menu or Custom links below) decides which links show. Columns that already hold typed links keep them.
-- Plainer labels in Hero scroll, Story rows, the footers and the product page, for example Link to other products, Pinned along, Message strip and Text position.
-
-### Removed
-- Hero scroll settings for tagline, heading and subheading size, weight and spacing, heading shadow offset, blur and color, button size, weight and spacing, the brand strip height, spacing, speed, movement size and brightness, the pill, secondary button and progress bar strengths, and the slide counter size and color.

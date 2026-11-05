@@ -1,6 +1,6 @@
 ---
 title: Home page sections
-updated: 2026-11-04
+updated: 2026-11-05
 ---
 
 # Home page sections
@@ -306,6 +306,8 @@ One logo in the moving strip along the bottom. It shows only when **Show brand s
 
 > **Scroll distance moves the rest of the page.** A higher **Scroll distance per slide** feels slower and more cinematic, but pushes everything below the hero further down.
 
+> **A short screen gets an ordinary hero.** On a phone held sideways, or in a browser zoomed in a long way, a slide's words may not fit the screen height. The section then stops pinning: it becomes a normal block as tall as its longest slide, the page scrolls past it, every word shows, and shoppers change slides by tapping the bars (or by using the keyboard on them). That is the only way to reach the other slides there, so the bars show in this form even when **Show progress indicators** is off; while the section is pinned the setting works as before. When the screen is tall enough again it pins again. Shorter words keep the scrolling slides on every screen.
+
 > **The first title is the page heading.** When Hero scroll opens your home page, the title of its first slide is the main heading of the page for search engines.
 
 > **No picture in the block picker.** When you add a **Slide** block, the editor may say "No preview available". The slide still works; **Brand logo** previews normally.
@@ -521,6 +523,8 @@ How a product card looks — its alignment, color scheme, surface, picture shape
 This section has no blocks. It fills itself from the collection you choose.
 
 ### Tips and limits
+
+> **No collection, nothing shown.** With no collection chosen, or a collection with no products, shoppers see nothing at all. In the theme editor the section shows sample cards (without a price) so you can still see the look. The link to the whole collection shows only when the collection has products.
 
 > **Arrows need two products.** In **Arc**, the arrows and the counter appear only when the collection has two or more products.
 
@@ -1008,6 +1012,8 @@ One card. Pick a product to fill it automatically, or type your own words and pi
 {: .settings}
 
 ### Tips and limits
+
+> **No cards, nothing shown.** With no cards added, shoppers see nothing at all. In the theme editor the section shows one sample card so you can see the look.
 
 > **Phones and tablets get a list.** On screens up to 1100 px wide the cards are a plain list, one after another, and **Card picture height** sets how tall each picture is.
 
@@ -2577,12 +2583,12 @@ One or two buttons side by side.
 | **Style** | Whether the button is filled or outlined. Options: **Filled** (default), **Outlined**. |
 {: .settings}
 
-##### Second button
+##### Extra button
 
 | Setting | What it changes |
 | --- | --- |
-| **Label** | The words on a second button. Leave empty for one button. It is always outlined. |
-| **Link** | Where the second button goes. |
+| **Label** | The words on an extra button. Leave empty for one button. It is always outlined. |
+| **Link** | Where the extra button goes. |
 {: .settings}
 
 #### Picture block

@@ -1,6 +1,6 @@
 ---
 title: Collection, search and cart pages
-updated: 2026-11-03
+updated: 2026-11-04
 ---
 
 # Collection, search and cart pages
@@ -347,7 +347,7 @@ A note box on the cart page lets shoppers add delivery instructions or anything 
 
 ### What shoppers can do
 
-- Change quantities and remove items. A product with a minimum, maximum or volume pricing shows those rules as words. Typing a quantity and then pressing the minus, plus or bin buttons keeps what was typed (the order note too), and the page comes back at the same place with the same button selected.
+- Change quantities and remove items without the page reloading: the lines, totals and automatic discounts update in place. A product with a minimum, maximum or volume pricing shows those rules as words. Typing a quantity and then pressing the minus, plus or bin buttons keeps what was typed (the order note too), and the page comes back at the same place with the same button selected.
 - Be told when they ask for more than you have. For a product that tracks stock and does not sell past zero, the quantity box stops at what is in stock, the plus button dims with the line "All N available are in your bag", and a larger typed number is refused with "Only N available" instead of being saved. Products that do not track stock, or that you let sell past zero, have no limit.
 - See each item's discounts and subscriptions (a subscription line shows the price without the plan struck through and how much the plan saves), the bag's own discounts next to the total, and a line saying whether tax and delivery are included or worked out at checkout.
 - Reach checkout from the bar, pill or button of the look you chose. Express checkout buttons (Shop Pay, Apple Pay and others) appear when your shop offers them.
@@ -356,6 +356,10 @@ A note box on the cart page lets shoppers add delivery instructions or anything 
 ### Tips and limits
 
 > *The page works without scripts.* Quantities, remove and checkout all work with scripts blocked, and the browser still refuses a number above the stock. Scripts add the bar, the pill, the pinned panel, the movement, the "Only N available" wording and keeping typed edits when a plus, minus or bin button is pressed. Without scripts those three buttons are links, so press *Update bag* before using them or a typed number is lost.
+
+> *The page reloads only when it has to.* Changing a quantity, removing a line and pressing *Update bag* update the bag in place. If an update fails, scripts are off, or you have added blocks (such as an app) to the cart page, the page reloads instead so nothing is lost and the blocks keep working.
+
+> *Receipt rows stay readable.* In **Receipt**, the rows tilt only slightly as the page scrolls and never fade below 70%, so every line can be read.
 
 > *Enter in a quantity box updates the bag.* It never sends the shopper to checkout, in any look.
 
