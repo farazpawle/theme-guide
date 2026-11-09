@@ -1,6 +1,6 @@
 ---
 title: Headers and the announcement bar
-updated: 2026-11-03
+updated: 2026-11-07
 ---
 
 # Headers and the announcement bar
@@ -560,6 +560,8 @@ This feature has no blocks. It is the same drop-down for every header.
 ### Tips and limits
 
 > *One setting for every header.* You turn suggestions on or off once here. No header has a search setting of its own beyond **Show search**.
+
+> *The arrow keys draw a frame.* A shopper who moves down the list with the arrow keys sees the chosen row inside a clear frame in the text color, in every header and on the search page, in light and dark mode. Pointing with the mouse only tints the row.
 
 > *Nothing drops down?* Check that **Suggest results as the shopper types** is on. With it off, the search box works but shows no suggestions.
 

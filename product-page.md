@@ -1,6 +1,6 @@
 ---
 title: Product page
-updated: 2026-11-04
+updated: 2026-11-08
 ---
 
 # Product page
@@ -59,7 +59,7 @@ The four layouts change how the **Product page** look is arranged. Pick one with
 - **Classic**: one large picture with thumbnails, the details beside it, and the description, panels and share links in a full-width band underneath. It suits any product.
 - **Filmstrip**: every picture at once. On computers the pictures fill the left half of the window and hold still while the details are read, then roll on one by one. On phones and tablets they become a swipe row. It suits four or more pictures.
 - **Long read**: one centered column, like a story. The lead picture opens the page wide (with **Enlarging a picture** on **Full screen** it fills its frame and may be trimmed at the edges; tapping it shows the whole picture), then the buy card, then the details with the other pictures between them. Each of those other pictures keeps its own shape, so a square, portrait or wide picture shows whole, with nothing cut off and no bands at the sides. A buy bar stays at the foot of the screen whenever the page's own Add to bag button is out of view. On the buy card, the accent-colored words and borders (the chosen option, Buy it now) and the stock line are drawn a little deeper than elsewhere so they stay easy to read on the card, in light and dark mode. It suits one to three pictures.
-- **Spec sheet**: the page as a ledger. The pictures are numbered plates on the left and every block is a ruled row on the right. It suits products sold on their sizes and materials.
+- **Spec sheet**: the page as a ledger. The pictures are numbered plates on the left and every block is a ruled row on the right. It suits products sold on their sizes and materials. A product with no pictures still gets its labelled rows.
 
 <div class="pair">
   <figure class="shot shot--desktop">
@@ -85,7 +85,7 @@ The four layouts change how the **Product page** look is arranged. Pick one with
 
 | Setting | What it changes |
 | --- | --- |
-| **Product** | Leave empty on product pages to show that page's product. Pick a product to show it anywhere else, such as the home page. |
+| **Product** | Leave empty on product pages to show that page's product. Pick a product to show it anywhere else, such as the home page. With no product picked on any other page, shoppers see nothing; only the theme editor shows a sample name and parts (with no price or SKU) so you can judge the look while you choose. |
 | **Look** | Shown once a **Product** is picked. Options: **Product page**, **3D ring**, **Banner with a buy card**. |
 | **Layout** | Shown on the product page, or when **Look** is **Product page**. Options: **Classic**, **Filmstrip**, **Long read**, **Spec sheet**. |
 | **Show the trail at the top** | A row of links, such as Home, Products and the product's name, so shoppers can step back. Shown when no **Product** is picked, and when the **Look** is **Banner with a buy card**. It draws only on the product's own page, not on the home page. |
@@ -159,7 +159,7 @@ One line of text above or below the other blocks: your own words, or each produc
 
 ### SKU
 
-The chosen option's SKU, in a small label. It changes when the shopper picks another option, and hides when the option has no SKU.
+The chosen option's SKU, in a small label. It changes when the shopper picks another option, and hides when the option has no SKU. In the editor, with no product to show, it draws nothing rather than an invented number.
 
 | Setting | What it changes |
 | --- | --- |
@@ -232,6 +232,8 @@ One group for each option the product has, such as size or color, shown as pills
 | **Swatch shape** | Shows a value as its color or image. Shown when **Picker style** is **Pills**. Options: **Circle**, **Square**, **No swatch**. |
 {: .settings}
 
+> *Products with more than 250 variants work.* Shopify shows a page at most 250 variants at a time, so for these products the picker asks Shopify for the chosen combination each time a value is picked, and the Add button waits for the answer. Nothing to set up. With a very large product, a Dropdown suits better than Pills, and the second and third options show "Unavailable" labels instead of being switched off.
+
 #### Color and image swatches
 
 A swatch is a small colored or pictured chip in place of a word. To use them:
@@ -245,7 +247,7 @@ Values without a color or image show as pills. Choose **No swatch** to turn swat
 
 ### Quantity
 
-The number box with plus and minus buttons. Your minimums, maximums and volume prices are set on the product itself and show here as plain text ("Minimum 2", "In multiples of 6", "10 or more: $9 each"), so a shopper sees them before the number jumps. On a sold out option the number box and both buttons are switched off, since nothing can be bought. This block has no settings.
+The number box with plus and minus buttons. Your minimums, maximums and volume prices are set on the product itself and show here as plain text ("Minimum 2", "In multiples of 6", "10 or more: $9 each"), so a shopper sees them before the number jumps. When you sell in multiples (for example 6) and the stock is not a whole number of them (10 in stock), the plus button stops at the last amount that can be bought (6), never on one the page then refuses. On a sold out option the number box and both buttons are switched off, since nothing can be bought. A shopper using the keyboard sees a clear dark outline around the whole box while the number is selected. This block has no settings.
 
 ### Buy buttons
 
@@ -320,12 +322,14 @@ A heading that opens to your own text, to a page such as your delivery or return
 | **Page** | A page whose content is shown after the content above, not instead of it. Leave **Content** empty to show only the page. |
 {: .settings}
 
+> *Long headings keep the label whole.* If a panel's heading is long and the small label beside it (such as "Non-refundable") does not fit on the same line, the label moves under the heading instead of breaking in the middle of a word. This holds on every product page style.
+
 #### Panel style
 
 | Setting | What it changes |
 | --- | --- |
 | **Always open** | Draws the panel as a bordered card that cannot be collapsed, for the details every shopper wants such as specifications or delivery. Leave off and it is a row that opens on a click. |
-| **Label on the right** | A short word beside the heading, such as Included or Policy. A long label wraps onto more lines inside the panel. Shown when **Always open** is on. |
+| **Label on the right** | A short word beside the heading, such as Included or Policy. A long label wraps onto more lines inside the panel, and in the Classic look a word is never split across lines: a label that does not fit beside the heading drops under it. Shown when **Always open** is on. |
 | **Icon** | A small icon beside the heading. Options: **No icon**, **Document**, **Delivery van**, **Return arrow**, **Exchange**, **Ruler**, **Washing**, **Leaf**, **Parcel**, **Payment card**, **Padlock**, **Shield**, **Award**, **Information**, **Question mark**, **Chat bubble**, **Clock**, **Globe**, **Map pin**, **Price tag**, **Gift**. |
 {: .settings}
 
@@ -528,6 +532,8 @@ If something is missing, the page reloads with the message and the fields still 
 
 > *The recipient email is what makes it a gift.* Without it, the card goes to the buyer, as it would for any gift card.
 
+> *Express checkout buttons hide while the box is ticked.* Shopify's gift form works only with the Add to bag button, so the express buttons (such as Shop Pay) disappear while "Send this as a gift" is ticked and come back when it is unticked.
+
 > *Wording comes from your email templates.* The email the recipient gets is a Shopify notification. Edit its wording under *Settings > Notifications* in your admin. See [Gift card page](content-pages.md#gift-card-page) for the page they open from it.
 
 > *Turn the setting off to skip it.* With **Ask who a gift card is for** off, gift cards behave like any other product: they go to the buyer.
@@ -575,7 +581,7 @@ Videos you add to the product (uploaded to Shopify, or from YouTube or Vimeo) ap
 
 A 3D model appears as a thumbnail marked with a box symbol and a play button on its picture. Pressing it lets the shopper turn the model and zoom in.
 
-On a phone or tablet that supports it, a "View in your space" button appears on the model. It places the product in the room through the device's camera. Shopify hides the button on devices that cannot do this, such as most computers.
+On a phone or tablet that supports it, a "View in your space" button appears on the model. It places the product in the room through the device's camera. Shopify hides the button on devices that cannot do this, such as most computers. In **Long read** it is a small button over the bottom-left corner of the model, so the model stays visible.
 
 To add a model, open the product in your admin and add a media file: Shopify accepts GLB and USDZ. [Shopify lists the requirements](https://help.shopify.com/en/manual/products/product-media/product-media-types).
 

@@ -1,6 +1,6 @@
 ---
 title: Home page sections
-updated: 2026-11-05
+updated: 2026-11-09
 ---
 
 # Home page sections
@@ -206,7 +206,7 @@ This section is for the home page only. It is not offered on other pages.
 
 | Setting | What it changes |
 | --- | --- |
-| **Show brand strip** | A moving row of brand logos across the bottom of the hero. Add a brand logo block for each one. On by default. |
+| **Show brand strip** | A moving row of brand logos across the bottom of the hero. Add a brand logo block for each one. On by default. With no brand logo blocks the strip takes no room and the picture fills the whole hero. |
 | **Strip style** | Tilted shelf lays the row on a surface tilting away. Raised tiles gives each logo its own tile. Turning drum wraps the row around a barrel that turns. Options: **Tilted shelf** (default), **Raised tiles**, **Turning drum**. Shows only when **Show brand strip** is on. |
 | **Logo movement** | Spotlight sends a beam down the row so each logo lights up in turn. Flip turns each logo over. Options: **Spotlight** (default), **Drift**, **Wave**, **Flip**, **None**. Shows only when **Show brand strip** is on. |
 | **Strip background** | The color of the strip behind the logos. Leave empty to match the section background. Shows only when **Show brand strip** is on. |
@@ -422,8 +422,8 @@ One caption that fades in and out at a point in the scroll.
 
 | Setting | What it changes |
 | --- | --- |
-| **When it appears** | **Spread evenly** gives every caption an equal share of the scroll, however many you add, so the first one is on screen when the scene starts and the last one when it ends. **Set by hand** lets you choose when this one appears; captions set by hand keep their own timing. Options: **Spread evenly** (default), **Set by hand**. |
-| **Fades in at** | How far through the scene this caption starts appearing. Below 0 means it is already on screen at the top. Range -20 to 100%, default -12%. Shows only when **When it appears** is **Set by hand**. |
+| **When it appears** | **Spread evenly** gives every caption set this way an equal share of the part of the scroll that captions set by hand leave free, so every caption shows; with no hand-timed captions the first one is on screen when the scene starts and the last one when it ends. **Set by hand** lets you choose when this one appears, and it keeps its own timing. Options: **Spread evenly** (default), **Set by hand**. |
+| **Fades in at** | How far through the scene this caption starts appearing. Below 0 means it is already on screen at the top. Set this earlier than **Fades out by**. If it is later, the theme swaps the two so the caption still shows. Range -20 to 100%, default -12%. Shows only when **When it appears** is **Set by hand**. |
 | **Fades out by** | How far through the scene the caption has finished fading out. It stays fully visible halfway between the two points. Range 0 to 100%, default 26%. Shows only when **When it appears** is **Set by hand**. |
 {: .settings}
 
@@ -581,7 +581,7 @@ On the collections page this lists every collection in your store. Anywhere else
 | Setting | What it changes |
 | --- | --- |
 | **Heading** | Leave empty for no heading. On the collections page it defaults to "Collections". |
-| **Collections** | The collections to show as tiles. Leave empty to show the store's own collections, as many as the columns on computers, skipping empty ones. Not used on the collections list page, which always lists every collection. |
+| **Collections** | The collections to show as tiles. Leave empty to show the store's own collections, skipping empty ones: as many as the columns on computers, or four in the **Lookbook** look. Not used on the collections list page, which always lists every collection. |
 | **Collections per page** | How many collections show on each page of the collections list page. Collections list page only. Range 8 to 48, default 24. |
 | **Show product count** | Shows how many products each collection holds. On by default. |
 {: .settings}
@@ -609,7 +609,7 @@ This section has no blocks. You choose the collections in the settings above.
 
 > **Choose collections that have a picture.** A tile with no picture shows the first letter of the collection's name instead.
 
-> **Nothing picked, the store's own collections show.** If you pick no collections, the tiles show your first collections (as many as the **Columns on computers** setting allows), skipping the hidden home collection and any collection with no products. A store with no such collection shows nothing, not even the heading. The editor shows sample tiles when there is nothing to show.
+> **Nothing picked, the store's own collections show.** If you pick no collections, the tiles show your first collections (as many as the **Columns on computers** setting allows, or four in the **Lookbook** look, which has no columns setting), skipping the hidden home collection and any collection with no products. A store with no such collection shows nothing, not even the heading. The editor shows sample tiles when there is nothing to show, four spreads in the **Lookbook** look.
 
 > **Stack shows products too.** **Stack** draws up to two of each collection's products behind its picture, so empty collections show the picture alone.
 
@@ -693,7 +693,7 @@ One collection in the list.
 | --- | --- |
 | **Collection** | The collection this row links to. |
 | **Name** | The name shown for the row. Leave empty to use the collection's own name. |
-| **Badge** | A short word shown beside the name, such as New or Sale. Leave empty for none. |
+| **Badge** | A short word shown beside the name, such as New or Sale. Leave empty for none. A long badge wraps onto more lines inside its own share of the row (at most 40%), so the name keeps its room. |
 | **Picture** | The picture shown when this row is open. Leave empty to use the collection's own picture. |
 {: .settings}
 
@@ -705,7 +705,7 @@ One collection in the list.
 
 > **Rows fill themselves in.** Leave **Name** and **Picture** empty and each row uses the collection's own name and picture.
 
-> **Long names are shown in full.** A long collection name wraps onto more lines instead of being cut off, and the list makes room for it. On a short computer screen the names step down a little in size so a very long one still fits the window.
+> **Long names are shown in full.** A long collection name, **Heading** or **Tagline** wraps onto more lines, even a single very long word, instead of being cut off or pushing the page wider, and the list makes room for it. On a short computer screen the names step down a little in size so a very long one still fits the window.
 
 ## Horizontal scroll cards
 
@@ -1260,7 +1260,7 @@ This section is for the home page only. It is not offered on other pages.
 | Setting | What it changes |
 | --- | --- |
 | **Animation** | Whether the movement plays for visitors whose device is set to reduce motion. They normally see the finished layout without movement; **Always animate** plays it for everyone, including you if reduce motion is on for your own device. Options: **Off for visitors who reduce motion** (default), **Always animate**. |
-| **Move to the next panel every** | 0 turns auto-advance off. Always off for visitors who ask for reduced motion. Range 0 to 9 s, default 3.5 s. |
+| **Move to the next panel every** | 0 turns auto-advance off. Always off for visitors who ask for reduced motion. In the theme editor, a panel you have selected stays open while you edit it, and the rotation starts again when you select something else. Range 0 to 9 s, default 3.5 s. |
 {: .settings}
 
 #### Padding
@@ -1704,9 +1704,13 @@ One customer quote.
 
 > **No photo needed.** A quote without a **Photo** shows the first letter of the name in a circle.
 
+> **Chat without a heading uses the full width.** With a **Heading** or **Text**, Chat puts the messages in a second column on computers, beside them. With both left empty, the messages use the whole width.
+
 > **Chat has no card settings.** The **Cards** settings (border, rounding and shadow) only apply to **Crossing rows** and are hidden in **Chat**.
 
 > **Movement follows your scroll.** The quotes slide in as you scroll down and back out as you scroll up. Visitors who reduce motion see them still.
+
+> **Phones: a swipe row you can reach by keyboard.** In **Crossing rows**, the quotes become one swipe row on phones. A screen reader names it "Customer quotes, scroll sideways", and a keyboard user can Tab to it and scroll it with the arrow keys.
 
 ## Trust badges
 
@@ -2027,7 +2031,7 @@ This section is for the home page only. It is not offered on other pages.
 | Setting | What it changes |
 | --- | --- |
 | **Group questions into topics** | Uses the Topic field on each question. The buttons only appear once the questions use more than one topic, and they need JavaScript. Off by default. |
-| **Label for the first button** | The label of the topic button that shows every question. Shows only when **Group questions into topics** is on. |
+| **Label for the first button** | The label of the topic button that shows every question. Leave empty to use the word "All" (in the shopper's language). Shows only when **Group questions into topics** is on. |
 {: .settings}
 
 #### Picture
@@ -2348,7 +2352,7 @@ This section is for the home page and for pages, such as your Contact page. It i
 | --- | --- |
 | **Question above the inquiry types** | The question shown above the inquiry types. It shows only once you have added an inquiry type. |
 | **Ask how they prefer to be contacted** | Adds a dropdown asking how the visitor would like you to reach them. On by default. |
-| **Label for that question** | The label of that dropdown. Shows only when **Ask how they prefer to be contacted** is on. |
+| **Label for that question** | The label of that dropdown. Leave empty to use "Best way to reach you". Shows only when **Ask how they prefer to be contacted** is on. |
 | **Choices** | The options in that dropdown, separated by commas. Shows only when **Ask how they prefer to be contacted** is on. |
 | **Hint inside the message box** | The faint hint shown in the empty message box. |
 | **Button label** | The words on the send button. |
@@ -2372,7 +2376,7 @@ This section is for the home page and for pages, such as your Contact page. It i
 | --- | --- |
 | **Show a WhatsApp button** | Needs a number below before it appears. Off by default. |
 | **WhatsApp number** | Include the country code, for example +12025550100. Shows only when **Show a WhatsApp button** is on. |
-| **Button label** | The words on the WhatsApp button. Shows only when **Show a WhatsApp button** is on. |
+| **Button label** | The words on the WhatsApp button. Leave empty to use "Message us on WhatsApp". Shows only when **Show a WhatsApp button** is on. |
 | **Line under the button** | A small line under the WhatsApp button, such as when you usually reply. Shows only when **Show a WhatsApp button** is on. |
 | **Message already typed in for them** | Optional. Appears in their WhatsApp before they press send. Shows only when **Show a WhatsApp button** is on. |
 {: .settings}

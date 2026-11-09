@@ -1,6 +1,6 @@
 ---
 title: Footers
-updated: 2026-11-04
+updated: 2026-11-07
 ---
 
 # Footers
@@ -161,7 +161,7 @@ A column of links under a small heading. Add up to four. A new column starts on 
 
 | Setting | What it changes |
 | --- | --- |
-| **Heading** | The column's heading. Leave empty to use the name of the menu chosen below. |
+| **Heading** | The column's heading. Leave empty to use the name of the menu chosen below when **Link source** is **A navigation menu**. A column of typed links has no heading unless you type one. |
 | **Link source** | Pick **A navigation menu** (the default) to fill the column from a menu, or **Custom links below** to use the typed links. |
 | **Footer menu** | The menu whose links fill the column. Used when **Link source** is **A navigation menu**. See [Menus](headers.md#menus). |
 {: .settings}
@@ -265,7 +265,7 @@ Sits under the columns, beside the email signup. It is part of the footer frame,
 | **Copyright line** | Leave empty for the current year and your store name. |
 | **Show "Powered by Shopify" link** | Shopify's own link, shown exactly as Shopify writes it. |
 | **Link 1**, **Link 2**, **Link 3** | Where each small-print link goes, such as shipping, terms and privacy. |
-| **Label 1**, **Label 2**, **Label 3** | The words for each small-print link. |
+| **Label 1**, **Label 2**, **Label 3** | The words for each small-print link. Leave empty to use the name of the page picked in the link. A typed web address needs a label, or the link is left out. |
 | **Size** | A multiplier for the bottom bar's text, from 0.6 to 2. |
 {: .settings}
 
@@ -318,7 +318,7 @@ Only used when **Custom links below** is chosen above.
 | Setting | What it changes |
 | --- | --- |
 | **Link 1** to **Link 8** | Where each typed link goes. |
-| **Label 1** to **Label 8** | The words shown for each typed link. |
+| **Label 1** to **Label 8** | The words shown for each link. Leave empty to use the name of the page, product or collection picked in the link. A typed web address with no label shows the address itself. |
 {: .settings}
 
 ### Tips and limits
@@ -329,7 +329,7 @@ Only used when **Custom links below** is chosen above.
 
 > *The frame cannot be removed.* The curved top and the bottom bar are always there. Turn off **Show the big link** or **Show the information panel** to simplify it.
 
-> *Choose your small print.* The bottom bar holds three typed links, so set the privacy policy, terms and shipping pages you want shown.
+> *Choose your small print.* The bottom bar holds three typed links, so set the privacy policy, terms and shipping pages you want shown. The back to top arrow stays at the right end of the bar, with none, one or all three.
 
 > *Colors you set are fixed.* A color you pick in this footer, such as **Text** or **Background**, stays the same in dark mode, so check it in both modes.
 
@@ -530,7 +530,7 @@ Only used when **Custom links below** is chosen above.
 | Setting | What it changes |
 | --- | --- |
 | **Link 1** to **Link 8** | Where each typed link goes. |
-| **Label 1** to **Label 8** | The words shown for each typed link. |
+| **Label 1** to **Label 8** | The words shown for each link. Leave empty to use the name of the page, product or collection picked in the link. A typed web address with no label shows the address itself. |
 {: .settings}
 
 #### Picture
@@ -541,7 +541,7 @@ A picture among the link groups, such as a badge or a photo.
 | --- | --- |
 | **Picture** | The picture. |
 | **Picture link** | Optional. Opens this link when the image is selected. |
-| **Picture description** | Describes the image for visitors using a screen reader. Leave empty to use the image's own description. |
+| **Picture description** | Describes the image for visitors using a screen reader. Leave empty to use the image's own description. If there is none, the picture counts as decoration and screen readers skip it. |
 | **Cover a full row** | Off, the image takes the same width as one link column. On, it fills the whole row. |
 {: .settings}
 

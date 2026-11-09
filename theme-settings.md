@@ -1,6 +1,6 @@
 ---
 title: Theme settings
-updated: 2026-11-02
+updated: 2026-11-08
 ---
 
 # Theme settings
@@ -143,7 +143,7 @@ Every section that uses a color scheme follows this, and so does every page that
 | Setting | What it changes |
 | --- | --- |
 | **Default mode** | Options: **Light**, **Dark** or **Follow the visitor's device**. The mode a visitor sees the first time. |
-| **Show the mode switch** | Adds a switch so a visitor can choose. On computers it is an icon in the header; on phones and tablets it is a row inside the menu. A visitor's choice is remembered on their device and wins over **Default mode**, except in the theme editor. |
+| **Show the mode switch** | Adds a switch so a visitor can choose. On computers it is an icon in the header; on phones and tablets it is a row inside the menu. A visitor's choice is remembered on their device and wins over **Default mode**, except in the theme editor. With the switch off, a saved choice is ignored and **Default mode** applies to everyone. |
 {: .settings}
 
 ### How color schemes work
@@ -207,7 +207,7 @@ You set the light colors only. The theme builds the dark version of every scheme
 - **Hero scroll** and **Scroll story** keep their own dark colors in both modes.
 - The switch is a three-step icon: each press goes to Light, then Dark, then the visitor's own device setting.
 
-A visitor's choice is stored on their device, so it follows them back to your store. In the theme editor the stored choice is ignored: to preview dark mode while editing, set **Default mode** to **Dark**, then put it back if you want another default.
+A visitor's choice is stored on their device, so it follows them back to your store, but only while the mode switch is on. In the theme editor the stored choice is ignored: to preview dark mode while editing, set **Default mode** to **Dark**, then put it back if you want another default.
 
 > *Refresh to see the dark version.* The editor cannot preview dark colors live. After you change a scheme, refresh the preview to see how its dark version turned out.
 
