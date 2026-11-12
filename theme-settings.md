@@ -1,6 +1,6 @@
 ---
 title: Theme settings
-updated: 2026-11-08
+updated: 2026-11-12
 ---
 
 # Theme settings
@@ -89,7 +89,7 @@ How blog posts look in the **Blog posts** section, on the blog page and wherever
 | --- | --- |
 | **Alignment** | Left, center or right alignment of the words on each card. |
 | **Color scheme** | The colors of a framed card. Only used when the card has a surface (see **Style**). |
-| **Picture padding** | Space between the card's edge and its picture, from 0 to 20px. Only used when the card has a surface. |
+| **Picture padding** | Space between the card's edge and its picture, from 0 to 20 px. Only used when the card has a surface. |
 | **Style** | Options: **Standard** (picture and words straight on the page) or **Card** (a framed card in the color scheme you pick). |
 {: .settings}
 
@@ -97,8 +97,8 @@ How blog posts look in the **Blog posts** section, on the blog page and wherever
 
 | Setting | What it changes |
 | --- | --- |
-| **Border** | The card's outline thickness, from 0 to 8px. Its color comes from the color scheme. |
-| **Corner rounding** | How round the card's corners are, from 0 to 40px. |
+| **Border** | The card's outline thickness, from 0 to 8 px. Its color comes from the color scheme. |
+| **Corner rounding** | How round the card's corners are, from 0 to 40 px. |
 | **Shadow** | The card's shadow, from 0 to 100%. One slider sets how far it falls, how soft it is and how dark. Zero means no shadow. |
 {: .settings}
 
@@ -108,9 +108,9 @@ How blog posts look in the **Blog posts** section, on the blog page and wherever
 
 | Setting | What it changes |
 | --- | --- |
-| **Favicon** | The small icon in the browser tab. It is also used as the home-screen icon when a shopper saves your store on a phone, and is cropped square, so start from a square image. |
+| **Favicon** | The small icon in the browser tab (32 x 32 px recommended). It is also used as the home-screen icon when a shopper saves your store on a phone, and is cropped square, so start from a square image. |
 | **Logo** | Shown in the header, and on the password page and the gift card page. Leave empty to show your store name as text instead. Any shape works. |
-| **Logo width** | How wide the logo is, from 50 to 300px. In a narrow header the logo shrinks to fit. |
+| **Logo width** | How wide the logo is, from 50 to 300 px. In a narrow header the logo shrinks to fit. |
 {: .settings}
 
 ## Cart
@@ -133,7 +133,7 @@ A scheme is stored in the list at the top of this group. Select a scheme there t
 | Setting | What it changes |
 | --- | --- |
 | **Page color scheme** | The colors of the page itself, and of every section that does not choose a scheme of its own. |
-| **Input corner rounding** | Rounds the corners of every typing box: search, the email signup and the contact form. From 0 to 10px. |
+| **Input corner rounding** | Rounds the corners of every typing box: search, the email signup and the contact form. From 0 to 10 px. |
 {: .settings}
 
 ### Light and dark mode
@@ -221,8 +221,8 @@ The look of panels and framed pictures across the theme.
 
 | Setting | What it changes |
 | --- | --- |
-| **Border** | Outline thickness, from 0 to 8px. The color comes from the color scheme. |
-| **Corner rounding** | Roundness of panels and picture frames, from 0 to 40px. It shapes the pictures in **Video**, **Slideshow**, **Image gallery** and **Logo list** as well as panels in the cart, contact form, email signup, FAQ and product page. |
+| **Border** | Outline thickness, from 0 to 8 px. The color comes from the color scheme. |
+| **Corner rounding** | Roundness of panels and picture frames, from 0 to 40 px. It shapes the pictures in **Video**, **Slideshow**, **Image gallery** and **Logo list** as well as panels in the cart, contact form, email signup, FAQ and product page. |
 | **Shadow** | A shadow under panels, from 0 to 100%. One slider sets how far it falls, how soft it is and how dark. Zero means no shadow. |
 {: .settings}
 
@@ -249,8 +249,8 @@ The footer styles are covered in [Footers](footers.md).
 
 | Setting | What it changes |
 | --- | --- |
-| **Keep the header on screen** | The bar stays at the top of the screen as the page scrolls. The announcement bar scrolls away with the page. |
-| **Show the horizontal mega menu** | A menu item with two levels below it opens as columns instead of a single list. Used by **Centered stack**; **Aurora glow** opens every item as a full-width sheet with pictures, and **Nebula float** walks its menu one level at a time instead. |
+| **Keep the header on screen** | The bar stays at the top of the screen as the page scrolls. The announcement bar scrolls away with the page. In the **Sidecar** header on computers, the menu column always stays on screen. |
+| **Show the horizontal mega menu** | A menu item with two levels below it opens as columns instead of a single list. Works only with the **Centered stack** header; the other headers show sub-items their own way. For example, **Aurora glow** opens every item as a full-width sheet with pictures, and **Nebula float** walks its menu one level at a time. |
 {: .settings}
 
 The header's style is chosen by the header section itself: see [Headers](headers.md).
@@ -259,16 +259,16 @@ The header's style is chosen by the header section itself: see [Headers](headers
 
 | Setting | What it changes |
 | --- | --- |
-| **Page margin** | The least space kept at the left and right of the page, from 10 to 100px. On phones and tablets a wide margin shrinks with the screen (at most 8% of its width) so the store name keeps room; computers keep the exact margin. |
-| **Page width** | The widest the content gets on large screens, from 1000 to 1600px. |
-| **Space between sections** | A gap between one section and the next in the main part of a page, from 0 to 100px. Zero leaves them touching, so they separate by their own backgrounds. |
+| **Page margin** | The least space kept at the left and right of the page, from 10 to 100 px. On phones and tablets a wide margin shrinks with the screen (at most 8% of its width) so the store name keeps room; computers keep the exact margin. |
+| **Page width** | The widest the content gets on large screens, from 1000 to 1600 px. |
+| **Space between sections** | A gap between one section and the next in the main part of a page, from 0 to 100 px. Zero leaves them touching, so they separate by their own backgrounds. |
 {: .settings}
 
 ## Product cards
 
 The product card appears wherever products are listed. Set it once here and every card matches.
 
-The home page's **Featured products**, **Related products** and the suggestions in an empty cart use every setting below. The collection and search pages use their own card layout and follow **Alignment**, **Picture shape**, **Custom shape from a picture**, **Crop pictures to fill**, **Hover style**, the sale badge and **Sold out products**. They ignore **Style** and **Color scheme**, and the editor says so under each of those settings.
+The home page's **Featured products**, **Related products** and the suggestions in an empty cart use every setting below. The collection and search pages use their own card layout and follow **Alignment**, **Picture shape**, **Custom shape from a picture**, **Crop pictures to fill**, **Hover style**, the sale badge and **Sold out products**. They ignore **Style** and **Color scheme**, and the editor says so under each of those settings. The **Border**, **Corner rounding** and **Shadow** settings below also frame the tiles in **Collection tiles**.
 
 <div class="pair">
   <figure class="shot shot--desktop">
@@ -342,8 +342,8 @@ The home page's **Featured products**, **Related products** and the suggestions 
 | Setting | What it changes |
 | --- | --- |
 | **Color scheme** | The colors of a card. Works only when **Style** is **Card**, on the home page and in Related products. |
-| **Border** | Outline thickness, from 0 to 8px. Works only when **Style** is **Card**. |
-| **Corner rounding** | Roundness of the card and its picture, from 0 to 40px. |
+| **Border** | Outline thickness, from 0 to 8 px. Works only when **Style** is **Card**. |
+| **Corner rounding** | Roundness of the card and its picture, from 0 to 40 px. |
 | **Shadow** | A shadow under the card, from 0 to 100%. Works only when **Style** is **Card**. Zero means no shadow. |
 {: .settings}
 
@@ -524,7 +524,7 @@ If a field has no translation, shoppers see it in your store's main language.
 2. Select *Add language*, choose the language, then select *Next*. Turn on each domain you want it on, then select *Done*. Translate & Adapt is installed for you the first time.
 3. Open *Apps > Translate & Adapt* and choose the language.
 4. Select the resource you want to translate, enter your translation and select *Save*. For the theme's own text, choose the resource for your theme.
-5. To let the app fill in missing text, select *Auto-translate*, then *Translate*. Read the result before you publish it. Shopify's automatic translation covers a maximum of two languages.
+5. To let the app fill in missing text, select *Auto-translate*, then *Translate*. Read the result before you publish it. Shopify limits how many languages automatic translation covers, and the limit depends on where your store is based, so check Shopify's help for your store.
 6. Back in *Settings > Languages*, publish the language.
 
 <div class="pair">

@@ -1,6 +1,6 @@
 ---
 title: Troubleshooting
-updated: 2026-11-02
+updated: 2026-11-12
 ---
 
 # Troubleshooting
@@ -66,8 +66,11 @@ Several sections hide themselves when they have nothing to show, so an
 empty box never reaches shoppers. In the editor they show sample content,
 so you can still judge the look.
 
-- **Collection tiles**: pick at least one collection.
-- **Blog posts**: the blog needs at least one post.
+- **Featured products**: pick a collection that has products.
+- **Collection tiles**: pick collections, or leave it empty to show your
+  store's own collections. It needs at least one collection with products.
+- **Blog posts**: the blog needs at least one post. With no blog picked, it
+  uses your News blog.
 - **Related products**: Shopify has nothing to suggest yet, which is normal
   on a new shop.
 - **Goes well with**: pick its products in Shopify Search & Discovery.

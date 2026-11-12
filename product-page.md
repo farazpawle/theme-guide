@@ -1,6 +1,6 @@
 ---
 title: Product page
-updated: 2026-11-08
+updated: 2026-11-12
 ---
 
 # Product page
@@ -57,9 +57,9 @@ The four layouts change how the **Product page** look is arranged. Pick one with
 {% include looks.html folder="product" file="product-layout" name="Product page layout" looks="Classic,Filmstrip,Long read,Spec sheet" about="The pictures with a row of small thumbnails beside the details column.|Every picture in a column on the left that rolls on as the details are read.|One centered column like a magazine story, with a buy bar at the foot of the screen.|The page as a ledger, with the pictures as plates and each block as a ruled row." %}
 
 - **Classic**: one large picture with thumbnails, the details beside it, and the description, panels and share links in a full-width band underneath. It suits any product.
-- **Filmstrip**: every picture at once. On computers the pictures fill the left half of the window and hold still while the details are read, then roll on one by one. On phones and tablets they become a swipe row. It suits four or more pictures.
+- **Filmstrip**: every picture at once. On computers the pictures fill the left half of the window and, when the window is at least 600 px tall, hold still while the details are read, then roll on one by one; a rail of thumbnails sits beside them from three pictures up. On phones and tablets they become a swipe row. It suits four or more pictures.
 - **Long read**: one centered column, like a story. The lead picture opens the page wide (with **Enlarging a picture** on **Full screen** it fills its frame and may be trimmed at the edges; tapping it shows the whole picture), then the buy card, then the details with the other pictures between them. Each of those other pictures keeps its own shape, so a square, portrait or wide picture shows whole, with nothing cut off and no bands at the sides. A buy bar stays at the foot of the screen whenever the page's own Add to bag button is out of view. On the buy card, the accent-colored words and borders (the chosen option, Buy it now) and the stock line are drawn a little deeper than elsewhere so they stay easy to read on the card, in light and dark mode. It suits one to three pictures.
-- **Spec sheet**: the page as a ledger. The pictures are numbered plates on the left and every block is a ruled row on the right. It suits products sold on their sizes and materials. A product with no pictures still gets its labelled rows.
+- **Spec sheet**: the page as a ledger. The pictures are numbered plates on the left and every block is a ruled row on the right. It suits products sold on their sizes and materials. A product with no pictures still gets its labeled rows.
 
 <div class="pair">
   <figure class="shot shot--desktop">
@@ -106,7 +106,7 @@ To add, remove or reorder a block, open the section in the left bar of the edito
 
 ### Tips and limits
 
-> *Start with the default.* A new product page already holds a sensible stack of blocks: the maker, name, price, rating, SKU, options, stock level, quantity, buy buttons, pickup, goes well with, description, panels and share links. Change it a block at a time.
+> *Start with the default.* A new product page already holds a sensible stack of blocks: the vendor, name, price, rating, SKU, options, stock level, quantity, buy buttons, pickup, goes well with, an icon row, description, panels and share links, laid out as **Filmstrip**. Change it a block at a time.
 
 > *Pick the layout from the pictures.* **Filmstrip** shows every picture, so it needs four or more to look full. **Long read** works with one to three. **Classic** works with any number.
 
@@ -179,7 +179,7 @@ A line that says whether the chosen option is in stock, running low or sold out.
 
 ### Rating
 
-Star ratings and the review count. It shows nothing at all until you name a review app in Theme settings, under **Product page** (see [Product page settings](theme-settings.md#product-page)). With an app named and no reviews yet, it says "No reviews yet". This block has no settings of its own.
+Star ratings and the review count. It shows nothing at all until you name a review app in Theme settings, under **Product page** with **Reviews from** (see [Product page settings](theme-settings.md#product-page)). With an app named and no reviews yet, it says "No reviews yet". This block has no settings of its own.
 
 ### Tips and limits
 
@@ -229,7 +229,7 @@ One group for each option the product has, such as size or color, shown as pills
 | Setting | What it changes |
 | --- | --- |
 | **Picker style** | Pills suit a handful of values. A dropdown suits a long list, and any option with more than about eight. Options: **Pills**, **Dropdown**. |
-| **Swatch shape** | Shows a value as its color or image. Shown when **Picker style** is **Pills**. Options: **Circle**, **Square**, **No swatch**. |
+| **Swatch shape** | Shows a value as its color or picture. Shown when **Picker style** is **Pills**. Options: **Circle**, **Square**, **No swatch**. |
 {: .settings}
 
 > *Products with more than 250 variants work.* Shopify shows a page at most 250 variants at a time, so for these products the picker asks Shopify for the chosen combination each time a value is picked, and the Add button waits for the answer. Nothing to set up. With a very large product, a Dropdown suits better than Pills, and the second and third options show "Unavailable" labels instead of being switched off.
@@ -264,7 +264,7 @@ The block also holds the sold out button. A sold out option shows a "Sold out" b
 
 ### Store pickup
 
-Whether the chosen option can be collected from your stores, and which ones. A link opens a window listing every pickup location with its availability, address and phone number. With one location the link reads "View store information"; with more, "Check availability at other stores". This block has no settings.
+Whether the chosen option can be collected from your stores, and which ones. A line names a store where it is ready, with its usual pickup time, and says "currently unavailable" only when no store has it. A button opens a window listing every pickup location with its availability, address and phone number. With one location the button reads "View store information"; with more, "Check availability at other stores". This block has no settings.
 
 The block appears once local pickup is turned on for a location under *Settings > Shipping and delivery* in your admin, and only for options in stock at a pickup location.
 
@@ -362,7 +362,7 @@ The block has three groups of settings, headed **Left or top item**, **Middle it
 
 ### Custom Liquid
 
-A block of your own code, placed exactly where you put the block, with no wrapper or spacing of its own. It is for anything an app asks you to paste.
+A block of your own code, placed exactly where you put the block, with no styling or spacing of its own. It is for anything an app asks you to paste.
 
 | Setting | What it changes |
 | --- | --- |
@@ -422,8 +422,8 @@ Shopify chooses these from the product shown on the page. The whole section is l
 
 | Setting | What it changes |
 | --- | --- |
-| **Top padding** | Space above the section, from 0 to 100px. |
-| **Bottom padding** | Space below the section, from 0 to 100px. |
+| **Top padding** | Space above the section, from 0 to 100 px. |
+| **Bottom padding** | Space below the section, from 0 to 100 px. |
 {: .settings}
 
 ### Blocks
@@ -470,6 +470,7 @@ The quick view is controlled by one setting of the **Featured products** section
 | Setting | What it changes |
 | --- | --- |
 | **Open a preview panel on click** | Clicking a product opens its picture, price and description over the page. With this off, and wherever the panel cannot run, clicking goes straight to the product. |
+| **Show product type** | Shows the product's type, the small line under the name, on each product and in the panel. A product with no type set shows nothing. |
 | **Show price** | Shows the price on each product and in the panel. |
 {: .settings}
 

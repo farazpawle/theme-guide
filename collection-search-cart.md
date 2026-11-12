@@ -1,6 +1,6 @@
 ---
 title: Collection, search and cart pages
-updated: 2026-11-09
+updated: 2026-11-12
 ---
 
 # Collection, search and cart pages
@@ -155,7 +155,7 @@ On this page the section lists every collection in your shop, so the **Collectio
 
 | Setting | What it changes |
 | --- | --- |
-| **Heading** | The heading above the tiles. Leave empty for none; on this page it is "Collections" if you leave it empty. |
+| **Heading** | The heading above the tiles. On this page it shows "Collections" when you leave it empty. |
 | **Collections** | Not used on this page. |
 | **Collections per page** | How many collections show before the page links, from 8 to 48. This page only. |
 | **Show product count** | Shows how many products each collection holds. |
@@ -172,8 +172,8 @@ On this page the section lists every collection in your shop, so the **Collectio
 
 | Setting | What it changes |
 | --- | --- |
-| **Top padding** | Space above the section, from 0 to 100px. |
-| **Bottom padding** | Space below the section, from 0 to 100px. |
+| **Top padding** | Space above the section, from 0 to 100 px. |
+| **Bottom padding** | Space below the section, from 0 to 100 px. |
 {: .settings}
 
 ### Blocks
@@ -276,7 +276,7 @@ Shoppers open the filters with the *Filter* button. On phones they rise in a she
 
 With **Let shoppers sort** on, shoppers can order products by the choices your shop offers, such as best selling, price, name and date. The default order of a collection is set on the collection itself in your Shopify admin.
 
-On phones up to 500 pixels wide the *Sort by* label is hidden, and the box shows the chosen order by name, such as *Alphabetically, A-Z*.
+On phones up to 500 px wide the *Sort by* label is hidden, and the box shows the chosen order by name, such as *Alphabetically, A-Z*.
 
 ### Tips and limits
 
@@ -302,7 +302,7 @@ The shopper's bag: every item, quantities, the totals and the way to checkout. C
 
 - **Receipt**: one centered receipt with ruled rows and the total at its foot. A checkout bar sits on the bottom edge of the screen while the page's own *Checkout* button is still well below the screen, and steps away once that button is in view or about to be, and whenever it would cover the order note.
 - **Editorial**: each item is a large picture beside big type, on alternating sides, then one calm totals panel. *Skip to total* in the heading and a small *Checkout* pill in the corner keep checkout close on a long bag.
-- **Compact table**: short dense rows. On computers the totals panel stays at the side, and a total and *Checkout* strip sits under the heading. Below 1101 px wide the *Remove* (bin) button sits at the end of the line that holds the quantity and the total, and is the last stop for a keyboard on each item.
+- **Compact table**: short dense rows. On computers the totals panel stays at the side. Below 1101 px wide a total and *Checkout* strip sits under the heading, so a long bag never has to be scrolled to buy, and the *Remove* (bin) button sits at the end of the line that holds the quantity and the total, the last stop for a keyboard on each item.
 
 ### Where to find it
 
@@ -463,6 +463,7 @@ The full list of settings, in the editor's order, is in [Product cards](theme-se
 | **Picture** | **Picture shape**, **Custom shape from a picture** and **Crop pictures to fill**. |
 | **Hover** | **Hover style**: **Zoom the picture**, **Show the second picture** or **No hover effect**. |
 | **Surface** | **Color scheme**, **Border**, **Corner rounding** and **Shadow** for a framed card. |
+| **Sale badge** | **Show a sale badge**, **Badge style** and **Minimum discount**: see [Sale badge](theme-settings.md#sale-badge). |
 | **Sold out** | **Sold out products**, **Inquiry button label** and **Inquiry button link**. |
 {: .settings}
 

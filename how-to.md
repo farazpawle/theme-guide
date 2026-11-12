@@ -1,6 +1,6 @@
 ---
 title: How-to guides
-updated: 2026-11-03
+updated: 2026-11-12
 ---
 
 # How-to guides
@@ -24,8 +24,8 @@ remove its sections and add your own.
    blocks so you can see its shape straight away.
 4. Fill in its text and pictures, then add the next section. Drag sections
    in the left bar to change their order.
-5. Select *Save*. Nothing reaches your live shop until you save, and
-   nothing reaches it at all until the theme is published.
+5. Select *Save*. Changes are kept only when you save, and a draft theme
+   does not change your live shop until you publish it.
 
 {% include looks.html folder="settings" file="presets" name="Preset home page" looks="Seloriq,Oakwood,Mauve" about="Clothing: a scrolling hero and featured products.|Home goods: warm wood tones and collection tiles.|Beauty: a soft scroll story and trust badges." %}
 

@@ -1,6 +1,6 @@
 ---
 title: Home page sections
-updated: 2026-11-09
+updated: 2026-11-12
 ---
 
 # Home page sections
@@ -220,7 +220,7 @@ This section is for the home page only. It is not offered on other pages.
 | **Picture overlay darkness** | Darkens the slide pictures so the text stays readable. Range 0 to 90%, default 45%. |
 | **Section background** | The color behind the slide pictures. It only shows where a picture does not reach. |
 | **Text color** | The base color for every text group. Each group can override it in its own settings. |
-| **Tagline pill background** | The color washed over the small pill that holds the tagline above the heading. The pill always sits on a backing that is the opposite of the tagline's words: dark behind light words, light behind dark words. So the tagline stays readable on any picture. |
+| **Tagline pill background** | The color washed over the small pill that holds the tagline above the heading. The pill always sits on a backing that is the opposite of the tagline's words: dark behind light words, light behind dark words. This keeps the tagline readable on any picture. |
 | **Tagline pill text color** | The color of the tagline's words. Leave empty to use the section's text color. |
 | **Primary button background** | The fill color of the first button. |
 | **Primary button label color** | The text color of the first button. |
@@ -366,7 +366,7 @@ This section is for the home page only. It is not offered on other pages.
 | **Camera move** | How the shot drifts and how the light changes across the scroll. Options: **Aerial: wide drift, cool tones** (default), **Entrance: push in, opens up**, **Golden hour: slow pan, warm tones**. |
 | **Scene length** | How much scrolling the scene takes, in screens. Longer is slower, but pushes the rest of the page further down. Range 200 to 800 vh, default 680 vh. |
 | **Show progress bar** | A progress bar along the bottom. Its dots jump to each caption. The dots never sit closer than 24 px: if you set captions so close that their dots would touch, the dots are drawn a little apart, while each caption still appears when you set it and its dot still jumps to it. On by default. |
-| **Scroll hint** | A small prompt that fades out as soon as the shopper starts scrolling. Leave empty to hide it. |
+| **Scroll hint** | A small prompt that fades out as soon as the shopper starts scrolling. A new section starts with "Scroll to explore". Leave empty to hide it. |
 | **Scroll animation** | Visitors who reduce motion on their device see the scene without the camera drift, the dust, the looping scroll hint or the easing (how a move speeds up and slows down); the pinned scroll itself always runs. **Always animate** shows all of it to everyone, including you if reduce motion is on for your own device. Options: **Off for visitors who reduce motion** (default), **Always animate**. |
 {: .settings}
 
@@ -377,7 +377,7 @@ This section is for the home page only. It is not offered on other pages.
 | **Background color** | Shows before the footage loads and behind any bars around it. |
 | **Text color** | The color of the captions. |
 | **Overlay strength** | Lays the background color over the footage so the text stays readable on pale pictures. 0 removes it. Range 0 to 90%, default 70%. |
-| **Transparent background** | Lets the page background show through this section. When it is off, the section follows **Make all sections transparent** in Theme settings. Off by default. |
+| **Transparent background** | Lets the page background show through this section. The footage and its light effects are hidden, so pick a text color that reads on your page background. When it is off, the section follows **Make all sections transparent** in Theme settings. Off by default. |
 {: .settings}
 
 ### Blocks
@@ -615,6 +615,8 @@ This section has no blocks. You choose the collections in the settings above.
 
 > **Names are never cut short.** Long collection names wrap onto more lines, and the tiles in a row stay lined up.
 
+> **Links to all your collections.** On the home page a "View all" button beside the heading opens the collections list page. On the collections list page itself there is no button: the section shows the number of collections, and "Page 1 of 2" style links when they run to more than one page (see **Collections per page**).
+
 ## Collection index
 
 A big list of collections. On a computer the list stays in place and each collection's picture opens as the shopper scrolls.
@@ -646,7 +648,7 @@ This section is for the home page only. It is not offered on other pages.
 | **Tagline** | A small line above the heading. |
 | **Heading** | The section heading. |
 | **View all label** | Shown beside the heading. Leave the label empty to hide it. |
-| **View all link** | Where the View all button goes. |
+| **View all link** | Where the View all button goes. The button shows only when it has both a label and a link. |
 {: .settings}
 
 #### Rows
@@ -699,7 +701,7 @@ One collection in the list.
 
 ### Tips and limits
 
-> **The pin needs a big screen.** The list stays in place and the pictures open as you scroll on computers. On tablets and phones the list is a plain list.
+> **The pin needs a big screen.** The list stays in place and the pictures open as you scroll on screens at least 1101 px wide and 600 px tall. On tablets, phones and short windows the list is a plain list. While it is pinned, the **Tagline** is hidden on a screen under 720 px tall, to keep room for the names.
 
 > **Scroll distance moves the page down.** A higher **Scroll distance per collection** is slower, but pushes the rest of the page further down.
 
@@ -737,7 +739,7 @@ This section is for the home page only. It is not offered on other pages.
 | --- | --- |
 | **Heading** | The intro heading. It wraps across lines on its own because the intro column is narrow. Put a word in italics to show it in the body font. |
 | **Subheading** | A line of text under the heading. |
-| **Scroll hint** | A small prompt at the bottom left while the cards are pinned. Leave empty to hide it. |
+| **Scroll hint** | A small prompt at the bottom left while the cards are pinned. A new section starts with "Scroll to explore". Leave empty to hide it. |
 {: .settings}
 
 #### Heading style
@@ -899,7 +901,7 @@ This section is for the home page only. It is not offered on other pages.
 | Setting | What it changes |
 | --- | --- |
 | **Card width** | How far the cards stretch across the screen. The heading above them follows the same width. Only changes anything on a screen wide enough to reach it. Options: **Page width**, **Wide** (default), **Extra wide**, **Full width**. |
-| **Card picture height** | Applies at 1100px and below, where the cards are a plain list. On desktop the card fills the screen under the heading instead. Range 240 to 640 px, default 480 px. |
+| **Card picture height** | Applies at 1100 px and below, where the cards are a plain list. On desktop the card fills the screen under the heading instead. Range 240 to 640 px, default 480 px. |
 | **Space below heading** | Space between the pinned heading and the card parked under it. Each card after the first parks a little lower, which is what fans the stack out. Desktop only. Range 0 to 80 px, default 24 px. |
 | **Show progress dashes** | A short dash per card down the left of the screen, marking the one in front. Desktop only, and only while the cards are stacking. On by default. |
 {: .settings}
@@ -1025,7 +1027,7 @@ One card. Pick a product to fill it automatically, or type your own words and pi
 
 > **Long words wrap.** A long title, label or button wording wraps inside the card instead of running past its edge, and the card's grey text keeps its contrast on every card color.
 
-> **A link needs words and an address.** The link or button under a card shows only when it has both **Link text** and a **Link**.
+> **A link needs words and an address.** The link or button under a card shows only when it has **Link text** and an address: its **Link**, or, for a card built from a product, that product's own page.
 
 ## Story rows
 
@@ -1059,7 +1061,7 @@ This section is for the home page only. It is not offered on other pages.
 | Setting | What it changes |
 | --- | --- |
 | **Layout** | How each row is arranged. The rest of the settings follow whichever you pick. Options: **Picture beside the words**, **Picture holds while the words scroll**, **Numbered chapters** (default). |
-| **Picture position** | Alternating swaps sides row by row. Below 1101px every row stacks with the picture on top. Options: **Alternate, starting on the left** (default), **Alternate, starting on the right**, **Always on the left**, **Always on the right**. Shows only when **Layout** is not **Numbered chapters**. |
+| **Picture position** | Alternating swaps sides row by row. Below 1101 px every row stacks with the picture on top. Options: **Alternate, starting on the left** (default), **Alternate, starting on the right**, **Always on the left**, **Always on the right**. Shows only when **Layout** is not **Numbered chapters**. |
 | **Picture height** | How tall the pictures are. **Automatic** keeps the shape of the picture you uploaded. Options: **Automatic** (default), **Small**, **Medium**, **Large**. Shows only when **Layout** is not **Picture holds while the words scroll**. |
 | **Picture width** | How much of the row the picture takes. The words fill what is left. Options: **Small**, **Medium** (default), **Large**. Shows only when **Layout** is not **Numbered chapters**. |
 | **Picture corner rounding** | Rounds the picture, its border and its shadow together. Theme default follows Theme settings. Options: **Theme default**, **Square**, **Slightly rounded**, **Rounded** (default), **Extra rounded**. |
@@ -1090,7 +1092,7 @@ This section is for the home page only. It is not offered on other pages.
 
 | Setting | What it changes |
 | --- | --- |
-| **Row entrance** | How each row arrives as it scrolls into view. **Split: each half from its own side** brings the picture in from its own side and the words from the other, so alternating rows mirror each other. The others move the whole row at once. Default: **Split: each half from its own side**. |
+| **Row entrance** | How each row arrives as it scrolls into view. **Split: each half from its own side** brings the picture in from its own side and the words from the other, so alternating rows mirror each other. The others move the whole row at once. Options: **None**, **Split: each half from its own side** (default), **Fade only: no movement**, **Rise up**, **Drop down**, **Slide in from the left**, **Slide in from the right**, **Zoom in**, **Zoom out**. |
 | **Delay between picture and words** | Whichever half sits on the left arrives first. Zero brings both in together. Each row is timed on its own. Range 0 to 400 ms, default 100 ms. Shows only when **Row entrance** is not **None**. |
 | **Duration** | How long each row takes to arrive. Range 0.2 to 2 s, default 0.6 s. Shows only when **Row entrance** is not **None**. |
 | **Movement feel** | The feel of the arrival, from smooth to springy. Options: **Smooth** (default), **Fast, then settle**, **Gentle**, **Bounce past the mark**, **Constant speed**. Shows only when **Row entrance** is not **None**. |
@@ -1339,7 +1341,7 @@ One panel in the row.
 
 > **Tall pictures work best.** Use a picture around 900 × 1400 px, taller than it is wide.
 
-> **Auto-advance.** Set **Move to the next panel every** to 0 to turn it off. It pauses while the pointer or keyboard focus is inside the panels, and visitors who reduce motion never get auto-advance. For those visitors the stop button under the dots is hidden too, unless **Scroll animation** is set to Always animate.
+> **Auto-advance.** Set **Move to the next panel every** to 0 to turn it off. It pauses while the pointer or keyboard focus is inside the panels, and visitors who reduce motion never get auto-advance. For those visitors the stop button under the dots is hidden too, unless **Animation** is set to **Always animate**.
 
 ## Video
 
@@ -1462,7 +1464,7 @@ This section is for the home page only. It is not offered on other pages.
 | --- | --- |
 | **Look** | **Drift**: the columns glide at different speeds as shoppers scroll, so the pictures slide past each other. **Reveal**: a grid led by one large picture; each picture unrolls like a blind as it arrives. **Reel**: one long row that glides in, each picture turning to face the shopper, then swipes or moves with arrows. Default: **Reveal**. |
 | **Columns on computers** | How many columns sit side by side on a computer. Tablets and phones show fewer. Range 2 to 5, default 4. Shows only when **Look** is not **Reel**. |
-| **Picture shape** | The shape the pictures are shown in. **Adapt to picture** (the **Reel** look only) keeps each picture's own shape. Options: **Portrait** (default), **Square**, **Landscape**. Shows only when **Look** is not **Reel**. |
+| **Picture shape** | The shape the pictures are shown in. Options: **Portrait** (default), **Square**, **Landscape**. Shows only when **Look** is not **Reel**. |
 | **Picture shape** | The shape the pictures are shown in. **Adapt to picture** (the **Reel** look only) keeps each picture's own shape. Options: **Adapt to picture** (default), **Portrait**, **Square**, **Landscape**. Shows only when **Look** is **Reel**. |
 | **Show captions** | Shows each picture's caption under it. On by default. |
 | **Open pictures larger when pressed** | Shows the picture full screen, with arrows to move through the gallery. On by default. |
@@ -1758,7 +1760,7 @@ This section is for the home page only. It is not offered on other pages.
 
 | Setting | What it changes |
 | --- | --- |
-| **Animation** | How the badges arrive as they scroll into view. **Fade up, draw the icons, type the headings** also draws each icon and types each heading letter by letter. Visitors who reduce motion see the finished band straight away. Default: **Fade up, draw the icons, type the headings**. Options: **None**, **Fade up**. |
+| **Animation** | How the badges arrive as they scroll into view. **Fade up, draw the icons, type the headings** also draws each icon and types each heading letter by letter. Visitors who reduce motion see the finished band straight away. Options: **None**, **Fade up**, **Fade up, draw the icons, type the headings** (default). |
 | **Typing speed** | The pause between one heading letter and the next. Higher is slower. Range 20 to 140 ms, default 70 ms. Shows only when **Animation** is **Fade up, draw the icons, type the headings**. |
 {: .settings}
 
@@ -2155,7 +2157,7 @@ This section is for the home page only. It is not offered on other pages.
 | **Picture** | The picture for the **Picture beside content** layout. The other layouts do not use it. |
 | **Content alignment** | Moves the whole section — heading, words, the email box and the line under it. Automatic keeps each layout's own alignment. Options: **Automatic: follows the layout** (default), **Left**, **Center**, **Right**. |
 | **Email box height** | How tall the email box is. Range 44 to 64 px, default 54 px. |
-| **Full-width button** | Stacks the button under the email box. Always on below 500px. Off by default. |
+| **Full-width button** | Stacks the button under the email box. Always on below 500 px. Off by default. |
 | **Full width** | Whether the colored band spans the whole screen. Off stops it at the page width. On by default. |
 {: .settings}
 
@@ -2465,7 +2467,7 @@ The three looks are the three **Layout** options. You can also start from a read
 
 <div class="pair">
   <figure class="shot shot--desktop">
-    <img src="{{ '/assets/images/sections/custom-section-rich-text-desktop-light.webp' | relative_url }}" alt="A Rich text section as added: the heading Add a heading and one line of starting text, centered in a narrow column" width="1440" height="900" loading="lazy">
+    <img src="{{ '/assets/images/sections/custom-section-rich-text-desktop-light.webp' | relative_url }}" alt="A Rich text section as added: the heading Add a heading and a short paragraph of starting text, centered in a narrow column" width="1440" height="900" loading="lazy">
     <figcaption>Rich text on a computer</figcaption>
   </figure>
   <figure class="shot shot--phone">
@@ -2540,7 +2542,7 @@ A heading, with an optional small caption above it.
 | **Size** | How large the heading is. Options: **Small**, **Medium**, **Large** (default), **Extra large**. |
 {: .settings}
 
-##### Font and color
+##### Heading style
 
 | Setting | What it changes |
 | --- | --- |
@@ -2563,7 +2565,7 @@ A paragraph of text.
 | **Size** | How large the text is. Options: **Small**, **Medium** (default), **Large**. |
 {: .settings}
 
-##### Font and color
+##### Text style
 
 | Setting | What it changes |
 | --- | --- |
@@ -2625,12 +2627,12 @@ One feature inside a **Feature grid**.
 
 | Setting | What it changes |
 | --- | --- |
-| **Icon** | The icon shown with the feature. Options: 31 choices, such as **No icon**, **Question mark**, **Information**, **Chat bubble**. Open the list in the editor to see them all. |
+| **Icon** | The icon shown with the feature. Options: 31 choices, such as **No icon**, **Question mark**, **Information**, **Chat bubble**, with **Check in a circle** as the default. Open the list in the editor to see them all. |
 | **Heading** | The feature's name. |
 | **Text** | A line about it. |
 {: .settings}
 
-##### Font and color
+##### Text style
 
 | Setting | What it changes |
 | --- | --- |

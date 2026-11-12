@@ -1,6 +1,6 @@
 ---
 title: Content pages
-updated: 2026-11-04
+updated: 2026-11-12
 ---
 
 # Content pages
@@ -35,7 +35,7 @@ These pages are not added from *Add section*. Each template already holds its ma
 
 <div class="pair">
   <figure class="shot shot--desktop">
-    <img src="{{ '/assets/images/pages/editor-page-selector-desktop-light.webp' | relative_url }}" alt="The editor's page selector scrolled down, listing Gift card, Pages, Blogs, Blog posts, Search, Password and 404 page" width="480" height="530" loading="lazy">
+    <img src="{{ '/assets/images/pages/editor-page-selector-desktop-light.webp' | relative_url }}" alt="The editor's page selector scrolled down, listing Products, Collections, Collections list, Gift card, Cart, Checkout and customer accounts, Pages, Blogs, Blog posts, Search, Password and 404 page" width="480" height="530" loading="lazy">
     <figcaption>The page selector, with Pages, Blogs, Blog posts, Password, 404 page and Gift card</figcaption>
   </figure>
 </div>
@@ -94,8 +94,8 @@ Open the editor as in [Opening a page template in the editor](#opening-a-page-te
 
 | Setting | What it changes |
 | --- | --- |
-| **Top padding** | Space above the section, from 0 to 100px. Hidden in **Folding band**, where the heading sits at the foot of its own band. |
-| **Bottom padding** | Space below the section, from 0 to 100px. |
+| **Top padding** | Space above the section, from 0 to 100 px. Hidden in **Folding band**, where the heading sits at the foot of its own band. |
+| **Bottom padding** | Space below the section, from 0 to 100 px. |
 {: .settings}
 
 ### Blocks
@@ -112,9 +112,11 @@ This section has no blocks. The words come from the page you write in *Online St
 
 > *Small pictures keep their own size.* A picture you add to the text of a page, blog post or product description is never stretched wider than it is. A small picture, or one you made narrower in the editor, keeps its own size, and a large one shrinks to fit the column, with its proportions kept on every screen.
 
+> *Videos fit the column.* A video or embed you add to the text of a page, blog post or product description fits the column on phones. YouTube and Vimeo videos keep their wide 16:9 shape; maps and forms keep the height they were added with.
+
 > *Written opening keeps words whole.* A word that fits the line stays in one piece instead of breaking inside the word.
 
-> *Written opening lifts the first paragraph.* That paragraph is shown beside the heading, so it is not shown twice. If the first thing on the page is a picture, a video or an embedded frame, nothing is lifted. Links in it keep working.
+> *Written opening lifts the first paragraph.* That paragraph is shown beside the heading, so it is not shown twice. If the page does not start with a plain paragraph, or that paragraph holds a picture, a video or an embedded frame, nothing is lifted. Links in it keep working.
 
 > *The contact page is compact.* To make a contact page, add a page in *Online Store > Pages* and choose the *contact* template for it. It uses the **Section drum** look with no space below, so it reads as a heading above the form. See [Contact](sections.md#contact).
 
@@ -134,8 +136,8 @@ The list of posts in a blog. Choose from three looks.
 
 {% include looks.html folder="pages" file="blog" name="Blog" looks="Ring,Stack,Wave" about="Posts turning on a 3D ring as the page scrolls.|Each post a large panel that the next one slides over.|A grid of posts that rises into place row by row." %}
 
-- **Ring**: the posts turn on a 3D ring as the page scrolls. Each post shows its summary, shortened to three lines, and a long title shows whole. On phones the ring becomes a swipeable row.
-- **Stack**: each post is a large panel that the next one slides over. A panel grows with its words, so a long title or summary is never cut. On phones the panels become a list.
+- **Ring**: the posts turn on a 3D ring as the page scrolls. A long title always shows whole, and the summary is shortened to three lines. On phones, tablets and short windows, and for visitors who reduce motion, the ring becomes a swipeable row.
+- **Stack**: each post is a large panel that the next one slides over. A long title is never cut, and while the panels slide over each other the summary is shortened to three lines. On phones, tablets and short windows, and for visitors who reduce motion, the panels become a plain list.
 - **Wave**: a grid that rises into place row by row.
 
 ### Where to find it
@@ -177,8 +179,8 @@ How each post card looks (border, rounding, shadow, color scheme and alignment) 
 
 | Setting | What it changes |
 | --- | --- |
-| **Top padding** | Space above the section, from 0 to 100px. |
-| **Bottom padding** | Space below the section, from 0 to 100px. |
+| **Top padding** | Space above the section, from 0 to 100 px. |
+| **Bottom padding** | Space below the section, from 0 to 100 px. |
 {: .settings}
 
 ### Blocks
@@ -211,7 +213,7 @@ One post: its picture, heading, words and comments. Choose from three looks.
 
 {% include looks.html folder="pages" file="blog-post" name="Blog post" looks="Cover,Plate,Split" about="The picture fills the screen, then shrinks into a frame as the heading rises beneath it.|The picture lies tilted back and stands up as it arrives.|The picture stays beside the text on computers." %}
 
-- **Cover**: the picture fills the screen, then shrinks into a frame as the heading rises beneath it. On phones the picture is simply framed.
+- **Cover**: the picture fills the screen, then shrinks into a frame as the heading rises beneath it. On phones, tablets and short windows the picture is simply framed.
 - **Plate**: the picture lies tilted back and stands up as it arrives.
 - **Split**: the picture stays beside the text on computers.
 
@@ -250,8 +252,8 @@ Open the editor as in [Opening a page template in the editor](#opening-a-page-te
 
 | Setting | What it changes |
 | --- | --- |
-| **Top padding** | Space above the section, from 0 to 100px. |
-| **Bottom padding** | Space below the section, from 0 to 100px. |
+| **Top padding** | Space above the section, from 0 to 100 px. |
+| **Bottom padding** | Space below the section, from 0 to 100 px. |
 {: .settings}
 
 ### Blocks
@@ -327,8 +329,8 @@ The heading and message are not settings here. Edit them in *Online Store > Them
 
 | Setting | What it changes |
 | --- | --- |
-| **Top padding** | Space above the section, from 0 to 100px. |
-| **Bottom padding** | Space below the section, from 0 to 100px. |
+| **Top padding** | Space above the section, from 0 to 100 px. |
+| **Bottom padding** | Space below the section, from 0 to 100 px. |
 {: .settings}
 
 ### Blocks
@@ -339,7 +341,7 @@ This section has no blocks. The page offers a search box and links home and to a
 
 > *The page shows no products.* It offers a search and links back to your home page and your products.
 
-> *Tunnel and Folding map hold the screen on computers.* From 1101px wide and 600px tall, the page stays in place while the scroll plays the scene. On smaller screens it shows the finished page.
+> *Tunnel and Folding map hold the screen on computers.* From 1101 px wide and 600 px tall, the page stays in place while the scroll plays the scene. On smaller screens it shows the finished page.
 
 > *Test it with a made-up address.* Visit a link on your store that does not exist, such as your address followed by /nothing-here.
 
@@ -408,7 +410,7 @@ The page a customer opens from their gift card email. It follows your colors and
 
 {% include looks.html folder="pages" file="gift-card" name="Gift card page" looks="Standard" plain="true" about="A gift card showing its balance, code, expiry date and a QR code, with a button to copy the code." %}
 
-The page shows the card with its balance, the code and the expiry date. A customer can copy the code, print the card, scan the QR code, or add it to Apple Wallet where that is offered. The card turns over as it arrives, and tilts as the pointer passes it on a computer.
+The page shows the card with its balance, the code and the expiry date. A customer can copy the code, print the card, scan the QR code, or add it to Apple Wallet where that is offered. A *Start shopping* button leads back to your store. The card turns over as it arrives, and tilts as the pointer passes it on a computer.
 
 ### Where to find it
 

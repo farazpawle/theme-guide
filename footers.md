@@ -1,6 +1,6 @@
 ---
 title: Footers
-updated: 2026-11-07
+updated: 2026-11-12
 ---
 
 # Footers
@@ -92,16 +92,16 @@ Keep one footer in the footer area. To change style, remove this footer and add 
 | --- | --- |
 | **Size** | A multiplier for the small column headings, from 0.6 to 2. 1 is the designed size. |
 | **Weight** | Options: **Default (bold)**, **Light**, **Regular**, **Medium**, **Semi bold** or **Bold**. If your font has no such weight, the nearest one is used. |
-| **Letter spacing** | Space between the letters of the headings, from 0 to 6px. |
+| **Letter spacing** | Space between the letters of the headings, from 0 to 6 px. |
 {: .settings}
 
 #### Brand
 
 | Setting | What it changes |
 | --- | --- |
-| **Logo width** | How wide the footer logo is, from 60 to 260px. It applies to the logo from Theme settings, under **Footer**. |
+| **Logo width** | How wide the footer logo is, from 60 to 260 px. It applies to the logo from Theme settings, under **Footer**. |
 | **Show the brand name beside the logo** | Turn it off when your logo already spells out the store name, or it reads twice. |
-| **Brand name** | The name beside the logo, centered against it. Leave empty to use your store name. |
+| **Brand name** | The name beside the logo, centered against it. Leave empty to use your store name. Shown while **Show the brand name beside the logo** is on. |
 {: .settings}
 
 #### Contact
@@ -129,9 +129,11 @@ Up to four logos with links, such as memberships or awards.
 | --- | --- |
 | **Small heading above the logos** | Optional. Something like Certified by, or Accredited. |
 | **Logo 1** to **Logo 4** | The pictures. Each has a **Logo 1 link** (to **Logo 4 link**) to open when it is selected. |
-| **Logo height** | How tall every logo is, from 20 to 80px. |
+| **Logo height** | How tall every logo is, from 20 to 80 px. |
 | **Alignment** | Options: **Left**, **Center** or **Right**. Moves the small heading and the row of logos together. |
 {: .settings}
+
+The **Email signup** group (**Show email signup**, **Heading** and **Text**) is described under [Footer extras](#footer-extras).
 
 #### Bottom bar
 
@@ -171,7 +173,7 @@ A column of links under a small heading. Add up to four. A new column starts on 
 | Setting | What it changes |
 | --- | --- |
 | **Link 1** to **Link 5** | Where each typed link goes. Shows only when **Link source** is **Custom links below**. |
-| **Label 1** to **Label 5** | The words shown for each typed link. Shows only when **Link source** is **Custom links below**. A link with no web address is left out. |
+| **Label 1** to **Label 5** | The words shown for each typed link. Shows only when **Link source** is **Custom links below**. A link needs both its web address and its label, or it is left out. |
 {: .settings}
 
 ### Tips and limits
@@ -196,7 +198,7 @@ A departures board: a curved top edge, one dark bar inviting shoppers to shop, t
 
 ### Looks
 
-{% include looks.html folder="footers" file="big-link" name="Big link footer" looks="Standard" plain="true" about="A curved top edge, a dark bar with a round arrow, two columns of ruled link rows side by side, the information panel and email signup underneath, and the store name in the copyright line." %}
+{% include looks.html folder="footers" file="big-link" name="Big link footer" looks="Standard" plain="true" about="A dark bar with a round arrow, two columns of ruled link rows side by side, and a bottom bar with the store name in the copyright line, payment icons, small-print links and the back to top button." %}
 
 As the columns scroll into view, the bar's letters flip down into place like a station's departures board and its arrow swings in, then each row flips in after the one above it. Scroll back up and the rows fold away again. Visitors who reduce motion, and the theme editor, see the finished columns.
 
@@ -208,7 +210,7 @@ In the *Footer* area of the editor: select *Add section*, then **Big link**. See
 
 Keep one footer in the footer area. To change style, remove this footer and add another.
 
-The frame of this footer is fixed. The curved top, the big link bar and the bottom bar are always there, and your store name shows in the copyright line. The link columns are the one part you build yourself: add, remove and reorder as many columns as you need.
+The frame of this footer is fixed: the curved top, the big link bar, the information panel and the bottom bar keep their places, and your store name shows in the copyright line. You can restyle them or switch off the curved top, the big link bar and the information panel, but not move them. The link columns are the one part you build yourself: add, remove and reorder as many columns as you need.
 
 #### Footer frame
 
@@ -219,9 +221,9 @@ The frame of this footer is fixed. The curved top, the big link bar and the bott
 | **Text** | Almost every dimmed part of the footer is this color at a lower strength, so one change repaints the whole footer, the dark bar included. |
 | **Divider strength** | How strong the lines under each row are, from 0 to 100%. |
 | **Transparent background** | On, the page background shows through this footer. Off, it follows the store-wide setting for transparent sections. |
-| **Curved top edge** | Curves the footer up over the section above it. |
-| **Curve depth** | How deep the curve is, from 0 to 14. Shown while **Curved top edge** is on. |
-| **Side padding** | Space at the left and right of the footer, from 2 to 12. |
+| **Curved top edge** | Curves the footer up over the section above it. The edge is straight whenever the background is transparent. |
+| **Curve depth** | How deep the curve is, from 0 to 14 vh (a percent of the screen height). Shown while **Curved top edge** is on. |
+| **Side padding** | Space at the left and right of the footer, from 2 to 12 vw (a percent of the screen width). |
 {: .settings}
 
 #### Big link
@@ -241,13 +243,13 @@ The link columns, one under the other, two side by side on computers. Add, remov
 
 | Setting | What it changes |
 | --- | --- |
-| **Space above and below the columns** | Space above and below the columns, from 0 to 80px. |
-| **Column placement** | Options: **Left**, **Center**, **Right**, **Spread to the edges** or **Even space around each**. Moves a column set narrower than its space by its **Column width**: on computers **Center** gathers the two sides' columns in the middle and **Spread to the edges** pushes them out to the edges. Columns that fill their space have nothing to move. |
+| **Space above and below the columns** | Space above and below the columns, from 0 to 80 px. |
+| **Column placement** | Options: **Left**, **Center**, **Right**, **Spread to the edges** or **Even space around each**. Moves columns that are narrower than their row because of their **Column width**: on computers **Center** gathers the two side-by-side columns in the middle and **Spread to the edges** pushes them out to the edges. Columns that fill their row have nothing to move. |
 {: .settings}
 
 #### Information panel
 
-Sits under the columns, beside the email signup. It is part of the footer frame, not a block, so it cannot be moved or deleted. Empty every wording field to hide it.
+Sits under the columns, beside the email signup. It is part of the footer frame, not a block, so it cannot be moved or deleted. Leave both **Label** and **Text** empty, or turn the panel off, to hide it.
 
 | Setting | What it changes |
 | --- | --- |
@@ -257,6 +259,8 @@ Sits under the columns, beside the email signup. It is part of the footer frame,
 | **Text** | The detail itself. Line breaks are kept, so an address can sit on two lines. With no **Label**, the text shows on its own. |
 | **Links to** | Optional. A web address, or tel: and mailto: to dial or open an email. |
 {: .settings}
+
+The **Email signup** group (**Show email signup**, **Heading** and **Text**) is described under [Footer extras](#footer-extras).
 
 #### Bottom bar
 
@@ -282,33 +286,47 @@ Sits under the columns, beside the email signup. It is part of the footer frame,
 
 One column on the footer: the column's heading named once at its top, and every link a full-width row with an arrow. Add up to eight. Left at their starting values, the settings below draw the column exactly as designed.
 
+##### Column box
+
 | Setting | What it changes |
 | --- | --- |
-| **Column width** | Options: **A third of the row**, **Two fifths of the row**, **Half the row, beside the next column** (the start), **Two thirds of the row, on its own line**, **Full row**, and **Full row** with the links in two, three or four columns. On computers; phones always show the full width. |
+| **Column width** | Options: **A third of the row**, **Two fifths of the row**, **Half the row, beside the next column** (the start), **Two thirds of the row, on its own line**, **Full row**, **Full row, links in two columns**, **Full row, links in three columns** or **Full row, links in four columns**. On computers; phones always show the full width. |
 | **Full width on tablet** | Off, a narrower column, or one with link columns, keeps that on a tablet. On, it fills the row with one list. Shown for the widths it changes. |
-| **Space above and below** | Extra space above and below this column, from 0 to 80px. |
+| **Space above and below** | Extra space above and below this column, from 0 to 80 px. |
 | **Alignment** | Options: **Left**, **Center** or **Right**. Moves the links along their rows, and the heading too unless **Heading alignment** is set. On a phone with **Collapse on phones** on, it moves the heading inside its tap-to-open row. |
 | **Background** | Puts the column on a box of this color, with white or near-black text, whichever reads better. Leave empty for none. |
 | **Text color** | Colors the heading, links, arrows and the bar that lights on hover. Leave empty to let the background pick white or near-black. |
 | **Border color** | The color of the column's top edge and the lines between links, and of the border. |
-| **Border thickness** | A border around the column, from 0 to 10px. |
-| **Corner rounding** | Rounds the box, **Card** links and the link lit under the pointer, from 0 to 40px. |
+| **Border thickness** | A border around the column, from 0 to 10 px. |
+| **Corner rounding** | Rounds the box, **Card** links and the link lit under the pointer, from 0 to 40 px. |
 | **Collapse on phones** | On a phone, a column with more than four links folds under its heading; tap the heading to open it. Shorter columns stay open. |
+{: .settings}
+
+##### Heading
+
+| Setting | What it changes |
+| --- | --- |
 | **Heading** | The column's heading. Leave empty to use the name of the menu chosen below. |
-| **Size** (heading) | The heading's text size, from 11 to 32px. |
-| **Weight** (heading) | Options: **Normal (400)**, **Medium (500)**, **Semi-bold (600)** or **Bold (700)**. If your font has no such weight, the nearest one is used. |
-| **Style** (heading) | Options: **Theme default**, **Normal** or **Italic**. |
+| **Size** | The heading's text size, from 11 to 32 px. |
+| **Weight** | Options: **Normal (400)**, **Medium (500)**, **Semi-bold (600)** or **Bold (700)**. If your font has no such weight, the nearest one is used. |
+| **Style** | Options: **Theme default**, **Normal** or **Italic**. |
 | **Capitalization** | Options: **As typed**, **All capitals** or **Capitalize each word**. |
 | **Heading alignment** | Options: **Follow the column**, **Left**, **Center** or **Right**. |
-| **Space below heading** | On phones, where the heading sits above the links, from 0 to 48px. |
+| **Space below heading** | On phones, where the heading sits above the links, from 0 to 48 px. |
+{: .settings}
+
+##### Links
+
+| Setting | What it changes |
+| --- | --- |
 | **Link source** | Options: **A navigation menu** or **Custom links below**. |
 | **Footer menu** | The menu whose links fill the column. Used when a navigation menu is chosen above. See [Menus](headers.md#menus). |
 | **Show sub-links** | Any link that has links under it becomes a row that opens its own list. Shown for a navigation menu. |
 | **Link style** | Options: **Clean, no lines**, **Compact, tight spacing**, **Wide, airy spacing**, **Divided, a line between links**, **Underlined, a line per link** (the start), **Uppercase, spaced letters** or **Card, a tile per link**. |
 | **Bullet** | Options: **None**, **Dot**, **Square**, **Dash**, **Arrow**, **Chevron** or **Check**. A mark before each link; the arrow at the end stays. |
-| **Size** (links) | Scales the links, from 11 to 24. 14 is the column's own size. |
-| **Weight** (links) | Options: **Normal (400)**, **Medium (500)**, **Semi-bold (600)** or **Bold (700)**. If your font has no such weight, the nearest one is used. |
-| **Style** (links) | Options: **Normal** or **Italic**. |
+| **Size** | Scales the links, from 11 to 24. 14 is the column's own size. |
+| **Weight** | Options: **Normal (400)**, **Medium (500)**, **Semi-bold (600)** or **Bold (700)**. If your font has no such weight, the nearest one is used. |
+| **Style** | Options: **Normal** or **Italic**. |
 {: .settings}
 
 ##### Custom links
@@ -327,7 +345,7 @@ Only used when **Custom links below** is chosen above.
 
 > *Two columns side by side.* On computers the columns sit two side by side, the first ones on the left; on tablets and phones they sit one under the other. A column set to **Two thirds of the row, on its own line** or wider takes a line of its own.
 
-> *The frame cannot be removed.* The curved top and the bottom bar are always there. Turn off **Show the big link** or **Show the information panel** to simplify it.
+> *The frame cannot be removed.* The bottom bar is always there. To simplify the footer, turn off **Show the big link**, **Show the information panel** or **Curved top edge**.
 
 > *Choose your small print.* The bottom bar holds three typed links, so set the privacy policy, terms and shipping pages you want shown. The back to top arrow stays at the right end of the bar, with none, one or all three.
 
@@ -340,12 +358,12 @@ A picture postcard under a message strip: your picture on the front, and on the 
 
 - Add section › Footer › Showcase
 - 1 look
-- 2 block types: Link column and Image (up to 6 in all)
+- 2 block types: Link column and Picture (up to 6 in all)
 {: .facts}
 
 ### Looks
 
-{% include looks.html folder="footers" file="showcase" name="Showcase footer" looks="Standard" plain="true" about="A picture postcard: the picture on the left; on the back, the brand, signup and link groups, a dividing line, then a stamp, contact details on ruled lines and social media icons, above a bottom bar." %}
+{% include looks.html folder="footers" file="showcase" name="Showcase footer" looks="Standard" plain="true" about="A picture postcard: the picture on the left; on the back, the brand and link groups, a dividing line, then a stamp, contact details on ruled lines and social media icons, above a bottom bar." %}
 
 ### Where to find it
 
@@ -363,13 +381,13 @@ On a computer the picture is the front of the card, on the left. The back, on th
 
 | Setting | What it changes |
 | --- | --- |
-| **Picture** | The front of the postcard: left of the card on a computer, on top on a tablet or phone. Its edges are cropped to fit, so set a focal point. Leave empty to show a placeholder drawing. 1600 x 1200px recommended. |
-| **Maximum width** | The widest the card gets, from 900 to 1600px. |
-| **Padding on computers** | Space inside the card on computers, from 24 to 96px. |
-| **Padding on phones** | Space inside the card on phones, from 16 to 40px. |
+| **Picture** | The front of the postcard: left of the card on a computer, on top on a tablet or phone. Its edges are cropped to fit, so set a focal point. Leave empty to show a placeholder drawing. 1600 x 1200 px recommended. |
+| **Maximum width** | The widest the card gets, from 900 to 1600 px. |
+| **Padding on computers** | Space inside the card on computers, from 24 to 96 px. |
+| **Padding on phones** | Space inside the card on phones, from 16 to 40 px. |
 {: .settings}
 
-On tablets the space moves in a straight line from the phone value at 501px to the computer value at 1100px.
+On tablets the space moves in a straight line from the phone value at 501 px to the computer value at 1100 px.
 
 #### Footer card style
 
@@ -403,14 +421,14 @@ On tablets the space moves in a straight line from the phone value at 501px to t
 | **Logo** | Shows in the stamp box on the back of the card. Leave empty to show a star badge. |
 | **Brand name** | Leave empty to use your store name. |
 | **Short description** | One or two lines about your shop. |
-| **Space above and below the brand** | From 0 to 80px. |
+| **Space above and below the brand** | From 0 to 80 px. |
 {: .settings}
 
 #### Brand name style
 
 | Setting | What it changes |
 | --- | --- |
-| **Size** | From 12 to 40px. |
+| **Size** | From 12 to 40 px. |
 | **Weight** | Options: **Normal (400)**, **Medium (500)**, **Semi-bold (600)** or **Bold (700)**. If your font has no such weight, the nearest one is used. |
 | **Fade the name to this color** | The brand name fades from this color to the footer's accent color. Leave empty for plain body text. |
 {: .settings}
@@ -419,7 +437,7 @@ On tablets the space moves in a straight line from the phone value at 501px to t
 
 | Setting | What it changes |
 | --- | --- |
-| **Size** | From 11 to 28px. |
+| **Size** | From 11 to 28 px. |
 | **Weight** | Options: **Normal (400)**, **Medium (500)**, **Semi-bold (600)** or **Bold (700)**. If your font has no such weight, the nearest one is used. |
 | **Color** | Leave empty to follow the body text color. |
 {: .settings}
@@ -480,7 +498,7 @@ Add up to six blocks in any mix of the two kinds.
 | **Column width** | Options: **One sixth**, **One fifth**, **One quarter**, **One third**, **One half**, **Two thirds**, **Three quarters** or **Full width**: the share of the card's message side this column takes on tablets and computers. **One third** is a place in the flowing columns. Less narrows the column inside its place. More takes it out of the flow across the message side at that share, with its links side by side. Phones show one column. |
 | **Full width on tablet** | On a tablet, this column crosses the whole message side with its links side by side, whatever its **Column width**. |
 | **Alignment** | Options: **Left**, **Center** or **Right**. Aligns the heading and the links inside this column. |
-| **Space above and below** | From 0 to 80px. |
+| **Space above and below** | From 0 to 80 px. |
 {: .settings}
 
 ##### Show or hide this column
@@ -501,24 +519,24 @@ Add up to six blocks in any mix of the two kinds.
 | **Footer menu** | The menu whose links fill the column. Used when a navigation menu is chosen above. See [Menus](headers.md#menus). |
 | **Show sub-links** | Any link that has links under it keeps its place, with those links listed indented below it. Shown for a navigation menu. |
 | **Bullet** | Options: **None**, **Dot**, **Square**, **Dash**, **Arrow**, **Chevron** or **Check**. |
-| **Space between links** | From 0 to 24px. |
+| **Space between links** | From 0 to 24 px. |
 {: .settings}
 
 ##### Heading style
 
 | Setting | What it changes |
 | --- | --- |
-| **Size** | From 11 to 32px. |
+| **Size** | From 11 to 32 px. |
 | **Weight** | Options: **Normal (400)**, **Medium (500)**, **Semi-bold (600)** or **Bold (700)**. If your font has no such weight, the nearest one is used. |
 | **Color** | Leave empty to follow the footer's own heading color. |
-| **Space below heading** | From 0 to 48px. |
+| **Space below heading** | From 0 to 48 px. |
 {: .settings}
 
 ##### Link style
 
 | Setting | What it changes |
 | --- | --- |
-| **Size** | From 11 to 24px. |
+| **Size** | From 11 to 24 px. |
 | **Weight** | Options: **Normal (400)**, **Medium (500)**, **Semi-bold (600)** or **Bold (700)**. If your font has no such weight, the nearest one is used. |
 | **Color** | Leave empty to follow the footer's own link color. |
 {: .settings}
@@ -541,7 +559,7 @@ A picture among the link groups, such as a badge or a photo.
 | --- | --- |
 | **Picture** | The picture. |
 | **Picture link** | Optional. Opens this link when the image is selected. |
-| **Picture description** | Describes the image for visitors using a screen reader. Leave empty to use the image's own description. If there is none, the picture counts as decoration and screen readers skip it. |
+| **Picture description** | Describes the image for visitors using a screen reader. Leave empty to use the image's own description. If there is none, a picture with a link is described by your store name, and a picture without a link counts as decoration that screen readers skip. |
 | **Cover a full row** | Off, the image takes the same width as one link column. On, it fills the whole row. |
 {: .settings}
 
@@ -550,10 +568,10 @@ A picture among the link groups, such as a badge or a photo.
 | Setting | What it changes |
 | --- | --- |
 | **Limit picture height** | Leave off to let the height follow the image. |
-| **Maximum picture height** | From 40 to 360px. Only used when the height limit is on. |
+| **Maximum picture height** | From 40 to 360 px. Only used when the height limit is on. |
 | **Picture fit** | Options: **Show the complete picture** or **Fill the chosen size (crops)**. Filling needs the height limit above, since there is nothing to crop to without it. |
-| **Picture corner rounding** | From 0 to 40px. |
-| **Space above and below** | From 0 to 80px. |
+| **Picture corner rounding** | From 0 to 40 px. |
+| **Space above and below** | From 0 to 80 px. |
 {: .settings}
 
 ### Tips and limits
@@ -592,8 +610,8 @@ A shopper who picks with a mouse or a finger switches at once. A shopper using t
 
 <div class="pair">
   <figure class="shot shot--desktop">
-    <img src="{{ '/assets/images/footers/country-picker-desktop-light.webp' | relative_url }}" alt="The footer bottom area with the country drop-down showing United States (USD $), above the payment icons and legal links" width="1440" height="900" loading="lazy">
-    <figcaption>The country picker in the footer bottom area</figcaption>
+    <img src="{{ '/assets/images/footers/country-picker-desktop-light.webp' | relative_url }}" alt="The bottom of the Showcase footer with the country drop-down showing United States (USD $) on its own row, above the payment icons and small-print links" width="1440" height="215" loading="lazy">
+    <figcaption>The country picker in the Showcase footer bottom area</figcaption>
   </figure>
 </div>
 
@@ -642,8 +660,8 @@ Fill in your links in Theme settings, under **Social media**: see [Theme setting
 
 <div class="pair">
   <figure class="shot shot--desktop">
-    <img src="{{ '/assets/images/footers/social-payment-icons-desktop-light.webp' | relative_url }}" alt="A footer with a Follow us row of four social media icons under the brand, and a row of payment icons in the bottom bar" width="1440" height="844" loading="lazy">
-    <figcaption>Social media icons in the brand area and payment icons in the bottom bar</figcaption>
+    <img src="{{ '/assets/images/footers/social-payment-icons-desktop-light.webp' | relative_url }}" alt="The Showcase footer: the brand name and link columns, a Follow us label with four round social media icons (Facebook, Instagram, YouTube, Pinterest) at the right, and a row of payment icons in the bottom bar" width="1440" height="900" loading="lazy">
+    <figcaption>Social media icons under Follow us and payment icons in the bottom bar of the Showcase footer</figcaption>
   </figure>
 </div>
 
@@ -674,7 +692,7 @@ You find these in each footer's settings, under **Email signup**. The look is fi
 
 {% include looks.html folder="footers" file="signup-curtain" name="Curtain email signup" looks="On the rule" plain="true" about="The Curtain footer with the email box on the line above the bottom bar." %}
 
-{% include looks.html folder="footers" file="signup-big-link" name="Big link email signup" looks="Board" plain="true" about="The Big link footer with the email box under its columns, beside the information panel." %}
+{% include looks.html folder="footers" file="signup-big-link" name="Big link email signup" looks="Board" plain="true" about="The Big link footer with the email box under its columns." %}
 
 {% include looks.html folder="footers" file="signup-showcase" name="Showcase email signup" looks="Brand card" plain="true" about="The Showcase footer with the email box in the brand card, its button a square badge." %}
 
@@ -690,4 +708,4 @@ Shopify's own link, shown beside the copyright line. Each footer has a **Show "P
 
 > *Nothing shows without data.* Social icons need a link, payment icons need accepted payment methods and Follow on Shop needs Shop set up, so a new store may show none of them yet.
 
-> *Policy links need policies.* **Show store policy links** lists only the policies you wrote in your Shopify admin under *Settings > Policies*.
+> *Policy links need policies.* In **Curtain** and **Showcase**, **Show store policy links** lists only the policies you wrote in your Shopify admin under *Settings > Policies*.

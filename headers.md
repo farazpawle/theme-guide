@@ -1,6 +1,6 @@
 ---
 title: Headers and the announcement bar
-updated: 2026-11-07
+updated: 2026-11-12
 ---
 
 # Headers and the announcement bar
@@ -189,7 +189,7 @@ A thin row of small links above the store name, for things like order tracking a
 
 | Setting | What it changes |
 | --- | --- |
-| **Letter spacing** | Spaces out the letters of your store name, from 0 to 12px. On phones and tablets the spacing is scaled down to suit the smaller name. A logo picture is not affected. |
+| **Letter spacing** | Spaces out the letters of your store name, from 0 to 12 px. On phones and tablets the spacing is scaled down to suit the smaller name. A logo picture is not affected. |
 {: .settings}
 
 ### Blocks
@@ -198,7 +198,7 @@ This header has no blocks. Its links come from the menus you choose.
 
 ### Tips and limits
 
-> *Leave a strip menu empty to hide it.* A **Links on the left** or **Links on the right** menu that is the same as your **Main menu** is not repeated.
+> *Leave a strip menu empty to hide it.* A **Links on the left** or **Links on the right** menu that is the same as your **Main menu** is left out, and if both sides use the same menu its links show once. With both sides empty, the strip is not drawn at all.
 
 > *A long menu folds itself.* When the items would not fit in the foot bar, it shows the *Menu* button instead, even on a wide screen. An item with links below it opens a drop-down or columns (see [Menus](#menus)).
 
@@ -258,7 +258,7 @@ Keep one header in the header area. To change style, remove this header and add 
 | **Customer account menu** | The links shown under the account icon. |
 {: .settings}
 
-This header has no announcement bar. A full-width strip above a floating bar works against the style, so the shop-wide announcement is not shown here.
+This header has no announcement bar. A full-width strip above a floating bar works against the style, so the store-wide announcement is not shown here.
 
 #### Actions
 
@@ -271,7 +271,7 @@ This header has no announcement bar. A full-width strip above a floating bar wor
 
 | Setting | What it changes |
 | --- | --- |
-| **Corner rounding** | How round the capsule is, from 0 to 40px. The highest value gives a full pill at every screen size. |
+| **Corner rounding** | How round the capsule is, from 0 to 40 px. The highest value gives a full pill at every screen size. |
 | **Shadow** | How far the capsule floats above the page, from 0 to 100. Zero removes the shadow. |
 {: .settings}
 
@@ -289,15 +289,15 @@ This header has no blocks. Its links come from the menus you choose.
 
 > *Every item is a link.* The first click, tap or Enter on an item with links below it shows those links; a second one opens its page. Each list also starts with an *All* link to the item's own page.
 
-> *Search on computers.* The search icon shows on tablets and phones only. Make sure the search page is easy to reach from your menu.
+> *Search on phones.* The search icon is in the bar on computers and tablets. On a phone it leaves the bar to make room for the account icon, and search is the first row of the menu instead; it opens the same card.
 
-> *Search opens ready to type.* On a tablet or phone, the cursor is already in the search field when the search opens, so a shopper can type straight away.
+> *Search opens ready to type.* On every screen size the cursor is already in the search field when the search opens, so a shopper can type straight away.
 
 > *A long store name shrinks, then wraps.* In the bar and at the top of the opened menu it gets smaller to fit, then moves onto a second line. It is never cut off with dots.
 
 ## Nebula float
 
-Controls that float straight on the page with no bar behind them: the store name on the left, a *Browse* button and the icons on the right. *Browse* opens a panel of picture tiles that walks your menu one level at a time. It suits a home page that opens on a full-screen picture or a dark scene.
+Controls that float straight on the page with no bar behind them: the store name and a *Browse* button on the left, the icons on the right. *Browse* opens a panel of picture tiles that walks your menu one level at a time. It suits a home page that opens on a full-screen picture or a dark scene.
 {: .lede}
 
 - Add section › Header › Nebula float
@@ -328,13 +328,13 @@ Keep one header in the header area. To change style, remove this header and add 
 
 #### Search
 
-Search is always on for this style. On computers and tablets it is the magnifier beside the cart, and on phones it is the first row of the menu.
+Search is always on for this style. On computers and tablets it is the magnifier beside the bag, and on phones it is the first row of the menu.
 
 #### Light
 
 | Setting | What it changes |
 | --- | --- |
-| **Bar background** | Options: **None: float on the page** (no strip and no line, just the controls on the page's own color at every scroll position, with a soft shading behind them to keep the menu readable) or **Fill with the scheme color**. None suits a shop whose first section is a full-screen picture or a dark scene. |
+| **Bar background** | Options: **None: float on the page** (no strip and no line, just the controls on the page's own color at every scroll position, with a soft shading behind them to keep the menu readable) or **Fill with the scheme color**. None suits a store whose first section is a full-screen picture or a dark scene. |
 | **Light strength** | How strong the glow behind the controls is, from 0 to 100%. |
 {: .settings}
 
@@ -385,7 +385,7 @@ On a computer, your menu stays open as a column docked at the left of the page, 
 
 #### The docked column and the phone drawer
 
-From 1101px wide there is no bar: the column holds your store name, the mode switch, account and cart icons, a search field and your menu, and it never closes. An item with links below it folds open in the column. Everything else on the page sits beside it. Below 1101px the column becomes the drawer: the *Menu* button in the bar slides it in from the left.
+From 1101 px wide there is no bar: the column holds your store name, the mode switch, account and cart icons, a search field and your menu, and it never closes. An item with links below it folds open in the column. Everything else on the page sits beside it. Below 1101 px the column becomes the drawer: the *Menu* button in the bar slides it in from the left.
 
 <div class="pair">
   <figure class="shot shot--desktop">
@@ -420,14 +420,14 @@ Keep one header in the header area. To change style, remove this header and add 
 
 | Setting | What it changes |
 | --- | --- |
-| **Show search** | Shows the search field in the column on computers, and the search icon on tablets and phones. |
+| **Show search** | Shows the search field in the column on computers, and the search icon in the bar on tablets. On phones, search is the first row of the drawer instead. |
 {: .settings}
 
 #### Bar
 
 | Setting | What it changes |
 | --- | --- |
-| **Bar height** | How tall the bar is, from 64 to 120px. Tablets only (501 to 1100px): phones use a fixed compact bar, and computers have no bar because the menu is a column. |
+| **Bar height** | How tall the bar is, from 64 to 120 px. Tablets only (501 to 1100 px): phones use a fixed compact bar, and computers have no bar because the menu is a column. |
 {: .settings}
 
 #### Navigation drawer
@@ -447,7 +447,7 @@ This header has no blocks. Its links come from the menus you choose.
 
 > *Contrast the column.* A **Drawer color scheme** that differs from the page's makes the column stand out as a separate panel.
 
-> *The column takes 300px.* Computers lose that much page width, and the page, its fixed bars and its sheets sit in what is left. Full-screen layers such as quick view cover the column on purpose.
+> *The column takes 300 px.* Computers lose that much page width, and the page, its fixed bars and its sheets sit in what is left. Full-screen layers such as quick view cover the column on purpose.
 
 > *Keep the header on screen.* The column is always on screen on a computer. On tablets and phones the setting keeps the bar at the top.
 
@@ -455,7 +455,7 @@ This header has no blocks. Its links come from the menus you choose.
 
 > *Left to right only.* The column is always on the left, so it is not suited to stores written right to left.
 
-> *Search in the column.* On a computer the search field sits in the column, with "Search" as its placeholder. Its suggestions show smaller pictures. Long product titles and the maker's name wrap in full, as in every header.
+> *Search in the column.* On a computer the search field sits in the column, with "Search" as its placeholder. It lists matching suggestions as a shopper types but shows no popular searches before then. Its suggestions show smaller pictures. Long product titles and the maker's name wrap in full, as in every header.
 
 > *The keyboard follows the screen.* On a phone or tablet, Tab reaches the *Menu* button first, then the store name, then the icons, the same left-to-right order as the bar.
 
@@ -465,7 +465,7 @@ This header has no blocks. Its links come from the menus you choose.
 
 ## Announcement bar
 
-One strip above the header with a short message, an offer or delivery information. It is shop-wide: you write it once and every page shows it.
+One strip above the header with a short message, an offer or delivery information. It is store-wide: you write it once and every page shows it.
 {: .lede}
 
 - Theme settings › Announcement bar
@@ -489,7 +489,7 @@ One strip above the header with a short message, an offer or delivery informatio
 | Setting | What it changes |
 | --- | --- |
 | **Show the announcement bar** | Turns the strip on or off. |
-| **Message** | The text in the strip. Basic formatting such as bold or italic is allowed. |
+| **Message** | The text in the strip. Basic formatting such as bold or italic is allowed. With no message the bar is not shown, even when it is turned on. |
 | **Link** | Where the message goes when selected. The whole message becomes the link, so links and formatting typed inside the message are left out. |
 | **Let visitors close it** | Adds a close button. A closed bar stays closed until you change the message. |
 | **Background** | The strip's background color. Leave both colors empty to follow the button colors of the header's color scheme. |
@@ -506,7 +506,7 @@ This section has no blocks. It is one message.
 
 > *Not on every style.* Aurora glow, Centered stack, Nebula float and Sidecar show the bar. **Floating capsule** does not.
 
-> *The default colors are the button colors.* With no colors set, the strip uses the button colors of the header's scheme, so on a dark header it is a light strip. Set **Background** and **Foreground** to change that.
+> *The default colors depend on the style.* With no colors set, Aurora glow, Centered stack and Sidecar use the button colors of the header's scheme, so on a dark header it is a light strip. Nebula float shows a quiet strip instead: the scheme's background color with softer text. Set **Background** and **Foreground** to choose your own.
 
 > *It scrolls away.* The bar is not kept on screen when the page scrolls, even when **Keep the header on screen** is on.
 
@@ -523,8 +523,6 @@ The drop-down under the header's search box. Before anyone types it shows your p
 ### Looks
 
 {% include looks.html folder="headers" file="search-suggestions" name="Search suggestions drop-down" looks="Standard" plain="true" about="The open drop-down under the search box, listing matching products with their prices." %}
-
-{% include looks.html folder="headers" file="search-suggestions" name="Search suggestions" looks="Standard" plain="true" about="The header's search box open with popular searches before typing and matching products as the shopper types." %}
 
 ### Where to find it
 
@@ -549,7 +547,7 @@ The drop-down under the header's search box. Before anyone types it shows your p
 
 | Setting | What it changes |
 | --- | --- |
-| **Popular searches** | One term per line. Shown as quick links in the header's search box before anything is typed, and on the search page when nothing was found. |
+| **Popular searches** | One term per line. Shown as quick links in the header's search box before anything is typed, and on the search page when nothing was found or nothing has been searched yet. |
 | **Search across** | Options: **Products only** or **Everything** (products, collections, pages and blog posts). |
 {: .settings}
 
@@ -559,13 +557,13 @@ This feature has no blocks. It is the same drop-down for every header.
 
 ### Tips and limits
 
-> *One setting for every header.* You turn suggestions on or off once here. No header has a search setting of its own beyond **Show search**.
+> *One setting for every header.* You turn suggestions on or off once here. No header has a search setting of its own beyond **Show search** (Nebula float always shows its search).
 
 > *The arrow keys draw a frame.* A shopper who moves down the list with the arrow keys sees the chosen row inside a clear frame in the text color, in every header and on the search page, in light and dark mode. Pointing with the mouse only tints the row.
 
 > *Nothing drops down?* Check that **Suggest results as the shopper types** is on. With it off, the search box works but shows no suggestions.
 
-> *Floating capsule on a computer.* That style shows its search icon on tablets and phones only, so on a computer shoppers use the search page instead.
+> *Phones use the menu.* On a phone, Aurora glow, Floating capsule, Nebula float and Sidecar put search as the first row of the menu, and it opens the same suggestions. Centered stack keeps its search icon in the foot bar.
 
 ## Light and dark mode switch and the account icon
 
@@ -594,7 +592,7 @@ On computers it is an icon in the header bar (in the menu column, for **Sidecar*
 A small person icon. A shopper who selects it sees an account panel: sign-in options when they are signed out, and their account links (by default Orders and Profile) once signed in.
 
 - It appears when customer accounts are turned on, in your Shopify admin under *Settings > Customer accounts*. Without customer accounts, the icon is left out rather than shown dead.
-- It sits in the header bar on computers and on phones, next to the cart.
+- It sits next to the cart in the header bar, on computers and on phones. In **Centered stack** it is in the foot bar, and in **Sidecar** it is in the menu column on computers.
 - **Customer account menu**, a setting on every header, chooses which links the panel lists. It starts as Shopify's own customer account menu. You can add, remove or reorder its links in your admin under *Content > Menus*.
 
 <div class="pair">
@@ -638,12 +636,12 @@ A menu can go three levels deep. How each header shows it:
 | --- | --- | --- | --- |
 | Aurora glow | In a pill on the right | A full-width sheet: links listed on the left | The chosen link's own links and picture on the right |
 | Centered stack | In the bar at the foot of the screen | A drop-down list rising from the bar | Columns with the mega menu on, an indented list with it off |
-| Floating capsule | A full-screen menu | Fold open in place | Fold open in place |
+| Floating capsule | A full-screen menu | A second column beside the top items | A third column, next to the large picture |
 | Nebula float | A *Browse* button that opens a panel | A row of picture tiles | A plain list in the next step of the panel |
 | Sidecar | A column docked at the left; a drawer from the left on tablets and phones | Fold open in place | Fold open in place |
 {: .settings}
 
-Turn the mega menu on or off with **Show the horizontal mega menu** under **Header** in Theme settings: with it on, an item with two levels below it opens as columns instead of a single list. It applies to **Centered stack**; **Aurora glow** opens every item as a full-width sheet with pictures, **Nebula float** walks its menu one level at a time, and **Floating capsule** and **Sidecar** fold sub-items open in their menu or column instead. Keyboard users open a drop-down with Enter or Space; in **Aurora glow** the arrow keys also move along the menu and through the sheet's links.
+Turn the mega menu on or off with **Show the horizontal mega menu** under **Header** in Theme settings: with it on, an item with two levels below it opens as columns instead of a single list. It applies to **Centered stack**; **Aurora glow** opens every item as a full-width sheet with pictures, **Nebula float** walks its menu one level at a time, **Floating capsule** shows each level as its own column, and **Sidecar** folds sub-items open in its column instead. Keyboard users open a drop-down with Enter or Space; in **Aurora glow** the arrow keys also move along the menu and through the sheet's links.
 
 <div class="pair">
   <figure class="shot shot--desktop">
@@ -659,7 +657,7 @@ Turn the mega menu on or off with **Show the horizontal mega menu** under **Head
   </figure>
 </div>
 
-On phones and tablets the menu folds behind a button, and all three levels stay reachable. **Nebula float** keeps its *Browse* button on tablets, and **Centered stack** opens its menu as a sheet rising from the foot bar. On a touch screen wider than 1100px, such as a tablet held sideways, the first tap on an item with a drop-down opens it, and a second tap follows the link.
+On phones and tablets the menu folds behind a button, and all three levels stay reachable. **Nebula float** keeps its *Browse* button on tablets, and **Centered stack** opens its menu as a sheet rising from the foot bar. On a touch screen wider than 1100 px, such as a tablet held sideways, the first tap on an item with a drop-down opens it, and a second tap follows the link.
 
 ### Tips and limits
 
