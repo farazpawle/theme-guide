@@ -1,6 +1,6 @@
 ---
 title: Footers
-updated: 2026-11-12
+updated: 2026-11-13
 ---
 
 # Footers
@@ -210,7 +210,7 @@ In the *Footer* area of the editor: select *Add section*, then **Big link**. See
 
 Keep one footer in the footer area. To change style, remove this footer and add another.
 
-The frame of this footer is fixed: the curved top, the big link bar, the information panel and the bottom bar keep their places, and your store name shows in the copyright line. You can restyle them or switch off the curved top, the big link bar and the information panel, but not move them. The link columns are the one part you build yourself: add, remove and reorder as many columns as you need.
+The frame of this footer is fixed: the curved top edge, the big link, the information panel and the bottom bar keep their places, and your store name shows in the copyright line. You can restyle them, switch off the curved top edge and the big link, and hide the information panel by emptying its text fields, but not move them. The link columns are the one part you build yourself: add, remove and reorder as many columns as you need.
 
 #### Footer frame
 

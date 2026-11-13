@@ -1,6 +1,6 @@
 ---
 title: Home page sections
-updated: 2026-11-12
+updated: 2026-11-13
 ---
 
 # Home page sections
@@ -2135,7 +2135,7 @@ A newsletter signup. People who sign up are added to your customers, ready for S
 
 ### Looks
 
-{% include looks.html folder="sections" file="email-signup" name="Email signup" looks="Centered band,Split: words beside the box~split,Inline strip,Image beside content,Card panel,Bordered rule" about="A centered band with a caption, the heading, an email box and button, and faint envelopes and paper planes drifting behind.|The caption, heading and words on the left with the email box and button on the right.|A slim strip with the heading on the left and the email box and button on the right.|A picture on the left with the caption, heading, email box and button beside it.|A card in the middle of the page holding the heading, email box and button, with faint drawings around it.|A thin line across the top with the heading on the left and the email box and button on the right." %}
+{% include looks.html folder="sections" file="email-signup" name="Email signup" looks="Centered band,Split: words beside the box~split,Inline strip,Picture beside content~image-beside-content,Card panel,Bordered rule" about="A centered band with a caption, the heading, an email box and button, and faint envelopes and paper planes drifting behind.|The caption, heading and words on the left with the email box and button on the right.|A slim strip with the heading on the left and the email box and button on the right.|A picture on the left with the caption, heading, email box and button beside it.|A card in the middle of the page holding the heading, email box and button, with faint drawings around it.|A thin line across the top with the heading on the left and the email box and button on the right." %}
 
 The six looks are the six **Layout** options. **Split: words beside the box** is shown here as Split.
 

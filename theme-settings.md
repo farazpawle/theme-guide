@@ -1,6 +1,6 @@
 ---
 title: Theme settings
-updated: 2026-11-12
+updated: 2026-11-13
 ---
 
 # Theme settings
@@ -61,7 +61,7 @@ One strip above the header, shown on every page. Every header style shows it exc
 | **Message** | The text in the strip. Basic formatting such as bold or italic is allowed. |
 | **Link** | Where the message goes when selected. The whole message becomes the link, so links and formatting inside the message are left out. |
 | **Let visitors close it** | Adds a close button. A closed bar stays closed until you change the message. |
-| **Background** | The strip's background color. Leave both colors empty to follow the button colors of the header's color scheme. |
+| **Background** | The strip's background color. Leave both colors empty to follow the header color scheme: its button colors, or its background color on **Nebula float**. |
 | **Foreground** | The color of the words and the close button. |
 {: .settings}
 
@@ -268,7 +268,7 @@ The header's style is chosen by the header section itself: see [Headers](headers
 
 The product card appears wherever products are listed. Set it once here and every card matches.
 
-The home page's **Featured products**, **Related products** and the suggestions in an empty cart use every setting below. The collection and search pages use their own card layout and follow **Alignment**, **Picture shape**, **Custom shape from a picture**, **Crop pictures to fill**, **Hover style**, the sale badge and **Sold out products**. They ignore **Style** and **Color scheme**, and the editor says so under each of those settings. The **Border**, **Corner rounding** and **Shadow** settings below also frame the tiles in **Collection tiles**.
+The home page's **Featured products**, **Related products** and the suggestions in an empty cart use every setting below. The collection and search pages use their own card layout and follow **Alignment**, **Picture shape**, **Custom shape from a picture**, **Crop pictures to fill**, **Hover style**, the sale badge and **Sold out products**. They ignore **Style** and **Color scheme**, and the editor says so under each of those settings. The **Border**, **Corner rounding** and **Shadow** settings below also frame the tiles in **Collection tiles**. On collection and search pages, **Border** and **Shadow** frame each card's picture while that page's **Picture shape** is **Rectangle**.
 
 <div class="pair">
   <figure class="shot shot--desktop">
@@ -342,9 +342,9 @@ The home page's **Featured products**, **Related products** and the suggestions 
 | Setting | What it changes |
 | --- | --- |
 | **Color scheme** | The colors of a card. Works only when **Style** is **Card**, on the home page and in Related products. |
-| **Border** | Outline thickness, from 0 to 8 px. Works only when **Style** is **Card**. |
+| **Border** | Outline thickness, from 0 to 8 px. Its color comes from the color scheme. **Collection tiles** show it, and cards on collection and search pages show it while that page's **Picture shape** is **Rectangle**; on the home page and in Related products it works only when **Style** is **Card**. |
 | **Corner rounding** | Roundness of the card and its picture, from 0 to 40 px. |
-| **Shadow** | A shadow under the card, from 0 to 100%. Works only when **Style** is **Card**. Zero means no shadow. |
+| **Shadow** | A shadow under the card, from 0 to 100%. Zero means no shadow. **Collection tiles** show it, and cards on collection and search pages show it while that page's **Picture shape** is **Rectangle**; on the home page and in Related products it works only when **Style** is **Card**. |
 {: .settings}
 
 ### Sale badge
