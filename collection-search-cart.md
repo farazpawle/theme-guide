@@ -1,6 +1,6 @@
 ---
 title: Collection, search and cart pages
-updated: 2026-11-12
+updated: 2026-11-13
 ---
 
 # Collection, search and cart pages
@@ -357,7 +357,7 @@ A note box on the cart page lets shoppers add delivery instructions or anything 
 
 > *The page works without scripts.* Quantities, remove and checkout all work with scripts blocked, and the browser still refuses a number above the stock. Scripts add the bar, the pill, the pinned panel, the movement, the "Only N available" wording and keeping typed edits when a plus, minus or bin button is pressed. Without scripts those three buttons are links, so press *Update bag* before using them or a typed number is lost.
 
-> *The page reloads only when it has to.* Changing a quantity, removing a line and pressing *Update bag* update the bag in place. If an update fails, scripts are off, or you have added blocks (such as an app) to the cart page, the page reloads instead so nothing is lost and the blocks keep working.
+> *The page reloads only when it has to.* Changing a quantity, removing a line and pressing *Update bag* update the bag in place. If an update fails or gets no answer within 15 seconds, scripts are off, or you have added blocks (such as an app) to the cart page, the page reloads instead so nothing is lost and the blocks keep working.
 
 > *Receipt rows stay readable.* In **Receipt**, the rows tilt only slightly as the page scrolls and never fade below 70%, so every line can be read.
 
@@ -448,6 +448,8 @@ The card shown for every product, on the home page, collection and search pages 
 Standard puts the picture, name and price straight on the page. Card puts the product on a framed card in its own color scheme.
 
 A sold out product's button is drawn flat, in soft gray lettering with a faint border and no accent color, so it reads as unavailable next to the live buttons while staying legible.
+
+If Shopify refuses an add from a card (for example the last one sold while the page was open), Shopify's own message appears under the button and the shopper stays on the page.
 
 ### Where to find it
 

@@ -1,6 +1,6 @@
 ---
 title: Headers and the announcement bar
-updated: 2026-11-12
+updated: 2026-11-13
 ---
 
 # Headers and the announcement bar
@@ -340,7 +340,7 @@ Search is always on for this style. On computers and tablets it is the magnifier
 
 #### The Browse panel
 
-Press *Browse* and a panel opens under the bar. The first row of picture tiles is your top-level menu. Pressing a tile that has links below it slides to the next row, with a *Back* button and an *All* link (such as *All Shop*) to the item itself; the third level is a plain list of links, because a Shopify menu goes no deeper. *Escape* steps back one level, then closes the panel. On phones *Browse* is replaced by the menu button, which opens a sheet of folding rows instead.
+Press *Browse* and a panel opens under the bar. The first row of picture tiles is your top-level menu. Pressing a tile that has links below it slides to the next row, with a *Back* button and an *All* link (such as *All Shop*) to the item itself; the third level is a plain list of links, because a Shopify menu goes no deeper. *Escape* steps back one level, then closes the panel. Tabbing past the panel with the keyboard closes it too, so it never stays over the page. On phones *Browse* is replaced by the menu button, which opens a sheet of folding rows instead.
 
 <div class="pair">
   <figure class="shot shot--desktop">
@@ -385,7 +385,7 @@ On a computer, your menu stays open as a column docked at the left of the page, 
 
 #### The docked column and the phone drawer
 
-From 1101 px wide there is no bar: the column holds your store name, the mode switch, account and cart icons, a search field and your menu, and it never closes. An item with links below it folds open in the column. Everything else on the page sits beside it. Below 1101 px the column becomes the drawer: the *Menu* button in the bar slides it in from the left.
+From 1101 px wide there is no bar: the column holds your store name, the mode switch, account and cart icons, a search field and your menu, and it never closes. An item with links below it folds open in the column and stays open until you fold it shut (*Escape* does not close it). Everything else on the page sits beside it. Below 1101 px the column becomes the drawer: the *Menu* button in the bar slides it in from the left.
 
 <div class="pair">
   <figure class="shot shot--desktop">

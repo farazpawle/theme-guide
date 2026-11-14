@@ -1,6 +1,6 @@
 ---
 title: Product page
-updated: 2026-11-12
+updated: 2026-11-13
 ---
 
 # Product page
@@ -264,7 +264,7 @@ The block also holds the sold out button. A sold out option shows a "Sold out" b
 
 ### Store pickup
 
-Whether the chosen option can be collected from your stores, and which ones. A line names a store where it is ready, with its usual pickup time, and says "currently unavailable" only when no store has it. A button opens a window listing every pickup location with its availability, address and phone number. With one location the button reads "View store information"; with more, "Check availability at other stores". This block has no settings.
+Whether the chosen option can be collected from your stores, and which ones. A line names a store where it is ready, with its usual pickup time, and says "currently unavailable" only when no store has it. A button opens a window listing every pickup location with its availability, address and phone number. With one location the button reads "View store information"; with more, "Check availability at other stores". The page behind the window stays still while it is open. This block has no settings.
 
 The block appears once local pickup is turned on for a location under *Settings > Shipping and delivery* in your admin, and only for options in stock at a pickup location.
 
@@ -414,7 +414,7 @@ Shopify chooses these from the product shown on the page. The whole section is l
 
 | Setting | What it changes |
 | --- | --- |
-| **Heading** | The title above the grid. |
+| **Heading** | The title above the grid. Leave empty to hide it; the section still carries a hidden heading for screen readers. |
 | **Products to show** | How many products, from 2 to 8. |
 {: .settings}
 
@@ -570,7 +570,7 @@ When a shopper picks an option that has its own picture, the gallery turns to it
 
 **Enlarging a picture**, in the Product section's **Pictures** group, chooses the behavior:
 
-- **Full screen**: selecting a picture opens a large view with the whole picture fitted to the window, whatever its shape, so nothing needs scrolling. Close returns to the page.
+- **Full screen**: selecting a picture opens a large view with the whole picture fitted to the window, whatever its shape, so nothing needs scrolling. The page behind stays still while it is open. Close returns to the page.
 - **Magnify**: the picture enlarges under the pointer. It does nothing on a phone or tablet, where there is no pointer to follow.
 - **Off**: pictures stay as they are.
 

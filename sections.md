@@ -1,6 +1,6 @@
 ---
 title: Home page sections
-updated: 2026-11-13
+updated: 2026-11-14
 ---
 
 # Home page sections
@@ -306,6 +306,8 @@ One logo in the moving strip along the bottom. It shows only when **Show brand s
 
 > **Scroll distance moves the rest of the page.** A higher **Scroll distance per slide** feels slower and more cinematic, but pushes everything below the hero further down.
 
+> **Every slide can be reached by keyboard and screen reader.** Slides that are not showing are only see-through, not removed, so a screen reader reads every slide, and Tab moves through each slide's buttons in order. When Tab lands on a button in another slide, that slide comes forward at once (the page scrolls to it, and Shift+Tab goes back the same way). This works with **Show progress indicators** on or off.
+
 > **A short screen gets an ordinary hero.** On a phone held sideways, or in a browser zoomed in a long way, a slide's words may not fit the screen height. The section then stops pinning: it becomes a normal block as tall as its longest slide, the page scrolls past it, every word shows, and shoppers change slides by tapping the bars (or by using the keyboard on them). That is the only way to reach the other slides there, so the bars show in this form even when **Show progress indicators** is off; while the section is pinned the setting works as before. When the screen is tall enough again it pins again. Shorter words keep the scrolling slides on every screen.
 
 > **The first title is the page heading.** When Hero scroll opens your home page, the title of its first slide is the main heading of the page for search engines.
@@ -479,7 +481,7 @@ This section is for the home page only. It is not offered on other pages.
 | Setting | What it changes |
 | --- | --- |
 | **Subheading** | A small line above the heading. |
-| **Heading** | The section heading. |
+| **Heading** | The section heading. Leave empty to hide it; the section still carries a hidden heading for screen readers. |
 | **Text** | A short paragraph under the heading. Bulleted and numbered lists, links, bold text and small headings are styled the same as the text on your pages and blog posts. |
 | **Show link to the whole collection** | Adds a link beside the heading that goes to the whole collection. On by default. |
 {: .settings}
@@ -737,7 +739,7 @@ This section is for the home page only. It is not offered on other pages.
 
 | Setting | What it changes |
 | --- | --- |
-| **Heading** | The intro heading. It wraps across lines on its own because the intro column is narrow. Put a word in italics to show it in the body font. |
+| **Heading** | The intro heading. It wraps across lines on its own because the intro column is narrow. Put a word in italics to show it in the body font. Leave empty to hide it; the section still carries a hidden heading for screen readers. |
 | **Subheading** | A line of text under the heading. |
 | **Scroll hint** | A small prompt at the bottom left while the cards are pinned. A new section starts with "Scroll to explore". Leave empty to hide it. |
 {: .settings}
@@ -881,7 +883,7 @@ This section is for the home page only. It is not offered on other pages.
 | Setting | What it changes |
 | --- | --- |
 | **Tagline** | Small label above the heading. Leave empty to hide. |
-| **Heading** | The section heading. It appears one line at a time; if you use bold or italics in it, it fades in as a whole instead. |
+| **Heading** | The section heading. It appears one line at a time; if you use bold or italics in it, it fades in as a whole instead. Leave empty to hide it; the section still carries a hidden heading for screen readers. |
 | **Intro text** | Sits to the right of the heading on desktop. Leave empty to hide. |
 {: .settings}
 
@@ -1606,6 +1608,8 @@ One brand logo.
 
 > **Nothing plays by itself.** The logos move only as you scroll, so there is nothing to pause. Visitors who reduce motion see the finished layout.
 
+> **Keyboard users.** In **Drift**, pressing Tab onto a linked logo that sits off screen or in the faded edge pauses the sliding and moves its row so the logo stands in the middle. It slides on again when focus leaves the logos.
+
 ## Testimonials
 
 Quotes from your customers, as cards that slide in from the sides or as chat messages beside each customer's photo.
@@ -2270,7 +2274,7 @@ Shows the blog's latest posts. Card border, rounding, shadow, color scheme and a
 
 | Setting | What it changes |
 | --- | --- |
-| **Heading** | The section heading. |
+| **Heading** | The section heading. Leave empty to hide it; the section still carries a hidden heading for screen readers. |
 | **Show "View all" button** | Adds a button that goes to the whole blog. On by default. |
 | **Button label** | The words on the View all button. Leave empty to use "View all". Shows only when **Show "View all" button** is on. |
 {: .settings}
@@ -2355,7 +2359,7 @@ This section is for the home page and for pages, such as your Contact page. It i
 | **Question above the inquiry types** | The question shown above the inquiry types. It shows only once you have added an inquiry type. |
 | **Ask how they prefer to be contacted** | Adds a dropdown asking how the visitor would like you to reach them. On by default. |
 | **Label for that question** | The label of that dropdown. Leave empty to use "Best way to reach you". Shows only when **Ask how they prefer to be contacted** is on. |
-| **Choices** | The options in that dropdown, separated by commas. Shows only when **Ask how they prefer to be contacted** is on. |
+| **Choices** | The options in that dropdown, separated by commas. A choice named WhatsApp shows only once a WhatsApp number is set. Shows only when **Ask how they prefer to be contacted** is on. |
 | **Hint inside the message box** | The faint hint shown in the empty message box. |
 | **Button label** | The words on the send button. |
 | **Full-width button** | Stretches the send button across the form. Off by default. |
@@ -2389,7 +2393,7 @@ This section is for the home page and for pages, such as your Contact page. It i
 | --- | --- |
 | **Map picture** | A picture of where you are. Leave empty to hide the map. |
 | **Opens when the map is tapped** | The link opened when the map is tapped. Paste your maps link. |
-| **Label over the map** | The words shown over the map. They show only when the map has a link. |
+| **Label over the map** | The words shown over the map. They show only when the map has a link. If you leave it empty and the map picture has no description, screen readers still hear "Open in maps". |
 {: .settings}
 
 #### Colors
