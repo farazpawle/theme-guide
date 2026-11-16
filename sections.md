@@ -1,6 +1,6 @@
 ---
 title: Home page sections
-updated: 2026-11-14
+updated: 2026-11-16
 ---
 
 # Home page sections
@@ -378,7 +378,7 @@ This section is for the home page only. It is not offered on other pages.
 | --- | --- |
 | **Background color** | Shows before the footage loads and behind any bars around it. |
 | **Text color** | The color of the captions. |
-| **Overlay strength** | Lays the background color over the footage so the text stays readable on pale pictures. 0 removes it. Range 0 to 90%, default 70%. |
+| **Overlay strength** | Lays the background color over the footage so the text stays readable on pale pictures. 0 removes it. Range 0 to 90%, default 70%. On a bright photograph the theme also adds a soft dark shade behind the "Scroll to explore" line when it would be hard to read; a dark photograph gets none, so it looks as before. |
 | **Transparent background** | Lets the page background show through this section. The footage and its light effects are hidden, so pick a text color that reads on your page background. When it is off, the section follows **Make all sections transparent** in Theme settings. Off by default. |
 {: .settings}
 
@@ -1288,9 +1288,9 @@ One panel in the row.
 | Setting | What it changes |
 | --- | --- |
 | **Badge** | The small pill above the heading. Leave empty to number the panel automatically — 01, 02, 03. A long badge wraps onto a second line instead of being cut off. |
-| **Heading** | The panel's title. Press Enter to break it across lines. On a computer the heading always sits above the picture: a long one wraps inside the open panel and shrinks until it fits, never below about a third of its size, and the picture sits just below the tallest heading in the section. |
-| **Description** | Sits along the bottom of the panel and fades in when the panel opens. Press Enter to break across lines. Leave empty to hide. |
-| **Button label** | The words on the button inside the open panel. The button shows only when the panel has a link. |
+| **Heading** | The panel's title. Press Enter to break it across lines. On a computer the heading always sits above the picture: a long one wraps inside the open panel and shrinks until it fits, never below about a third of its size, and the picture sits just below the tallest heading in the section. A heading too long for that room hides that panel's picture instead of running into it; on a phone the same happens when the heading would reach the picture. |
+| **Description** | Sits along the bottom of the panel and fades in when the panel opens. Press Enter to break across lines. Leave empty to hide. On a window too short for the heading and the description to sit one above the other (a phone held sideways), the open panel puts the description beside the heading and hides its picture; a very long description then scrolls inside its column (mouse wheel, swipe or arrow keys, after Tab), so none of it is lost and the button stays visible, and the heading shrinks as far as it must so its longest word is never broken in the middle. |
+| **Button label** | The words on the button inside the open panel. The button shows only when the panel has a link. A label too long for the panel wraps onto more lines, so all of it always shows and the button grows taller; the picture gives up a little height to make room, so a short label still looks best. |
 | **Link** | Where the button goes. Leave empty for a panel that only reads. |
 {: .settings}
 
@@ -1301,7 +1301,7 @@ One panel in the row.
 | **Size** | Makes the heading smaller or larger. 1× is the designed size, which already scales with the screen. On a computer a very large heading is shrunk to the room above the picture, so the top of the range stops growing once the heading fills that room. Range 0.6 to 5×, default 1×. |
 | **Weight** | How bold the heading is. Leave on **Theme default** to keep the weight the chosen font comes with. Options: **Theme default** (default), **Light (300)**, **Normal (400)**, **Medium (500)**, **Semi-bold (600)**, **Bold (700)**. If your font has no such weight, the nearest one is used. |
 | **Letter spacing** | The space between the letters of the heading. Range -1 to 6 px, default 0 px. |
-| **Alignment** | How the heading lines up in the panel. Options: **Left** (default), **Center**, **Right**. |
+| **Alignment** | How the heading lines up in the panel, whether it is one line or several: on a computer across the open panel, on a phone or tablet across the space the heading has beside the picture. The small badge above it stays on the left. Options: **Left** (default), **Center**, **Right**. |
 | **Color** | The color of the heading. Leave empty to keep the designed color. |
 {: .settings}
 
@@ -1309,7 +1309,7 @@ One panel in the row.
 
 | Setting | What it changes |
 | --- | --- |
-| **Size** | Makes the description smaller or larger. 1× is the designed size, which already scales with the screen. Range 0.6 to 5×, default 1×. |
+| **Size** | Makes the description smaller or larger. 1× is the designed size, which already scales with the screen. On a computer a very large description is shrunk to the room under the heading (never below 1×), so the top of the range stops growing once that room is used; on a phone or tablet a description too big for its panel scrolls inside it. Range 0.6 to 5×, default 1×. |
 | **Weight** | How bold the description is. Leave on **Theme default** to keep the weight the chosen font comes with. Options: **Theme default** (default), **Light (300)**, **Normal (400)**, **Medium (500)**, **Semi-bold (600)**, **Bold (700)**. If your font has no such weight, the nearest one is used. |
 | **Letter spacing** | The space between the letters of the description. Range -1 to 6 px, default 0 px. |
 | **Alignment** | How the description lines up in the panel. Options: **Left** (default), **Center**, **Right**. |
@@ -1332,7 +1332,7 @@ One panel in the row.
 | **Background color** | The color of the background. Leave empty to keep the designed backdrop. |
 | **Background gradient** | A gradient behind the panel. It sits on top of the background color. |
 | **Background picture** | A picture that fills the whole panel. It sits on top of the color and the gradient. |
-| **Background picture darkness** | Darkens the background image so the heading stays readable. Ignored when no background image is set. Range 0 to 100%, default 40%. |
+| **Background picture darkness** | Darkens the background image so the heading stays readable. Ignored when no background image is set. Range 0 to 100%, default 40%. On a bright photograph the theme also adds a soft dark shade behind a panel's words when they would be hard to read; a dark photograph gets none, so it looks as before. |
 {: .settings}
 
 ### Tips and limits
@@ -2510,7 +2510,7 @@ Shows only when **Layout** is not **One column**.
 | --- | --- |
 | **Picture** | The picture for the layouts that use one. It is used by **Picture beside the words** and **Words over the picture**. |
 | **Video** | Plays muted on a loop, with a pause button. Shown instead of the picture when both are set. |
-| **Darken the picture** | Keeps the words readable. Below 55%, a pale photograph can make them hard to read. Range 20 to 90%, default 55%. Shows only when **Layout** is **Words over the picture**. |
+| **Darken the picture** | Keeps the words readable. Below 55%, a pale photograph can make them hard to read. Range 20 to 90%, default 55%. On a bright photograph the theme also adds a soft dark shade behind the words when they would be hard to read; a dark photograph gets none, so it looks as before. Shows only when **Layout** is **Words over the picture**. |
 | **Picture corner rounding** | How round the corners are. 0 gives square corners. Range 0 to 40 px, default 12 px. Shows only when **Layout** is **Picture beside the words**. |
 {: .settings}
 
