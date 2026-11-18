@@ -1,6 +1,6 @@
 ---
 title: Product page
-updated: 2026-11-13
+updated: 2026-11-18
 ---
 
 # Product page

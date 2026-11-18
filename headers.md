@@ -1,6 +1,6 @@
 ---
 title: Headers and the announcement bar
-updated: 2026-11-13
+updated: 2026-11-18
 ---
 
 # Headers and the announcement bar
@@ -491,7 +491,7 @@ One strip above the header with a short message, an offer or delivery informatio
 | **Show the announcement bar** | Turns the strip on or off. |
 | **Message** | The text in the strip. Basic formatting such as bold or italic is allowed. With no message the bar is not shown, even when it is turned on. |
 | **Link** | Where the message goes when selected. The whole message becomes the link, so links and formatting typed inside the message are left out. |
-| **Let visitors close it** | Adds a close button. A closed bar stays closed until you change the message. |
+| **Let visitors close it** | Adds a close button. A closed bar stays closed until you change the message. A shopper whose browser has scripts turned off sees the bar without the button. |
 | **Background** | The strip's background color. Leave both colors empty to follow the button colors of the header's color scheme. |
 | **Foreground** | The color of the words and the close button. |
 {: .settings}
@@ -583,7 +583,7 @@ The switch lets a shopper choose Light, Dark or their own device's setting. It i
 2. Select **Colors**, then find *Light and dark mode*.
 3. Use **Show the mode switch** to turn it on or off. **Default mode** sets what a visitor sees the first time.
 
-On computers it is an icon in the header bar (in the menu column, for **Sidecar**). On phones and tablets it is a row called *Appearance* inside the menu. Each press goes to Light, then Dark, then back to the shopper's device setting. The choice is remembered on that shopper's device. How the dark colors are made is explained in [Theme settings](theme-settings.md#how-light-and-dark-mode-works).
+On computers it is an icon in the header bar (in the menu column, for **Sidecar**). On phones and tablets it is a row called *Appearance* inside the menu. Each press goes to Light, then Dark, then back to the shopper's device setting. The choice is remembered on that shopper's device. A shopper whose browser has scripts turned off does not see the switch, because it could not do anything. How the dark colors are made is explained in [Theme settings](theme-settings.md#how-light-and-dark-mode-works).
 
 {% include looks.html folder="headers" file="mode-switch" name="Light and dark mode switch" looks="Standard" plain="true" about="the sun icon in the header bar on a computer, and the Appearance row in the open menu on a phone." %}
 
