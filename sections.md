@@ -1,6 +1,6 @@
 ---
 title: Home page sections
-updated: 2026-11-16
+updated: 2026-11-19
 ---
 
 # Home page sections
@@ -95,6 +95,7 @@ This section is for the home page only. It is not offered on other pages.
 | **Look** | Changes the layout and the movement. **Curtain**: full-width pictures with the text over them; the next picture is drawn across like a curtain. **Split**: the picture beside the text, which sits on the color scheme; the pictures move like a film strip, and on phones the picture goes above the text. **Gallery**: slides inside the page width with the next and previous ones peeking in at the sides and the text under each picture; its picture corners follow the rounding in Theme settings, under **Content containers**. Default: **Curtain**. |
 | **Height** | How tall the slides are. **Adapt to first picture** keeps the shape of your first picture; the other two give the slideshow a set height. Options: **Adapt to first picture**, **Medium** (default), **Full screen**. |
 | **Text alignment** | Whether the words line up on the left or in the center. Options: **Left** (default), **Center**. |
+| **Button shape** | The corners of the slide buttons. **Same as theme** (default) follows *Theme settings > Buttons > Button corners*. **Pill**, **Soft** and **Square** set the corners for the section only. **Original look** keeps them as it was designed, with its own corner, height and lettering. Labels, links and colors are separate settings. |
 {: .settings}
 
 #### Autoplay
@@ -222,6 +223,7 @@ This section is for the home page only. It is not offered on other pages.
 | **Text color** | The base color for every text group. Each group can override it in its own settings. |
 | **Tagline pill background** | The color washed over the small pill that holds the tagline above the heading. The pill always sits on a backing that is the opposite of the tagline's words: dark behind light words, light behind dark words. This keeps the tagline readable on any picture. |
 | **Tagline pill text color** | The color of the tagline's words. Leave empty to use the section's text color. |
+| **Button shape** | The corners of the two hero buttons. **Same as theme** (default) follows *Theme settings > Buttons > Button corners*. **Pill**, **Soft** and **Square** set the corners for the section only. **Original look** keeps them as it was designed, with its own corner, height and lettering. Labels, links and colors are separate settings. |
 | **Primary button background** | The fill color of the first button. |
 | **Primary button label color** | The text color of the first button. |
 | **Secondary button label color** | The text color of the second button. |
@@ -531,6 +533,8 @@ This section has no blocks. It fills itself from the collection you choose.
 > **Arrows need two products.** In **Arc**, the arrows and the counter appear only when the collection has two or more products.
 
 > **Only the picture fades in Arc.** The cards beside the front card fade their pictures, but the product name, type and price stay at full strength so they remain readable. A card you reach with the keyboard shows its picture whole.
+
+> **The keyboard shows a card at once.** In **Shelf**, a card a shopper reaches with Tab stands up whole at once, with its name and price readable, so it is never faded out while it has focus. When focus moves on, the card follows the scroll again, both ways.
 
 > **Cards look the same everywhere.** How a product card looks is set once in Theme settings, under **Product cards**, so every product in your shop matches.
 
@@ -914,6 +918,7 @@ This section is for the home page only. It is not offered on other pages.
 | --- | --- |
 | **Card background** | The background color of every card. |
 | **Card text** | The text color on every card. |
+| **Button shape** | The corners of the card buttons. **Same as theme** (default) follows *Theme settings > Buttons > Button corners*. **Pill**, **Soft** and **Square** set the corners for the section only. **Original look** keeps them as it was designed, with its own corner, height and lettering. Labels, links and colors are separate settings. |
 | **Button background** | The fill color of the card buttons. |
 | **Button label color** | The text color on the card buttons. |
 {: .settings}
@@ -1079,6 +1084,7 @@ This section is for the home page only. It is not offered on other pages.
 | **Heading size** | How large the heading is. Options: **Small**, **Medium** (default), **Large**, **Extra large**, **Huge**. |
 | **Text style** | Whether the row text uses the normal body style or the larger subheading style. Options: **Normal text** (default), **Subheading**. |
 | **Button style** | Whether the row buttons look like primary or secondary buttons. Options: **Primary**, **Secondary** (default). Hidden in **Numbered chapters**. |
+| **Button shape** | The corners of the row buttons. **Same as theme** (default) follows *Theme settings > Buttons > Button corners*. **Pill**, **Soft** and **Square** set the corners for the section only. **Original look** keeps the button as it was designed, with its own corner (**Corner rounding** below), height and lettering. Labels, links and colors are separate settings. Hidden in **Numbered chapters**. |
 {: .settings}
 
 #### Colors
@@ -1128,7 +1134,7 @@ Shows only when **Layout** is not **Numbered chapters**.
 | Setting | What it changes |
 | --- | --- |
 | **Border** | The thickness of the border. 0 means no border. Its color comes from the color scheme. Range 0 to 8 px, default 0 px. |
-| **Corner rounding** | How round the corners are. 0 gives square corners. Range 0 to 40 px, default 0 px. |
+| **Corner rounding** | How round the corners are. 0 gives square corners. Range 0 to 40 px, default 0 px. Used only when **Button shape** is **Original look**; the other shapes follow *Theme settings > Buttons > Button corners*. |
 | **Shadow** | How strongly a shadow lifts it off the page. 0 means no shadow. Range 0 to 100%, default 0%. |
 {: .settings}
 
@@ -1248,6 +1254,7 @@ This section is for the home page only. It is not offered on other pages.
 | --- | --- |
 | **Full-width panels** | The panels span the whole screen edge to edge instead of sitting in a centered frame. The dots move onto the right edge. On by default. |
 | **Open panel width** | How much of the frame the open panel takes. The rest share what is left. Range 30 to 70%, default 40%. |
+| **Button shape** | The corners of the button on each panel. **Same as theme** (default) follows *Theme settings > Buttons > Button corners*. **Pill**, **Soft** and **Square** set the corners for the section only. **Original look** keeps them as it was designed, with its own corner, height and lettering. Labels, links and colors are separate settings. |
 {: .settings}
 
 #### Colors
@@ -1400,6 +1407,7 @@ This section is for the home page only. It is not offered on other pages.
 | **Text** | A short paragraph under the heading. |
 | **Button label** | The words on the button. The button shows only when it also has a link. |
 | **Button link** | Where the button goes. |
+| **Button shape** | The corners of the button. **Same as theme** (default) follows *Theme settings > Buttons > Button corners*. **Pill**, **Soft** and **Square** set the corners for the section only. **Original look** keeps the button as it was designed, with its own corner, height and lettering. Labels, links and colors are separate settings. |
 {: .settings}
 
 #### Style
@@ -1843,6 +1851,7 @@ This section is for the home page only. It is not offered on other pages.
 | Setting | What it changes |
 | --- | --- |
 | **Layout** | How the plans are arranged: **Tier cards**, **Comparison table**, **Plan rows**, **Spotlight** or **3D deck**. They are five arrangements of the same plans. The deck holds the screen while the cards deal out, and needs a large screen to do it. Default: **Tier cards**. |
+| **Button shape** | The corners of the plan buttons. **Same as theme** (default) follows *Theme settings > Buttons > Button corners*. **Pill**, **Soft** and **Square** set the corners for them only. **Original look** keeps them as it was designed, with its own corner, height and lettering. Labels, links and colors are separate settings. |
 | **Colors** | Which of your color schemes the section uses for its background and text. You make schemes in Theme settings, under **Colors**. |
 {: .settings}
 
@@ -2160,8 +2169,9 @@ This section is for the home page only. It is not offered on other pages.
 | **Layout** | How the signup is arranged: **Centered band**, **Split: words beside the box**, **Inline strip**, **Picture beside content**, **Card panel** or **Bordered rule**. **Picture beside content** shows the picture above the words on a phone and tablet. Default: **Centered band**. |
 | **Picture** | The picture for the **Picture beside content** layout. The other layouts do not use it. |
 | **Content alignment** | Moves the whole section — heading, words, the email box and the line under it. Automatic keeps each layout's own alignment. Options: **Automatic: follows the layout** (default), **Left**, **Center**, **Right**. |
-| **Email box height** | How tall the email box is. Range 44 to 64 px, default 54 px. |
+| **Email box height** | How tall the email box is. Range 44 to 64 px, default 48 px, the same height as a theme button. |
 | **Full-width button** | Stacks the button under the email box. Always on below 500 px. Off by default. |
+| **Button shape** | The corners of the Subscribe button. **Same as theme** (default) follows *Theme settings > Buttons > Button corners*. **Pill**, **Soft** and **Square** set the corners for it only. **Original look** keeps it as it was designed, with its own corner, height and lettering. Labels, links and colors are separate settings. |
 | **Full width** | Whether the colored band spans the whole screen. Off stops it at the page width. On by default. |
 {: .settings}
 
@@ -2232,6 +2242,8 @@ This section has no blocks. Everything is a setting.
 > **The thank-you replaces the box.** After someone subscribes, the page shows a thank-you message where the box was, or an error message if the address was not accepted. An address that is not complete (no ending like ".com") is stopped before it is sent, with a note asking for a full email address. Neither is animated, so people can read it at once.
 
 > **Side-by-side layouts fold on small screens.** **Split: words beside the box** and **Picture beside content** stack their parts on screens up to 1100 px wide.
+
+> **The keyboard shows the whole signup at once.** When a shopper presses Tab onto the email box or the button, every part of the section shows settled at once, so a control with focus is never faded out. When focus leaves, the section follows the scroll again, both ways.
 
 ## Blog posts
 
@@ -2363,6 +2375,7 @@ This section is for the home page and for pages, such as your Contact page. It i
 | **Hint inside the message box** | The faint hint shown in the empty message box. |
 | **Button label** | The words on the send button. |
 | **Full-width button** | Stretches the send button across the form. Off by default. |
+| **Button shape** | The corners of the send button and the Back button. **Same as theme** (default) follows *Theme settings > Buttons > Button corners*. **Pill**, **Soft** and **Square** set the corners for them only. **Original look** keeps them as it was designed, with its own corner, height and lettering. Labels, links and colors are separate settings. |
 | **Reassurance under the button** | A short line under the button that says what happens to the person's details. Leave empty to hide it. |
 | **Extra line on the thank-you message** | A sentence added to the thank-you message shown after a message is sent. |
 {: .settings}
@@ -2591,6 +2604,7 @@ One or two buttons side by side.
 | **Label** | The words on the button. |
 | **Link** | Where the button goes. |
 | **Style** | Whether the button is filled or outlined. Options: **Filled** (default), **Outlined**. |
+| **Button shape** | The corners of this button. **Same as theme** (default) follows *Theme settings > Buttons > Button corners*. **Pill**, **Soft** and **Square** set the corners for this button only. **Original look** keeps this button as it was designed, with its own corner, height and lettering. Labels, links and colors are separate settings. |
 {: .settings}
 
 ##### Extra button

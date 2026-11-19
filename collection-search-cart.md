@@ -1,6 +1,6 @@
 ---
 title: Collection, search and cart pages
-updated: 2026-11-13
+updated: 2026-11-19
 ---
 
 # Collection, search and cart pages
@@ -315,6 +315,7 @@ Open the editor as in [Opening a page template in the editor](#opening-a-page-te
 | Setting | What it changes |
 | --- | --- |
 | **Look** | How the cart page is laid out. Options: **Receipt**, **Editorial**, **Compact table**. |
+| **Button shape** | The corners of the Checkout, Update bag and Continue shopping buttons. **Same as theme** (default) follows *Theme settings > Buttons > Button corners*. **Pill**, **Soft** and **Square** set the corners for the cart only. **Original look** keeps them as it was designed, with its own corner, height and lettering. Labels, links and colors are separate settings. |
 | **Scroll animation** | Options: **Off for visitors who reduce motion**, **Always animate**. |
 {: .settings}
 

@@ -1,6 +1,6 @@
 ---
 title: Theme settings
-updated: 2026-11-13
+updated: 2026-11-19
 ---
 
 # Theme settings
@@ -8,7 +8,7 @@ updated: 2026-11-13
 Settings that apply to your whole shop: logo, colors, fonts, product cards, search and more. Change one here and every page follows.
 {: .lede}
 
-- 16 groups
+- 17 groups
 - Open them from the gear icon in the theme editor
 - Applies to every page
 {: .facts}
@@ -36,6 +36,7 @@ A section's own settings come first: when a section has its own **Color scheme**
 | [Background](#background) | A picture behind the whole page |
 | [Blog cards](#blog-cards) | How blog posts look in lists |
 | [Brand](#brand) | Logo and favicon |
+| [Buttons](#buttons) | The shape of every button |
 | [Cart](#cart) | Cart note, vendor name and empty-cart suggestions |
 | [Colors](#colors) | Color schemes, input corners and light/dark mode |
 | [Content containers](#content-containers) | Border, corners and shadow of panels |
@@ -113,6 +114,15 @@ How blog posts look in the **Blog posts** section, on the blog page and wherever
 | **Logo width** | How wide the logo is, from 50 to 300 px. In a narrow header the logo shrinks to fit. |
 {: .settings}
 
+## Buttons
+
+| Setting | What it changes |
+| --- | --- |
+| **Button corners** | The shape of every button in the theme. **Pill** is fully round, **Soft** follows **Input corner rounding** (4 px unless you changed it) and **Square** has sharp corners. Every button gets the same height (48 px, or 44 px inside a search or signup bar), the same side space and the same lettering: 15 px, semi-bold, no capitals. Default: **Soft**. A button that sits inside a rounded box (the footer email signup, the password page and the search on the page not found) takes that box's rounding instead, so it never pokes past the box's round ends. The presets start on their own style: Seloriq **Soft**, Oakwood **Square**, Mauve **Pill**. |
+{: .settings}
+
+> *A section can keep its own look.* Sections with buttons have a **Button shape** setting that starts on **Same as theme**. Choose **Original look** there to keep that section's own corner, height and lettering. Shopify's own checkout buttons (Shop Pay and the others) are never restyled.
+
 ## Cart
 
 | Setting | What it changes |
@@ -133,7 +143,7 @@ A scheme is stored in the list at the top of this group. Select a scheme there t
 | Setting | What it changes |
 | --- | --- |
 | **Page color scheme** | The colors of the page itself, and of every section that does not choose a scheme of its own. |
-| **Input corner rounding** | Rounds the corners of every typing box: search, the email signup and the contact form. From 0 to 10 px. |
+| **Input corner rounding** | Rounds the corners of every typing box: search, the email signup and the contact form, and, with the **Soft** button style, every button. From 0 to 10 px. |
 {: .settings}
 
 ### Light and dark mode

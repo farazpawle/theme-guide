@@ -1,6 +1,6 @@
 ---
 title: Content pages
-updated: 2026-11-12
+updated: 2026-11-19
 ---
 
 # Content pages
@@ -238,6 +238,7 @@ Open the editor as in [Opening a page template in the editor](#opening-a-page-te
 | **Show date** | Shows the date the post was published. |
 | **Show author** | Shows the author's name. |
 | **Show reading time** | Shows how long the post takes to read. |
+| **Button shape** | The corners of the Post button of the comment form. **Same as theme** (default) follows *Theme settings > Buttons > Button corners*. **Pill**, **Soft** and **Square** set the corners for this page only. **Original look** keeps it as it was designed, with its own corner, height and lettering. Labels, links and colors are separate settings. |
 {: .settings}
 
 #### Style

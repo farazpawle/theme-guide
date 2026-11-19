@@ -1,6 +1,6 @@
 ---
 title: Product page
-updated: 2026-11-18
+updated: 2026-11-19
 ---
 
 # Product page
@@ -48,7 +48,7 @@ The **Look** setting appears once you pick a **Product**. On the product page it
 
 - **Product page**: the pictures sit beside the details. This is the look every product page uses.
 - **3D ring**: the pictures turn on a ring that a shopper drags or steps through with arrows. It needs three or more pictures, videos or 3D models. With fewer, it shows one large one.
-- **Banner with a buy card**: a large picture with the details on a card laid over it, for a spotlight on the home page. If you show the breadcrumb on it, the breadcrumb sits on a small card of the page color so it stays readable over the band.
+- **Banner with a buy card**: a large picture with the details on a card laid over it, for a spotlight on the home page. If you show the breadcrumb on it, the breadcrumb sits on a small card of the page color so it stays readable over the band. On a phone or tablet, while a video or 3D model is playing, the card starts below it instead of over its foot, so the player's own controls stay clear.
 
 ### Layouts
 
