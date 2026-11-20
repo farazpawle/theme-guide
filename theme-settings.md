@@ -1,6 +1,6 @@
 ---
 title: Theme settings
-updated: 2026-11-19
+updated: 2026-11-20
 ---
 
 # Theme settings
@@ -23,7 +23,7 @@ Settings that apply to your whole shop: logo, colors, fonts, product cards, sear
 
 <div class="pair">
   <figure class="shot shot--desktop">
-    <img src="{{ '/assets/images/settings/editor-theme-settings-desktop-light.webp' | relative_url }}" alt="The Theme settings panel in the editor, listing the groups from Announcement bar and Background down to Typography" width="305" height="844" loading="lazy">
+    <img src="{{ '/assets/images/settings/editor-theme-settings-desktop-light.webp' | relative_url }}" alt="The Theme settings panel in the editor, listing the groups from Announcement bar and Background down to Theme style, with Buttons between Brand and Cart" width="305" height="992" loading="lazy">
     <figcaption>The Theme settings panel and its groups</figcaption>
   </figure>
 </div>

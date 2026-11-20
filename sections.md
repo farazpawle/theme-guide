@@ -1,6 +1,6 @@
 ---
 title: Home page sections
-updated: 2026-11-19
+updated: 2026-11-20
 ---
 
 # Home page sections
@@ -337,6 +337,8 @@ One full-screen video or picture that a camera seems to move through as the shop
 3. Select *Add section* and choose **Scroll story**.
 
 This section is for the home page only. It is not offered on other pages.
+
+On a phone, when the shopper lifts their finger the scene glides on to the next caption in the direction they dragged, so even a short, slow drag moves through the scene and dragging back goes back.
 
 ### Settings
 
@@ -1297,7 +1299,7 @@ One panel in the row.
 | **Badge** | The small pill above the heading. Leave empty to number the panel automatically — 01, 02, 03. A long badge wraps onto a second line instead of being cut off. |
 | **Heading** | The panel's title. Press Enter to break it across lines. On a computer the heading always sits above the picture: a long one wraps inside the open panel and shrinks until it fits, never below about a third of its size, and the picture sits just below the tallest heading in the section. A heading too long for that room hides that panel's picture instead of running into it; on a phone the same happens when the heading would reach the picture. |
 | **Description** | Sits along the bottom of the panel and fades in when the panel opens. Press Enter to break across lines. Leave empty to hide. On a window too short for the heading and the description to sit one above the other (a phone held sideways), the open panel puts the description beside the heading and hides its picture; a very long description then scrolls inside its column (mouse wheel, swipe or arrow keys, after Tab), so none of it is lost and the button stays visible, and the heading shrinks as far as it must so its longest word is never broken in the middle. |
-| **Button label** | The words on the button inside the open panel. The button shows only when the panel has a link. A label too long for the panel wraps onto more lines, so all of it always shows and the button grows taller; the picture gives up a little height to make room, so a short label still looks best. |
+| **Button label** | The words on the button inside the open panel. The button shows only when the panel has a link. A label too long for the panel wraps onto more lines, so all of it always shows and the button grows taller; the picture gives up a little height to make room, so a short label still looks best. On a narrow, short phone screen, where the description sits beside the heading, the button's side spacing and text size come down a little (never below three quarters of the size) when a word of the label would otherwise be split in the middle. |
 | **Link** | Where the button goes. Leave empty for a panel that only reads. |
 {: .settings}
 
@@ -2318,6 +2320,8 @@ This section has no blocks. It fills itself from the blog you choose.
 > **Summaries are shortened.** Each card shows the date and author, and a summary that stops after three lines.
 
 > **Phones get a row or a column.** On phones, **Fan** becomes a row you swipe and **Thread** a single column.
+
+> **The keyboard shows a post at once.** A post a shopper reaches with Tab shows whole at once, in its place and fully readable, so it is never faded, tilted or hidden under the deck while it has focus. When focus moves on, the post follows the scroll again, both ways.
 
 > **No blog picked, the News blog shows.** With **Blog** left empty, the section shows the latest posts of the blog at `/blogs/news`, the address Shopify gives a store's first blog by default. A blog with no posts, or no blog at that address, shows nothing on your live store. In the editor you see sample cards so you can judge the look.
 
