@@ -1,6 +1,6 @@
 ---
 title: Headers and the announcement bar
-updated: 2026-11-18
+updated: 2026-11-21
 ---
 
 # Headers and the announcement bar
@@ -548,7 +548,7 @@ The drop-down under the header's search box. Before anyone types it shows your p
 | Setting | What it changes |
 | --- | --- |
 | **Popular searches** | One term per line. Shown as quick links in the header's search box before anything is typed, and on the search page when nothing was found or nothing has been searched yet. |
-| **Search across** | Options: **Products only** or **Everything** (products, collections, pages and blog posts). |
+| **Search across** | Options: **Products only** or **Everything** (products, collections, pages and blog posts). The hint inside every search box follows it: "Search products" for **Products only**, "Search articles, pages, or products" for **Everything**. |
 {: .settings}
 
 ### Blocks

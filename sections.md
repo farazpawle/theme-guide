@@ -1,6 +1,6 @@
 ---
 title: Home page sections
-updated: 2026-11-20
+updated: 2026-11-21
 ---
 
 # Home page sections
@@ -1034,7 +1034,7 @@ One card. Pick a product to fill it automatically, or type your own words and pi
 
 > **Feature one card.** **Feature this card** switches a card to the featured colors and an accent badge. It is usually the last card.
 
-> **Long words wrap.** A long title, label or button wording wraps inside the card instead of running past its edge, and the card's grey text keeps its contrast on every card color.
+> **Long words wrap.** A long title, label or button wording wraps inside the card instead of running past its edge, and the card's gray text keeps its contrast on every card color.
 
 > **A link needs words and an address.** The link or button under a card shows only when it has **Link text** and an address: its **Link**, or, for a card built from a product, that product's own page.
 
@@ -1349,6 +1349,8 @@ One panel in the row.
 > **Always dark, on purpose.** The panels keep their dark look in light and dark mode. **Color scheme** only changes the band above them.
 
 > **Phones and tablets stack the panels.** The row of panels is for computers. On tablets and phones the panels sit one under another, and a long word in a title shrinks to fit instead of breaking in the middle.
+
+> **Narrow panels cut a long heading short.** On a computer, a heading wider than its narrow panel is cut off a little before the panel's edge, so the headings of two neighbours never touch. Keep the first word short and it still reads.
 
 > **Tall pictures work best.** Use a picture around 900 × 1400 px, taller than it is wide.
 

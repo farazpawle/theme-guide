@@ -1,6 +1,6 @@
 ---
 title: Theme settings
-updated: 2026-11-20
+updated: 2026-11-21
 ---
 
 # Theme settings
@@ -242,7 +242,7 @@ For example, $1.00 USD rather than $1.00.
 
 | Setting | What it changes |
 | --- | --- |
-| **Show the currency code** | Shows the code after prices: $1.00 USD. Useful when you sell in more than one currency. |
+| **Show the currency code** | Shows the code after prices: $1.00 USD. It applies everywhere a price appears: product pages and cards, the cart (lines, subtotal, discounts and savings), volume prices and the search suggestions. Useful when you sell in more than one currency. |
 | **Show country/region selector** | Lets a shopper choose the country they buy from, which sets their currency. It appears only when your store sells to more than one country, set in *Settings > Markets* in your Shopify admin. A language selector appears by itself when your store offers more than one language. |
 {: .settings}
 
@@ -410,7 +410,7 @@ A badge on product cards that are reduced from their compare-at price. It shows 
 | Setting | What it changes |
 | --- | --- |
 | **Popular searches** | One term per line. Shown as quick links in the header's search box before anything is typed, and on the search page when nothing was found. |
-| **Search across** | Options: **Products only** or **Everything** (products, collections, pages and blog posts). |
+| **Search across** | Options: **Products only** or **Everything** (products, collections, pages and blog posts). The hint inside every search box follows it: "Search products" for **Products only**, "Search articles, pages, or products" for **Everything**. |
 {: .settings}
 
 <div class="pair">
