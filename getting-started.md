@@ -1,6 +1,6 @@
 ---
 title: Getting started
-updated: 2026-11-03
+updated: 2026-11-22
 ---
 
 # Getting started
@@ -29,7 +29,7 @@ kind of shop. You can change everything afterwards.
 
 | Preset | Made for | Home page |
 | --- | --- | --- |
-| **{{ site.theme_name }}** | Clothing, 11 or more products | Hero scroll, Featured products, Collection index, Story rows, Stacking cards, Testimonials, Email signup |
+| **{{ site.theme_name }}** | Clothing, 11 or more products | Hero scroll, Featured products, Collection index, Story rows, Stacking cards, Image gallery, Testimonials, Email signup |
 | **Oakwood** | Home goods, 11 or more products | Custom section, Collection tiles, Featured products, Expanding panels, Story rows, FAQ, Blog posts, Email signup |
 | **Mauve** | Beauty, 2 to 10 products | Scroll story, Trust badges, Featured products, Product, Testimonials, FAQ, Blog posts, Email signup |
 

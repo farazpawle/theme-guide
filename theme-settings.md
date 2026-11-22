@@ -1,6 +1,6 @@
 ---
 title: Theme settings
-updated: 2026-11-21
+updated: 2026-11-22
 ---
 
 # Theme settings
@@ -344,7 +344,7 @@ The home page's **Featured products**, **Related products** and the suggestions 
 
 | Setting | What it changes |
 | --- | --- |
-| **Hover style** | What a card does under a mouse. Options: **Zoom the picture**, **Show the second picture**, **No hover effect**. On a product with only one picture, **Show the second picture** zooms instead. Phones and tablets have no hover, so they ignore this. |
+| **Hover style** | What a card does under a mouse. Options: **Zoom the picture**, **Show the second picture**, **No hover effect**. On a product with only one picture, **Show the second picture** zooms instead. Phones and tablets have no hover, so they ignore this. The presets start Seloriq on **Show the second picture**, Oakwood and Mauve on **Zoom the picture**. |
 {: .settings}
 
 ### Surface

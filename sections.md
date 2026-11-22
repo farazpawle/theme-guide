@@ -1,6 +1,6 @@
 ---
 title: Home page sections
-updated: 2026-11-21
+updated: 2026-11-22
 ---
 
 # Home page sections
@@ -1527,6 +1527,8 @@ One picture in the gallery.
 ### Tips and limits
 
 > **Pictures open larger.** With **Open pictures larger when pressed** on, pressing a picture shows it full screen with arrows to move through the gallery. Escape closes it. A picture that has a link opens the link instead. On a phone, 500 px wide or less, the two arrows sit in a row under the picture as large buttons, so a shopper can step through without swiping; swiping works too.
+
+> **Any number of pictures.** In **Reveal**, the big first picture always takes the height of the pictures beside it, whatever shape your photos are, and a last row with fewer pictures stretches across the full width, so the grid never leaves an empty gap. Pressing the dark area beside a picture in the larger view closes it.
 
 > **Mixed shapes.** In **Reel**, choose **Adapt to picture** under **Picture shape** to keep each picture's own shape.
 
