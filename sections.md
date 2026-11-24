@@ -1,6 +1,6 @@
 ---
 title: Home page sections
-updated: 2026-11-22
+updated: 2026-11-24
 ---
 
 # Home page sections
@@ -218,7 +218,7 @@ This section is for the home page only. It is not offered on other pages.
 
 | Setting | What it changes |
 | --- | --- |
-| **Picture overlay darkness** | Darkens the slide pictures so the text stays readable. Range 0 to 90%, default 45%. |
+| **Picture overlay darkness** | Darkens the slide pictures so the text stays readable. Range 0 to 90%, default 45%. The lower half of the picture always carries an extra soft shade so the small line under the heading stays easy to read, even at 0. |
 | **Section background** | The color behind the slide pictures. It only shows where a picture does not reach. |
 | **Text color** | The base color for every text group. Each group can override it in its own settings. |
 | **Tagline pill background** | The color washed over the small pill that holds the tagline above the heading. The pill always sits on a backing that is the opposite of the tagline's words: dark behind light words, light behind dark words. This keeps the tagline readable on any picture. |
@@ -2221,7 +2221,7 @@ This section is for the home page only. It is not offered on other pages.
 
 | Setting | What it changes |
 | --- | --- |
-| **Scroll animation** | How the section moves as it scrolls into view. **Words and floating drawings**: the heading words rise one by one, the email box and button slide in together, and faint envelopes and paper planes drift behind on computers (with the **Centered band** and **Card panel** layouts and centered content). **Words only**: the same, without the drawings. **None**: no movement. Default: **Words and floating drawings**. |
+| **Scroll animation** | How the section moves as it scrolls into view; it follows the scroll, so it plays backwards when the visitor scrolls back up. **Words and floating drawings**: the heading words rise one by one, the email box and button slide in together, and faint envelopes and paper planes drift behind on computers (with the **Centered band** and **Card panel** layouts and centered content). **Words only**: the same, without the drawings. **None**: no movement. Default: **Words and floating drawings**. |
 | **Motion** | Whether the movement plays for visitors whose device is set to reduce motion. They normally see the finished layout without movement; **Always animate** plays it for everyone, including you if reduce motion is on for your own device. Options: **Off for visitors who reduce motion** (default), **Always animate**. Shows only when **Scroll animation** is not **None**. |
 {: .settings}
 
