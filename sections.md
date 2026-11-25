@@ -1,6 +1,6 @@
 ---
 title: Home page sections
-updated: 2026-11-24
+updated: 2026-11-25
 ---
 
 # Home page sections
@@ -1350,7 +1350,7 @@ One panel in the row.
 
 > **Phones and tablets stack the panels.** The row of panels is for computers. On tablets and phones the panels sit one under another, and a long word in a title shrinks to fit instead of breaking in the middle.
 
-> **Narrow panels cut a long heading short.** On a computer, a heading wider than its narrow panel is cut off a little before the panel's edge, so the headings of two neighbours never touch. Keep the first word short and it still reads.
+> **Narrow panels cut a long heading short.** On a computer, a heading wider than its narrow panel is cut off a little before the panel's edge, so the headings of two neighbors never touch. Keep the first word short and it still reads.
 
 > **Tall pictures work best.** Use a picture around 900 × 1400 px, taller than it is wide.
 

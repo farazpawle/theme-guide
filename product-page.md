@@ -1,6 +1,6 @@
 ---
 title: Product page
-updated: 2026-11-20
+updated: 2026-11-25
 ---
 
 # Product page
@@ -260,7 +260,7 @@ The Add to bag button, and, when your shop offers them, the express checkout but
 | **Note under the buttons** | One short line, such as a returns window or a delivery promise. Leave empty for none. |
 {: .settings}
 
-A product that can only be bought with a subscription (its plan is required) needs the subscription app's block on its product page, because that block lets the shopper pick the plan. Add it in the Product section under *Add block > Apps*. Without it, the product's own page shows a greyed "Unavailable" button and no express buttons. Anywhere else (such as the Product section on the home page, which cannot hold an app block) the button becomes a "Choose options" link to the product page. Products that can also be bought once are not affected.
+A product that can only be bought with a subscription (its plan is required) needs the subscription app's block on its product page, because that block lets the shopper pick the plan. Add it in the Product section under *Add block > Apps*. Without it, the product's own page shows a grayed "Unavailable" button and no express buttons. Anywhere else (such as the Product section on the home page, which cannot hold an app block) the button becomes a "Choose options" link to the product page. Products that can also be bought once are not affected.
 
 The block also holds the sold out button. A sold out option shows a "Sold out" button that cannot be pressed, and no express checkout buttons. To show an inquiry button instead, turn it on in Theme settings, under **Product page**, and set its wording and link under **Product cards**: see [Theme settings](theme-settings.md#product-page). It stays hidden until a link is set.
 
@@ -686,7 +686,7 @@ If the app asks you to paste code instead of giving a block, use the **Custom Li
 
 > *No Apps group?* The app is not installed, or it has no block for that page. Check the app's own help.
 
-> *Subscriptions and similar apps.* Apps that add selling plans work with the product page's option changes. Add the app's block, then check a purchase. A product whose plan is required needs the app's block on its page; without it the page shows a greyed "Unavailable" button instead of Add to bag.
+> *Subscriptions and similar apps.* Apps that add selling plans work with the product page's option changes. Add the app's block, then check a purchase. A product whose plan is required needs the app's block on its page; without it the page shows a grayed "Unavailable" button instead of Add to bag.
 
 > *No support for app code.* We cannot support code or blocks that come from an app. Contact the app's maker for help with how it looks or acts.
 

@@ -1,6 +1,6 @@
 ---
 title: Headers and the announcement bar
-updated: 2026-11-21
+updated: 2026-11-25
 ---
 
 # Headers and the announcement bar
@@ -96,6 +96,7 @@ Keep one header in the header area. To change style, remove this header and add 
 | Setting | What it changes |
 | --- | --- |
 | **Show search** | Shows the search icon in the bar. |
+| **Search box** | Shown while **Show search** is on. Options: **Ticket** (default: a box with cut corners and a dashed tear line before the *Search* button, like a boarding pass; on phones the line runs across the box above the button) or **Plain** (a quiet box with a *Search* button in your store's button shape). |
 {: .settings}
 
 #### Glow
@@ -183,6 +184,7 @@ A thin row of small links above the store name, for things like order tracking a
 | Setting | What it changes |
 | --- | --- |
 | **Show search** | Shows the search icon in the foot bar. Search opens as a sheet rising from the bottom, on every screen size. |
+| **Search box** | Shown while **Show search** is on. Options: **Bite** (default: the box's end is bitten out in a curve, with a round arrow button sitting in it, like the round foot bar) or **Plain** (a quiet box with a *Search* button in your store's button shape). |
 {: .settings}
 
 #### Store name
@@ -265,6 +267,7 @@ This header has no announcement bar. A full-width strip above a floating bar wor
 | Setting | What it changes |
 | --- | --- |
 | **Show search** | Adds a search icon to the bar, which opens a search card in the middle of the page. On phones, search is the first row of the menu instead. |
+| **Search card** | Shown while **Show search** is on. Options: **Folder** (default: the card grows a raised tab at its top left with the word *Search*, like a file folder) or **Plain** (the card without the tab, with a magnifier in the search line). |
 {: .settings}
 
 #### Capsule
@@ -329,6 +332,12 @@ Keep one header in the header area. To change style, remove this header and add 
 #### Search
 
 Search is always on for this style. On computers and tablets it is the magnifier beside the bag, and on phones it is the first row of the menu.
+
+| Setting | What it changes |
+| --- | --- |
+| **Search box** | Options: **Color ring** (default: a colored edge that turns slowly around the box and lights up while shoppers type, with a round arrow button) or **Plain** (a quiet box with a *Search* button in your store's button shape). The ring stays still for shoppers who turn off motion on their device. |
+| **Ring colors** | Shown while **Search box** is **Color ring**. Options: **Ocean**, **Fire**, **Gold luxe**, **Rose and plum**, **Store colors** (default: the text and accent colors of the header's color scheme), **Mint and lime**, **Ice white**. |
+{: .settings}
 
 #### Light
 
@@ -557,7 +566,7 @@ This feature has no blocks. It is the same drop-down for every header.
 
 ### Tips and limits
 
-> *One setting for every header.* You turn suggestions on or off once here. No header has a search setting of its own beyond **Show search** (Nebula float always shows its search).
+> *One setting for every header.* You turn suggestions on or off once here. Each header has its own **Show search** (Nebula float always shows its search), and Aurora glow, Centered stack and Nebula float have a **Search box** setting (Floating capsule a **Search card** setting) that picks its look.
 
 > *The arrow keys draw a frame.* A shopper who moves down the list with the arrow keys sees the chosen row inside a clear frame in the text color, in every header and on the search page, in light and dark mode. Pointing with the mouse only tints the row.
 
