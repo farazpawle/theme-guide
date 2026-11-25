@@ -656,7 +656,7 @@ This section is for the home page only. It is not offered on other pages.
 | **Tagline** | A small line above the heading. |
 | **Heading** | The section heading. |
 | **View all label** | Shown beside the heading. Leave the label empty to hide it. |
-| **View all link** | Where the View all button goes. The button shows only when it has both a label and a link. |
+| **View all link** | Where the View all button goes. The button shows only when it has both a label and a link. Its corners follow *Theme settings > Buttons > Button corners*. |
 {: .settings}
 
 #### Rows
@@ -2293,7 +2293,7 @@ Shows the blog's latest posts. Card border, rounding, shadow, color scheme and a
 | Setting | What it changes |
 | --- | --- |
 | **Heading** | The section heading. Leave empty to hide it; the section still carries a hidden heading for screen readers. |
-| **Show "View all" button** | Adds a button that goes to the whole blog. On by default. |
+| **Show "View all" button** | Adds a button that goes to the whole blog. On by default. Its corners follow *Theme settings > Buttons > Button corners*. |
 | **Button label** | The words on the View all button. Leave empty to use "View all". Shows only when **Show "View all" button** is on. |
 {: .settings}
 

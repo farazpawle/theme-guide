@@ -242,7 +242,7 @@ For example, $1.00 USD rather than $1.00.
 
 | Setting | What it changes |
 | --- | --- |
-| **Show the currency code** | Shows the code after prices: $1.00 USD. It applies everywhere a price appears: product pages and cards, the cart (lines, subtotal, discounts and savings), volume prices and the search suggestions. Useful when you sell in more than one currency. |
+| **Show the currency code** | Shows the code after prices: $1.00 USD. It applies everywhere an amount appears: product pages and cards (including the price per unit), the cart (lines, subtotal, discounts and savings), volume prices, the search suggestions, the price chip and price bands in the collection filters, and the gift card page. Useful when you sell in more than one currency. |
 | **Show country/region selector** | Lets a shopper choose the country they buy from, which sets their currency. It appears only when your store sells to more than one country, set in *Settings > Markets* in your Shopify admin. A language selector appears by itself when your store offers more than one language. |
 {: .settings}
 

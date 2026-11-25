@@ -584,7 +584,7 @@ Videos you add to the product (uploaded to Shopify, or from YouTube or Vimeo) ap
 
 A 3D model appears as a thumbnail marked with a box symbol and a play button on its picture. Pressing it lets the shopper turn the model and zoom in.
 
-On a phone or tablet that supports it, a "View in your space" button appears on the model. It places the product in the room through the device's camera. Shopify hides the button on devices that cannot do this, such as most computers. In **Long read** it is a small button over the bottom-left corner of the model, so the model stays visible.
+On a phone or tablet that supports it, a "View in your space" button appears on the model. It places the product in the room through the device's camera. Shopify hides the button on devices that cannot do this, such as most computers. In **Long read** it is a small button over the bottom-left corner of the model, so the model stays visible. Its corners follow *Theme settings > Buttons > Button corners*.
 
 To add a model, open the product in your admin and add a media file: Shopify accepts GLB and USDZ. [Shopify lists the requirements](https://help.shopify.com/en/manual/products/product-media/product-media-types).
 
