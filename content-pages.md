@@ -1,6 +1,6 @@
 ---
 title: Content pages
-updated: 2026-11-19
+updated: 2026-11-26
 ---
 
 # Content pages
