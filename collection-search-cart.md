@@ -1,6 +1,6 @@
 ---
 title: Collection, search and cart pages
-updated: 2026-11-19
+updated: 2026-11-27
 ---
 
 # Collection, search and cart pages
@@ -57,7 +57,7 @@ One collection's products, with its name, picture and description, filters and s
 
 {% include looks.html folder="collection" file="collection" name="Collection page" looks="Lookbook,Split,Mosaic,Index,Dealt cards" about="A cover picture that lays back as it scrolls away, a giant title, and picture-first cards in rows.|Computers hold the collection picture, title and description on the left while the products scroll on the right; phones stack them.|The title, picture and description form one tile inside the product grid, with product type tabs along the top.|A numbered catalog list of rows, each with a small picture, name, type and price.|A centered title with Filter and Sort as a pair, then a clean grid of square pictures that land one by one like dealt cards." %}
 
-- **Lookbook**: a cover picture that lays back into the page as it scrolls away, a giant title, and picture-first cards with a round bag button on the picture. The pictures settle into their frames as each row arrives. *Filter* and *Sort* float in a pill at the bottom of the screen while the products are on screen. On phones, *Filter* shows its word alone, without its icon; the number of filters chosen shows as a small dot in its corner, so both controls fit in the pill.
+- **Lookbook**: a cover picture that lays back into the page as it scrolls away, a giant title, and picture-first cards with a round bag button on the picture. The pictures settle into their frames as each row arrives. *Filter* and *Sort* float in a pill at the bottom of the screen while the products are on screen. At the end of the page the pill stops just above the footer and scrolls away with the page, so it never covers the footer. On phones, *Filter* shows its word alone, without its icon; the number of filters chosen shows as a small dot in its corner, so both controls fit in the pill.
 - **Split**: on computers the picture, title and description hold still on the left while the products scroll on the right. On phones and tablets they stack. A strip with *Filter*, the count and *Sort* stays in view. When the description is longer than the screen, the left column scrolls by itself: the mouse wheel carries on to the page at its end, and keyboard users can Tab to it and scroll it with the arrow keys.
 - **Mosaic**: the title, picture and description are one tile inside the product grid, with products starting beside it. When the product type filter is set up, product types appear as tabs, so one tap filters. On phones and tablets the tabs stay on one line and slide sideways when they do not all fit, with a fade at the edge that has more, so many long product types never fill the screen; on computers they wrap. *Filter* and *Sort* sit beside the tabs whenever there is room for both, and drop to a row under them when there is not. On phones, *Filter* is a square button with only its funnel icon, so the full *Sort* box and *Filter* share one row; the number of filters chosen shows as a small dot on the button.
 - **Index**: a numbered catalog list. Each row shows a number, a small picture, the name, the type, the price and a button. On computers a larger picture follows the mouse along the rows.
