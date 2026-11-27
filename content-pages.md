@@ -1,6 +1,6 @@
 ---
 title: Content pages
-updated: 2026-11-26
+updated: 2026-11-27
 ---
 
 # Content pages
@@ -79,7 +79,7 @@ Open the editor as in [Opening a page template in the editor](#opening-a-page-te
 | Setting | What it changes |
 | --- | --- |
 | **Text above heading** | A short line such as Our story. Leave empty for none. |
-| **Picture** | Shown beside the opening paragraph. 4:5 aspect ratio recommended. Only for **Written opening**. |
+| **Picture** | Appears beside the opening paragraph. 4:5 aspect ratio recommended. Only for **Written opening**. |
 {: .settings}
 
 #### Style
@@ -164,7 +164,7 @@ How each post card looks (border, rounding, shadow, color scheme and alignment) 
 | --- | --- |
 | **Show date** | Shows the post's date on its card. |
 | **Show author** | Shows the author's name on its card. |
-| **Show comment count** | Shows how many comments a post has. Shown only when comments are turned on for the blog. |
+| **Show comment count** | Shows how many comments a post has. Appears only when comments are turned on for the blog. |
 {: .settings}
 
 #### Style
@@ -374,7 +374,7 @@ Write the message in *Online Store > Preferences*, under *Password protection*. 
 
 | Setting | What it changes |
 | --- | --- |
-| **Show email signup** | Shows an email box. Visitors who sign up are added to your customers with the tags prospect and password page. |
+| **Show email signup** | Shows an email box. Visitors who sign up join your customers with the tags prospect and password page. |
 {: .settings}
 
 #### Style

@@ -1,6 +1,6 @@
 ---
 title: Headers and the announcement bar
-updated: 2026-11-25
+updated: 2026-11-27
 ---
 
 # Headers and the announcement bar
@@ -254,13 +254,13 @@ Keep one header in the header area. To change style, remove this header and add 
 | Setting | What it changes |
 | --- | --- |
 | **Color scheme** | The colors of the capsule, the full-screen menu and the search card. |
-| **Main menu** | Shown as a full-screen menu, one column per level. On tablets and phones the top items sit in a side rail. |
+| **Main menu** | Appears as a full-screen menu, one column per level. On tablets and phones the top items sit in a side rail. |
 | **Show main menu pictures** | Shows the picture of the linked collection, product or blog post in the main menu. A link without one shows its parent's picture, or a tile with its first letter. Turn it off for a menu of words only. |
 | **Footer links** | A short list along the bottom of the menu, for things like sign in, order tracking and help. Items below the first level are not shown. Leave empty to hide it. |
 | **Customer account menu** | The links shown under the account icon. |
 {: .settings}
 
-This header has no announcement bar. A full-width strip above a floating bar works against the style, so the store-wide announcement is not shown here.
+This header has no announcement bar. A full-width strip above a floating bar works against the style, so this header does not show the store-wide announcement.
 
 #### Actions
 
@@ -498,7 +498,7 @@ One strip above the header with a short message, an offer or delivery informatio
 | Setting | What it changes |
 | --- | --- |
 | **Show the announcement bar** | Turns the strip on or off. |
-| **Message** | The text in the strip. Basic formatting such as bold or italic is allowed. With no message the bar is not shown, even when it is turned on. |
+| **Message** | The text in the strip. Basic formatting such as bold or italic is allowed. With no message the bar is not shown, even when it is turned on. A link set to open in a new window gets a small arrow after it. |
 | **Link** | Where the message goes when selected. The whole message becomes the link, so links and formatting typed inside the message are left out. |
 | **Let visitors close it** | Adds a close button. A closed bar stays closed until you change the message. A shopper whose browser has scripts turned off sees the bar without the button. |
 | **Background** | The strip's background color. Leave both colors empty to follow the button colors of the header's color scheme. |

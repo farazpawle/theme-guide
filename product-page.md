@@ -1,6 +1,6 @@
 ---
 title: Product page
-updated: 2026-11-25
+updated: 2026-11-27
 ---
 
 # Product page
@@ -247,7 +247,7 @@ Values without a color or image show as pills. Choose **No swatch** to turn swat
 
 ### Quantity
 
-The number box with plus and minus buttons. Your minimums, maximums and volume prices are set on the product itself and show here as plain text ("Minimum 2", "In multiples of 6", "10 or more: $9 each"), so a shopper sees them before the number jumps. When you sell in multiples (for example 6) and the stock is not a whole number of them (10 in stock), the plus button stops at the last amount that can be bought (6), never on one the page then refuses. On a sold out option the number box and both buttons are switched off, since nothing can be bought. A shopper using the keyboard sees a clear dark outline around the whole box while the number is selected. This block has no settings.
+The number box with plus and minus buttons. Your minimums, maximums and volume prices come from the product itself and show here as plain text ("Minimum 2", "In multiples of 6", "10 or more: $9 each"), so a shopper sees them before the number jumps. When you sell in multiples (for example 6) and the stock is not a whole number of them (10 in stock), the plus button stops at the last amount that can be bought (6), never on one the page then refuses. On a sold out option the number box and both buttons are switched off, since nothing can be bought. A shopper using the keyboard sees a clear dark outline around the whole box while the number is selected. This block has no settings.
 
 ### Buy buttons
 
@@ -311,7 +311,7 @@ You pick the complementary products for each product in the free *Shopify Search
 
 ### Description
 
-The product's own description, from the product itself. It is drawn in the full-width band below the pictures rather than beside them, and it shows nothing when the product has no description. This block has no settings.
+The product's own description, from the product itself. It appears in the full-width band below the pictures rather than beside them, and it shows nothing when the product has no description. This block has no settings.
 
 ### Collapsible panel
 
@@ -334,6 +334,8 @@ A heading that opens to your own text, to a page such as your delivery or return
 | **Label on the right** | A short word beside the heading, such as Included or Policy. A long label wraps onto more lines inside the panel, and in the Classic look a word is never split across lines: a label that does not fit beside the heading drops under it. Shown when **Always open** is on. |
 | **Icon** | A small icon beside the heading. Options: **No icon**, **Document**, **Delivery van**, **Return arrow**, **Exchange**, **Ruler**, **Washing**, **Leaf**, **Parcel**, **Payment card**, **Padlock**, **Shield**, **Award**, **Information**, **Question mark**, **Chat bubble**, **Clock**, **Globe**, **Map pin**, **Price tag**, **Gift**. |
 {: .settings}
+
+> *Numbered lists keep their numbers.* In an always-open panel a bullet list is drawn as a grid of chips, and a numbered list shows its numbers like rich text anywhere else on your store.
 
 ### Share
 
@@ -412,7 +414,7 @@ This section can only be added to product templates.
 
 #### At the top
 
-Shopify chooses these from the product shown on the page. The whole section is left out when it has nothing to suggest.
+Shopify chooses these from the product shown on the page. The whole section disappears when it has nothing to suggest.
 
 | Setting | What it changes |
 | --- | --- |
@@ -500,7 +502,7 @@ A gift card is a product like any other, but its buyer can send it to someone el
 
 <div class="pair">
   <figure class="shot shot--desktop">
-    <img src="{{ '/assets/images/product/gift-card-recipient-desktop-light.webp' | relative_url }}" alt="The buy area of a gift card with Send this as a gift ticked, showing the Recipient email, Recipient name, Message and Send on fields above the Add to bag button" width="680" height="935" loading="lazy">
+    <img src="{{ '/assets/images/product/gift-card-recipient-desktop-light.webp' | relative_url }}" alt="The buy area of a gift card with Send this as a gift checked, showing the Recipient email, Recipient name, Message and Send on fields above the Add to bag button" width="680" height="935" loading="lazy">
     <figcaption>On a computer</figcaption>
   </figure>
   <figure class="shot shot--phone">
@@ -519,7 +521,7 @@ Other products never show the fields, and neither does a sold out gift card, sin
 
 ### What the buyer sees
 
-Under the options, a tick box reads "Send this as a gift". Until it is ticked, nothing is sent, so a shopper buying a card for themselves never sends an empty message. Ticking it opens four fields (a screen reader hears that the tick box has opened or closed them):
+Under the options, a checkbox reads "Send this as a gift". Until it is checked, nothing is sent, so a shopper buying a card for themselves never sends an empty message. Checking it opens four fields (a screen reader hears that the tick box has opened or closed them):
 
 | Field | What it does |
 | --- | --- |
@@ -535,7 +537,7 @@ If something is missing, the page reloads with the message and the fields still 
 
 > *The recipient email is what makes it a gift.* Without it, the card goes to the buyer, as it would for any gift card.
 
-> *Express checkout buttons hide while the box is ticked.* Shopify's gift form works only with the Add to bag button, so the express buttons (such as Shop Pay) disappear while "Send this as a gift" is ticked and come back when it is unticked.
+> *Express checkout buttons hide while the box is checked.* Shopify's gift form works only with the Add to bag button, so the express buttons (such as Shop Pay) disappear while "Send this as a gift" is checked and come back when it is unticked.
 
 > *Wording comes from your email templates.* The email the recipient gets is a Shopify notification. Edit its wording under *Settings > Notifications* in your admin. See [Gift card page](content-pages.md#gift-card-page) for the page they open from it.
 

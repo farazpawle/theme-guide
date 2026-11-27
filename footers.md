@@ -1,6 +1,6 @@
 ---
 title: Footers
-updated: 2026-11-13
+updated: 2026-11-27
 ---
 
 # Footers
@@ -82,7 +82,7 @@ Keep one footer in the footer area. To change style, remove this footer and add 
 | Setting | What it changes |
 | --- | --- |
 | **Scroll animation** | Options: **Off for visitors who reduce motion** or **Always animate**. Visitors who turned on reduce motion on their device normally see a still footer. They see no uncovering page, drifting dots or rising rows either. Choose **Always animate** to show the movement to everyone. |
-| **Lift the page to uncover the footer** | The footer waits behind the page and is uncovered as the visitor reaches the bottom. It turns itself off when the footer is taller than the screen, and for visitors who ask for less animation. |
+| **Lift the page to uncover the footer** | The footer waits behind the page and appears as the visitor reaches the bottom. It turns itself off when the footer is taller than the screen, and for visitors who ask for less animation. |
 | **Show the floating dots** | A slow field of pale dots behind the footer. Dots near the cursor brighten and part around it. It pauses when the footer is off screen. |
 {: .settings}
 
@@ -91,7 +91,7 @@ Keep one footer in the footer area. To change style, remove this footer and add 
 | Setting | What it changes |
 | --- | --- |
 | **Size** | A multiplier for the small column headings, from 0.6 to 2. 1 is the designed size. |
-| **Weight** | Options: **Default (bold)**, **Light**, **Regular**, **Medium**, **Semi bold** or **Bold**. If your font has no such weight, the nearest one is used. |
+| **Weight** | Options: **Default (bold)**, **Light**, **Regular**, **Medium**, **Semi bold** or **Bold**. If your font has no such weight, the theme uses the nearest one. |
 | **Letter spacing** | Space between the letters of the headings, from 0 to 6 px. |
 {: .settings}
 
@@ -140,7 +140,7 @@ The **Email signup** group (**Show email signup**, **Heading** and **Text**) is 
 | Setting | What it changes |
 | --- | --- |
 | **Copyright line** | Leave empty for the current year and your store name. |
-| **Show "Powered by Shopify" link** | Shopify's own link, shown exactly as Shopify writes it. |
+| **Show "Powered by Shopify" link** | Shopify's own link, which appears exactly as Shopify writes it. |
 | **Show store policy links** | Links to your store policies. Only policies you have actually written appear. |
 | **Show payment icons** | Shows the payment methods your store accepts. |
 | **Show the back to top button** | A small arrow that scrolls the page back to the top. |
@@ -152,7 +152,7 @@ The **Email signup** group (**Show email signup**, **Heading** and **Text**) is 
 | --- | --- |
 | **Show the large store name** | Turns the large store name along the bottom on or off. |
 | **Large store name text** | Leave empty to use your store name. |
-| **Large store name size** | Options: **Small**, **Medium** or **Large**. A long name is made smaller where needed, so it is never cut off at the sides. |
+| **Large store name size** | Options: **Small**, **Medium** or **Large**. A long name shrinks where needed, so the whole name always shows. |
 {: .settings}
 
 ### Blocks
@@ -267,7 +267,7 @@ The **Email signup** group (**Show email signup**, **Heading** and **Text**) is 
 | Setting | What it changes |
 | --- | --- |
 | **Copyright line** | Leave empty for the current year and your store name. |
-| **Show "Powered by Shopify" link** | Shopify's own link, shown exactly as Shopify writes it. |
+| **Show "Powered by Shopify" link** | Shopify's own link, which appears exactly as Shopify writes it. |
 | **Link 1**, **Link 2**, **Link 3** | Where each small-print link goes, such as shipping, terms and privacy. |
 | **Label 1**, **Label 2**, **Label 3** | The words for each small-print link. Leave empty to use the name of the page picked in the link. A typed web address needs a label, or the link is left out. |
 | **Size** | A multiplier for the bottom bar's text, from 0.6 to 2. |
@@ -306,9 +306,9 @@ One column on the footer: the column's heading named once at its top, and every 
 
 | Setting | What it changes |
 | --- | --- |
-| **Heading** | The column's heading. Leave empty to use the name of the menu chosen below. |
+| **Heading** | The column's heading. Leave empty to use the name of the menu you choose below. |
 | **Size** | The heading's text size, from 11 to 32 px. |
-| **Weight** | Options: **Normal (400)**, **Medium (500)**, **Semi-bold (600)** or **Bold (700)**. If your font has no such weight, the nearest one is used. |
+| **Weight** | Options: **Normal (400)**, **Medium (500)**, **Semi-bold (600)** or **Bold (700)**. If your font has no such weight, the theme uses the nearest one. |
 | **Style** | Options: **Theme default**, **Normal** or **Italic**. |
 | **Capitalization** | Options: **As typed**, **All capitals** or **Capitalize each word**. |
 | **Heading alignment** | Options: **Follow the column**, **Left**, **Center** or **Right**. |
@@ -320,12 +320,12 @@ One column on the footer: the column's heading named once at its top, and every 
 | Setting | What it changes |
 | --- | --- |
 | **Link source** | Options: **A navigation menu** or **Custom links below**. |
-| **Footer menu** | The menu whose links fill the column. Used when a navigation menu is chosen above. See [Menus](headers.md#menus). |
+| **Footer menu** | The menu whose links fill the column. Applies when you choose a navigation menu above. See [Menus](headers.md#menus). |
 | **Show sub-links** | Any link that has links under it becomes a row that opens its own list. Shown for a navigation menu. |
 | **Link style** | Options: **Clean, no lines**, **Compact, tight spacing**, **Wide, airy spacing**, **Divided, a line between links**, **Underlined, a line per link** (the start), **Uppercase, spaced letters** or **Card, a tile per link**. |
 | **Bullet** | Options: **None**, **Dot**, **Square**, **Dash**, **Arrow**, **Chevron** or **Check**. A mark before each link; the arrow at the end stays. |
 | **Size** | Scales the links, from 11 to 24. 14 is the column's own size. |
-| **Weight** | Options: **Normal (400)**, **Medium (500)**, **Semi-bold (600)** or **Bold (700)**. If your font has no such weight, the nearest one is used. |
+| **Weight** | Options: **Normal (400)**, **Medium (500)**, **Semi-bold (600)** or **Bold (700)**. If your font has no such weight, the theme uses the nearest one. |
 | **Style** | Options: **Normal** or **Italic**. |
 {: .settings}
 
@@ -405,7 +405,7 @@ On tablets the space moves in a straight line from the phone value at 501 px to 
 
 | Setting | What it changes |
 | --- | --- |
-| **Show message strip** | The strip is only drawn when there is wording for it, so clearing both boxes below hides it. |
+| **Show message strip** | The strip appears only when it has wording, so clearing both boxes below hides it. |
 | **Small message** | A short line in small type. |
 | **Heading** | The strip's main line. Basic formatting is allowed. |
 | **Background** | The strip's background color. |
@@ -429,7 +429,7 @@ On tablets the space moves in a straight line from the phone value at 501 px to 
 | Setting | What it changes |
 | --- | --- |
 | **Size** | From 12 to 40 px. |
-| **Weight** | Options: **Normal (400)**, **Medium (500)**, **Semi-bold (600)** or **Bold (700)**. If your font has no such weight, the nearest one is used. |
+| **Weight** | Options: **Normal (400)**, **Medium (500)**, **Semi-bold (600)** or **Bold (700)**. If your font has no such weight, the theme uses the nearest one. |
 | **Fade the name to this color** | The brand name fades from this color to the footer's accent color. Leave empty for plain body text. |
 {: .settings}
 
@@ -438,7 +438,7 @@ On tablets the space moves in a straight line from the phone value at 501 px to 
 | Setting | What it changes |
 | --- | --- |
 | **Size** | From 11 to 28 px. |
-| **Weight** | Options: **Normal (400)**, **Medium (500)**, **Semi-bold (600)** or **Bold (700)**. If your font has no such weight, the nearest one is used. |
+| **Weight** | Options: **Normal (400)**, **Medium (500)**, **Semi-bold (600)** or **Bold (700)**. If your font has no such weight, the theme uses the nearest one. |
 | **Color** | Leave empty to follow the body text color. |
 {: .settings}
 
@@ -457,7 +457,7 @@ On tablets the space moves in a straight line from the phone value at 501 px to 
 | Setting | What it changes |
 | --- | --- |
 | **Copyright line** | Leave empty for the current year and a plain rights statement. |
-| **Show "Powered by Shopify" link** | Shopify's own link, shown exactly as Shopify writes it. |
+| **Show "Powered by Shopify" link** | Shopify's own link, which appears exactly as Shopify writes it. |
 | **Show the back to top button** | A small arrow that scrolls the page back to the top. |
 {: .settings}
 
@@ -514,9 +514,9 @@ Add up to six blocks in any mix of the two kinds.
 
 | Setting | What it changes |
 | --- | --- |
-| **Heading** | The column's heading. Leave empty to use the name of the menu chosen below. |
+| **Heading** | The column's heading. Leave empty to use the name of the menu you choose below. |
 | **Link source** | Options: **A navigation menu** or **Custom links below**. |
-| **Footer menu** | The menu whose links fill the column. Used when a navigation menu is chosen above. See [Menus](headers.md#menus). |
+| **Footer menu** | The menu whose links fill the column. Applies when you choose a navigation menu above. See [Menus](headers.md#menus). |
 | **Show sub-links** | Any link that has links under it keeps its place, with those links listed indented below it. Shown for a navigation menu. |
 | **Bullet** | Options: **None**, **Dot**, **Square**, **Dash**, **Arrow**, **Chevron** or **Check**. |
 | **Space between links** | From 0 to 24 px. |
@@ -527,7 +527,7 @@ Add up to six blocks in any mix of the two kinds.
 | Setting | What it changes |
 | --- | --- |
 | **Size** | From 11 to 32 px. |
-| **Weight** | Options: **Normal (400)**, **Medium (500)**, **Semi-bold (600)** or **Bold (700)**. If your font has no such weight, the nearest one is used. |
+| **Weight** | Options: **Normal (400)**, **Medium (500)**, **Semi-bold (600)** or **Bold (700)**. If your font has no such weight, the theme uses the nearest one. |
 | **Color** | Leave empty to follow the footer's own heading color. |
 | **Space below heading** | From 0 to 48 px. |
 {: .settings}
@@ -537,7 +537,7 @@ Add up to six blocks in any mix of the two kinds.
 | Setting | What it changes |
 | --- | --- |
 | **Size** | From 11 to 24 px. |
-| **Weight** | Options: **Normal (400)**, **Medium (500)**, **Semi-bold (600)** or **Bold (700)**. If your font has no such weight, the nearest one is used. |
+| **Weight** | Options: **Normal (400)**, **Medium (500)**, **Semi-bold (600)** or **Bold (700)**. If your font has no such weight, the theme uses the nearest one. |
 | **Color** | Leave empty to follow the footer's own link color. |
 {: .settings}
 
@@ -568,7 +568,7 @@ A picture among the link groups, such as a badge or a photo.
 | Setting | What it changes |
 | --- | --- |
 | **Limit picture height** | Leave off to let the height follow the image. |
-| **Maximum picture height** | From 40 to 360 px. Only used when the height limit is on. |
+| **Maximum picture height** | From 40 to 360 px. Applies only when the height limit is on. |
 | **Picture fit** | Options: **Show the complete picture** or **Fill the chosen size (crops)**. Filling needs the height limit above, since there is nothing to crop to without it. |
 | **Picture corner rounding** | From 0 to 40 px. |
 | **Space above and below** | From 0 to 80 px. |
@@ -675,7 +675,7 @@ Shopify's own button that lets a shopper follow your store in the Shop app. It a
 
 ### Email signup
 
-An email box in the footer. Visitors type their address, press the button and see a thank-you line. Every address joins your customer list with the tag *newsletter*, subscribed to email marketing (the email marketing tick is set), so you can reach them from Shopify Email or another email app. It is off until you switch it on.
+An email box in the footer. Visitors type their address, press the button and see a thank-you line. Every address joins your customer list with the tag *newsletter*, subscribed to email marketing (the email marketing box is checked), so you can reach them from Shopify Email or another email app. It is off until you switch it on.
 
 | Setting | What it changes |
 | --- | --- |

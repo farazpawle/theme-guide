@@ -1,6 +1,6 @@
 ---
 title: Theme settings
-updated: 2026-11-22
+updated: 2026-11-27
 ---
 
 # Theme settings
@@ -59,7 +59,7 @@ One strip above the header, shown on every page. Every header style shows it exc
 | Setting | What it changes |
 | --- | --- |
 | **Show the announcement bar** | Turns the strip on or off. |
-| **Message** | The text in the strip. Basic formatting such as bold or italic is allowed. |
+| **Message** | The text in the strip. Basic formatting such as bold or italic is allowed. A link set to open in a new window gets a small arrow after it. |
 | **Link** | Where the message goes when selected. The whole message becomes the link, so links and formatting inside the message are left out. |
 | **Let visitors close it** | Adds a close button. A closed bar stays closed until you change the message. |
 | **Background** | The strip's background color. Leave both colors empty to follow the header color scheme: its button colors, or its background color on **Nebula float**. |
@@ -422,7 +422,7 @@ A badge on product cards that are reduced from their compare-at price. It shows 
 
 ## Social media
 
-Only the platforms with a link filled in are shown, so there is nothing to add or reorder.
+Only the platforms with a link filled in appear, so there is nothing to add or reorder.
 
 | Setting | What it changes |
 | --- | --- |

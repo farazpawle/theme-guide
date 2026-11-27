@@ -1,6 +1,6 @@
 ---
 title: Home page sections
-updated: 2026-11-25
+updated: 2026-11-27
 ---
 
 # Home page sections
@@ -211,7 +211,7 @@ This section is for the home page only. It is not offered on other pages.
 | **Strip style** | Tilted shelf lays the row on a surface tilting away. Raised tiles gives each logo its own tile. Turning drum wraps the row around a barrel that turns. Options: **Tilted shelf** (default), **Raised tiles**, **Turning drum**. Shows only when **Show brand strip** is on. |
 | **Logo movement** | Spotlight sends a beam down the row so each logo lights up in turn. Flip turns each logo over. Options: **Spotlight** (default), **Drift**, **Wave**, **Flip**, **None**. Shows only when **Show brand strip** is on. |
 | **Strip background** | The color of the strip behind the logos. Leave empty to match the section background. Shows only when **Show brand strip** is on. |
-| **Strip text color** | The color of the strip text. Colors the pause button and the sample logos shown until a logo picture is chosen. Leave empty for white. Shows only when **Show brand strip** is on. |
+| **Strip text color** | The color of the strip text. Colors the pause button and the sample logos that appear until you choose a logo picture. Leave empty for white. Shows only when **Show brand strip** is on. |
 {: .settings}
 
 #### Colors
@@ -278,7 +278,7 @@ One full-screen slide.
 
 | Setting | What it changes |
 | --- | --- |
-| **Heading weight** | How bold the heading is. **Theme default** keeps the weight the chosen font comes with. Options: **Theme default** (default), **Light (300)**, **Normal (400)**, **Medium (500)**, **Semi-bold (600)**, **Bold (700)**. If your font has no such weight, the nearest one is used. |
+| **Heading weight** | How bold the heading is. **Theme default** keeps the weight the chosen font comes with. Options: **Theme default** (default), **Light (300)**, **Normal (400)**, **Medium (500)**, **Semi-bold (600)**, **Bold (700)**. If your font has no such weight, the theme uses the nearest one. |
 | **Heading color** | The color of the heading. Leave empty to use the section text color. |
 | **Heading shadow strength** | How strong the shadow behind the heading is. 0 turns the shadow off. Range 0 to 100%, default 40%. |
 {: .settings}
@@ -409,7 +409,7 @@ One caption that fades in and out at a point in the scroll.
 | Setting | What it changes |
 | --- | --- |
 | **Heading size** | How large the heading is. Options: **Small**, **Medium** (default), **Large**. |
-| **Heading weight** | How bold the heading is. **Theme default** keeps the weight the chosen font comes with. Options: **Theme default** (default), **Light (300)**, **Normal (400)**, **Medium (500)**, **Semi-bold (600)**, **Bold (700)**. If your font has no such weight, the nearest one is used. |
+| **Heading weight** | How bold the heading is. **Theme default** keeps the weight the chosen font comes with. Options: **Theme default** (default), **Light (300)**, **Normal (400)**, **Medium (500)**, **Semi-bold (600)**, **Bold (700)**. If your font has no such weight, the theme uses the nearest one. |
 | **Heading letter spacing** | The space between the letters of the heading. 0 keeps the design's own spacing. Range -4 to 8 px, default 0 px. |
 | **Heading color** | The color of the heading. Leave empty to follow the section's text color. |
 {: .settings}
@@ -419,7 +419,7 @@ One caption that fades in and out at a point in the scroll.
 | Setting | What it changes |
 | --- | --- |
 | **Text size** | How large the text is. Options: **Small**, **Medium** (default), **Large**. |
-| **Text weight** | How bold the text is. **Theme default** keeps the weight the chosen font comes with. Options: **Theme default** (default), **Light (300)**, **Normal (400)**, **Medium (500)**, **Semi-bold (600)**, **Bold (700)**. If your font has no such weight, the nearest one is used. |
+| **Text weight** | How bold the text is. **Theme default** keeps the weight the chosen font comes with. Options: **Theme default** (default), **Light (300)**, **Normal (400)**, **Medium (500)**, **Semi-bold (600)**, **Bold (700)**. If your font has no such weight, the theme uses the nearest one. |
 | **Text letter spacing** | The space between the letters of the text. 0 keeps the design's own spacing. Range -4 to 8 px, default 0 px. |
 | **Text color** | The color of the text. Leave empty to follow the section's text color. |
 {: .settings}
@@ -476,7 +476,7 @@ This section is for the home page only. It is not offered on other pages.
 | --- | --- |
 | **Collection** | The collection whose products are shown. |
 | **Number of products** | How many products to show, taken from the start of the collection's order. Range 2 to 12, default 8. |
-| **Look** | **Shelf**: products stand on shelves and rise into place row by row as the page scrolls. **Arc**: one curved row across the whole screen, turned with arrows or a swipe. Default: **Shelf**. |
+| **Look** | **Shelf**: products stand on shelves and rise into place row by row as the page scrolls. **Arc**: one curved row across the whole screen, turned with arrows or a sideways swipe; swiping up or down on it moves the page. Default: **Shelf**. |
 | **Columns on computers** | How many columns sit side by side on a computer. Tablets and phones show fewer. Options: **3**, **4** (default). Shows only when **Look** is **Shelf**. |
 {: .settings}
 
@@ -492,7 +492,7 @@ This section is for the home page only. It is not offered on other pages.
 
 #### Product cards
 
-How a product card looks — its alignment, color scheme, surface, picture shape and product name length — is set once in Theme settings under Product cards, so every product in the store matches.
+Set how a product card looks (its alignment, color scheme, surface, picture shape and product name length) once in Theme settings, under Product cards, so every product in the store matches.
 
 | Setting | What it changes |
 | --- | --- |
@@ -655,7 +655,7 @@ This section is for the home page only. It is not offered on other pages.
 | --- | --- |
 | **Tagline** | A small line above the heading. |
 | **Heading** | The section heading. |
-| **View all label** | Shown beside the heading. Leave the label empty to hide it. |
+| **View all label** | Appears beside the heading. Leave the label empty to hide it. |
 | **View all link** | Where the View all button goes. The button shows only when it has both a label and a link. Its corners follow *Theme settings > Buttons > Button corners*. |
 {: .settings}
 
@@ -755,7 +755,7 @@ This section is for the home page only. It is not offered on other pages.
 | Setting | What it changes |
 | --- | --- |
 | **Heading size** | How large the heading is. Options: **Small**, **Medium** (default), **Large**. |
-| **Heading weight** | How bold the heading is. **Theme default** keeps the weight the chosen font comes with. Options: **Theme default** (default), **Light (300)**, **Normal (400)**, **Medium (500)**, **Semi-bold (600)**, **Bold (700)**. If your font has no such weight, the nearest one is used. |
+| **Heading weight** | How bold the heading is. **Theme default** keeps the weight the chosen font comes with. Options: **Theme default** (default), **Light (300)**, **Normal (400)**, **Medium (500)**, **Semi-bold (600)**, **Bold (700)**. If your font has no such weight, the theme uses the nearest one. |
 | **Heading color** | The color of the heading. It also colors the small scroll hint, so pick a color that stands out clearly from the background. Leave empty to follow the color scheme. |
 {: .settings}
 
@@ -764,7 +764,7 @@ This section is for the home page only. It is not offered on other pages.
 | Setting | What it changes |
 | --- | --- |
 | **Subheading size** | How large the subheading is. Options: **Small**, **Medium** (default), **Large**. |
-| **Subheading weight** | How bold the subheading is. **Theme default** keeps the weight the chosen font comes with. Options: **Theme default** (default), **Light (300)**, **Normal (400)**, **Medium (500)**, **Semi-bold (600)**, **Bold (700)**. If your font has no such weight, the nearest one is used. |
+| **Subheading weight** | How bold the subheading is. **Theme default** keeps the weight the chosen font comes with. Options: **Theme default** (default), **Light (300)**, **Normal (400)**, **Medium (500)**, **Semi-bold (600)**, **Bold (700)**. If your font has no such weight, the theme uses the nearest one. |
 | **Subheading color** | The color of the subheading. Leave empty to follow the color scheme. |
 {: .settings}
 
@@ -817,7 +817,7 @@ One picture card.
 | Setting | What it changes |
 | --- | --- |
 | **Heading size** | How large the heading is. Options: **Small**, **Medium** (default), **Large**. |
-| **Heading weight** | How bold the heading is. **Theme default** keeps the weight the chosen font comes with. Options: **Theme default** (default), **Light (300)**, **Normal (400)**, **Medium (500)**, **Semi-bold (600)**, **Bold (700)**. If your font has no such weight, the nearest one is used. |
+| **Heading weight** | How bold the heading is. **Theme default** keeps the weight the chosen font comes with. Options: **Theme default** (default), **Light (300)**, **Normal (400)**, **Medium (500)**, **Semi-bold (600)**, **Bold (700)**. If your font has no such weight, the theme uses the nearest one. |
 | **Heading color** | The color of the card heading. Leave empty to use the card's default light text. |
 {: .settings}
 
@@ -826,7 +826,7 @@ One picture card.
 | Setting | What it changes |
 | --- | --- |
 | **Description size** | How large the description is. Options: **Small**, **Medium** (default), **Large**. |
-| **Description weight** | How bold the description is. **Theme default** keeps the weight the chosen font comes with. Options: **Theme default** (default), **Light (300)**, **Normal (400)**, **Medium (500)**, **Semi-bold (600)**, **Bold (700)**. If your font has no such weight, the nearest one is used. |
+| **Description weight** | How bold the description is. **Theme default** keeps the weight the chosen font comes with. Options: **Theme default** (default), **Light (300)**, **Normal (400)**, **Medium (500)**, **Semi-bold (600)**, **Bold (700)**. If your font has no such weight, the theme uses the nearest one. |
 | **Description color** | The color of the description. Leave empty to use the card's default light text. |
 {: .settings}
 
@@ -898,7 +898,7 @@ This section is for the home page only. It is not offered on other pages.
 | Setting | What it changes |
 | --- | --- |
 | **Heading size** | How large the heading is. Options: **Small**, **Medium** (default), **Large**. |
-| **Heading weight** | How bold the heading is. **Theme default** keeps the weight the chosen font comes with. Options: **Theme default** (default), **Light (300)**, **Normal (400)**, **Medium (500)**, **Semi-bold (600)**, **Bold (700)**. If your font has no such weight, the nearest one is used. |
+| **Heading weight** | How bold the heading is. **Theme default** keeps the weight the chosen font comes with. Options: **Theme default** (default), **Light (300)**, **Normal (400)**, **Medium (500)**, **Semi-bold (600)**, **Bold (700)**. If your font has no such weight, the theme uses the nearest one. |
 | **Heading letter spacing** | The space between the letters of the heading. 0 keeps the design's own spacing. Range -4 to 8 px, default 0 px. |
 | **Intro alignment** | Whether the intro lines up on the left, in the center or on the right. Options: **Left** (default), **Center**, **Right**. |
 | **Heading color** | The color of the heading. Leave empty to follow the color scheme. |
@@ -1172,7 +1172,7 @@ One row: a picture, a caption, a heading, a text and an optional button.
 
 | Setting | What it changes |
 | --- | --- |
-| **Font weight** | How bold the caption is. Options: **Theme default** (default), **Light (300)**, **Normal (400)**, **Medium (500)**, **Semi-bold (600)**, **Bold (700)**. If your font has no such weight, the nearest one is used. |
+| **Font weight** | How bold the caption is. Options: **Theme default** (default), **Light (300)**, **Normal (400)**, **Medium (500)**, **Semi-bold (600)**, **Bold (700)**. If your font has no such weight, the theme uses the nearest one. |
 | **Font size** | Makes the caption smaller or larger. 1× is the normal size, which stays responsive. Range 0.6 to 2×, default 1×. |
 | **Letter spacing** | The space between the letters of the caption. Any value other than 0 replaces the spacing built into the caption style. Range -2 to 6 px, default 0 px. |
 | **Alignment** | How the caption lines up. **Theme default** follows the section's **Text alignment**. Options: **Theme default** (default), **Left**, **Center**, **Right**. |
@@ -1183,7 +1183,7 @@ One row: a picture, a caption, a heading, a text and an optional button.
 
 | Setting | What it changes |
 | --- | --- |
-| **Font weight** | How bold the heading is. Options: **Theme default** (default), **Light (300)**, **Normal (400)**, **Medium (500)**, **Semi-bold (600)**, **Bold (700)**. If your font has no such weight, the nearest one is used. |
+| **Font weight** | How bold the heading is. Options: **Theme default** (default), **Light (300)**, **Normal (400)**, **Medium (500)**, **Semi-bold (600)**, **Bold (700)**. If your font has no such weight, the theme uses the nearest one. |
 | **Letter spacing** | The space between the letters of the heading. Range -2 to 6 px, default 0 px. |
 | **Alignment** | How the heading lines up. **Theme default** follows the section's **Text alignment**. Options: **Theme default** (default), **Left**, **Center**, **Right**. |
 | **Text color** | The color of the heading. Leave empty to follow the color scheme. |
@@ -1193,7 +1193,7 @@ One row: a picture, a caption, a heading, a text and an optional button.
 
 | Setting | What it changes |
 | --- | --- |
-| **Font weight** | How bold the row text is. Options: **Theme default** (default), **Light (300)**, **Normal (400)**, **Medium (500)**, **Semi-bold (600)**, **Bold (700)**. If your font has no such weight, the nearest one is used. |
+| **Font weight** | How bold the row text is. Options: **Theme default** (default), **Light (300)**, **Normal (400)**, **Medium (500)**, **Semi-bold (600)**, **Bold (700)**. If your font has no such weight, the theme uses the nearest one. |
 | **Font size** | Makes the row text smaller or larger. 1× is the normal size, which stays responsive. Range 0.6 to 2×, default 1×. |
 | **Letter spacing** | The space between the letters of the row text. Range -2 to 6 px, default 0 px. |
 | **Alignment** | How the row text lines up. **Theme default** follows the section's **Text alignment**. Options: **Theme default** (default), **Left**, **Center**, **Right**. |
@@ -1308,7 +1308,7 @@ One panel in the row.
 | Setting | What it changes |
 | --- | --- |
 | **Size** | Makes the heading smaller or larger. 1× is the designed size, which already scales with the screen. On a computer a very large heading is shrunk to the room above the picture, so the top of the range stops growing once the heading fills that room. Range 0.6 to 5×, default 1×. |
-| **Weight** | How bold the heading is. Leave on **Theme default** to keep the weight the chosen font comes with. Options: **Theme default** (default), **Light (300)**, **Normal (400)**, **Medium (500)**, **Semi-bold (600)**, **Bold (700)**. If your font has no such weight, the nearest one is used. |
+| **Weight** | How bold the heading is. Leave on **Theme default** to keep the weight the chosen font comes with. Options: **Theme default** (default), **Light (300)**, **Normal (400)**, **Medium (500)**, **Semi-bold (600)**, **Bold (700)**. If your font has no such weight, the theme uses the nearest one. |
 | **Letter spacing** | The space between the letters of the heading. Range -1 to 6 px, default 0 px. |
 | **Alignment** | How the heading lines up in the panel, whether it is one line or several: on a computer across the open panel, on a phone or tablet across the space the heading has beside the picture. The small badge above it stays on the left. Options: **Left** (default), **Center**, **Right**. |
 | **Color** | The color of the heading. Leave empty to keep the designed color. |
@@ -1319,7 +1319,7 @@ One panel in the row.
 | Setting | What it changes |
 | --- | --- |
 | **Size** | Makes the description smaller or larger. 1× is the designed size, which already scales with the screen. On a computer a very large description is shrunk to the room under the heading (never below 1×), so the top of the range stops growing once that room is used; on a phone or tablet a description too big for its panel scrolls inside it. Range 0.6 to 5×, default 1×. |
-| **Weight** | How bold the description is. Leave on **Theme default** to keep the weight the chosen font comes with. Options: **Theme default** (default), **Light (300)**, **Normal (400)**, **Medium (500)**, **Semi-bold (600)**, **Bold (700)**. If your font has no such weight, the nearest one is used. |
+| **Weight** | How bold the description is. Leave on **Theme default** to keep the weight the chosen font comes with. Options: **Theme default** (default), **Light (300)**, **Normal (400)**, **Medium (500)**, **Semi-bold (600)**, **Bold (700)**. If your font has no such weight, the theme uses the nearest one. |
 | **Letter spacing** | The space between the letters of the description. Range -1 to 6 px, default 0 px. |
 | **Alignment** | How the description lines up in the panel. Options: **Left** (default), **Center**, **Right**. |
 | **Color** | The color of the description. Leave empty to keep the designed color. |
@@ -1341,7 +1341,7 @@ One panel in the row.
 | **Background color** | The color of the background. Leave empty to keep the designed backdrop. |
 | **Background gradient** | A gradient behind the panel. It sits on top of the background color. |
 | **Background picture** | A picture that fills the whole panel. It sits on top of the color and the gradient. |
-| **Background picture darkness** | Darkens the background image so the heading stays readable. Ignored when no background image is set. Range 0 to 100%, default 40%. On a bright photograph the theme also adds a soft dark shade behind a panel's words when they would be hard to read; a dark photograph gets none, so it looks as before. |
+| **Background picture darkness** | Darkens the background image so the heading stays readable. Has no effect without a background image. Range 0 to 100%, default 40%. On a bright photograph the theme also adds a soft dark shade behind a panel's words when they would be hard to read; a dark photograph gets none, so it looks as before. |
 {: .settings}
 
 ### Tips and limits
@@ -1397,7 +1397,7 @@ This section is for the home page only. It is not offered on other pages.
 | **Source** | Where the video comes from: a file you upload, or a YouTube or Vimeo link. Options: **Upload**, **YouTube or Vimeo link** (default). |
 | **Video** | The video file to play when **Source** is **Upload**. Captions must be part of the video file itself. Shows only when **Source** is **Upload**. |
 | **Video link** | The address of the YouTube or Vimeo video. Shows only when **Source** is **YouTube or Vimeo link**. |
-| **Cover picture** | Shown until the video plays. Without one, an uploaded video shows its own first frame and a YouTube or Vimeo video shows a placeholder picture. 16:9 aspect ratio recommended, or the video shape chosen above. |
+| **Cover picture** | Appears until the video plays. Without one, an uploaded video shows its own first frame and a YouTube or Vimeo video shows a placeholder picture. 16:9 aspect ratio recommended, or the video shape chosen above. |
 | **Start** | Whether the video waits for the play button, or loops as a silent preview while it is on screen, with a pause button. Options: **When the play button is pressed** (default), **As a silent preview**. Shows only when **Source** is **Upload**. |
 | **Dim the page while playing** | Shoppers bring the page back by pausing, clicking outside the video, moving on with the keyboard or scrolling away. Escape works too, except while a YouTube or Vimeo player has the keyboard. On by default. Shows only when **Look** is **Screening**. |
 {: .settings}
@@ -1520,7 +1520,7 @@ One picture in the gallery.
 | Setting | What it changes |
 | --- | --- |
 | **Picture** | The picture. |
-| **Caption** | Shown under the picture and in the larger view. |
+| **Caption** | Appears under the picture and in the larger view. |
 | **Link** | Pressing the picture opens this link instead of the larger view. |
 {: .settings}
 
@@ -1713,7 +1713,7 @@ One customer quote.
 | **Quote** | The customer's words. |
 | **Name** | The customer's name. |
 | **Role or location** | A short line after the name, such as a city or a job. |
-| **Photo** | Shown in a circle. Without one, the first letter of the name is shown. |
+| **Photo** | Appears in a circle. Without one, the first letter of the name appears. |
 | **Star rating** | The stars shown with the quote. Use the rating this customer actually gave. Options: **No rating** (default), **1 star**, **2 stars**, **3 stars**, **4 stars**, **5 stars**. |
 | **Product bought** | The product this customer bought. A link to it shows under the quote. In **Crossing rows**, its arrow shows on computers only, so long product names keep whole words on phones and tablets. |
 {: .settings}
@@ -1811,7 +1811,7 @@ One promise: an icon, a heading and a line of text.
 | Setting | What it changes |
 | --- | --- |
 | **Icon** | Automatic gives each badge in the row a different icon, so they do not all match on a new theme. Pick one to override it. Options: **Automatic: a different one in each place** (default), **Delivery van**, **Shield**, **Return arrow**, **Padlock**, **Headset**, **Award rosette**, **Clock**, **Gift box**, **Check in a circle**, **No icon**. |
-| **Icon picture** | Your own artwork, used instead of the icon above. It cannot draw itself when the animation is set to draw. |
+| **Icon picture** | Your own artwork, which replaces the icon above. It cannot draw itself when you set the animation to draw. |
 | **Icon code (.svg)** | Paste the code from an .svg file. It replaces the image and the icon above, and it is the only choice that can still draw itself. |
 {: .settings}
 
@@ -1944,10 +1944,10 @@ One plan: a name, its prices, a list of features and a button.
 | **Monthly price** | Type it exactly as it should read, including the currency. Leave empty for a plan with no price, such as one that asks people to get in touch. |
 | **Monthly period** | The words after the monthly price, such as "/ month". |
 | **Monthly note** | A small line under the monthly price, such as "Billed monthly". Until you change it, the line says "Say how this plan is billed". Shows only when the section's **Layout** is not **Comparison table**. |
-| **Yearly price** | Shown when the billing toggle is on yearly. Leave empty to keep the monthly price, period and note. |
+| **Yearly price** | Appears when the billing toggle is on yearly. Leave empty to keep the monthly price, period and note. |
 | **Yearly period** | The words after the yearly price, such as "/ month" or "/ year". |
 | **Yearly note** | A small line under the yearly price, such as "Billed yearly". Until you change it, the line says "Say how yearly billing works". Shows only when the section's **Layout** is not **Comparison table**. |
-| **Text instead of a price** | Shown only when the monthly price is empty. |
+| **Text instead of a price** | Appears only when the monthly price is empty. |
 {: .settings}
 
 ##### Included features
@@ -2059,7 +2059,7 @@ This section is for the home page only. It is not offered on other pages.
 
 | Setting | What it changes |
 | --- | --- |
-| **Picture** | Shown beside the questions on a computer, and above them on smaller screens. |
+| **Picture** | Appears beside the questions on a computer, and above them on smaller screens. |
 | **Picture shape** | The shape of the picture. Options: **Automatic** (default), **Landscape**, **Portrait**. |
 | **Picture position** | Which side the picture sits on, on a computer. Phones and tablets show it above the questions. Options: **Down the left side**, **Down the right side** (default). |
 {: .settings}
@@ -2070,14 +2070,14 @@ This section is for the home page only. It is not offered on other pages.
 | --- | --- |
 | **Color scheme** | Which of your color schemes the section uses for its background and text. You make schemes in Theme settings, under **Colors**. |
 | **Transparent background** | Lets the page background show through this section. When it is off, the section follows **Make all sections transparent** in Theme settings. Off by default. |
-| **Card color scheme** | Used by the two card row styles. Shows only when **Row style** is not **Plain rows**. |
+| **Card color scheme** | Only the two card row styles use this. Shows only when **Row style** is not **Plain rows**. |
 {: .settings}
 
 #### Text style
 
 | Setting | What it changes |
 | --- | --- |
-| **Heading weight** | How bold the heading is. **Theme default** keeps the weight the chosen font comes with. Options: **Theme default** (default), **Light (300)**, **Normal (400)**, **Medium (500)**, **Semi-bold (600)**, **Bold (700)**. If your font has no such weight, the nearest one is used. |
+| **Heading weight** | How bold the heading is. **Theme default** keeps the weight the chosen font comes with. Options: **Theme default** (default), **Light (300)**, **Normal (400)**, **Medium (500)**, **Semi-bold (600)**, **Bold (700)**. If your font has no such weight, the theme uses the nearest one. |
 | **Heading letter spacing** | The space between the letters of the heading. 0 keeps the design's own spacing. Range -2 to 8 px, default 0 px. |
 | **Heading color** | The color of the heading. |
 | **Caption size** | Makes the caption smaller or larger. 1× is the normal size, which stays responsive. Range 0.6 to 2×, default 1×. |
@@ -2112,7 +2112,7 @@ One question with its answer.
 | --- | --- |
 | **Question** | Leave empty to use the title of the page below. A row with no question and no page below is not shown. |
 | **Answer** | The answer text. |
-| **Answer from a page** | Shown after the answer above, so a question can use either or both. |
+| **Answer from a page** | Appears after the answer above, so a question can use either or both. |
 {: .settings}
 
 ##### Topics
@@ -2126,7 +2126,7 @@ One question with its answer.
 
 | Setting | What it changes |
 | --- | --- |
-| **Icon** | Drawn before the question. Options: 31 choices, such as **No icon** (default), **Question mark**, **Information**, **Chat bubble**. Open the list in the editor to see them all. |
+| **Icon** | Appears before the question. Options: 31 choices, such as **No icon** (default), **Question mark**, **Information**, **Chat bubble**. Open the list in the editor to see them all. |
 {: .settings}
 
 ### Tips and limits
@@ -2190,7 +2190,7 @@ This section is for the home page only. It is not offered on other pages.
 | **Subheading** | A paragraph under the heading. Hidden when **Layout** is **Inline strip**. |
 | **Email box placeholder** | Leave empty to use the theme's own wording. |
 | **Button label** | The words on the signup button. Leave empty to use the theme's own Subscribe wording. |
-| **Reassurance line** | Shown under the email box. Leave empty to hide it. Hidden when **Layout** is **Inline strip**. |
+| **Reassurance line** | Appears under the email box. Leave empty to hide it. Hidden when **Layout** is **Inline strip**. |
 {: .settings}
 
 #### Text style
@@ -2198,7 +2198,7 @@ This section is for the home page only. It is not offered on other pages.
 | Setting | What it changes |
 | --- | --- |
 | **Heading size** | Makes the heading smaller or larger. 1× is the normal size, which stays responsive. Range 0.8 to 2×, default 1×. |
-| **Heading weight** | How bold the heading is. **Theme default** keeps the weight the chosen font comes with. Options: **Theme default** (default), **Light (300)**, **Normal (400)**, **Medium (500)**, **Semi-bold (600)**, **Bold (700)**. If your font has no such weight, the nearest one is used. |
+| **Heading weight** | How bold the heading is. **Theme default** keeps the weight the chosen font comes with. Options: **Theme default** (default), **Light (300)**, **Normal (400)**, **Medium (500)**, **Semi-bold (600)**, **Bold (700)**. If your font has no such weight, the theme uses the nearest one. |
 | **Heading letter spacing** | The space between the letters of the heading. 0 keeps the design's own spacing. Range -2 to 8 px, default 0 px. |
 | **Heading color** | The color of the heading. |
 | **Caption size** | Makes the caption smaller or larger. 1× is the normal size, which stays responsive. Range 0.6 to 2×, default 1×. Hidden when **Layout** is **Inline strip**. |
@@ -2278,7 +2278,7 @@ This section is for the home page only. It is not offered on other pages.
 
 #### At the top
 
-Shows the blog's latest posts. Card border, rounding, shadow, color scheme and alignment are set for every blog card in Theme settings, under Blog cards.
+Shows the blog's latest posts. Card border, rounding, shadow, color scheme and alignment come from Theme settings, under Blog cards, for every blog card.
 
 | Setting | What it changes |
 | --- | --- |
@@ -2445,7 +2445,7 @@ One kind of question, such as an order, a return or wholesale. The visitor picks
 | --- | --- |
 | **Name** | What the visitor picks, and what heads their answer in your email. |
 | **Icon** | The icon on the type's button. Options: 15 choices, such as **No icon**, **Chat bubble** (default), **Question mark**, **Parcel**. Open the list in the editor to see them all. |
-| **Extra questions** | One per line, shown only when this type is chosen. End a line with * to make it required. Add a colon and a comma-separated list to turn it into a dropdown, for example: Reason: Damaged, Faulty, Wrong item. |
+| **Extra questions** | One per line. Visitors see them only when they pick this type. End a line with * to make it required. Add a colon and a comma-separated list to turn it into a dropdown, for example: Reason: Damaged, Faulty, Wrong item. |
 {: .settings}
 
 #### Way to reach you block
@@ -2530,7 +2530,7 @@ Shows only when **Layout** is not **One column**.
 | Setting | What it changes |
 | --- | --- |
 | **Picture** | The picture for the layouts that use one. It is used by **Picture beside the words** and **Words over the picture**. |
-| **Video** | Plays muted on a loop, with a pause button. Shown instead of the picture when both are set. |
+| **Video** | Plays muted on a loop, with a pause button. Replaces the picture when you set both. |
 | **Darken the picture** | Keeps the words readable. Below 55%, a pale photograph can make them hard to read. Range 20 to 90%, default 55%. On a bright photograph the theme also adds a soft dark shade behind the words when they would be hard to read; a dark photograph gets none, so it looks as before. Shows only when **Layout** is **Words over the picture**. |
 | **Picture corner rounding** | How round the corners are. 0 gives square corners. Range 0 to 40 px, default 12 px. Shows only when **Layout** is **Picture beside the words**. |
 {: .settings}
@@ -2573,7 +2573,7 @@ A heading, with an optional small caption above it.
 | --- | --- |
 | **Text color** | The color of the text. Leave empty to follow the color scheme. |
 | **Font** | Which of the theme's two fonts to use: the heading font or the body font. Both are chosen in Theme settings, under **Typography**. Options: **Heading font** (default), **Body font**. |
-| **Weight** | How bold the heading is. **Theme default** keeps the weight the chosen font comes with. Options: **Theme default** (default), **Regular**, **Medium**, **Bold**. If your font has no such weight, the nearest one is used. |
+| **Weight** | How bold the heading is. **Theme default** keeps the weight the chosen font comes with. Options: **Theme default** (default), **Regular**, **Medium**, **Bold**. If your font has no such weight, the theme uses the nearest one. |
 | **Italic** | Sets the text in italics. Off by default. |
 | **All capitals** | Sets the text in capital letters. Off by default. |
 {: .settings}
@@ -2596,7 +2596,7 @@ A paragraph of text.
 | --- | --- |
 | **Text color** | The color of the text. Leave empty to follow the color scheme. |
 | **Font** | Which of the theme's two fonts to use: the heading font or the body font. Both are chosen in Theme settings, under **Typography**. Options: **Heading font**, **Body font** (default). |
-| **Weight** | How bold the text is. **Theme default** keeps the weight the chosen font comes with. Options: **Theme default** (default), **Regular**, **Medium**, **Bold**. If your font has no such weight, the nearest one is used. |
+| **Weight** | How bold the text is. **Theme default** keeps the weight the chosen font comes with. Options: **Theme default** (default), **Regular**, **Medium**, **Bold**. If your font has no such weight, the theme uses the nearest one. |
 | **Italic** | Sets the text in italics. Off by default. |
 | **All capitals** | Sets the text in capital letters. Off by default. |
 {: .settings}
@@ -2664,7 +2664,7 @@ One feature inside a **Feature grid**.
 | --- | --- |
 | **Heading color** | The color of the heading. Leave empty to follow the color scheme. |
 | **Font** | Which of the theme's two fonts to use: the heading font or the body font. Both are chosen in Theme settings, under **Typography**. Options: **Heading font** (default), **Body font**. |
-| **Weight** | How bold the text is. **Theme default** keeps the weight the chosen font comes with. Options: **Theme default** (default), **Regular**, **Medium**, **Bold**. If your font has no such weight, the nearest one is used. |
+| **Weight** | How bold the text is. **Theme default** keeps the weight the chosen font comes with. Options: **Theme default** (default), **Regular**, **Medium**, **Bold**. If your font has no such weight, the theme uses the nearest one. |
 | **Italic** | Sets the text in italics. Off by default. |
 | **All capitals** | Sets the text in capital letters. Off by default. |
 | **Text color** | The color of the text. Leave empty to follow the color scheme. |
