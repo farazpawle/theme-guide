@@ -218,7 +218,7 @@ This section is for the home page only. It is not offered on other pages.
 
 | Setting | What it changes |
 | --- | --- |
-| **Picture overlay darkness** | Darkens the slide pictures so the text stays readable. Range 0 to 90%, default 45%. The lower half of the picture always carries an extra soft shade so the small line under the heading stays easy to read, even at 0. |
+| **Picture overlay darkness** | Darkens the slide pictures so the text stays readable. Range 0 to 90%, default 45%. The part of the picture behind the words always carries an extra soft shade so the small line under the heading stays easy to read, even at 0: the lower half when the words sit at the bottom, a band across the top or through the middle when **Content position** puts them there. |
 | **Section background** | The color behind the slide pictures. It only shows where a picture does not reach. |
 | **Text color** | The base color for every text group. Each group can override it in its own settings. |
 | **Tagline pill background** | The color washed over the small pill that holds the tagline above the heading. The pill always sits on a backing that is the opposite of the tagline's words: dark behind light words, light behind dark words. This keeps the tagline readable on any picture. |
