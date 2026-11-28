@@ -1,6 +1,6 @@
 ---
 title: Product page
-updated: 2026-11-27
+updated: 2026-11-28
 ---
 
 # Product page
@@ -332,10 +332,11 @@ A heading that opens to your own text, to a page such as your delivery or return
 | --- | --- |
 | **Always open** | Draws the panel as a bordered card that cannot be collapsed, for the details every shopper wants such as specifications or delivery. Leave off and it is a row that opens on a click. |
 | **Label on the right** | A short word beside the heading, such as Included or Policy. A long label wraps onto more lines inside the panel, and in the Classic look a word is never split across lines: a label that does not fit beside the heading drops under it. Shown when **Always open** is on. |
+| **Show list items as boxes** | Draws each bullet of the panel's own list as a small box, in two columns (dashed ruled rows in the Filmstrip, Long read and Spec sheet layouts), for a list of specifications. A picked page's text is never boxed. Leave off and the panel shows its text, lists and paragraphs like the rest of your store. Off by default; the specifications panel that comes with the theme has it on. Shown when **Always open** is on. |
 | **Icon** | A small icon beside the heading. Options: **No icon**, **Document**, **Delivery van**, **Return arrow**, **Exchange**, **Ruler**, **Washing**, **Leaf**, **Parcel**, **Payment card**, **Padlock**, **Shield**, **Award**, **Information**, **Question mark**, **Chat bubble**, **Clock**, **Globe**, **Map pin**, **Price tag**, **Gift**. |
 {: .settings}
 
-> *Numbered lists keep their numbers.* In an always-open panel a bullet list is drawn as a grid of chips, and a numbered list shows its numbers like rich text anywhere else on your store.
+> *Boxes are for specifications only.* Paragraphs, numbered lists and a picked page's text always look like rich text anywhere else on your store, and a numbered list keeps its numbers. Only a bullet list you type into the panel, with **Show list items as boxes** on, is drawn as boxes.
 
 ### Share
 

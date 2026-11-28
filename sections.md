@@ -1,6 +1,6 @@
 ---
 title: Home page sections
-updated: 2026-11-27
+updated: 2026-11-28
 ---
 
 # Home page sections
@@ -220,7 +220,7 @@ This section is for the home page only. It is not offered on other pages.
 | --- | --- |
 | **Picture overlay darkness** | Darkens the slide pictures so the text stays readable. Range 0 to 90%, default 45%. The part of the picture behind the words always carries an extra soft shade so the small line under the heading stays easy to read, even at 0: the lower half when the words sit at the bottom, a band across the top or through the middle when **Content position** puts them there. |
 | **Section background** | The color behind the slide pictures. It only shows where a picture does not reach. |
-| **Text color** | The base color for every text group. Each group can override it in its own settings. |
+| **Text color** | The base color for every text group. Each group can override it in its own settings. A color that reads better on white than on the picture's dark shading (navy, black, dark gray, red, green) puts a white highlight behind the heading and the small line, and a solid backing behind the tagline and the slide counter, so those words stay readable. A light color (white by default) gets no highlight. The choice is made by contrast, not by how dark the color looks. |
 | **Tagline pill background** | The color washed over the small pill that holds the tagline above the heading. The pill always sits on a backing that is the opposite of the tagline's words: dark behind light words, light behind dark words. This keeps the tagline readable on any picture. |
 | **Tagline pill text color** | The color of the tagline's words. Leave empty to use the section's text color. |
 | **Button shape** | The corners of the two hero buttons. **Same as theme** (default) follows *Theme settings > Buttons > Button corners*. **Pill**, **Soft** and **Square** set the corners for the section only. **Original look** keeps them as it was designed, with its own corner, height and lettering. Labels, links and colors are separate settings. |
@@ -279,7 +279,7 @@ One full-screen slide.
 | Setting | What it changes |
 | --- | --- |
 | **Heading weight** | How bold the heading is. **Theme default** keeps the weight the chosen font comes with. Options: **Theme default** (default), **Light (300)**, **Normal (400)**, **Medium (500)**, **Semi-bold (600)**, **Bold (700)**. If your font has no such weight, the theme uses the nearest one. |
-| **Heading color** | The color of the heading. Leave empty to use the section text color. |
+| **Heading color** | The color of the heading. Leave empty to use the section text color. The white highlight behind the heading follows this color: a pick that reads better on white gets it, a light pick does not. |
 | **Heading shadow strength** | How strong the shadow behind the heading is. 0 turns the shadow off. Range 0 to 100%, default 40%. |
 {: .settings}
 
@@ -1296,7 +1296,7 @@ One panel in the row.
 
 | Setting | What it changes |
 | --- | --- |
-| **Badge** | The small pill above the heading. Leave empty to number the panel automatically — 01, 02, 03. A long badge wraps onto a second line instead of being cut off. |
+| **Badge** | The small pill above the heading. Leave empty to number the panel automatically — 01, 02, 03. On the open panel a long badge wraps onto a second line instead of being cut off. On a phone or tablet the closed strips have room for one line, so a long badge there ends in "…" until its panel opens. |
 | **Heading** | The panel's title. Press Enter to break it across lines. On a computer the heading always sits above the picture: a long one wraps inside the open panel and shrinks until it fits, never below about a third of its size, and the picture sits just below the tallest heading in the section. A heading too long for that room hides that panel's picture instead of running into it; on a phone the same happens when the heading would reach the picture. |
 | **Description** | Sits along the bottom of the panel and fades in when the panel opens. Press Enter to break across lines. Leave empty to hide. On a window too short for the heading and the description to sit one above the other (a phone held sideways), the open panel puts the description beside the heading and hides its picture; a very long description then scrolls inside its column (mouse wheel, swipe or arrow keys, after Tab), so none of it is lost and the button stays visible, and the heading shrinks as far as it must so its longest word is never broken in the middle. |
 | **Button label** | The words on the button inside the open panel. The button shows only when the panel has a link. A label too long for the panel wraps onto more lines, so all of it always shows and the button grows taller; the picture gives up a little height to make room, so a short label still looks best. On a narrow, short phone screen, where the description sits beside the heading, the button's side spacing and text size come down a little (never below three quarters of the size) when a word of the label would otherwise be split in the middle. |
